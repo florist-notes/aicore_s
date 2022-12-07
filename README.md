@@ -14,7 +14,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 <br /><br />
 
 # #1 AI/ ML / DL Workstation Build
-- Essence of Computation [NOTES]()
+- Essence of Computation & Networking [NOTES]()
 - AI / ML / DL hardware core components [NOTES]()
 - Final AI Work Station build [NOTES]()
 
