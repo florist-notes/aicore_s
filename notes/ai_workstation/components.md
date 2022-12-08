@@ -70,7 +70,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 
 <img src="img/nvidia_workai.png" width=100%>
 
-<table style="width:100%" >
+<table style="width:100%">
 <tr>
 <th>Station Name</th>
 <th>Category</th>
@@ -119,9 +119,6 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <td>$7 million - $60 million or $90,000 / month.</td>
 </tr>
 </table>
-
-</td>
-</tr>
 
 <tr>
 <td>Memory (RAM)</td>
