@@ -140,7 +140,7 @@ If you wish to build your own system from scratch, watch [this](https://youtu.be
 
 Extra Tips: <br />
 + Enable XMP profile in BIOS/UEFI to leverage memory's full speed. <br />
-+ Good coolers : Air cooler - [ID-COOLING SE ARGB](https://www.idcooling.com/Product/detail/id/186/name/SE-234-ARGB) & Liquid cooler - [Hydro Series™ H150i PRO RGB 360mm](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/Hydro-Series%E2%84%A2-PRO-RGB-Liquid-CPU-Coolers/p/CW-9060031-WW). Good rule of thumb while installing AIO, air pressure inside + air pressure outside. In air cooling, air goes from the direction fan faces to its back. Place the fans in such a way that the back air goes through GPU and have atleast 2 Fans = 1 for intake and the other for exhaust.<br />
++ Good coolers : Air cooler - [ID-COOLING SE ARGB](https://www.idcooling.com/Product/detail/id/186/name/SE-234-ARGB) & Liquid cooler - [Hydro Series™ H150i PRO RGB 360mm](https://www.corsair.com/us/en/Categories/Products/Liquid-Cooling/Hydro-Series%E2%84%A2-PRO-RGB-Liquid-CPU-Coolers/p/CW-9060031-WW). Good rule of thumb while installing AIO, air pressure inside + air pressure outside. In air cooling, air goes from the direction fan faces to its back. Place the fans in such a way that the back air goes through GPU and have atleast 2 fans = 1 for intake and the other for exhaust.<br />
 + PSU cables: 24 pin ATX cable (power to the entire motherboard), EPS (power to CPU socket), PCIe (power to graphics card).  <br />
 + How they work (video) : [SSD](https://youtu.be/5Mh3o886qpg), [M.2 NVMe SSD](https://youtu.be/HvfIeTieXOI), [Computer Memory](https://youtu.be/7J7X7aZvMXQ), [GPU](https://youtu.be/bZdxcHEM-uc).<br />
 

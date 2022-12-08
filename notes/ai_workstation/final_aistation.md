@@ -39,7 +39,7 @@
 <td>
 Onboard M.2 SSD Boot Drive: Yes <br />
 Storage Controller Adapter: Integrierter AMD Speicher-Controller<br />
-+ Onboard M.2 SSD: 4TB SSD, M.2 2280, PCIe 4.0, TLC, Opal 2.0 <br />
++ First Onboard M.2 SSD: 4TB SSD, M.2 2280, PCIe 4.0, TLC, Opal 2.0 <br />
 + Second Onboard M.2 SSD: 4TB SSD, M.2 2280, PCIe 4.0, TLC, Opal 2.0<br />
 <br />
 Total Storage : 8 TB (M.2 SSD) M.2 2280, PCIe 4.0, TLC, Opal 2.0<br />
