@@ -13,7 +13,6 @@ Let's talk about what makes a powerful workstation for deep learning. Important 
 <tr>
 <td>CPU (Processor)</td>
 <td>
-<p align="justify">
 Important aspects while choosing a CPU for Deep Learning are: <br />
 ✦  CPU cores: Higher number of cores allows more parallelization. Deep Learning processes like pre-processing, batch-processing, reading in data etc are dependent on the number of CPU cores. We are going for 64 cores.
 
@@ -22,7 +21,6 @@ Important aspects while choosing a CPU for Deep Learning are: <br />
 ✦   PCI Express: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
 
 ✦  Cache: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better.
-</p>
 
 Here is an example of 4 core CPU:
 
@@ -59,7 +57,7 @@ Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GP
 Asus Strix Quiet 390W seems to a good and quiet commercial graphics card with 3090 GPU.
 
 <b> Professional GPU (RTX) : </b> NVIDIA RTX A5500 <br />
-NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/)
+NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/) are very powerful yet costly.
 
 <img src="img/ampere_gpu.jpg" width=49%><a> </a><img src="img/a5500.png" width=50%>
 <br /><br />
@@ -82,7 +80,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-station-a100/">NVIDIA DGX Station A100</a></td>
 <td>Complete Workstation</td>
-<td>Product</td>
+<td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a></td>
 <td>Product</td>
 <td>€126,299.61</td>
 </tr>
@@ -90,7 +88,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-a100/">NVIDIA DGX A100</a></td>
 <td>GPU</td>
-<td>Product</td>
+<td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a></td>
 <td>Product</td>
 <td>€10,000</td>
 </tr>
@@ -98,7 +96,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">NVIDIA DGX H100</a></td>
 <td>GPU</td>
-<td>Product</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper architecture over ampere )</td>
 <td>Product</td>
 <td>€36,345.48</td>
 </tr>
@@ -106,7 +104,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-basepod/">NVIDIA DGX BasePOD</a></td>
 <td>Complete Workstation</td>
-<td>Product</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-basepod/">technical_details.pdf</a></td>
 <td>Product</td>
 <td>cost varies with number of DGX A100s</td>
 </tr>
@@ -114,11 +112,14 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">	NVIDIA DGX SuperPOD</a></td>
 <td>Super Computer</td>
-<td>Product</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a></td>
 <td>Product</td>
 <td>$7 million - $60 million or $90,000 / month.</td>
 </tr>
 </table>
+
+</td>
+</tr>
 
 <tr>
 <td>Memory (RAM)</td>
