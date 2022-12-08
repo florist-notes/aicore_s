@@ -45,6 +45,7 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 <td>GPU</td>
 <td>
 <br />
+<img src="img/gpu.png" width=100%>
 
 GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem.<br /><br />
 
@@ -81,13 +82,13 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-station-a100/">NVIDIA DGX Station A100</a></td>
 <td>Complete Workstation</td>
-<td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a> (€126,299.61)</td>
+<td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a> (with NVSwitches - €126,299.61)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-a100/">NVIDIA DGX A100</a></td>
 <td>GPU</td>
-<td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a> (€10,000)</td>
+<td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a> (refrigerant cooling - €10,000)</td>
 </tr>
 
 <tr>
