@@ -7,7 +7,7 @@
 --- () --- () ---- () --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
 
 
------- 01100100 01100001 01110100 01100001 ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take quick peek into good networking hardware we use.
+------ 01100100 01100001 01110100 01100001 ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
 
 
 
@@ -52,7 +52,7 @@
 <tr>
 <td>5</td>
 <td>RJ-45 Cable</td>
-<td>RJ45 Patchcabel with Cat. 7 Rohkabel und Rastnasenschutz (RNS®), S/FTP, PiMF, halogenfrei, 500MHz, OF</td>
+<td>Kabelmeister® RJ45 patch cord with Cat. 7 raw cable and locking lug protection (RNS®), S/FTP, PiMF, halogen-free, 500MHz, OFC</td>
 </tr>
 
 
