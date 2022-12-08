@@ -2,7 +2,7 @@
 
 ## Optical Computing
 resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6nYA)], [[3](https://youtu.be/UqeH7ozVOpQ)], [[4](https://youtu.be/t0yj4hBDUsc)], [[5](https://youtu.be/29aTqLvRia8)]
-<img src="img/optical.jpg">
+<img src="img/optical.jpg" width="100%">
 + Photonic transistors are what powers optical computer. (100x - 1000x faster than normal commercial transistors used today & extremely power efficient). Terabit bandwidth! <br />
 + Photonic CPUs are 5x faster than NVIDIA A100 GPUs and 7x energy efficient. <br />
 + Calculations are analog than digital. A bit of less precision but deep learning matrix operations aren't based on precision to the teeth. <br />
@@ -15,7 +15,7 @@ News: [Photonic Chip Performs Image Recognition at the Speed of Light](https://s
 ## Neuromorphic Computing
 resources : [[1](https://youtu.be/TetLY4gPDpo)], [[2](https://youtu.be/u9pulFlavIM)]
 
-<img src="img/neuromorphic.png">
+<img src="img/neuromorphic.png" width="100%">>
 
 +  Elements of a computer are modeled after systems in the human brain and nervous system. Neuron to Neuron communication and results to more energy efficient computation for AI tasks.<br />
 + Different Element like Single Crystalline Silicon + layer of Silicon Germanium, Tantalum Oxide are used to control precise flow of ions.<br />
@@ -27,7 +27,7 @@ Available chip: [IBM True North](https://youtu.be/X2TYAcr36r0), [Intel Loihi 2](
 ## Quantum Computing
 resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5frE)], [[3](https://youtu.be/Fzzxozmuj4I)], [[4](https://youtu.be/-ZNEzzDcllU)], [[5](https://youtu.be/rlsUiOlBwoI)], [[6](https://youtu.be/j9eYQ_ggqJk)], [[7](https://youtu.be/vfJuvNuSPKw)]
 
-<img src="img/quantum.jpg">
+<img src="img/quantum.jpg" width="100%">>
 
 
 + Building block = qbits ( 0 or/and 1 based on probability ~ Superposition). 2 qbit equals 4 quantum states and grows exponentially. <br />
