@@ -1,4 +1,6 @@
 # AI Accelerators
+<img src="img/acc.png" width="40%"><a> </a><img src="img/acc2.png" width="49%">
+
 
 Accelerate AI computations with :
 
@@ -37,7 +39,15 @@ Accelerate AI computations with :
 <td>dd</td>
 </tr>
 <tr>
-<td>Super Computers</td>
+<td>Cerebras Wafer-Scale Engine (WSE)</td>
+<td>dd</td>
+</tr>
+<tr>
+<td>Photonic Integrated Circuit (PIC)</td>
+<td>dd</td>
+</tr>
+<tr>
+<td>Super Computer</td>
 <td><a href="https://youtu.be/oRUcvu-liFM">Tesla Dojo</a></td>
 </tr>
 </table>

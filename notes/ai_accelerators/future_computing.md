@@ -27,7 +27,7 @@ Available chip: [IBM True North](https://youtu.be/X2TYAcr36r0), [Intel Loihi 2](
 ## Quantum Computing
 resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5frE)], [[3](https://youtu.be/Fzzxozmuj4I)], [[4](https://youtu.be/-ZNEzzDcllU)], [[5](https://youtu.be/rlsUiOlBwoI)], [[6](https://youtu.be/j9eYQ_ggqJk)], [[7](https://youtu.be/vfJuvNuSPKw)]
 
-<img src="img/quantum.jpg" width="100%">>
+<img src="img/quantum.jpg" width="100%">
 
 
 + Building block = qbits ( 0 or/and 1 based on probability ~ Superposition). 2 qbit equals 4 quantum states and grows exponentially. <br />
