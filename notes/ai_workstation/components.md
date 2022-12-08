@@ -134,7 +134,11 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c.png" width=49%>
 
 RAID 5 [calculation](https://www.synology.com/en-global/support/RAID_calculator?hdds=16%20TB|16%20TB|16%20TB|16%20TB): 
-Total: 64 TB;  Available: 48 TB; for protection: 16 TB
+Total: 64 TB;  Available: 48 TB; for protection: 16 TB.
+
+Extra information: <br />
++ 50 ms SSD is 3000x faster than 17 ns DRAM. (Comparison of a super sonic jet to a tortoise). <br />
++ There are 8 DRAM in a DIMM (RAM). These RAM are connected via 2 channels (dual channel) to the CPU.<br />
 </td>
 </tr>
 </table>
