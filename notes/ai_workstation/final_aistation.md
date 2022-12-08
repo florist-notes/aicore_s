@@ -1,6 +1,6 @@
 # AI workstation
 
-<img src="img/p620.png" height=300px><a> </a><img src="img/a550.png" height=300px>
+<img src="img/p620.png" height=200px><a> </a><img src="img/2xa5500.png" height=200px><a> </a><img src="img/qnap.png" height=200px>
 <br />
 
 #### final build : :
