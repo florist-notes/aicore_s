@@ -116,7 +116,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <td>Super Computer</td>
 <td>Product</td>
 <td>Product</td>
-<td>The DGX Superpod starts at $7 million and scales up to $60 million for a fully equipped system. Access available for $90,000 a month.</td>
+<td>$7 million - $60 million or $90,000 / month.</td>
 </tr>
 </table>
 
