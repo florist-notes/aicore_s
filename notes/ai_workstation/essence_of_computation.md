@@ -57,7 +57,7 @@
 <img src="img/net/1.jpg" height=310px><a> </a><img src="img/net/2.jpg" height=310px><a> </a><img src="img/net/3.jpg" height=310px>
 <br />
 
-You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro.
+You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro in my lab.
 
 <br />
 
