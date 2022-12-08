@@ -69,6 +69,11 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <br /><br />
 
 <img src="img/nvidia.png" width=49%><a> </a><img src="img/gpu_performance.png" width=50%>
+</td></tr>
+</table>
+
+<table style="width:100%">
+<tr><td>
 
 <b> Professional AI NVIDIA Workstations: </b>
 
@@ -111,7 +116,6 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a> ($7 million - $60 million or $90,000 / month.)</td>
 </tr>
 </table>
-
 
 </td>
 </tr>
