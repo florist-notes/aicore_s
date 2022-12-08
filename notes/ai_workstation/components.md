@@ -75,43 +75,37 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <th>Station Name</th>
 <th>Category</th>
-<th>Technical Specifications</th>
-<th>Cost</th>
+<th>Technical Specifications (Cost)</th>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-station-a100/">NVIDIA DGX Station A100</a></td>
 <td>Complete Workstation</td>
-<td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a></td>
-<td>€126,299.61</td>
+<td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a> (€126,299.61)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-a100/">NVIDIA DGX A100</a></td>
 <td>GPU</td>
-<td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a></td>
-<td>€10,000</td>
+<td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a> (€10,000)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">NVIDIA DGX H100</a></td>
 <td>GPU</td>
-<td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper architecture over ampere )</td>
-<td>€36,345.48</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper architecture over ampere - €36,345.48 )</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-basepod/">NVIDIA DGX BasePOD</a></td>
 <td>Complete Workstation</td>
-<td><a href="https://www.nvidia.com/en-us/data-center/dgx-basepod/">technical_details.pdf</a></td>
-<td>cost varies with number of DGX A100s</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-basepod/">technical_details.pdf</a> (cost varies with number of DGX A100s)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">	NVIDIA DGX SuperPOD</a></td>
 <td>Super Computer</td>
-<td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a></td>
-<td>$7 million - $60 million or $90,000 / month.</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a> ($7 million - $60 million or $90,000 / month.)</td>
 </tr>
 </table>
 
