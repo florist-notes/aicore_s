@@ -10,7 +10,7 @@
 ### Networking Hardware:
 <br />
 
-<img src="img/dm.png" height=260px><a> </a><img src="img/asus.png" height=260px><a> </a><img src="img/qnap.png" height=250px>
+<img src="img/dm.png" height=260px><a> </a><img src="img/asus.png" height=260px><a> </a><img src="img/rj45.png" height=250px>
 <br />
 
 <table style="width:100%" >
@@ -57,7 +57,7 @@
 <img src="img/net/1.jpg" height=300px><a> </a><img src="img/net/2.jpg" height=300px><a> </a><img src="img/net/3.jpg" height=300px>
 <br />
 
-You see the blue wire in the first picture is of optical fiber cable incoming into the lab. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro.
+You see the blue wire in the first picture is of optical fiber cable incoming into the lab Switch. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro.
 
 <br />
 
