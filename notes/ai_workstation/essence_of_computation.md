@@ -1,8 +1,13 @@
 # Essence of Computation & Networking
 
-### Essemce of Computation:
+### Essence of Computation:
 <br />
 
+
+--- () --- () ---- () --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
+
+
+------ 01100100 01100001 01110100 01100001 ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take quick peek into good networking hardware we use.
 
 
 
@@ -57,13 +62,13 @@
 <img src="img/net/1.jpg" height=310px><a> </a><img src="img/net/2.jpg" height=310px><a> </a><img src="img/net/3.jpg" height=310px>
 <br />
 
-You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro in my lab.
+You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable going to different rooms. The rightmost picture is of Unifi Deam Machine Pro in my lab.
 
 <br />
 
 ## Why Unifi Hardware?
 
-You can visualize every aspect of your networking hardware from unifi mobile app and web app. You can see realtime status, log files, open ports, tunelling (vpn) and detailed information of connected devices. In addition you can also do signal strength mapping of your lab in AR (check [my demo](https://youtu.be/soBF9LdwTZ8)).
+You can visualize every aspect of your networking hardware from unifi mobile app (unifi network + ui verify + wifi man) and web app. It allows us to see realtime status, log files, open ports, tunelling (vpn) and detailed information of connected devices. In addition you can also do signal strength mapping of your lab in AR (check [my demo](https://youtu.be/soBF9LdwTZ8)).
 
 <img src="img/net/viz.png">
 <br />
