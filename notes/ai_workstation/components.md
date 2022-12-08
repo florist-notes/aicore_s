@@ -1,4 +1,4 @@
-# AI/ML/DL Components
+# AI/ML/DL System Core Components
 
 Let's talk about what makes a powerful workstation for deep learning. Important components of a workstation are:
 
@@ -47,7 +47,9 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 <br />
 <img src="img/gpu.png" width=100%>
 
-GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem.<br /><br />
+GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem. 
+
+GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU.<br /><br />
 
 <b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
 In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA built their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/).
@@ -119,12 +121,15 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <table style="width:100%">
 <tr>
 <td>Memory (RAM)</td>
-<td>-</td>
+<td>Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors.</td>
 </tr>
 
 <tr>
 <td>Storage</td>
-<td>-</td>
+<td>We need SSD! Choice : M.2 SSD via NVMe. SSD comes in 2 size : 2.5 " SSD uses SATA interface and M.2 SSD are plugged into an M.2 SLOT. M.2 NVMe SSD are good storage devices.<br /><br />
+<img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c.png" width=49%>
+
+</td>
 </tr>
 </table>
 
