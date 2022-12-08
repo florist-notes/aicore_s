@@ -38,6 +38,9 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 </td>
 </tr>
 
+</table>
+
+<table style="width:100%" >
 <tr>
 <td>GPU</td>
 <td>
@@ -118,9 +121,13 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 </tr>
 </table>
 
+
 </td>
 </tr>
 
+</table>
+
+<table style="width:100%">
 <tr>
 <td>Memory (RAM)</td>
 <td>-</td>
