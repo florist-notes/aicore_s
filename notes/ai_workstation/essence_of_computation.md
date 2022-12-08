@@ -4,7 +4,7 @@
 <br />
 
 
---- () --- () ---- () --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
+--- [() --- () ---- ()](https://youtu.be/M4d3FXu9-3I) --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
 
 
 ------ 01100100 01100001 01110100 01100001 ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
@@ -77,4 +77,6 @@ highlighting some of the features I use :
 
 <img src="img/net/4-min.jpg" height=500px><a> </a><img src="img/net/5-min.jpg" height=500px><a> </a><img src="img/net/6-min.jpg" height=500px><a> </a> <img src="img/net/7-min.jpg" height=500px>
 <br />
+
+[Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://youtu.be/bpTNcbnZjvY)
 
