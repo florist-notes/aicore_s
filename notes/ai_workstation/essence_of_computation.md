@@ -47,17 +47,30 @@
 <tr>
 <td>5</td>
 <td>RJ-45 Cable</td>
-<td>RJ45 Patchkabel mit Cat. 7 Rohkabel und Rastnasenschutz (RNS®), S/FTP, PiMF, halogenfrei, 500MHz, OF</td>
+<td>RJ45 Patchcabel with Cat. 7 Rohkabel und Rastnasenschutz (RNS®), S/FTP, PiMF, halogenfrei, 500MHz, OF</td>
 </tr>
 
 
 </table>
 <br />
 
-<img src="img/net/1.jpg" height=300px><a> </a><img src="img/net/2.jpg" height=300px><a> </a><img src="img/net/3.jpg" height=300px>
+<img src="img/net/1.jpg" height=310px><a> </a><img src="img/net/2.jpg" height=310px><a> </a><img src="img/net/3.jpg" height=310px>
 <br />
 
 You see the blue wire in the first picture is of optical fiber cable incoming into the lab Switch. The yellow/ white ones are 10-G RJ45 Ethernet cable. The rightmost picture is of Unifi Deam Machine Pro.
 
+<br />
+
+
+## Why Unifi Hardware?
+
+You can visualize every aspect of your networking hardware from unifi mobile app and web app. You can see realtime status, log files, open ports, tunelling (vpn) and detailed information of connected devices. In addition you can also do signal strength mapping of your lab in AR (check [my demo](https://youtu.be/soBF9LdwTZ8)).
+
+<img src="img/net/viz.png">
+<br />
+
+highlighting some of the features I use :
+
+<img src="img/net/4-min.jpg" height=500px><a> </a><img src="img/net/5-min.jpg" height=500px><a> </a><img src="img/net/6-min.jpg" height=500px><a> </a> <img src="img/net/7-min.jpg" height=500px>
 <br />
 
