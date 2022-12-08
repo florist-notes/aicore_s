@@ -68,7 +68,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 
 <b> Professional AI NVIDIA Workstations: </b>
 
-<img src="img/nvidia_workai.png">
+<img src="img/nvidia_workai.png" width=100%>
 
 <table style="width:100%" >
 <tr>
@@ -90,6 +90,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-a100/">NVIDIA DGX A100</a></td>
 <td>GPU</td>
+<td>Product</td>
 <td>Product</td>
 <td>€10,000</td>
 </tr>
