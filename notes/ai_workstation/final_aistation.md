@@ -73,7 +73,8 @@ Total Storage : 8 TB (M.2 SSD) M.2 2280, PCIe 4.0, TLC, Opal 2.0<br />
 <tr>
 <td>9</td>
 <td>Network Attached Storage (NAS)</td>
-<td>QNAP - TS-431X3-4G with WD Gold ( 16 TB x 4 = 64 GB)
+<td>QNAP - TS-431X3-4G with WD Gold ( 16 TB x 4 = 64 TB)
 
 </td>
 </tr>
+</table>
