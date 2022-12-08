@@ -15,7 +15,7 @@ News: [Photonic Chip Performs Image Recognition at the Speed of Light](https://s
 ## Neuromorphic Computing
 resources : [[1](https://youtu.be/TetLY4gPDpo)], [[2](https://youtu.be/u9pulFlavIM)]
 
-<img src="img/neuromorphic.png" width="100%">>
+<img src="img/neuromorphic.png" width="100%">
 
 +  Elements of a computer are modeled after systems in the human brain and nervous system. Neuron to Neuron communication and results to more energy efficient computation for AI tasks.<br />
 + Different Element like Single Crystalline Silicon + layer of Silicon Germanium, Tantalum Oxide are used to control precise flow of ions.<br />
@@ -37,7 +37,7 @@ resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5f
 + Research paper: Quantum supremacy using a programmable superconducting processor ([nature](https://www.nature.com/articles/s41586-019-1666-5)). <br />
 + Google achieved Quantum supremacy with their Weber computer ([Sycamore processor](https://quantumai.google/hardware/datasheet/weber.pdf)). <br />
 
-Available Resources : [Google Quantum AI](https://quantumai.google/), [IBM Quantum system II](https://youtu.be/AQjKUN8PORM)
+Available Resources : [Google Quantum AI](https://quantumai.google/), [IBM Quantum System II](https://youtu.be/AQjKUN8PORM)
 <br />
 
 News: [Quantum Computer Completed A 2.5-Billion-Year Task In 200 Seconds](https://www.intelligentliving.co/quantum-computer-2-5-billion-year-task-in-200-seconds/) ( earlier estimated 10,000+ years), [1 million qubit quantum computers: moving beyond the current “brute force” strategy](https://seeqc.com/blog/1-million-qubit-quantum-computers-moving-beyond-the-current-brute-force-strategy), [Hello quantum world! Google publishes landmark quantum supremacy claim](https://www.nature.com/articles/d41586-019-03213-z). <br />
