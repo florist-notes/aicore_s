@@ -40,7 +40,34 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 
 <tr>
 <td>GPU</td>
-<td>-</td>
+<td>
+<br />
+
+GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX).<br /><br />
+
+<b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
+In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA created their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/).
+
+<img src="img/geforce.png" width=100%><br />
+Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GPU from different manufacturers. Here is a cooling efficiency chart of different graphics card with 3090 GPU:
+
+<img src="img/gpu3090cooling.png" width=100%>
+<br /><br />
+
+Asus Strix Quiet 390W seems to a good and quiet commercial graphics card with 3090 GPU.
+
+<b> Professional GPU (RTX) : </b> NVIDIA RTX A5500 <br />
+NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/)
+
+<img src="img/ampere_gpu.jpg" width=49%><a> </a><img src="img/a5500.png" width=50%>
+<br /><br />
+
+<img src="img/nvidia.png" width=49%><a> </a><img src="img/gpu_performance.png" width=50%>
+
+<b> Professional AI NVIDIA Workstations: </b>
+
+
+</td>
 </tr>
 
 <tr>
