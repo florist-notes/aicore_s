@@ -68,7 +68,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 
 <b> Professional AI NVIDIA Workstations: </b>
 
-<img src="img/nvidia_workai.png" width=100%>
+<img src="img/nvidia_workai.png">
 
 <table style="width:100%" >
 <tr>
