@@ -33,7 +33,7 @@ At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
 
 We will go for the Threadripper Pro 5000 series instead of 3000 series. Check for yourself:
 
-<center><img src="img/ryz3.jpg" width=80%></center>
+<img src="img/ryz3.jpg" width=95%>
 
 </td>
 </tr>
@@ -81,19 +81,19 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-station-a100/">NVIDIA DGX Station A100</a></td>
-<td>Complete Workstation</td>
+<td>Complete Workstation [<a href="https://youtu.be/gT59YOdch8M">1</a>], [<a href="https://youtu.be/0mAesfFt4us">2</a>], [<a href="https://youtu.be/oMqmgxnLuhk">3</a>] </td>
 <td><a href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-station/nvidia-dgx-station-a100-datasheet.pdf">technical_details.pdf</a> (with NVSwitches - €126,299.61)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-a100/">NVIDIA DGX A100</a></td>
-<td>GPU</td>
+<td>GPU [<a href="https://youtu.be/MY7jZGZw9vA">1</a>], [<a href="https://youtu.be/zBAxiQi2nPc">2</a>]</td>
 <td><a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-80gb-datasheet.pdf">technical_details.pdf</a> (refrigerant cooling - €10,000)</td>
 </tr>
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">NVIDIA DGX H100</a></td>
-<td>GPU</td>
+<td>GPU [<a href="https://youtu.be/bHW9eCzeEfE">1</a>], [<a href="https://www.tomshardware.com/news/nvidia-hopper-h100-80gb-price-revealed">2</a>]</td>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper architecture over ampere - €36,345.48 )</td>
 </tr>
 
@@ -105,7 +105,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">	NVIDIA DGX SuperPOD</a></td>
-<td>Super Computer</td>
+<td>Super Computer [<a href="https://youtu.be/NoCdoBl9vPw">1</a>], [<a href="https://www.computerbase.de/2021-06/nvidia-dgx-superpod-20-petaflops-fuer-90.000-us-dollar-im-neuen-monatsabo/">2</a>], [<a href="https://youtu.be/vY61ExKhnfA">3</a>]</td>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a> ($7 million - $60 million or $90,000 / month.)</td>
 </tr>
 </table>
