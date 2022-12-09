@@ -31,15 +31,30 @@ Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an I
 </tr>
 <tr>
 <td>Data Processing Unit (DPU)</td>
-<td>dd</td>
+<td>
+A DPU is a new class of programmable processor that combines three key elements. A DPU is a system on a chip, or SoC, that combines: <br /><br />
+
+1. An industry-standard, high-performance, software-programmable, multi-core CPU, typically based on the widely used Arm architecture, tightly coupled to the other SoC components.<br />
+2. A high-performance network interface capable of parsing, processing and efficiently transferring data at line rate, or the speed of the rest of the network, to GPUs and CPUs.<br />
+3. A rich set of flexible and programmable acceleration engines that offload and improve applications performance for AI and machine learning, zero-trust security, telecommunications and storage, among others.
+
+Example : [NVIDIA DPU](https://blogs.nvidia.com/blog/2020/05/20/whats-a-dpu-data-processing-unit/)
+<br />
+</td>
 </tr>
 <tr>
 <td>Vision Processing Unit (VPU)</td>
-<td>dd</td>
+<td>
+A vision processing unit (VPU) is an emerging class of microprocessor; it is a specific type of AI accelerator, designed to accelerate machine vision tasks.
+
+Example : [Intel® Movidius™ Vision Processing Units (VPUs)](https://www.intel.de/content/www/de/de/products/details/processors/movidius-vpu.html)
+</td>
 </tr>
 <tr>
 <td>Quantum Processing Unit (QPU)</td>
-<td>dd</td>
+<td>
+
+A quantum processing unit (QPU), also referred to as a quantum chip, is a physical (fabricated) chip that contains a number of interconnected qubits. It is the foundational component of a full quantum computer, which includes the housing environment for the QPU, the control electronics, and many other components. A QPU, aka a quantum processor, is the brain of a quantum computer that uses the behavior of particles like electrons or photons to make certain kinds of calculations much faster than processors in today’s computers. By contrast, CPUs, GPUs and DPUs all apply principles of classical physics to electrical currents. That’s why today’s systems are called classical computers. Here is a [list](https://en.wikipedia.org/wiki/List_of_quantum_processors) of quantum processors.</td>
 </tr>
 <tr>
 <td>Field-programmable gate array (FPGA)</td>
