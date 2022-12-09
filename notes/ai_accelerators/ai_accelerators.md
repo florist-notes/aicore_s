@@ -27,7 +27,7 @@ reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/a
 
 IPUs have a structure which provides efficient massive compute parallelism hand in hand with huge memory bandwidth. Graph based processing will change the way data are processed.
 
-Reference: Graphcore - <a href="#">What's Inside an IPU Chip?</a>
+Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an IPU Chip?</a>
 </td>. 
 </tr>
 <tr>
