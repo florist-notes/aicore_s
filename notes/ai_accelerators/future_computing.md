@@ -2,6 +2,7 @@
 
 ## Optical Computing
 resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6nYA)], [[3](https://youtu.be/UqeH7ozVOpQ)], [[4](https://youtu.be/t0yj4hBDUsc)], [[5](https://youtu.be/29aTqLvRia8)]
+
 <img src="img/optical.jpg" width="100%">
 + Photonic transistors are what powers optical computer. (100x - 1000x faster than normal commercial transistors used today & extremely power efficient). Terabit bandwidth! <br />
 + Photonic CPUs are 5x faster than NVIDIA A100 GPUs and 7x energy efficient. <br />
