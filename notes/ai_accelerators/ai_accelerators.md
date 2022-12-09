@@ -2,7 +2,7 @@
 <img src="img/acc.png" width="40%"><a> </a><img src="img/acc2.png" width="49%">
 
 
-Accelerate AI computations with :
+Accelerate AI computations with : CPU = scalar, GPU = vector, IPU = graph >>>
 
 
 <table style="width:100%" >
@@ -12,11 +12,23 @@ Accelerate AI computations with :
 </tr>
 <tr>
 <td>Tensor Processing Unit (TPU)</td>
-<td>dd</td>
+<td>Tensor Processing Units (TPUs) are Google’s custom-developed application-specific integrated circuits (ASICs) used to accelerate machine learning workloads. <a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">TPUs</a> are available for monthly <a href="https://cloud.google.com/tpu/pricing">subscription</a> by Google.
+
+<a href="https://www.golem.de/news/machine-learning-googles-mini-tpu-kosten-mit-board-150-us-dollar-1903-139824.html">Edge TPU</a> (mini-TPU) for edge devices. This is the <a href="https://coral.ai/products/dev-board/">dev board</a> and <a href="https://shop.heise.de/google-coral-usb-accelerator">USB accelerator</a> for mini TPU. The TPU is 15 to 30 times faster than current GPUs. TPUs have high latency and are specifically built to target matrix multiplication (deep learning).
+
+reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu">An in-depth look at Google’s first Tensor Processing Unit (TPU)</a>.
+</td>
 </tr>
 <tr>
 <td>Intelligence Processing Unit (IPU)</td>
-<td>dd</td>
+<td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 Independent <a href="https://www.graphcore.ai/products/ipu">processors</a>.
+
+<img src="img/ipu.png" width="70%">
+
+IPUs have a structure which provides efficient massive compute parallelism hand in hand with huge memory bandwidth. Graph based processing will change the way data are processed.
+
+Reference: Graphcore - <a href="#">What's Inside an IPU Chip?</a>
+</td>. 
 </tr>
 <tr>
 <td>Vision Processing Unit (VPU)</td>
