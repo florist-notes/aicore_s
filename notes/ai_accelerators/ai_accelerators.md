@@ -4,7 +4,6 @@
 
 Accelerate AI computations with : CPU = scalar, GPU = vector, IPU = graph >>>
 
-
 <table style="width:100%" >
 <tr>
 <th>AI accelerator</th>
@@ -21,14 +20,18 @@ reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/a
 </tr>
 <tr>
 <td>Intelligence Processing Unit (IPU)</td>
-<td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 Independent <a href="https://www.graphcore.ai/products/ipu">processors</a>.
+<td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 independent <a href="https://www.graphcore.ai/products/ipu">processors</a>.
 
 <img src="img/ipu.png" width="70%">
 
 IPUs have a structure which provides efficient massive compute parallelism hand in hand with huge memory bandwidth. Graph based processing will change the way data are processed.
 
 Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an IPU Chip?</a>
-</td>. 
+</td>
+</tr>
+<tr>
+<td>Data Processing Unit (DPU)</td>
+<td>dd</td>
 </tr>
 <tr>
 <td>Vision Processing Unit (VPU)</td>
@@ -40,7 +43,11 @@ Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an I
 </tr>
 <tr>
 <td>Field-programmable gate array (FPGA)</td>
-<td>dd</td>
+<td>FPGAs support a wide computational spectrum by enabling bit-level configurability: the arithmetic units can be configured to implement functions that operate on numbers of arbitrary widths, and the on-chip memory blocks can be fused to construct memory spaces of varied sizes. FPGA == reconfigurability.</td>
+</tr>
+<tr>
+<td>Coarse-Grained Reconfigurable Arrays (CGRAs)</td>
+<td>CGRAs have a high degree of reconfigurability but at a coarser-granularity than FPGAs (they sacrifice the finer-grained bit-level configurability as it might not be necessary).</td>
 </tr>
 <tr>
 <td>Application-specific integrated circuit (ASIC)</td>
@@ -65,6 +72,12 @@ Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an I
 </table>
 <br />
 
+<img src="img/ai_acc.png" width="100%">
+
+source: [microsoft](https://www.microsoft.com/en-us/research/uploads/prod/2017/08/HC29.22622-Brainwave-Datacenter-Chung-Microsoft-2017_08_11_2017.compressed.pdf)
+
 Leading AI hardware startups developing  several custom AI chips : 	[cerebras](https://www.cerebras.net/product-system/), [SambaNoba](https://sambanova.ai/), [Habana](https://habana.ai/), [Groq](https://groq.com/), [Hailo](https://hailo.ai/), [Esperanto](https://www.esperanto.ai/). 
 
-References: AI Accelerators — Part I: [Intro](https://medium.com/@adi.fu7/ai-accelerators-part-i-intro-822c2cdb4ca4), Part II: [Transistors and Pizza](https://medium.com/@adi.fu7/ai-accelerators-part-ii-transistors-and-pizza-or-why-do-we-need-accelerators-75738642fdaa) (or: Why Do We Need Accelerators)?, Part III: [Architectural Foundations](https://medium.com/@adi.fu7/ai-accelerators-part-iii-architectural-foundations-3f1f73d61f1f), Part IV: [The Very Rich Landscape](https://medium.com/@adi.fu7/ai-accelerators-part-iv-the-very-rich-landscape-17481be80917), Part V: [Final Thoughts](https://medium.com/@adi.fu7/ai-accelerators-part-v-final-thoughts-94eae9dbfafb)
+References: AI Accelerators — Part I: [Intro](https://medium.com/@adi.fu7/ai-accelerators-part-i-intro-822c2cdb4ca4), Part II: [Transistors and Pizza](https://medium.com/@adi.fu7/ai-accelerators-part-ii-transistors-and-pizza-or-why-do-we-need-accelerators-75738642fdaa) (or: Why Do We Need Accelerators)?, Part III: [Architectural Foundations](https://medium.com/@adi.fu7/ai-accelerators-part-iii-architectural-foundations-3f1f73d61f1f), Part IV: [The Very Rich Landscape](https://medium.com/@adi.fu7/ai-accelerators-part-iv-the-very-rich-landscape-17481be80917), Part V: [Final Thoughts](https://medium.com/@adi.fu7/ai-accelerators-part-v-final-thoughts-94eae9dbfafb) ; [Accelerating Persistent Neural Networks at Datacenter Scale](https://youtu.be/DbhAMiQ_yvs) - Back in the 1980s, 1990s, and early 2000s, there was the “RISC vs. CISC war” with x86-based Intel and AMD leading the CISC side and ARM’s ISA leading “camp RISC”. There are pros and cons for each approach, but ultimately and greatly due to the booming of ARM-based smartphones, RISC came at the upper hand for mobile devices. It is now also becoming more dominant in the cloud with the designs like Amazon’s ARM-based line of [AWS Graviton](https://aws.amazon.com/ec2/graviton/) processors.
+
+ISA For AI - Domain specific ISAs (RISC), Very-Long Instruction Word (VLIW) architectures, Systolic Arrays ( used by TPUs and NVIDIA Tensor cores), Reconfigurable Processors (FPGAs), Dataflow Processing Systems and Processing in Memory ( for near data processing / Neuromorphic Computing ).
