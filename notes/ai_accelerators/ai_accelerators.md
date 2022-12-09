@@ -54,11 +54,14 @@ Reconfigurable Dataflow — Wave Computing, SambaNova, SimpleMachines. They desc
 </tr>
 <tr>
 <td>Application-specific integrated circuit (ASIC)</td>
-<td>dd</td>
+<td>An application-specific integrated circuit is an integrated circuit (IC) chip customized for a particular use, rather than intended for general-purpose use like TPUs for deep learning. You can design custom ASICs as per need rather than using general purpose chips.</td>
 </tr>
 <tr>
 <td>System on a chip (SoC)</td>
-<td>dd</td>
+<td>A system-on-a-chip (SoC) is a microchip with all the necessary electronic circuits and parts for a given system, such as a smartphone or wearable computer, on a single integrated circuit (IC).
+
+example - [Hailo](https://hailo.ai/) : Efficient Dataflow for Edge Inference.
+</td>
 </tr>
 <tr>
 <td>Cerebras Wafer-Scale Engine (WSE)</td>
@@ -67,14 +70,15 @@ Reconfigurable Dataflow — Wave Computing, SambaNova, SimpleMachines. They desc
 <tr>
 <td>Photonic Integrated Circuit (PIC)</td>
 <td>
-LightMatter: Photonics-Based Analog Computing. They designed a systolic array-based that performs multiply-and-accumulate operations by manipulating the photonics input signals using phase-shift encoded as different phases in the light signal’s waves (similar to how signals are being modulated when they are sent over fiber optic cables). As photonics data flows at the speed of light, LightMatter’s chips can potentially perform matrix and vectorized operations at very high speeds and potentially orders of magnitude less power.
 
+[LightMatter](https://lightmatter.co/) : Photonics-Based Analog Computing. They designed a systolic array-based that performs multiply-and-accumulate operations by manipulating the photonics input signals using phase-shift encoded as different phases in the light signal’s waves (similar to how signals are being modulated when they are sent over fiber optic cables). As photonics data flows at the speed of light, LightMatter’s chips can potentially perform matrix and vectorized operations at very high speeds and potentially orders of magnitude less power.
+There is another startup called [lighton.ai](https://lighton.ai/photonic-computing-for-ai/) working on photonic computing.
 
 </td>
 </tr>
 <tr>
 <td>Super Computer</td>
-<td><a href="https://youtu.be/oRUcvu-liFM">Tesla Dojo</a></td>
+<td><a href="https://youtu.be/oRUcvu-liFM">Tesla Dojo</a>, <a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">	NVIDIA DGX SuperPOD</a></td>
 </tr>
 </table>
 <br />
