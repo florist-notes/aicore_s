@@ -20,7 +20,7 @@ reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/a
 </tr>
 <tr>
 <td>Intelligence Processing Unit (IPU)</td>
-<td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 independent <a href="https://www.graphcore.ai/products/ipu">processors</a>. GraphCore: In-House Software Stack called “Poplar” + Multi-threaded Dataflow Execution.
+<td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 independent <a href="https://www.graphcore.ai/products/ipu">processors</a>. GraphCore: In-House Software Stack called “Poplar” + Multi-threaded Dataflow Execution. <br />
 
 <img src="img/ipu.png" width="70%">
 
