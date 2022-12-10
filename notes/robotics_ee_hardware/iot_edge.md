@@ -1,4 +1,7 @@
 # IoT and AI on Edge Electronics
+I was designing an IoT command center architecture with Raspberry Pi (right image) and documenting here about existing edge devices I came across:
+
+<img src="img/edge.png" width=40%><a> </a><img src="img/iot.png" width=53%>
 
 Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
