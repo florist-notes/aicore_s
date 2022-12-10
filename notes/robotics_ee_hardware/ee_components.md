@@ -114,83 +114,83 @@ Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145), [Da
 
 <tr>
 <td>Digital Capacitance Meter</td>
-<td>xx</td>
+<td><img src="img/electronics/dcm.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Oscilloscope</td>
-<td>xx</td>
+<td><img src="img/electronics/osc.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Diagonal Pliers</td>
-<td>xx</td>
+<td><img src="img/electronics/dp.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Ratcheting Crimper Pliers</td>
-<td>xx</td>
+<td><img src="img/electronics/rcp.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Wire Strippers</td>
-<td>xx</td>
+<td><img src="img/electronics/ws.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Dual-Purpose Cross-Shaped Multi-Function Screwdriver</td>
-<td>xx</td>
+<td><img src="img/electronics/sc.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>
 Tweezers-straight (anti-magnetic)</td>
-<td>xx</td>
+<td><img src="img/electronics/tw.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Antenna Analyzer
 </td>
-<td>xx</td>
+<td><img src="img/electronics/aa.webp" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Logic Analyzer</td>
-<td>xx</td>
+<td><img src="img/electronics/la.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Spectrum Analyzer
 </td>
-<td>xx</td>
+<td><img src="img/electronics/sa.webp" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Power Supply Tools</td>
-<td>xx</td>
+<td><img src="img/electronics/ps.webp" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Soldering Tools/Kits</td>
-<td>xx</td>
+<td><img src="img/electronics/sk.jpg" width=100px></td>
 <td><a href="https://www.amazon.de/-/en/Electronics-Adjustable-Temperature-Multimeter-Desoldering/dp/B09CKTYTVJ/">Soldering kit</a>, <a href="https://www.amazon.com/Thermal-Grizzly-Kryonaut-Grease-Paste/dp/B011F7W3LU">Thermal Paste</a>, <a href="https://www.amazon.com/Amazon-Brand-Isopropyl-Antiseptic-Technical/dp/B07NFSFBXQ">99% Isopropyl Alcohal</a>, <a href="https://www.amazon.com/POWERGIANT-Electric-Screwdriver-Cordless-Precision/dp/B07R7TNR66">Electric Screwdriver set</a>, <a href="https://www.amazon.com/StarTech-com-24x27-5in-Desktop-Anti-Static-M3013/dp/B00009XT3H">Building Mat</a>.</td>
 </tr>
 
 <tr>
 <td>Mat</td>
-<td>xx</td>
-<td><a href="https://www.amazon.com/Soldering-Silicone-Resistant-Electronics-Workbench/dp/B0727RK3QF?th=1">Soldering Mat Silicone Insulation Work Mat Heat Resistant 932°F</a></td>
+<td><img src="img/electronics/gc.jpg" width=100px></td>
+<td><a href="https://www.amazon.com/Soldering-Silicone-Resistant-Electronics-Workbench/dp/B0727RK3QF?th=1">Soldering Mat Silicone Insulation Work Mat Heat Resistant 932°F</a>, <a href="https://www.amazon.com/Quilting-Cutting-Mats-Green-Supplies/s?keywords=Quilting+Cutting+Mats&rh=n%3A262643011%2Cp_n_size_browse-vebin%3A2637806011&c=ts&ts_id=262643011">Quilting Cutting Mats</a></td>
 </tr>
 
 </table>
