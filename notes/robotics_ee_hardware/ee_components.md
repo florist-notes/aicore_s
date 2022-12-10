@@ -100,7 +100,7 @@ Perfboard is a material for prototyping electronic circuits (also called DOT PCB
 </table>
 <br />
 
-Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145), [Data Loggers](https://www.sparkfun.com/categories/589), [Magnets](https://www.sparkfun.com/categories/322), [Real Time Clock (RTC)](https://www.sparkfun.com/categories/358), [Sparkfun kit](https://learn.sparkfun.com/tutorials/beginner-parts-kit-identification-guide/all) and [Electronics kit](https://www.amazon.de/-/en/Electronic-Components-Electrical-Technology-Breadboard/dp/B08TLTHWD7/).
+Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145) - [joystick](https://www.adafruit.com/product/3102), [Data Loggers](https://www.sparkfun.com/categories/589), [Magnets](https://www.sparkfun.com/categories/322), [Real Time Clock (RTC)](https://www.sparkfun.com/categories/358), [Sparkfun kit](https://learn.sparkfun.com/tutorials/beginner-parts-kit-identification-guide/all) and [Electronics kit](https://www.amazon.de/-/en/Electronic-Components-Electrical-Technology-Breadboard/dp/B08TLTHWD7/).
 
 ### Workbench
 
@@ -208,7 +208,28 @@ Tweezers-straight (anti-magnetic)</td>
 </table>
 <br />
 
-references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/), instructables - [workbench guide](https://www.instructables.com/Electronics-Workbench-Equipment-List/)
+references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/), instructables - [workbench guide](https://www.instructables.com/Electronics-Workbench-Equipment-List/), [adafruit](https://www.adafruit.com/categories).
+
+
+### Electronic Accesories :
+
+<table style="width:100%" >
+<tr>
+<th>Adafruit 8x8 NeoTrellis Feather M4 Kit Pack<br /> <img src="img/m4.gif" height=140px> <a href="https://www.adafruit.com/product/2721">link</a></th>
+<th>32x32 RGB LED Matrix Panel - 4mm Pitch<br /> <img src="img/rgb2.jpg" height=140px> <a href="https://www.adafruit.com/product/607">link</a></th>
+<th>Flexible Adafruit DotStar Matrix 16x16 - 256 RGB LED Pixels<br /> <img src="img/lightb.gif" height=140px> <a href="https://www.adafruit.com/product/2735">link</a></th>
+<th>Adafruit DotStar High Density 8x8 Grid - 64 RGB LED Pixel Matrix<br /> <img src="img/dot.jpg" height=140px> <a href="https://www.adafruit.com/product/3444">link</a></th>
+</tr>
+
+<tr>
+<th>Adafruit RGB Matrix Bonnet for Raspberry Pi<br /> <img src="img/rgb3.jpg" height=140px> <a href="https://www.adafruit.com/product/3211">link</a></th>
+<th>Adafruit DotStar Digital LED Strip - Black 144 LED/m - 0.5 Meter - BLACK<br /> <img src="img/rgb4.jpg" height=140px> <a href="https://www.adafruit.com/product/2328">link</a></th>
+<th>nOOds - Flexible LED Filament - 3V 300mm long<br /> <img src="img/fl.gif" height=140px> <a href="https://www.adafruit.com/product/5510">link</a></th>
+<th>Adafruit 5x5 NeoPixel Grid BFF Add-On for QT Py and Xiao<br /> <img src="img/rgb5.gif" height=140px> <a href="https://www.adafruit.com/product/5646">link</a></th>
+</tr>
+</table>
+<br />
+
 
 #### Bonus! Hacking Gadgets
 
