@@ -93,8 +93,49 @@ Let's take a look at what we can buy from the market to get started with Robotic
 
 also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) for myriads of other cool sensors, amplifiers and breakout boards.
 
+### Drones
+
+
+<table style="width:100%" >
+<tr>
+<th>DJI Matrice 300 RTK<br /> <img src="img/dji.png" height=140px> <a href="https://www.dji.com/de/matrice-300">drone</a></th>
+<th>Parrot Anafi<br /> <img src="img/anafi.png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
+<th>Air:bit 2<br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone</a></th>
+<th>Tello Quadcopter<br /> <img src="img/tello.jpg" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
+
+<th>Bitcraze Crazyflie 2.1<br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a></th>
+</tr>
+</table>
+<br />
+
 ### Robotic kits with API
 
 
+<table style="width:100%" >
+<tr>
+<th>4tronix M.A.R.S. Rover Robot Kit for Raspberry Pi Zero<br /> <img src="img/marsrover.png" height=140px> <a href="https://www.elektor.com/4tronix-mars-rover-robot-kit-for-raspberry-pi-zero">kit</a></th>
+<th>Hiwonder uHandPi Raspberry Pi Robotic Hand<br /> <img src="img/uhandpi.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-uhandpi-raspberry-pi-robotic-hand-ai-vision-recognition-and-tracking-python-programming?variant=39672207048791">kit</a></th>
+<th>TonyPi Pro Hiwonder Humanoid Robot <br /> <img src="img/tonypi.png" height=140px> <a href="https://hiwonder.hk/products/tonypi-pro-hiwonder-humanoid-robot-professional-development-kit-powered-by-raspberry-pi-4b-4gb">kit</a></th>
+<th>MyCobot 280 M5Stack 6 DOF<br /> <img src="img/cobot.jpg" height=140px> <a href="https://shop.elephantrobotics.com/en-de/products/mycobot-worlds-smallest-and-lightest-six-axis-collaborative-robot?variant=39585938833494">kit</a></th>
+</tr>
 
-We can also build DIY Robotic projects:
+<tr>
+<th>Hiwonder JetAuto ROS Robot Car<br /> <img src="img/roscar.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jetauto-ros-robot-car-powered-by-jetson-nano-with-lidar-depth-camera-touch-screen-microphone-array-support-slam-mapping-and-navigation?variant=39960852594775">kit</a></th>
+<th>SpiderPi Pro: Hiwonder Hexapod Robot<br /> <img src="img/spr.png" height=140px> <a href="https://hiwonder.hk/products/spiderpi-pro-hiwonder-hexapod-robot-with-ai-vision-robotic-arm-powered-by-raspberry-pi-4b-4gb">kit</a></th>
+<th>Hiwonder JetHexa ROS Hexapod Robot Kit<br /> <img src="img/spg.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jethexa-ros-hexapod-robot-kit-powered-by-jetson-nano-with-lidar-depth-camera-support-slam-mapping-and-navigation?variant=39876752638039">kit</a></th>
+<th>PuppyPi Hiwonder Quadruped Robot <br /> <img src="img/puppypi.png" height=140px> <a href="https://hiwonder.hk/products/puppypi-hiwonder-ros-quadruped-puppy-robot-with-ai-vision-powered-by-raspberry-pi-4b-support-python-programming?variant=39919263678551">kit</a></th>
+</tr>
+</table>
+<br />
+
+## [UniTree Robotics](https://shop.unitree.com/en-de/collections/education-industry)
+
+<img src="img/unitree.gif" width=100%> 
+
+## [Boston Dynamics Spot®](https://www.bostondynamics.com/products/spot)
+A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT.
+
+<img src="img/SPOT.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
+
+
+Check out this cute [emo](https://living.ai/product/emo/) robot and we can buy robots from [robotshop](https://www.robotshop.com/), [myrobotshop](https://www.mybotshop.de/), [Festo](https://www.festo.com/de/en/c/products-id_pim1/) etc. Research on Boston Dynamics [Atlas](https://www.bostondynamics.com/atlas) and Anybotic's [ANYmal](https://www.anybotics.com/anymal-autonomous-legged-robot/) has been going great.
