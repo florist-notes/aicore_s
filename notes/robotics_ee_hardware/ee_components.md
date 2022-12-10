@@ -13,67 +13,71 @@
 <tr>
 <td>Resistor</td>
 <td><img src="img/electronics/res.png" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A resistor will resist the current flow in an electric circuit.</td>
 </tr>
 
 <tr>
 <td>Capacitor</td>
 <td><img src="img/electronics/cap.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A capacitor is like a battery with very low capacity. It might for example be used to introduce a delay in a circuit.</td>
 </tr>
 
 <tr>
 <td>Diode</td>
 <td><img src="img/electronics/diode.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A diode is a component that only conducts electricity in one direction. It is commonly used if you want to convert from alternating current (AC) to direct current (DC). Other types of diodes include Light Emitting Diode (LED) and Zener diode.</td>
 </tr>
 
 <tr>
 <td>Transistor</td>
 <td><img src="img/electronics/transistor.jpeg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A transistor is similar to a relay in the sense that you can use it to turn on and off a current. The transistor is what makes amplifiers work.</td>
 </tr>
 
 <tr>
 <td>Potentiometer</td>
 <td><img src="img/electronics/pot.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A potentiometer is a variable resistor in which a wiper sweeps from one end of the resistive element to the other, resulting in resistance that is proportional to the wiper's position.</td>
 </tr>
 
 <tr>
 <td>Integrated Circuit (IC)</td>
 <td><img src="img/electronics/ic.jpeg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>An integrated circuit is a circuit made up of several tiny components and placed in a small package. It could be anything from a microcontroller to a radar system.</td>
 </tr>
 
 <tr>
 <td>Relay</td>
 <td><img src="img/electronics/rel.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A relay is a switch that can be controlled electrically. If you connect power to the relay, the switch opens. If you disconnect the power, the switch closes. (Or vice versa).</td>
 </tr>
 
 <tr>
 <td>Inductor</td>
 <td><img src="img/electronics/ind.jpeg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>An inductor will resist changes in current.</td>
 </tr>
 
 <tr>
 <td>Piezoelectric devices, crystals, resonators</td>
 <td><img src="img/electronics/ti.png" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A crystal oscillator is a component used to create a precise frequency for example as a clock for a microcontroller.</td>
 </tr>
 
 <tr>
 <td>Wires</td>
 <td><img src="img/electronics/jw.png" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>Jumper wire for connection - male and female.</td>
 </tr>
 
 <tr>
-<td>Breadboard</td>
+<td>Breadboard & Perfboard</td>
 <td><img src="img/electronics/bb.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits.<br />
+ books · scholar · JSTOR (December 2009) (Learn how and when to remove this template message)
+
+Perfboard is a material for prototyping electronic circuits (also called DOT PCB). It is a thin, rigid sheet with holes pre-drilled at standard intervals across a grid, usually a square grid of 0.1 inches (2.54 mm) spacing.
+</td>
 </tr>
 </tr>
 
@@ -81,7 +85,7 @@
 <tr>
 <td>Power Supply</td>
 <td><img src="img/electronics/ps.jpg" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>Power Supply</td>
 </tr>
 </tr>
 
@@ -89,7 +93,7 @@
 <tr>
 <td>LED</td>
 <td><img src="img/electronics/led.png" width=100px></td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td>Light Emitting Diode</td>
 </tr>
 </tr>
 

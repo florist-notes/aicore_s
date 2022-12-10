@@ -31,7 +31,7 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 <th>SparkFun Pro RF - LoRa, 915MHz (SAMD21)<br /> <img src="img/lora2.png" height=140px> <a href="https://www.sparkfun.com/products/15836">board</a></th>
 <th>BeagleBone Black - Rev C <br /> 
 <img src="img/bb.png" height=140px> 
-<a href="https://www.sparkfun.com/products/12857">board</a> ( more <a href="https://www.adafruit.com/category/181">boards</a> ).
+<a href="https://www.sparkfun.com/products/12857">board</a> <br />( more BeagleBone <a href="https://www.adafruit.com/category/181">boards</a> )
 </th>
 </tr>
 
