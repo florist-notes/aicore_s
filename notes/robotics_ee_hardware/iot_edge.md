@@ -84,7 +84,7 @@ Machine Learning libraries for edge devices : [TinyML](https://tinyml.mit.edu/),
 <tr>
 <th>Particle Photon with Headers<br /> <img src="img/particle.jpg" height=140px> <a href="https://www.adafruit.com/product/2721">board</a></th>
 <th>Circuit Playground Express<br /> <img src="img/circuit.jpg" height=140px> <a href="https://www.adafruit.com/product/3333">board</a></th>
-<th>Adafruit MacroPad RP2040 Starter Kit - 3x4 Keys + Encoder + OLED - ADABOX019 Essentials<br /> <img src="img/key.gif" height=140px> <a href="https://www.adafruit.com/product/5128">board</a></th>
+<th>Adafruit MacroPad RP2040 Starter Kit <br /> <img src="img/key.gif" height=140px> <a href="https://www.adafruit.com/product/5128">board</a></th>
 <th>i.MX 8QuadXPlus Multisensory Enablement Kit (MEK)<br /> <img src="img/mek.jpg" height=140px> <a href="https://www.nxp.com/design/development-boards/i-mx-evaluation-and-development-boards/i-mx-8quadxplus-multisensory-enablement-kit-mek:MCIMX8QXP-CPU">board</a></th>
 <th>Adafruit Motor/Stepper/Servo Shield for Arduino v2 Kit - v2.3<br /> <img src="img/mo.jpg" height=140px> <a href="https://www.adafruit.com/product/1438">board</a></th></tr>
 </table>
