@@ -36,11 +36,11 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 </tr>
 
 <tr>
-<th>Adafruit METRO 328 - ATmega328<br /> <img src="img/atmega.jpg" height=140px> <a href="https://www.adafruit.com/product/2488">board</a></th>
-<th>Microsoft Machine Learning Kit for Lobe with Raspberry Pi 4 8GB<br /> <img src="img/n1.jpg" height=140px> <a href="https://www.adafruit.com/product/5024">board</a></th>
-<th>Google Coral Development Board<br /> <img src="img/n2.jpg" height=140px> <a href="https://www.adafruit.com/product/4385">board</a></th>
+<th>Adafruit METRO 328 - ATmega328<br /> <img src="img/atmega.png" height=140px> <a href="https://www.adafruit.com/product/2488">board</a></th>
+<th>Microsoft Machine Learning Kit for Lobe with Raspberry Pi 4 8GB<br /> <img src="img/n1.png" height=140px> <a href="https://www.adafruit.com/product/5024">board</a></th>
+<th>Google Coral Development Board<br /> <img src="img/n2.png" height=140px> <a href="https://www.adafruit.com/product/4385">board</a></th>
 <th>Adafruit EdgeBadge - TensorFlow Lite for Microcontrollers<br /> 
-<img src="img/n3.jpg" height=140px> 
+<img src="img/n3.png" height=140px> 
 <a href="https://www.adafruit.com/product/4400">board</a>
 </th>
 </tr>
