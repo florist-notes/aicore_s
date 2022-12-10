@@ -93,7 +93,7 @@ Let's take a look at what we can buy from the market to get started with Robotic
 
 also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) for myriads of other cool sensors, amplifiers and breakout boards.
 
-### Drones
+### Programmable Drones
 
 
 <table style="width:100%" >
@@ -138,4 +138,4 @@ A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the prem
 <img src="img/SPOT.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
 
 
-Check out this cute [emo](https://living.ai/product/emo/) robot and we can buy robots from [robotshop](https://www.robotshop.com/), [myrobotshop](https://www.mybotshop.de/), [Festo](https://www.festo.com/de/en/c/products-id_pim1/) etc. Research on Boston Dynamics [Atlas](https://www.bostondynamics.com/atlas) and Anybotic's [ANYmal](https://www.anybotics.com/anymal-autonomous-legged-robot/) has been going great.
+Check out this cute [emo](https://living.ai/product/emo/) robot, [MorpHex](https://youtu.be/yn3FWb-vQQ4) and we can buy robots from [robotshop](https://www.robotshop.com/), [myrobotshop](https://www.mybotshop.de/), [Festo](https://www.festo.com/de/en/c/products-id_pim1/) etc. Research on Boston Dynamics [Atlas](https://www.bostondynamics.com/atlas) and Anybotic's [ANYmal](https://www.anybotics.com/anymal-autonomous-legged-robot/) has been going great.
