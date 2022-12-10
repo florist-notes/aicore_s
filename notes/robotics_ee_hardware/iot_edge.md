@@ -3,7 +3,7 @@ I was designing an IoT command center architecture using [draw.io](https://draw.
 
 <img src="img/edge.png" width=40%><a> </a><img src="img/iot.png" width=53%>
 
-Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
+Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories), [seedstudio](https://www.seeedstudio.com/) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
 <table style="width:100%" >
 <tr>
