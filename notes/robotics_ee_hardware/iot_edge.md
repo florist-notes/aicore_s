@@ -1,5 +1,5 @@
 # IoT and AI on Edge Electronics
-I was designing an IoT command center architecture with Raspberry Pi (right image) and documenting here about existing edge devices I came across:
+I was designing an IoT command center architecture using [draw.io](https://draw.io/) with Raspberry Pi (right image) and documenting here about existing edge devices I came across:
 
 <img src="img/edge.png" width=40%><a> </a><img src="img/iot.png" width=53%>
 
@@ -81,3 +81,5 @@ Machine Learning libraries for edge devices : [TinyML](https://tinyml.mit.edu/),
 <br />
 
 IoT Platforms : [AWS IoT Greengrass](https://aws.amazon.com/greengrass/), [The NVIDIA EGX Enterprise Platform](https://www.nvidia.com/en-us/data-center/products/egx/), [HPE Edgeline EL8000 Converged Edge System](https://buy.hpe.com/us/en/servers/edgeline-systems/edgeline-systems/edgeline-converged-edge-systems/hpe-edgeline-el8000-converged-edge-system/p/1011622898), [Particle](https://www.particle.io/), [openremote](https://openremote.io/), [Google IoT Core](https://cloud.google.com/iot-core), [IBM Watson IoT](https://www.ibm.com/cloud/internet-of-things), [Cisco IoT Cloud Connect](https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html), [IRI Voracity](https://www.iri.com/products/voracity), [Amazon AWS IoT Core](https://aws.amazon.com/iot-core/), [Microsoft Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub/).
+
+More exciting upcomings with [CircuitPython](https://circuitpython.org/) and google's open source hardware pdk :  [google+ skywater pdk](https://github.com/google/skywater-pdk), [pdk](https://gf.com/blog/pdks-powerful-enablers-first-pass-silicon-success/), [foss-180nm-pdk](https://github.com/google/gf180mcu-pdk).
