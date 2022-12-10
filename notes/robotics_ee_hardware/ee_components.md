@@ -12,43 +12,43 @@
 
 <tr>
 <td>Resistor</td>
-<td>xx</td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td><img src="img/electronics/res.png" width=100px></td>
+<td>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Capacitor</td>
-<td>xx</td>
+<td><img src="img/electronics/cap.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Diode</td>
-<td>xx</td>
+<td><img src="img/electronics/diode.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Transistor</td>
-<td>xx</td>
+<td><img src="img/electronics/transistor.jpeg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Potentiometer</td>
-<td>xx</td>
+<td><img src="img/electronics/pot.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Integrated Circuit (IC)</td>
-<td>xx</td>
+<td><img src="img/electronics/ic.jpeg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Relay</td>
-<td>xx</td>
+<td><img src="img/electronics/rel.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
@@ -72,7 +72,7 @@
 
 <tr>
 <td>Breadboard</td>
-<td>xx</td>
+<td><img src="img/electronics/bb.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 </tr>
@@ -88,7 +88,7 @@
 
 <tr>
 <td>LED</td>
-<td>xx</td>
+<td><img src="img/electronics/led.png" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 </tr>
@@ -186,7 +186,7 @@ Tweezers-straight (anti-magnetic)</td>
 <tr>
 <td>Mat</td>
 <td>xx</td>
-<td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
+<td><a href="https://www.amazon.com/Soldering-Silicone-Resistant-Electronics-Workbench/dp/B0727RK3QF?th=1">Soldering Mat Silicone Insulation Work Mat Heat Resistant 932°F</a></td>
 </tr>
 
 </table>
