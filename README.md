@@ -22,6 +22,8 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Electronics components & workbench [NOTES](notes/robotics_ee_hardware/ee_components.md)
 - Robotics Components [NOTES](notes/robotics_ee_hardware/robotic_components.md)
 - IoT & AI on Edge devices [NOTES](notes/robotics_ee_hardware/iot_edge.md)
+- 3D printing & PCB Design [NOTES](notes/robotics_ee_hardware/3dpcb.md)
+- DIY & Advanced Robotics hardware [NOTES](notes/robotics_ee_hardware/diyarh.md)
 
 # #3 AI Accelerators
 - AI accelerators [NOTES](notes/ai_accelerators/ai_accelerators.md)
