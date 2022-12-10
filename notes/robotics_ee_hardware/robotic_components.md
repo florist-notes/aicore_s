@@ -40,13 +40,61 @@ Let's take a look at what we can buy from the market to get started with Robotic
 <th>Piezoelectric Ribbon Sensor (Piezoelectric))<br /> <img src="img/piezzo.gif" height=140px> <a href="https://www.adafruit.com/product/4931">sensor</a></th>
 </tr>
 
+<tr>
+<th>Adafruit I2C Stemma QT Rotary Encoder Breakout with NeoPixel - STEMMA QT / Qwiic (Rotor)<br /> <img src="img/rotor.gif" height=140px> <a href="https://www.adafruit.com/product/4991">sensor</a></th>
+<th>Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout - BNO055 (IMU)<br /> <img src="img/fusion.gif" height=140px> <a href="https://www.adafruit.com/product/2472">sensor</a></th>
+<th>Square Force-Sensitive Resistor (FSR) - Alpha MF02A-N-221-A01 (FSR)<br /> <img src="img/fsr.jpg" height=140px> <a href="https://www.adafruit.com/product/1075">sensor</a></th>
+<th>Magnetic contact switch (door sensor)<br /> <img src="img/door.jpg" height=140px> <a href="https://www.adafruit.com/product/375">sensor</a></th>
+</tr>
+
+<tr>
+<th>PIR (motion) sensor<br /> <img src="img/pir.jpg" height=140px> <a href="https://www.adafruit.com/product/189">sensor</a></th>
+<th>Leap Motion Controller with SDK<br /> <img src="img/leap.gif" height=140px> <a href="https://www.adafruit.com/product/2106">sensor</a></th>
+<th>Adafruit STEMMA Soil Sensor - I2C Capacitive Moisture Sensor - JST PH 2mm<br /> <img src="img/sm.jpg" height=140px> <a href="https://www.adafruit.com/product/4026">sensor</a></th>
+<th>Monk Makes Plant Monitor - Capacitive Moisture Meter - Temperature & Relative Humidity<br /> <img src="img/temphu.jpg" height=140px> <a href="https://www.adafruit.com/product/5587">sensor</a></th>
+</tr>
+
+<tr>
+<th>Adafruit LTR390 UV Light Sensor - STEMMA QT / Qwiic<br /> <img src="img/uv.gif" height=140px> <a href="https://www.adafruit.com/product/4831">sensor</a></th>
+<th>Simple Water Detection Sensor with Digital Output<br /> <img src="img/water.gif" height=140px> <a href="#">sensor</a></th>
+<th>Adafruit MLX90640 24x32 IR Thermal Camera Breakout - 110 Degree FoV<br /> <img src="img/thermal.gif" height=140px> <a href="https://www.adafruit.com/product/4469">sensor</a></th>
+<th>Adafruit ANO Rotary Navigation Encoder Breakout PCB<br /> <img src="img/rotary.gif" height=140px> <a href="https://www.adafruit.com/product/5221">sensor</a></th>
+</tr>
+
+<tr>
+<th>Barcode Reader/Scanner Module - CCD Camera - USB Interface<br /> <img src="img/barcode.jpg" height=140px> <a href="https://www.adafruit.com/product/1203">sensor</a></th>
+<th>Flora Wearable Ultimate GPS Module<br /> <img src="img/flora.jpg" height=140px> <a href="https://www.adafruit.com/product/1059">sensor</a></th>
+<th>Adafruit Ultimate GPS HAT for Raspberry Pi A+/B+/Pi 2/3/Pi 4 - Mini Kit<br /> <img src="img/gps_hat.jpg" height=140px> <a href="https://www.adafruit.com/product/2324">sensor</a></th>
+<th>ADXL375 - High G Accelerometer (+-200g) with I2C and SPI - STEMMA QT / Qwiic<br /> <img src="img/acc.jpg" height=140px> <a href="https://www.adafruit.com/product/5374">sensor</a></th>
+</tr>
+
+<tr>
+<th>M5StickV AI Camera - Kendryte K210 Chipset (no Wi-Fi)<br /> <img src="img/aicam.jpg" height=140px> <a href="https://www.adafruit.com/product/4321">sensor</a></th>
+<th>Pixy2 CMUcam5 Sensor<br /> <img src="img/cmuc.jpg" height=140px> <a href="https://www.adafruit.com/product/1906">sensor</a></th>
+<th>12" eTape Liquid Level Sensor + extras<br /> <img src="img/ll.jpg" height=140px> <a href="https://www.adafruit.com/product/464">sensor</a></th>
+<th>Thermal Receipt Printer Guts<br /> <img src="img/tprint.gif" height=140px> <a href="https://www.adafruit.com/product/2753">sensor</a></th>
+</tr>
+
+<tr>
+<th>Thermal Camera Imager for Fever Screening - UTi165H<br /> <img src="img/th.jpg" height=140px> <a href="https://www.adafruit.com/product/4578">sensor</a></th>
+<th>Garmin LIDAR-Lite Optical Distance Sensor - V3<br /> <img src="img/lidar.jpg" height=140px> <a href="https://www.adafruit.com/product/4058">sensor</a></th>
+<th>Ultraleap 3Di Stereo Hand Tracking Camera<br /> <img src="img/stereo.jpg" height=140px> <a href="https://www.adafruit.com/product/5571">sensor</a></th>
+<th>Adafruit Proximity Trinkey - USB APDS9960 Sensor Dev Board<br /> <img src="img/prox.gif" height=140px> <a href="https://www.adafruit.com/product/5022">sensor</a></th>
+</tr>
+
+<tr>
+<th>Adafruit PyPortal Titano<br /> <img src="img/pyportal.jpg" height=140px> <a href="https://www.adafruit.com/product/4444">sensor</a></th>
+<th>Pimoroni Enviro – Indoor Environmental Monitor for RaspPi - PIM486<br /> <img src="img/env.gif" height=140px> <a href="https://www.adafruit.com/product/4455">sensor</a></th>
+<th>Ultrasonic Distance Sensor - 3V or 5V - HC-SR04 compatible - RCWL-1601<br /> <img src="img/sr04.jpg" height=140px> <a href="https://www.adafruit.com/product/4007">sensor</a></th>
+<th>Adafruit MS8607 Pressure Humidity Temperature PHT Sensor - STEMMA QT / Qwiic<br /> <img src="img/pht.jpg" height=140px> <a href="https://www.adafruit.com/product/4716">sensor</a></th>
+</tr>
 </table>
 <br />
 
+also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) for myriads of other cool sensors, amplifiers and breakout boards.
 
 ### Robotic kits with API
 
 
-<br />
 
 We can also build DIY Robotic projects:
