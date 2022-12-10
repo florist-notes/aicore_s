@@ -47,3 +47,15 @@ Arduino boards :
 </tr>
 </table>
 <br />
+
+[NVIDIA’s TensorRT SDK](https://developer.nvidia.com/tensorrt) provides a deep learning optimizer and runtime that helps you to create more efficient versions of trained models that deliver lower latency and higher throughput. Tensor-RT-based applications can perform up to 40 times faster than their CPU-based counterparts during inference.
+
+[NVIDIA DeepStream SDK](https://developer.nvidia.com/deepstream-sdk) : Stream density defines the number of camera feeds or data streams from sensors that can be processed simultaneously.
+
+## Google Edge TPU : [Coral](https://cloud.google.com/edge-tpu#:~:text=Edge%20TPU%20is%20Google's%20purpose,accuracy%20AI%20at%20the%20edge.) - [coral.ai](https://coral.ai/products/)
+
+<img src="img/coralfamily.jpg" width=100%>
+
+## Intel® Movidius™ Myriad™ X Vision Processing Unit : [Myriad X](https://www.intel.de/content/www/de/de/products/details/processors/movidius-vpu/movidius-myriad-x.html) and Intel® Neural Compute Stick 2 ([Intel® NCS2](https://www.intel.com/content/www/us/en/developer/articles/tool/neural-compute-stick.html))
+
+<img src="img/movidius.png" width=48%><a> </a><img src="img/ncs2.png" width=48%>
