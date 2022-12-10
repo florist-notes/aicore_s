@@ -1,7 +1,7 @@
 # Electronic Components & Workbench
 
 
-### Electronics Components
+### Electronic Components
 
 <table style="width:100%" >
 <tr>
@@ -74,7 +74,6 @@
 <td>Breadboard & Perfboard</td>
 <td><img src="img/electronics/bb.jpg" width=100px></td>
 <td>A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits.<br />
- books · scholar · JSTOR (December 2009) (Learn how and when to remove this template message)
 
 Perfboard is a material for prototyping electronic circuits (also called DOT PCB). It is a thin, rigid sheet with holes pre-drilled at standard intervals across a grid, usually a square grid of 0.1 inches (2.54 mm) spacing.
 </td>
@@ -101,7 +100,7 @@ Perfboard is a material for prototyping electronic circuits (also called DOT PCB
 </table>
 <br />
 
-Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145), [Data Loggers](https://www.sparkfun.com/categories/589), [Magnets](https://www.sparkfun.com/categories/322), [Real Time Clock (RTC)](https://www.sparkfun.com/categories/358) and [Electronics kit](https://www.amazon.de/-/en/Electronic-Components-Electrical-Technology-Breadboard/dp/B08TLTHWD7/).
+Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145), [Data Loggers](https://www.sparkfun.com/categories/589), [Magnets](https://www.sparkfun.com/categories/322), [Real Time Clock (RTC)](https://www.sparkfun.com/categories/358), [Sparkfun kit](https://learn.sparkfun.com/tutorials/beginner-parts-kit-identification-guide/all) and [Electronics kit](https://www.amazon.de/-/en/Electronic-Components-Electrical-Technology-Breadboard/dp/B08TLTHWD7/).
 
 ### Workbench
 
@@ -196,7 +195,7 @@ Tweezers-straight (anti-magnetic)</td>
 </table>
 <br />
 
-references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/)
+references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/), instructables - [workbench guide](https://www.instructables.com/Electronics-Workbench-Equipment-List/)
 
 #### Bonus! Hacking Gadgets
 
