@@ -13,7 +13,7 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 <th>Jetson Xavier NX 16GB <br /> <img src="img/xavier_nx.jpg" height=100px> <a href="https://www.arrow.com/en/products/900-83668-0030-000/nvidia">board</a></th>
 <th>Jetson TX2 NX <br /> <img src="img/tx2_nx.jpg" height=100px> <a href="https://www.arrow.com/en/products/900-13636-0010-000/nvidia">board</a></th>
 <th>Jetson TX2i <br /> <img src="img/tx2i.png" height=100px> <a href="https://www.arrow.com/en/products/900-83489-0000-000/nvidia">board</a></th>
-<th>Jetson Nano Developer Kit <br /> <img src="img/nano.jpg" height=100px> <a href="https://www.arrow.com/en/products/945-13450-0000-100/nvidia">board</a></th>
+<th>Jetson Nano Developer Kit <br /> <img src="img/nano.png" height=100px> <a href="https://www.arrow.com/en/products/945-13450-0000-100/nvidia">board</a></th>
 </tr>
 <tr>
 <th>Raspberry Pi 4 Model B <br /> <img src="img/rasp.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">board</a></th>
@@ -23,10 +23,24 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 </tr>
 
 <tr>
-<th>SparkFun LoRa Thing Plus <br /> <img src="img/lora.jpg" height=140px> <a href="https://www.sparkfun.com/products/17506">board</a></th>
-<th>SparkFun IoT RedBoard Kit - ESP32<br /> <img src="img/esp32.jpg" height=140px> <a href="https://www.sparkfun.com/products/20672">board</a></th>
-<th>SparkFun Pro RF - LoRa, 915MHz (SAMD21)<br /> <img src="img/lora2.jpg" height=140px> <a href="https://www.sparkfun.com/products/15836">board</a></th>
+<th>SparkFun LoRa Thing Plus <br /> <img src="img/lora.png" height=140px> <a href="https://www.sparkfun.com/products/17506">board</a></th>
+<th>SparkFun IoT RedBoard Kit - ESP32<br /> <img src="img/esp32.png" height=140px> <a href="https://www.sparkfun.com/products/20672">board</a></th>
+<th>SparkFun Pro RF - LoRa, 915MHz (SAMD21)<br /> <img src="img/lora2.png" height=140px> <a href="https://www.sparkfun.com/products/15836">board</a></th>
 <th>BeagleBone Black - Rev C <br /> <img src="img/bb.png" height=140px> <a href="https://www.sparkfun.com/products/12857">board</a></th>
+</tr>
+
+</table>
+
+Arduino boards : 
+
+<table style="width:100%" >
+<tr>
+<th>Arduino Uno - R3 <br /> <img src="img/uno.jpg" height=140px> <a href="https://www.sparkfun.com/products/11021">board</a></th>
+<th>Arduino Nano 33 BLE <br /> <img src="img/rnano.jpg" height=140px> <a href="https://www.sparkfun.com/products/15588">board</a></th>
+<th>Arduino Pro Mini 328 - 5V/16MHz<br /> <img src="img/pro_mini.jpg" height=140px> <a href="https://www.sparkfun.com/products/11113">board</a></th>
+<th>Arduino Mega 2560 R3<br /> <img src="img/mega.jpg" height=140px> <a href="https://www.sparkfun.com/products/11061">board</a></th>
+<th>Arduino Due<br /> <img src="img/due.jpg" height=140px> <a href="https://www.sparkfun.com/products/11589">board</a></th>
+<th>Arduino Fio<br /> <img src="img/fio.jpg" height=140px> <a href="https://www.sparkfun.com/products/10116">board</a></th>
 </tr>
 </table>
 <br />
