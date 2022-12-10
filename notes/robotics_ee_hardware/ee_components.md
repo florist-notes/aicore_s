@@ -60,7 +60,7 @@
 
 <tr>
 <td>Piezoelectric devices, crystals, resonators</td>
-<td><img src="img/electronics/ti.jpg" width=100px></td>
+<td><img src="img/electronics/ti.png" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
