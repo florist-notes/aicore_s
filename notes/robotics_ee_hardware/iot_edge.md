@@ -1,6 +1,6 @@
 # IoT and AI on Edge Electronics
 
-Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories)
+Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
 <table style="width:100%" >
 <tr>
