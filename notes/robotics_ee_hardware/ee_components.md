@@ -54,19 +54,19 @@
 
 <tr>
 <td>Inductor</td>
-<td>xx</td>
+<td><img src="img/electronics/ind.jpeg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Piezoelectric devices, crystals, resonators</td>
-<td>xx</td>
+<td><img src="img/electronics/ti.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
 <tr>
 <td>Wires</td>
-<td>xx</td>
+<td><img src="img/electronics/jw.png" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 
@@ -80,7 +80,7 @@
 
 <tr>
 <td>Power Supply</td>
-<td>xx</td>
+<td><img src="img/electronics/ps.jpg" width=100px></td>
 <td>xxxxxxxxxxxxxxxxxxxxxxxx</td>
 </tr>
 </tr>
