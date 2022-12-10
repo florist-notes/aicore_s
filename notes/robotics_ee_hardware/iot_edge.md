@@ -1,4 +1,4 @@
-# IoT and Edge Electronics
+# IoT and AI on Edge Electronics
 
 Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories)
 
@@ -20,6 +20,13 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 <th>Raspberry Pi Zero 2 W <br /> <img src="img/zero2w.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/">board</a></th>
 <th>Raspberry Pi Pico <br /> <img src="img/pico.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">board</a></th>
 <th>RP 2040 <br /> <img src="img/rp2040.png" height=140px> <a href="https://www.raspberrypi.com/products/rp2040/">board</a></th>
+</tr>
+
+<tr>
+<th>SparkFun LoRa Thing Plus <br /> <img src="img/lora.jpg" height=140px> <a href="https://www.sparkfun.com/products/17506">board</a></th>
+<th>SparkFun IoT RedBoard Kit - ESP32<br /> <img src="img/esp32.jpg" height=140px> <a href="https://www.sparkfun.com/products/20672">board</a></th>
+<th>SparkFun Pro RF - LoRa, 915MHz (SAMD21)<br /> <img src="img/lora2.jpg" height=140px> <a href="https://www.sparkfun.com/products/15836">board</a></th>
+<th>BeagleBone Black - Rev C <br /> <img src="img/bb.png" height=140px> <a href="https://www.sparkfun.com/products/12857">board</a></th>
 </tr>
 </table>
 <br />
