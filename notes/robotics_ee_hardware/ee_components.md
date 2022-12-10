@@ -195,7 +195,8 @@ Tweezers-straight (anti-magnetic)</td>
 
 </table>
 <br />
-<br />
+
+references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/)
 
 #### Bonus! Hacking Gadgets
 
