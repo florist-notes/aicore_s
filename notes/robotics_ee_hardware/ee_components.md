@@ -211,7 +211,7 @@ Tweezers-straight (anti-magnetic)</td>
 references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/), instructables - [workbench guide](https://www.instructables.com/Electronics-Workbench-Equipment-List/), [adafruit](https://www.adafruit.com/categories) - [tools](https://www.adafruit.com/category/8).
 
 
-### LED Accesories :
+### LED Accessories :
 
 <table style="width:100%" >
 <tr>
