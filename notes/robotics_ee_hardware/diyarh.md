@@ -28,7 +28,7 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 #### [BlueROV2](https://bluerobotics.com/store/rov/bluerov2/) | [Naticus Robotics](https://nauticusrobotics.com/) : [Aquanaut](https://nauticusrobotics.com/aquanaut/) and [Hydronaut](https://nauticusrobotics.com/hydronaut/)
 
-<img src="img/blue.jpg" width=49.5%><a> </a><img src="img/blue2.jpg" width=49.5%><a> </a><img src="img/aqua.gif" width=49.5%><a> </a><img src="img/hydro.gif" width=49.5%>
+<img src="img/blue.jpg" width=15.5%><a> </a><img src="img/blue2.jpg" width=15.5%><a> </a><img src="img/aqua.gif" width=32.5%><a> </a><img src="img/hydro.gif" width=32.5%>
 
 
 ### Robotic Arms, Grippers and Advanced Robotic Manipulator
