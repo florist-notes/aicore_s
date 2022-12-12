@@ -22,7 +22,7 @@ Watch [3D printing basics](https://www.youtube.com/watch?v=nb-Bzf4nQdE&list=PLDJ
 </tr>
 </table>
 
-buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/)
+buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/) and design with [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/).
 
 
 

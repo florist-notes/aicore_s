@@ -64,6 +64,15 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 <th>Leo Rover Mobile Robot (without arm)<br /> <img src="img/ros.jpg" height=140px><a href="https://www.generationrobots.com/en/403285-turtle-rover-mobile-robot.html">buy</a></th>
 </tr>
 
+<tr>
+<th>Kilobot robot (swarm robot)<br /> <img src="img/kilo.jpg" height=140px><a href="https://www.generationrobots.com/en/401427-kilobot-robot-pack-of-10-k-team.html">buy</a></th>
+<th>e-puck2 (swarm robot)<br /> <img src="img/e-puck2.jpg" height=140px>
+ <a href="https://www.generationrobots.com/en/403090-e-puck2.html">buy</a></th>
+<th>Programmable Humanoid Robot NAO V6<br /> <img src="img/nao.jpg" height=140px> <a href="https://www.generationrobots.com/en/403100-programmable-humanoid-robot-nao-v6.html">buy</a></th>
+<th>7-axis Franka Research 3 Robotic Arm + FCI licence<br /> <img src="img/7axis.jpg" height=140px><a href="https://www.generationrobots.com/en/403992-7-axis-franka-research-3-robotic-arm-fci-licence.html">buy</a></th>
+<th>Doosan M1013 Robotic Arm<br /> <img src="img/doo.png" height=140px><a href="https://www.generationrobots.com/en/403413-doosan-m1013-robotic-arm.html">buy</a></th>
+</tr>
+
 
 
 </table>
