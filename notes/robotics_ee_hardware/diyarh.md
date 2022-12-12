@@ -26,23 +26,16 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 ### Underwater / Marine Robotics 
 
-#### [BlueROV2](https://bluerobotics.com/store/rov/bluerov2/)
+#### [BlueROV2](https://bluerobotics.com/store/rov/bluerov2/) | [Naticus Robotics](https://nauticusrobotics.com/) : [Aquanaut](https://nauticusrobotics.com/aquanaut/) and [Hydronaut](https://nauticusrobotics.com/hydronaut/)
 
-<img src="img/blue.jpg" width=49.5%><a> </a><img src="img/blue2.jpg" width=49.5%>
-
-#### [Naticus Robotics](https://nauticusrobotics.com/) : [Aquanaut](https://nauticusrobotics.com/aquanaut/) and [Hydronaut](https://nauticusrobotics.com/hydronaut/)
-
-<img src="img/aqua.gif" width=49.5%><a> </a><img src="img/hydro.gif" width=49.5%>
-
-#### ADVANCED ROBOTIC MANIPULATORS : [reachrobotics](https://reachrobotics.com/); Kraken Robotics - [KATFISH](https://krakenrobotics.com/products/towed-vehicles/)
-
-<img src="img/reachalpha.png" width=52%><a> </a><img src="img/cat.png" width=47.5%>
-
-### Robotic Arms and Grippers : [TM Robot](https://www.tm-robot.com/en/#), [mycobot](https://shop.elephantrobotics.com/en-de/collections/mycobot), [robotshop](https://www.robotshop.com/collections/robotic-arms), [mybotshop](https://www.mybotshop.de/Robot-arms)
+<img src="img/blue.jpg" width=49.5%><a> </a><img src="img/blue2.jpg" width=49.5%><a> </a><img src="img/aqua.gif" width=49.5%><a> </a><img src="img/hydro.gif" width=49.5%>
 
 
-<img src="img/ar.avif" width=100%>
+### Robotic Arms and Grippers : [TM Robot](https://www.tm-robot.com/en/#), [mycobot](https://shop.elephantrobotics.com/en-de/collections/mycobot), [robotshop](https://www.robotshop.com/collections/robotic-arms), [mybotshop](https://www.mybotshop.de/Robot-arms) | ADVANCED ROBOTIC MANIPULATORS : [reachrobotics](https://reachrobotics.com/)
+
+
+<img src="img/ar.avif" width=43%><a> </a><img src="img/reachalpha.png" width=55%>
 
 # Cutting Edge Robotics :
 
-[ [Ameca facial motion capture](https://youtu.be/3OHILYjsW7c), [Boston Dynamics](https://youtu.be/fn3KWM1kuAw), [Robo Threads](https://youtu.be/INSyV4dgqu8), [Festo - Bionic Robotics](https://youtu.be/_qRGIRvr06w), [Deep Sea Soft Robotics](https://youtu.be/shr6sJy_29E), [OceanOneK](https://youtu.be/h2CLLBUpPZg), [Snake Robots](https://youtu.be/FWr-MvOOOYU), [Soft Robotic Fish](https://youtu.be/JPabeUxSfAw), [Xenobot 2.0](https://youtu.be/JPFRUZGqUFA), [MIT slime robot](https://youtu.be/VmV3m0QqNOY), [Search for Life: NASA JPL Explores Martian-Like Caves](https://youtu.be/qTW-dbZr4U8), [Drone reaches TRANSONIC prop tip SPEED](https://youtu.be/LbYEzEWvjr8) ]
+[ [Ameca facial motion capture](https://youtu.be/3OHILYjsW7c), [Boston Dynamics](https://youtu.be/fn3KWM1kuAw), [Robo Threads](https://youtu.be/INSyV4dgqu8), [Festo - Bionic Robotics](https://youtu.be/_qRGIRvr06w), [Deep Sea Soft Robotics](https://youtu.be/shr6sJy_29E), [OceanOneK](https://youtu.be/h2CLLBUpPZg), [Snake Robots](https://youtu.be/FWr-MvOOOYU), [Soft Robotic Fish](https://youtu.be/JPabeUxSfAw), [Xenobot 2.0](https://youtu.be/JPFRUZGqUFA), [MIT slime robot](https://youtu.be/VmV3m0QqNOY), [Search for Life: NASA JPL Explores Martian-Like Caves](https://youtu.be/qTW-dbZr4U8), [Drone reaches TRANSONIC prop tip SPEED](https://youtu.be/LbYEzEWvjr8), [ANYbotics](https://www.youtube.com/@ANYbotics) ]
