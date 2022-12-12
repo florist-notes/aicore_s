@@ -31,14 +31,14 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Mobile AI workstations/ laptops [NOTES](notes/ai_accelerators/mobile_workstation.md) 
 
 # #4 Benchmarking System Performance
-- 3D Mark Benchmark [report]() - (no 3d mark linux suite)
-- Phoronix test suite [report]() - post christmas '22 🎄
+- 3D Mark Benchmark [report]() 
+- Phoronix test suite [report]()
 - Paessler Network benchmark [report]()
 - LAMMPS benckmark [report](https://lammps.org/bench.html) ( classical molecular dynamics )
 - VASP benchmark [report](https://www.hpc.cineca.it/content/vasp-benchmark) ( atomic scale molecular modelling )
 - V-Ray 5 benchmark [report](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
 
 # #5 Benchmarking Standard DL tasks
-- Stanford DAWN Deep Learning Benchmark [report]() - post christmas '22 🎄
-- MLPerf training benchmarks [report]() - post christmas '22 🎄
-- AI-Benchmark Alpha / Burnout [report]() - post christmas '22 🎄
+- Stanford DAWN Deep Learning Benchmark [report]() 
+- MLPerf training benchmarks [report]()
+- AI-Benchmark Alpha / Burnout [report]() 
