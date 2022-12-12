@@ -34,7 +34,7 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 ### Robotic Arms and Grippers : [TM Robot](https://www.tm-robot.com/en/#), [mycobot](https://shop.elephantrobotics.com/en-de/collections/mycobot), [robotshop](https://www.robotshop.com/collections/robotic-arms), [mybotshop](https://www.mybotshop.de/Robot-arms) | ADVANCED ROBOTIC MANIPULATORS : [reachrobotics](https://reachrobotics.com/)
 
 
-<img src="img/ar.avif" width=43%><a> </a><img src="img/reachalpha.png" width=55%>
+<img src="img/ro.webp" width=49%><a> </a><img src="img/reachalpha.png" width=50%>
 
 # Cutting Edge Robotics :
 
