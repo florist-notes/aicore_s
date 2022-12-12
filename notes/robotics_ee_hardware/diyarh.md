@@ -43,3 +43,6 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 <img src="img/ar.avif" width=100%>
 
+# Cutting Edge Robotics :
+
+[ [Ameca facial motion capture](https://youtu.be/3OHILYjsW7c), [Boston Dynamics](https://youtu.be/fn3KWM1kuAw), [Robo Threads](https://youtu.be/INSyV4dgqu8), [Festo - Bionic Robotics](https://youtu.be/_qRGIRvr06w), [Deep Sea Soft Robotics](https://youtu.be/shr6sJy_29E), [OceanOneK](https://youtu.be/h2CLLBUpPZg), [Snake Robots](https://youtu.be/FWr-MvOOOYU), [Soft Robotic Fish](https://youtu.be/JPabeUxSfAw), [Xenobot 2.0](https://youtu.be/JPFRUZGqUFA), [MIT slime robot](https://youtu.be/VmV3m0QqNOY), [Search for Life: NASA JPL Explores Martian-Like Caves](https://youtu.be/qTW-dbZr4U8) ]
