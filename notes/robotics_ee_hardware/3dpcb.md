@@ -27,7 +27,7 @@ buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [P
 
 ### PCB Design
 
-Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for notes and tips on PCB design.
+Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for notes and tips on PCB design and also check [PCB design](https://www.youtube.com/watch?v=MdcnkaAoDTE&list=PLiYbY8lzAN-2xni5V_Rtp0IKyNugQuVO8).
 
 <img src="img/pcb1.jpg" width=36.5%><a> </a><img src="img/pcb2.jpg" width=61.5%>
 
