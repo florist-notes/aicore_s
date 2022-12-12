@@ -16,17 +16,22 @@ Accelerate AI computations with : CPU = scalar, GPU = vector, IPU = graph >>>
 <a href="https://www.golem.de/news/machine-learning-googles-mini-tpu-kosten-mit-board-150-us-dollar-1903-139824.html">Edge TPU</a> (mini-TPU) for edge devices. This is the <a href="https://coral.ai/products/dev-board/">dev board</a> and <a href="https://shop.heise.de/google-coral-usb-accelerator">USB accelerator</a> for mini TPU. The TPU is 15 to 30 times faster than current GPUs. TPUs have high latency and are specifically built to target matrix multiplication (deep learning).
 
 reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu">An in-depth look at Google’s first Tensor Processing Unit (TPU)</a>.
+
+<img src="img/tpu.webp" width=100%>
 </td>
 </tr>
 <tr>
 <td>Intelligence Processing Unit (IPU)</td>
 <td><a href="https://www.graphcore.ai/">Graphcore's</a> IPU has 1216 independent <a href="https://www.graphcore.ai/products/ipu">processors</a>. GraphCore: In-House Software Stack called “Poplar” + Multi-threaded Dataflow Execution. <br />
 
-<img src="img/ipu.png" width="70%">
+<img src="img/ipu.png" width="100%">
 
 IPUs have a structure which provides efficient massive compute parallelism hand in hand with huge memory bandwidth. Graph based processing will change the way data are processed. Poplar enables lowering Pytorch, Tensorflow, or ONNX-based models to an imperative, C++ compatible code, in favor of what the company termed as: “vertex programming”.
 
 Reference: Graphcore - <a href="https://youtu.be/N0syxQlkpAg">What's Inside an IPU Chip?</a>
+
+<img src="img/ipu.webp" width=100%>
+
 </td>
 </tr>
 <tr>
@@ -38,8 +43,9 @@ A DPU is a new class of programmable processor that combines three key elements.
 2. A high-performance network interface capable of parsing, processing and efficiently transferring data at line rate, or the speed of the rest of the network, to GPUs and CPUs.<br />
 3. A rich set of flexible and programmable acceleration engines that offload and improve applications performance for AI and machine learning, zero-trust security, telecommunications and storage, among others.
 
-Example : [NVIDIA DPU](https://blogs.nvidia.com/blog/2020/05/20/whats-a-dpu-data-processing-unit/)
+Example : [NVIDIA DPU](https://blogs.nvidia.com/blog/2020/05/20/whats-a-dpu-data-processing-unit/), [Blue Field](https://www.nvidia.com/en-us/networking/products/data-processing-unit/)
 <br />
+<img src="img/dpu.webp" width=100%>
 </td>
 </tr>
 <tr>
@@ -54,7 +60,10 @@ Example : [Intel® Movidius™ Vision Processing Units (VPUs)](https://www.intel
 <td>Quantum Processing Unit (QPU)</td>
 <td>
 
-A quantum processing unit (QPU), also referred to as a quantum chip, is a physical (fabricated) chip that contains a number of interconnected qubits. It is the foundational component of a full quantum computer, which includes the housing environment for the QPU, the control electronics, and many other components. A QPU, aka a quantum processor, is the brain of a quantum computer that uses the behavior of particles like electrons or photons to make certain kinds of calculations much faster than processors in today’s computers. By contrast, CPUs, GPUs and DPUs all apply principles of classical physics to electrical currents. That’s why today’s systems are called classical computers. Here is a [list](https://en.wikipedia.org/wiki/List_of_quantum_processors) of quantum processors.</td>
+A quantum processing unit (QPU), also referred to as a quantum chip, is a physical (fabricated) chip that contains a number of interconnected qubits. It is the foundational component of a full quantum computer, which includes the housing environment for the QPU, the control electronics, and many other components. A QPU, aka a quantum processor, is the brain of a quantum computer that uses the behavior of particles like electrons or photons to make certain kinds of calculations much faster than processors in today’s computers. By contrast, CPUs, GPUs and DPUs all apply principles of classical physics to electrical currents. That’s why today’s systems are called classical computers. Here is a [list](https://en.wikipedia.org/wiki/List_of_quantum_processors) of quantum processors.
+
+<img src="img/syc.jpg" width=49.5%><a> </a><img src="img/syc2.jpg" width=49.5%>
+</td>
 </tr>
 <tr>
 <td>Field-programmable gate array (FPGA)</td>
