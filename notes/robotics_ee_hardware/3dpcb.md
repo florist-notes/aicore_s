@@ -22,15 +22,11 @@ Watch [3D printing basics](https://www.youtube.com/watch?v=nb-Bzf4nQdE&list=PLDJ
 </tr>
 </table>
 
-buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/) and design with [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/) | 3D model - [makebot thingverse](https://www.thingiverse.com/), [youmagine](https://www.youmagine.com/), [printables](https://www.printables.com/), [Cults3D](https://cults3d.com/en).
-
-
-
-
-
-
-
-
+buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/) and design with [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/) | 3D model - [makebot thingverse](https://www.thingiverse.com/), [youmagine](https://www.youmagine.com/), [printables](https://www.printables.com/), [Cults3D](https://cults3d.com/en); Tools - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription), [meshroom](https://alicevision.org/#meshroom).
 
 
 ### PCB Design
+
+Steps : [From Idea to Schematic to PCB](https://youtu.be/35YuILUlfGs);
+Schematic Design : [Easy EDA](https://easyeda.com/), [KiCAD EDA](https://www.kicad.org/), [Altium Designer](https://www.altium.com/altium-designer);
+Order PCB : [jlpcb](https://jlcpcb.com/), [pcbway](https://www.pcbway.com/) 
