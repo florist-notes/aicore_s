@@ -17,7 +17,7 @@ Accelerate AI computations with : CPU = scalar, GPU = vector, IPU = graph >>>
 
 reference: <a href="https://cloud.google.com/blog/products/ai-machine-learning/an-in-depth-look-at-googles-first-tensor-processing-unit-tpu">An in-depth look at Google’s first Tensor Processing Unit (TPU)</a>.
 
-<img src="img/tpu.webp" width=100%>
+<img src="img/tpu.png" width=100%>
 </td>
 </tr>
 <tr>
