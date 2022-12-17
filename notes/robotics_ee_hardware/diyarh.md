@@ -24,6 +24,11 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 ## Advaned Robotics hardware :
 
+### BRUCE (Bipedal Robot Unit with Compliance Enhanced)
+<img src="img/bruce.jpg" width=100%>
+
+[BRUCE](https://www.westwoodrobotics.io/bruce/) (Bipedal Robot Unit with Compliance Enhanced) is a kid-size humanoid robot open-platform for robotics research and education, originally developed at RoMeLa in joint effort with Westwood Robotics.
+
 ### Underwater / Marine Robotics 
 
 #### [BlueROV2](https://bluerobotics.com/store/rov/bluerov2/) | [Naticus Robotics](https://nauticusrobotics.com/) : [Aquanaut](https://nauticusrobotics.com/aquanaut/) and [Hydronaut](https://nauticusrobotics.com/hydronaut/)
@@ -76,3 +81,5 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 
 </table>
+
+articles - [Design and driving model for the quadruped robot: An elucidating draft](https://journals.sagepub.com/doi/10.1177/16878140211009035)
