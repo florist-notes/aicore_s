@@ -108,9 +108,11 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 </table>
 <br />
 
-This year I learned a bit about drone repair as well : Mavic Mini Pro 3 and had amazing experience with VLYR.
+I did some CV Tello experiments - [[1](https://youtu.be/OfUKBFW7zAc)] and [[2](https://youtu.be/GytbWIVu4dU)]. This year I learned a bit about drone repair as well : Mavic Mini Pro 3 and some AR/ Digital Twin experiments.
 
-<img src="img/repair.jpg" width=53%><a> </a><img src="img/vlyr.jpeg" width=46%>
+<img src="img/repair.jpg" width=36%><a> </a><img src="img/vlyr.jpeg" width=31%><a> </a><img src="img/pro3.jpg" width=31%><br />
+
+<img src="img/digicave.jpg" width=42%>><a> </a><img src="img/digicave.gif" width=56%><br />
 
 ### Robotic kits with API
 

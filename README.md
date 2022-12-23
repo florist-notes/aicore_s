@@ -42,3 +42,8 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Stanford DAWN Deep Learning Benchmark [report]() 
 - MLPerf training benchmarks [report]()
 - AI-Benchmark Alpha / Burnout [report]() 
+
+`@lab :
+`
+
+<img src="img/lab.jpg" width=100%>
