@@ -43,7 +43,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - MLPerf training benchmarks [report]()
 - AI-Benchmark Alpha / Burnout [report]() 
 
-`@lab :
+`@lab : 
 `
-
+ [lab_video_draft_22"](https://youtu.be/GytbWIVu4dU)
 <img src="img/lab.jpg" width=100%>
