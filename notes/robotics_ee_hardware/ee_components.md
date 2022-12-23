@@ -1,6 +1,6 @@
 # Electronic Components & Workbench
 
-<img src="img/electronics/wb.png" width=100%>
+<img src="img/electronics/wb2.png" width=100%>
 
 ### Electronic Components
 
