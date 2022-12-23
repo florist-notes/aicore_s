@@ -108,6 +108,10 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 </table>
 <br />
 
+This year I learned a bit about drone repair as well : Mavic Mini Pro 3 and had amazing experience with VLYR.
+
+<img src="img/repair.jpg" width=53%><a> </a><img src="img/vlyr.jpeg" width=46%>
+
 ### Robotic kits with API
 
 
