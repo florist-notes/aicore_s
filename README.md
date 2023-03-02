@@ -39,9 +39,9 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - V-Ray 5 benchmark [report](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
 
 # #5 Benchmarking Standard DL tasks
-- Stanford DAWN Deep Learning Benchmark [report]() 
-- MLPerf training benchmarks [report]()
-- AI-Benchmark Alpha / Burnout [report]() 
+- Stanford DAWN Deep Learning Benchmark [x report] - retired benchmark and upgraded to mlperf
+- MLPerf training benchmarks [report](./notes/report/ai/mlperf.MD)
+- AI-Benchmark Alpha / Burnout [report](./notes/report/ai/alphaburnout.MD) 
 
 `@lab : 
 `
