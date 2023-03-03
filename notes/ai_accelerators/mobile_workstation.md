@@ -42,3 +42,7 @@ NVIDIA GeForce® RTX™ 3050 4GB GDDR6;  1TB SSD M.2 2280 PCIe Gen4/4, fingerpri
 <td>Its amazing power is fueled by a 12th-generation Intel Alderlake i9-12900H processor that conveys remarkable performance.</td>
 </tr>
 </table>
+
+There also exists good mini PC : [Ace Magician](https://acemagicians.com/)
+
+<img src="../img/ace.jpg" width=49%>
