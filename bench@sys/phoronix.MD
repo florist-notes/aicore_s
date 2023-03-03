@@ -100,6 +100,7 @@ System Information
 
 $ phoronix-test-suite benchmark stress-ng
 $ phoronix-test-suite benchmark pgbench ( PostgreSQL read, and read-write tests using the pgbenchsuite. )
+$ phoronix-test-suite benchmark nvidia-gpu-compute 
 
 ```
 
@@ -118,7 +119,7 @@ openbenchmark uploads : `$ phoronix-test-suite openbenchmarking-uploads` and `ph
 ` $ scp user@ip:/home/amartya/ffmpeg55.json .
 `
 
-I am attaching results of 3 tests here : /test_results : system_test/[tensorflow]() & [stress_ng](), processor_test/[ffmpeg](./ffmpeg55.json).
+I am attaching results of 3 tests here : /test_results : system_test/[tensorflow](./ss.png) & [nvidia_gpu_compute](), processor_test/[ffmpeg](./ffmpeg55.json).
 
 <img src="./phoronix.png" width=100%>
 
