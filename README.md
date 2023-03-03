@@ -31,7 +31,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Mobile AI workstations/ laptops [NOTES](notes/ai_accelerators/mobile_workstation.md) 
 
 # #4 Benchmarking System Performance
-- 3D Mark Benchmark [report]() 
+- 3D Mark Benchmark [x report] as no test suite for linux but windows
 - Phoronix test suite [report]()
 - Paessler Network benchmark [report]()
 - LAMMPS benckmark [report](https://lammps.org/bench.html) ( classical molecular dynamics )
