@@ -9,8 +9,8 @@ The [Phoronix Test Suite](https://github.com/phoronix-test-suite/phoronix-test-s
 In Red Hat based systems:
 ```
     $ yum install wget php-cli php-xml bzip2
-    $ wget https://phoronix-test-suite.com/releases/phoronix-test-suite-8.4.1.tar.gz
-    $ tar xvfz phoronix-test-suite-8.4.1.tar.gz
+    $ wget https://phoronix-test-suite.com/releases/phoronix-test-suite-10.8.4.tar.gz
+    $ tar xvfz phoronix-test-suite-10.8.4.tar.gz
     $ cd phoronix-test-suite
     $ sudo ./install-sh
 
@@ -23,6 +23,82 @@ In Red Hat based systems:
     $ phoronix-test-suite list-recommended-tests
 
 
+```
+
+<table style="width:100%" >
+<tr>
+<th>Command</th>
+<th>Description of Command</th>
+</tr>
+<tr>
+<td>yum install phoronix-test-suite</td>
+<td>This command will install phoronix-test-suite on the server.</td>
+</tr>
+<tr>
+<td>yum remove phoronix-test-suite</td>
+<td>This command will un-install phoronix-test-suite on the server. When you run this command, you will be asked if you are sure that you want to remove phoronix-test-suite, so you have to manually confirm that you want to do this.</td>
+</tr>
+<tr>
+<td>yum -y remove phoronix-test-suite</td>
+<td>This command will un-install phoronix-test-suite on the server. When you run this command with th e -y flag, you will not be prompted to check that you are sure you want to remove the package - so be sure you absolutely want to remove phoronix-test-suite when using the -y flag.</td>
+</tr>
+<tr>
+<td>yum update phoronix-test-suite</td>
+<td>This command will update phoronix-test-suite to the latest version. When you run this command, you will be asked if you are sure that you want to remove phoronix-test-suite, so you have to manually confirm that you want to do this.</td>
+</tr>
+<tr>
+<td>yum -y update phoronix-test-suite</td>
+<td>This command will update phoronix-test-suite to the latest version. When you run this command with the -y flag, you will not be prompted to check that you are sure you want to remove the package - so be sure you absolutely want to remove phoronix-test-suite when using the -y flag.</td>
+</tr>
+<tr>
+<td>yum info phoronix-test-suite</td>
+<td>This command will show you core information about the phoronix-test-suite package.</td>
+</tr>
+<tr>
+<td>yum deplist phoronix-test-suite</td>
+<td>This command will show you the dependencies for phoronix-test-suite. Thankfully, when using Yum, if dependencies are required, these are also installed at the same time so you don't have to worry too much about that.</td>
+</tr>
+<tr>
+<td>yum check-update phoronix-test-suite</td>
+<td>This command will check if there is an update waiting on phoronix-test-suite. When you run this command this will return nothing if there is nothing to update, or, will return the package name if the package is due to be updated.</td>
+</tr>
+</table>
+
+```
+$ phoronix-test-suite benchmark sysbench
+
+RESULTS:
+
+System Information
+
+
+  PROCESSOR:              AMD Ryzen Threadripper PRO 5995WX 64-Cores @ 2.70GHz
+    Core Count:           64                                        
+    Thread Count:         128                                       
+    Extensions:           SSE 4.2 + AVX2 + AVX + RDRAND + FSGSBASE  
+    Cache Size:           256 MB                                    
+    Microcode:            0xa008204                                 
+    Core Family:          Family 25 Model 8                         
+    Scaling Driver:       acpi-cpufreq performance (Boost: Enabled) 
+
+  GRAPHICS:               NVIDIA GA102GL [RTX A5500] 24GB
+    BAR1 / Visible vRAM:  256 MiB          
+    Display Driver:       NVIDIA           
+    Screen:               1920x1080        
+
+  MOTHERBOARD:            LENOVO 1046
+    BIOS Version:         S07KT4AA                         
+    Chipset:              AMD Starship/Matisse             
+    Audio:                NVIDIA GA102 HD Audio            
+    Network:              2 x Aquantia AQC107 NBase-T/IEEE 
+
+  MEMORY:                 256GB
+
+  DISK:                   2 x 4097GB Kioxia KXG7APN84T09 LA
+    File-System:          xfs 
+
+
+$ phoronix-test-suite benchmark stress-ng
 ```
 
 ## Available tests:
