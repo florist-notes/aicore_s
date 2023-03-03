@@ -32,8 +32,8 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 
 # #4 Benchmarking System Performance
 - 3D Mark Benchmark [x report] as no test suite for linux but windows
-- Phoronix test suite [report](bench@sys/phoronix.MD) ✅
-- Paessler Network benchmark [report]()
+- Phoronix test suite [report](bench@sys/phoronix.MD) ✅✅
+- Paessler Network benchmark [link](https://www.paessler.com/network_bandwidth_test) only windows sys (for linux - phoronix/ethr or phoronix/speedtest-cli)
 - LAMMPS benckmark [link](https://lammps.org/bench.html) ( classical molecular dynamics in phoronix )
 - VASP benchmark [link](https://www.hpc.cineca.it/content/vasp-benchmark) ( atomic scale molecular modelling in phoronix)
 - V-Ray 5 benchmark [link](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
