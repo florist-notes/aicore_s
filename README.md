@@ -36,7 +36,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Paessler Network benchmark [link](https://www.paessler.com/network_bandwidth_test) only windows sys (for linux - phoronix/ethr or phoronix/speedtest-cli)
 - LAMMPS benckmark [link](https://lammps.org/bench.html) ( classical molecular dynamics in phoronix )
 - VASP benchmark [link](https://www.hpc.cineca.it/content/vasp-benchmark) ( atomic scale molecular modelling in phoronix)
-- V-Ray 5 benchmark [link](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
+- V-Ray 5 benchmark [link](https://www.chaos.com/vray/benchmark) ( render latency benchmark in phoronix)
 
 # #5 Benchmarking Standard DL tasks
 - Stanford DAWN Deep Learning Benchmark [x report] - retired benchmark and upgraded to mlperf
