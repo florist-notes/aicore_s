@@ -99,7 +99,22 @@ System Information
 
 
 $ phoronix-test-suite benchmark stress-ng
+$ phoronix-test-suite benchmark pgbench ( PostgreSQL read, and read-write tests using the pgbenchsuite. )
+
 ```
+
+Phoronix stores all its files in the directory ~/.phoronix-test-suite. This directory contains several files that include:
+
+```
+installed-tests
+test-profiles
+test-suites
+test-results – If you saved the results, they are typically stored here in XML files, as well as SVGs
+```
+`$ cd ~/.phoronix-test-suite` > `$ cat test-results/mem/composite.xml` > `$ phoronix-test-suite result-file-to-json mem` > `phoronix-test-suite start-result-viewer `
+
+openbenchmark uploads : `$ phoronix-test-suite openbenchmarking-uploads` and `phoronix-test-suite upload-result mytest`. To check recently added tests : `$ phoronix-test-suite recently-added-tests` and `$ phoronix-test-suite batch-setup` for batch benchmark.
+
 
 ## Available tests:
 ```
