@@ -115,6 +115,10 @@ test-results – If you saved the results, they are typically stored here in XML
 
 openbenchmark uploads : `$ phoronix-test-suite openbenchmarking-uploads` and `phoronix-test-suite upload-result mytest`. To check recently added tests : `$ phoronix-test-suite recently-added-tests` and `$ phoronix-test-suite batch-setup` for batch benchmark.
 
+I am attaching results of 3 tests here : /test_results : system_test/[tensorflow]() & [stress_ng](), processor_test/[ffmpeg]().
+
+<img src="./phoronix.png" width=100%>
+
 
 ## Available tests:
 ```

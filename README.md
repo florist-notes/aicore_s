@@ -32,11 +32,11 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 
 # #4 Benchmarking System Performance
 - 3D Mark Benchmark [x report] as no test suite for linux but windows
-- Phoronix test suite [report](bench@sys/phoronix.MD)
+- Phoronix test suite [report](bench@sys/phoronix.MD) ✅
 - Paessler Network benchmark [report]()
-- LAMMPS benckmark [report](https://lammps.org/bench.html) ( classical molecular dynamics )
-- VASP benchmark [report](https://www.hpc.cineca.it/content/vasp-benchmark) ( atomic scale molecular modelling )
-- V-Ray 5 benchmark [report](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
+- LAMMPS benckmark [link](https://lammps.org/bench.html) ( classical molecular dynamics in phoronix )
+- VASP benchmark [link](https://www.hpc.cineca.it/content/vasp-benchmark) ( atomic scale molecular modelling in phoronix)
+- V-Ray 5 benchmark [link](https://www.chaos.com/vray/benchmark) ( render latency benchmark )
 
 # #5 Benchmarking Standard DL tasks
 - Stanford DAWN Deep Learning Benchmark [x report] - retired benchmark and upgraded to mlperf
