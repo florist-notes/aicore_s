@@ -43,6 +43,6 @@ NVIDIA GeForce® RTX™ 3050 4GB GDDR6;  1TB SSD M.2 2280 PCIe Gen4/4, fingerpri
 </tr>
 </table>
 
-There also exists good mini PC : [Ace Magician](https://acemagicians.com/)
+There exists good mini PC : [Ace Magician](https://acemagicians.com/), [Lenovo ThinkCentre M90q Tiny Gen 3](https://www.lenovo.com/de/de/desktops-and-all-in-ones/thinkcentre/m-series-tiny/ThinkCentre-M90q-Gen-3/p/LEN102C0021), [Intel NUC 12 Extreme](https://www.intel.com/content/www/us/en/products/docs/boards-kits/nuc/mini-pcs/nuc-12-extreme.html)
 
-<img src="../img/ace.jpg" width=49%>
+<img src="../img/ace.jpg" width=25%><a> </a><img src="../img/tc.webp" width=32%><a> </a><img src="../img/int.jpg" width=39%>
