@@ -511,3 +511,68 @@ system: 41 Distinct Tests, 1 Suites
 
 
 ```
+
+## Recommended OpenBenchmarking.org Test Profiles
+
+```
+System Tests
+
+pts/apache                     - Apache HTTP Server                     
+pts/pgbench                    - PostgreSQL                             
+pts/nginx                      - nginx                                  
+pts/blender                    - Blender                                
+pts/redis                      - Redis                                  
+pts/stress-ng                  - Stress-NG                              
+system/selenium                - Selenium                               
+pts/scikit-learn               - Scikit-Learn                           
+pts/brl-cad                    - BRL-CAD                                
+pts/tensorflow                 - TensorFlow                             
+
+Processor Tests
+
+pts/build-linux-kernel         - Timed Linux Kernel Compilation         
+pts/ffmpeg                     - FFmpeg                                 
+pts/x264                       - x264                                   
+pts/compress-7zip              - 7-Zip Compression                      
+pts/encode-flac                - FLAC Audio Encoding                    
+pts/build-php                  - Timed PHP Compilation                  
+pts/graphics-magick            - GraphicsMagick                         
+pts/primesieve                 - Primesieve                             
+pts/vpxenc                     - VP9 libvpx Encoding                    
+pts/lammps                     - LAMMPS Molecular Dynamics Simulator    
+
+Graphics Tests
+
+pts/xonotic                    - Xonotic                                
+pts/csgo                       - Counter-Strike: Global Offensive       
+pts/unvanquished               - Unvanquished                           
+pts/etlegacy                   - ET: Legacy                             
+pts/unigine-super              - Unigine Superposition                  
+pts/paraview                   - ParaView                               
+pts/hitman                     - HITMAN                                 
+pts/vkmark                     - VKMark                                 
+pts/portal2                    - Portal 2                               
+pts/gravitymark                - GravityMark                            
+
+Network Tests
+
+pts/ethr                       - Ethr                                   
+pts/fast-cli                   - fast-cli                               
+pts/speedtest-cli              - speedtest-cli                          
+
+OS Tests
+
+pts/glibc-bench                - Glibc Benchmarks                       
+pts/perf-bench                 - perf-bench                             
+pts/will-it-scale              - will-it-scale                          
+
+Memory Tests
+
+pts/stream                     - Stream                                 
+pts/intel-mlc                  - Intel Memory Latency Checker           
+
+Disk Tests
+
+pts/unpack-linux               - Unpacking The Linux Kernel 
+
+```
