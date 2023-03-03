@@ -119,7 +119,7 @@ openbenchmark uploads : `$ phoronix-test-suite openbenchmarking-uploads` and `ph
 ` $ scp user@ip:/home/amartya/ffmpeg55.json .
 `
 
-I am attaching results of 3 tests here : /test_results : system_test/[tensorflow](./ss.png) & [nvidia_gpu_compute](./nvidia-compute.png), processor_test/[ffmpeg](./ffmpeg55.json).
+I am attaching results of 3 tests here : /test_results : system_test/[tensorflow](./ss.png)_cpu & [nvidia_gpu_compute](./nvidia-compute.png)_cpu, processor_test/[ffmpeg](./ffmpeg55.json).
 
 <img src="./phoronix.png" width=100%>
 
