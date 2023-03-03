@@ -40,8 +40,8 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 
 # #5 Benchmarking Standard DL tasks
 - Stanford DAWN Deep Learning Benchmark [x report] - retired benchmark and upgraded to mlperf
-- MLPerf training benchmarks [report](./notes/report/ai/mlperf.MD)
-- AI-Benchmark Alpha / Burnout [report](./notes/report/ai/alphaburnout.MD) 
+- MLPerf training benchmarks [report](./bench@ai/mlperf.MD)
+- AI-Benchmark Alpha / Burnout [report](./bench@ai/alphaburnout.MD) 
 
 `@lab : 
 `
