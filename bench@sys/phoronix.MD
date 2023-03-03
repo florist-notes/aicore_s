@@ -1,5 +1,8 @@
 # Phoronix Test Suite:
 
+
+The [Phoronix Test Suite](https://github.com/phoronix-test-suite/phoronix-test-suite/blob/master/documentation/phoronix-test-suite.md) is the most comprehensive testing and benchmarking platform available for Linux, Solaris, macOS, Windows, and BSD operating systems. The Phoronix Test Suite allows for carrying out tests in a fully automated manner from test installation to execution and reporting.
+
 ```
     $ sudo apt-get install phoronix-test-suite 
 ```
