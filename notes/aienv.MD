@@ -222,8 +222,6 @@ To install drivers from [NVIDIA DRIVER DOWNLOAD](https://www.nvidia.com/Download
 
 ```
 
-'$ conda' can be used to manage virtual python environments. My conda guide is [here](./conda.MD).
-
 To check with Installation :
 
 ```bash
@@ -233,3 +231,78 @@ $ python3 -c "import tensorflow as tf; print(tf.test.is_gpu_available())"
 # should print cuda
 $ python3 -c "import torch; print(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))"
 ```
+## conda | Anaconda :
+
+'$ conda' can be used to manage virtual python environments. My conda guide is [here](./conda.MD).
+
+## Install dependencies of Deep Learning Frameworks:
+
+```bash
+        $ sudo apt-get update
+        $ sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler libopencv-dev
+
+NOTE : If you get a warning saying the following:
+/usr/lib/nvidia-375/libEGL.so.1 not a symbolic link
+
+then type these commands:
+
+        $ sudo mv /usr/lib/nvidia-375/libEGL.so.1 /usr/lib/nvidia-375/libEGL.so.1.org
+        $ sudo mv /usr/lib32/nvidia-375/libEGL.so.1 /usr/lib32/nvidia-375/libEGL.so.1.org
+        $ sudo ln -s /usr/lib/nvidia-375/libEGL.so.375.82 /usr/lib/nvidia-375/libEGL.so.1
+        $ sudo ln -s /usr/lib32/nvidia-375/libEGL.so.375.82 /usr/lib32/nvidia-375/libEGL.so.1
+
+Next, we install python 3 along with other important packages like boost, lmdb, glog, blas etc.
+
+        $ sudo apt-get install -y --no-install-recommends libboost-all-dev doxygen
+        $ sudo apt-get install -y libgflags-dev libgoogle-glog-dev liblmdb-dev libblas-dev
+        $ sudo apt-get install -y libatlas-base-dev libopenblas-dev libgphoto2-dev libeigen3-dev libhdf5-dev 
+        
+        $ sudo apt-get install -y python3-dev python3-pip python3-nose python3-numpy python3-scipy
+
+To manage with virtual environments:
+
+        $ sudo pip3 install virtualenv virtualenvwrapper
+        $ echo "# Virtual Environment Wrapper" >> ~/.bashrc
+        $ echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+        $ source ~/.bashrc
+
+        # create a virtual environment for python 3
+        $ mkvirtualenv virtual-py3 -p python3
+        # Activate the virtual environment
+        $ workon virtual-py3
+        
+        $ pip install numpy scipy matplotlib scikit-image scikit-learn ipython protobuf jupyter
+        $ pip install tensorflow torch  dlib
+        
+        $ deactivate
+
+```
+Check [TensorFlow Installation](https://www.tensorflow.org/install/pip#software_requirements) and to check installation of frameworks in python :
+
+```python
+import numpy
+numpy.__version__
+import tensorflow
+tensorflow.__version__
+import torch
+torch.__version__
+import cv2
+cv2.__version__
+```
+
+
+### Install PyTorch:
+[PyTorch](https://pytorch.org/) is a C++ library that’s used in Python to build, train, and deploy deep learning models for prototyping. It offers high-performance, usability, and flexibility. It was also optimized for Python which led to better memory and optimizations, error messages, model structure, and model behavior.
+
+```python
+        $ conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
+```
+### Install MxNet:
+MXNet is a C++ library that’s used in Python to build, train, and deploy deep learning models for prototyping and production. It offers very high-performance, scalability, usability, and resource efficiency. It also supports multiple languages, programming styles, and deploys on most platforms.
+
+
+```python
+        CUDA 11.6:
+        $ python -m pip install mxnet-cu116 -f https://dist.mxnet.io/python
+        CPU:
+        $ python -m pip install mxnet
