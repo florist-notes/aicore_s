@@ -213,7 +213,7 @@ To install python libraries:
 
 ```
 
-To install drivers from [NVIDIA DRIVER DOWNLOAD](https://www.nvidia.com/Download/index.aspx?ncid=afm-chs-44270&ranMID=44270&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-oJhiti4zR3ZOJRl0GBDj_A) and then do :
+To install drivers from [NVIDIA DRIVER DOWNLOAD](https://www.nvidia.com/Download/index.aspx?ncid=afm-chs-44270&ranMID=44270&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-oJhiti4zR3ZOJRl0GBDj_A) / `$ sudo ubuntu-drivers autoinstall ` and then do :
 
 ```bash
 
@@ -306,3 +306,23 @@ MXNet is a C++ library that’s used in Python to build, train, and deploy deep 
         $ python -m pip install mxnet-cu116 -f https://dist.mxnet.io/python
         CPU:
         $ python -m pip install mxnet
+
+```
+
+### Install the TensorRT Library:
+TensorRT is a software development kit that’s used to optimize pre-trained models for high-performance inferences on certain NVIDIA graphics cards. It can improve throughput, response time, power efficiency, and memory consumption by combining layers and optimizing kernel selection. It can also import the pre-trained models from most deep learning frameworks.
+
+```bash
+
+$ sudo apt-get install --yes --no-install-recommends libnvinfer7=7.1.3-1+cuda11.0 libnvinfer-dev=7.1.3-1+cuda11.0 libnvinfer-plugin7=7.1.3-1+cuda11.0
+
+```
+Open the BlackScholes Directory: ` $ cd /usr/local/cuda-11.0/samples/4_Finance/BlackScholes`
+
+The BlackScholes sample is a program that demonstrates certain features in the CUDA Toolkit. It evaluates the fair call and put prices for a given set of options using the Black-Scholes formula. It also performs the computations in parallel on the GPU and sequentially on the CPU to compare the results.
+
+```bash
+    $ sudo make
+    $ ./BlackScholes
+
+```
