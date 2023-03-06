@@ -1,4 +1,4 @@
-### To manage env with Anaconda : [[download](https://www.anaconda.com/products/distribution)] instead of virtualenv.
+### To manage env with Anaconda : [[download](https://www.anaconda.com/products/distribution)] 
 
 ```bash
     $ sudo sh Anaconda3-2019.10-Linux-x86_64.sh
