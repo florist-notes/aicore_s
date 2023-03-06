@@ -31,7 +31,7 @@ My grpahics card (2x RTX A5500) supports until CUDA 11.6 ([.pdf](https://www.nvi
         $ sudo dnf -y module install nvidia-driver:latest-dkms
         $ sudo dnf -y install cuda
 ```
-To extract cuDNN tar file:
+CUDA Deep Neural Network (cuDNN) is a library used for further optimizing neural network computations. It is written using the CUDA API. To extract cuDNN tar file:
 
 ```bash
         $ tar xvf cudnn-11.4-linux-x64-v8.2.4.15.tgz
@@ -137,3 +137,99 @@ The apt-get suite is also an APT command-line tool for handling packages in Linu
 
 
 This is a guide to understand and build your AI environment with CUDA, cudnn and python. I have a [dnf guide for RHEL](./packagednf.MD) and an AI hardware guide [here](https://github.com/s-ai-kia/aicore_s) for extended learning.
+
+## Install and Manage Multiple Python Versions with pyenv :
+
+Pyenv is a program that’s used for Python version management on macOS and Linux. It can install multiple Python versions, specify the version that’s used system-wide, and specify the version that’s used in specific directories. It can also create and manage virtual environments using specific versions.
+
+` $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv `
+
+
+
+```bash
+
+$ gedit .bashrc
+
+'''
+# Pyenv environment variables
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+# Pyenv initialization
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init --path)"
+fi
+'''
+
+$ exec $SHELL (restart bash)
+$ sudo apt-get update --yes
+$ sudo apt-get install --yes libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libgdbm-dev lzma lzma-dev tcl-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev wget curl make build-essential python-openssl #py-env dependencies
+$ pyenv install --list #python version available in pyenv
+
+```
+
+To manage python environment  with pyenv ` $ git clone https://github.com/pyenv/pyenv.git ~/.pyenv` and  ` $ cd ~/.pyenv && src/configure && make -C src`, where `$ pyenv global 3.9.0` is used to setup default python environment in pyenv and `$ python -m venv venv39` to create virtual environment. To activate the virtual environment ` $ source venv39/bin/activate` . It prepends the virtual environment path to the PATH environment variable which sets the new Python interpreter and package manager as the default version.
+
+To install python versions:
+
+```python
+Python 3.5:
+pyenv install 3.5.4
+Python 3.6:
+pyenv install 3.6.8
+Python 3.7:
+pyenv install 3.7.9
+Python 3.8:
+pyenv install 3.8.6
+Python 3.9:
+pyenv install 3.9.0
+
+```
+
+and to specify default python version : ` $ pyenv global 3.8.6` .  It creates a text file in the Pyenv directory that stores the specified version. This is used by Pyenv to activate the default version but it gets overwritten by the local Pyenv text file and environment variable. The Local command `$ pyenv local 3.6.8` is used in Pyenv to specify the default Python version for the current directory. It creates a text file in the current directory that stores the specified version. This is automatically detected by Pyenv which activates the Python version in the current directory and subdirectories.
+
+Create the Virtual Environment: `$ python -m venv venv36`</br>
+
+The Virtual Environment is an isolated Python installation directory that has its own interpreter, site-packages, and scripts. It mostly gets used to prevent version conflicts between dependencies from different projects.
+
+```bash
+    $ source ./venv36/bin/activate (activate virtual environment)
+    $ python --version
+    $ which python
+    $ deactivate
+
+```
+To install python libraries:
+
+```python
+    $ python -m pip install numpy
+    $ python -m pip install pandas
+    $ python -m pip install scipy
+    $ python -m pip install pillow
+    $ python -m pip install matplotlib
+    $ python -m pip install opencv-python
+    $ python -m pip install scikit-learn
+    $ python -m pip install keras
+    $ python -m pip install tensorflow
+
+```
+
+To install drivers from [NVIDIA DRIVER DOWNLOAD](https://www.nvidia.com/Download/index.aspx?ncid=afm-chs-44270&ranMID=44270&ranEAID=je6NUbpObpQ&ranSiteID=je6NUbpObpQ-oJhiti4zR3ZOJRl0GBDj_A) and then do :
+
+```bash
+
+    $ chmod +x NVIDIA-Linux-x86_64–440.44.run
+    $ sudo sh NVIDIA-Linux-x86_64–440.44.run
+
+```
+
+'$ conda' can be used to manage virtual python environments. My conda guide is [here](./conda.MD).
+
+To check with Installation :
+
+```bash
+# Should print True
+$ python3 -c "import tensorflow as tf; print(tf.test.is_gpu_available())"
+
+# should print cuda
+$ python3 -c "import torch; print(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))"
+```
