@@ -78,3 +78,126 @@ Example flow with conda :
     $ python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
 
 ```
+## AI environment with miniconda (a different approach) : 
+
+Install Miniconda from [docs.conda.io/en/latest/miniconda](https://docs.conda.io/en/latest/miniconda.html) and [NVIDIA CUDA toolkit](https://developer.nvidia.com/cuda-downloads)
+
+We can install CUDA by running ` $ sudo apt install nvidia-cuda-toolkit` and after installing CUDA, run to verify the install: ` $ nvcc -V`. You'll see an output such as :
+
+```
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2021 NVIDIA Corporation
+Built on Sun_Jul_22_21:07:16_PDT_2019
+Cuda compilation tools, release ‘version’
+```
+
+Now we’ll download NVIDIA cuDNN : [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn) - [[download](https://developer.nvidia.com/rdp/cudnn-download)] and ` $ tar -xvzf cudnn-10.1-linux-x64-'version'.tgz` to extract the cudnn files.
+Now, we’ll copy the extracted files to the CUDA installation path:
+
+```bash
+$ sudo cp cuda/include/cudnn.h /usr/lib/cuda/include/
+$ sudo cp cuda/lib64/libcudnn* /usr/lib/cuda/lib64/
+```
+Setting up the file permissions of cuDNN:
+```bash
+$ sudo chmod a+r /usr/lib/cuda/include/cudnn.h /usr/lib/cuda/lib64/libcudnn*
+```
+
+Get the environment ready:
+
+Export CUDA environment variables. To set them, run:
+
+```bash
+$ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
+$ echo 'export LD_LIBRARY_PATH=/usr/lib/cuda/include:$LD_LIBRARY_PATH' >> ~/.bashrc
+```
+
+we can also set the environment with conda and jupyter notebook.
+
+After installing Miniconda, open the command prompt : ` $ conda install -y jupyter`.
+
+```bash
+    
+    $ conda create --name tensorflow python=3.8
+    $ conda activate tensorflow
+    $ conda install nb_conda
+    $ conda install -c anaconda tensorflow
+
+```
+
+To add additional libraries, update or create the ymp file in your root location, use: ` $ conda env update --file tools.yml`
+
+To check GPU with tensorflow :
+
+```python
+
+    import sys
+
+    import tensorflow.keras
+    import pandas as pd
+    import sklearn as sk
+    import tensorflow as tf
+
+
+    tf.config.list_physical_devices("GPU")
+
+    print(f"Tensor Flow Version: {tf.__version__}")
+    print(f"Keras Version: {tensorflow.keras.__version__}")
+    print()
+    print(f"Python {sys.version}")
+    print(f"Pandas {pd.__version__}")
+    print(f"Scikit-Learn {sk.__version__}")
+    gpu = len(tf.config.list_physical_devices('GPU'))>0
+    print("GPU is", "available" if gpu else "NOT AVAILABLE")
+```
+
+
+## AI Environment In Ubuntu / Debian based systems:
+
+A light and straightforward setup for ubuntu systems to follow:
+
+```bash
+    $ sudo apt update && sudo apt upgrade
+    $ sudo add-apt-repository ppa:graphics-drivers/ppa
+    $ sudo apt update
+    $ sudo apt install nvidia-driver-470
+
+    to install CUDA:
+    $ wget https://developer.download.nvidia.com/compute/cuda/11.2.0/local_installers/cuda_11.2.0_460.27.04_linux.run
+    $ sudo sh cuda_11.2.0_460.27.04_linux.run
+
+    $ cd $HOME/NVIDIA_CUDA-11.2_Samples/5_Simulations/smokeParticles (to test CUDA)
+    $ make all && make run
+
+    Update the environment variables, and add the following lines to ~/.bashrc
+   
+    export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
+    export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    export CUDA_HOME=/usr/local/cuda
+    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+   
+   
+    $ source ~/.bashrc
+
+    to install CUDNN:
+    $ tar -zvxf cudnn-11.2-linux-x64-v8.1.0.77.tgz
+    $ sudo cp -P cuda/include/cudnn.h /usr/local/cuda-11.2/include
+    $ sudo cp -P cuda/lib64/libcudnn* /usr/local/cuda-11.2/lib64/
+    $ sudo chmod a+r /usr/local/cuda-11.2/lib64/libcudnn*
+    $ nvcc -V
+
+    to install anaconda:
+    $ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+    $ bash Anaconda3-2022.10-Linux-x86_64.sh
+
+    create a conda environment:
+    $ conda create --name deep-learning55
+    $ conda activate deep-learning55
+
+    $ pip3 install tensorflow
+    $ pip3 install keras
+    $ pip install torch
+
+    $ pip install jupyterlab --user (jupyter lab over jupyter notebook)
+    $ jupyter lab
+```
