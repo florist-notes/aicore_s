@@ -57,5 +57,83 @@ Once installed check CUDA : `$ cat /usr/local/cuda/version.json` and cuDNN : ` $
             $ sudo rm -rf /usr/local/cuda* (if installed via source file)
 
 ```
+The CUDA config file `$ cat /usr/local/cuda/version.json` returns a json with CUDA version information:
+
+```bash
+            {
+            "cuda" : {
+                "name" : "CUDA SDK",
+                "version" : "12.1.0"
+            },
+            "cuda_cccl" : {
+                "name" : "CUDA C++ Core Compute Libraries",
+                "version" : "12.1.55"
+            },
+            "cuda_cudart" : {
+                "name" : "CUDA Runtime (cudart)",
+                "version" : "12.1.55"
+            },
+            "cuda_cuobjdump" : {
+                "name" : "cuobjdump",
+                "version" : "12.1.55"
+            }
+            .
+            .
+            .
+```
+
+## Step-by-step Guide :
+
+The Advanced Packaging Tool (APT) is a high-level package management tool in Ubuntu and other Debian Linux distribution derivatives. Let's revise our apt commands here:
+
+```
+        $ ls  /etc/apt/apt.conf.d
+        $ sudo apt update
+        $ apt list --upgradable
+        $ sudo apt upgrade -y
+
+        To see progress bar in apt, configure: in /etc/apt/apt.conf.d in the 99progressbar file
+        $ nano 99progressbar
+        Dpkg::Progress-Fancy"1";
+        $ sudo apt upgrade package_name
+        $ sudo apt full-upgrade
+        $ sudo apt install package_name
+        $ sudo apt install package1 package2
+        $ sudo apt install /full/path/file.deb
+        $ sudo apt remove package_name
+        $ sudo apt remove package1 package2
+        $ sudo apt purge package_name
+        $ sudo apt autoremove (remove unused packages)
+
+```
+The apt-get suite is also an APT command-line tool for handling packages in Linux systems. The software-properties-common package gives you better control over your package manager by letting you add PPA (Personal Package Archive) repositories. Deadsnakes is a PPA with newer releases than the default Ubuntu repositories. Install the supporting software with the command:
+
+```bash
+    $ sudo apt-get update
+    $ sudo apt-get upgrade -y
+```
+### To install python 3 and basic libraries:
+
+```bash
+    $ sudo apt-get update
+    $ sudo apt-get --assume-yes upgrade
+    $ sudo apt-get --assume-yes install tmux build-essential curl vim  gcc-9 g++-9 python-is-python3 python3-virtualenv make binutils
+    $ sudo apt-get --assume-yes install software-properties-common
+    $ sudo apt-get install -y cmake gfortran git pkg-config
+    $ sudo apt-get install -y python-dev software-properties-common wget 
+    $ sudo apt-get autoremove
+    $ sudo apt install python3.8
+
+    OR  from source file
+    
+    $ wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
+    $ tar -xf Python-3.8.3.tgz
+    $ cd python-3.8.3
+    $ ./configure --enable-optimizations
+    $ python3 --version
+```
 
 
+
+
+This is a guide to understand and build your AI environment with CUDA, cudnn and python. I have a [dnf guide for RHEL](./packagednf.MD) and an AI hardware guide [here](https://github.com/s-ai-kia/aicore_s) for extended learning.
