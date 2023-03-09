@@ -24,6 +24,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - IoT & AI on Edge devices [NOTES](notes/robotics_ee_hardware/iot_edge.md) 
 - 3D printing & PCB Design [NOTES](notes/robotics_ee_hardware/3dpcb.md)
 - DIY & Advanced Robotics hardware [NOTES](notes/robotics_ee_hardware/diyarh.md) 
+- Robot Operating System [ROS] [NOTES](notes/ros.MD)
 
 # #3 AI Accelerators 
 - AI accelerators [NOTES](notes/ai_accelerators/ai_accelerators.md) 
@@ -31,6 +32,8 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 - Mobile AI workstations/ laptops [NOTES](notes/ai_accelerators/mobile_workstation.md) 
 
 # #4 Benchmarking System Performance
+
+To know more about linux : read my repository/[@linux_d](https://github.com/florist-notes/linux_d)
 - 3D Mark Benchmark [x report] as no test suite for linux but windows
 - Phoronix test suite [report](bench@sys/phoronix.MD) ✅✅
 - Paessler Network benchmark [link](https://www.paessler.com/network_bandwidth_test) only windows sys (for linux - phoronix/ethr or phoronix/speedtest-cli)
