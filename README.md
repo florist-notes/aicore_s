@@ -33,7 +33,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 
 # #4 Benchmarking System Performance
 
-To know more about linux : read my repository/[@linux_d](https://github.com/florist-notes/linux_d)
+To know more about linux : you might find useful content in my repository/[@linux_d](https://github.com/florist-notes/linux_d)
 - 3D Mark Benchmark [x report] as no test suite for linux but windows
 - Phoronix test suite [report](bench@sys/phoronix.MD) ✅✅
 - Paessler Network benchmark [link](https://www.paessler.com/network_bandwidth_test) only windows sys (for linux - phoronix/ethr or phoronix/speedtest-cli)
