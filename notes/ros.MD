@@ -1,4 +1,4 @@
-# Robot Operating System (ROS)
+# Robot Operating System (ROS) | [wiki](https://en.wikipedia.org/wiki/Robot_Operating_System)
 
 <img src="../img/ros.png" width=49%><a> </a><img src="../img/rosindustrial.png" width=49%>
 
@@ -6,6 +6,6 @@ The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software li
 
 
 
-###  [ROS Industrial](https://rosindustrial.org/)
+##  [ROS Industrial](https://rosindustrial.org/)
 
 ROS-Industrial is an open-source project that extends the advanced capabilities of ROS software to industrial relevant hardware and applications.

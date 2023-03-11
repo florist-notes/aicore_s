@@ -42,6 +42,8 @@ To know more about linux : you might find useful content in my repository/[@linu
 - V-Ray 5 benchmark [link](https://www.chaos.com/vray/benchmark) ( render latency benchmark in phoronix)
 
 # #5 Benchmarking Standard DL tasks
+
+To know more about AI : you might find useful content in my repository/[@aicore_n](https://github.com/florist-notes/aicore_n)
 - AI environment setup with CUDA, cudnn and python3 in linux [report](notes/aienv.MD)
 - Stanford DAWN Deep Learning Benchmark [x report] - retired benchmark and upgraded to mlperf
 - MLPerf training benchmarks [report](./bench@ai/mlperf.MD)
