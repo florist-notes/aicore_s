@@ -29,6 +29,10 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 [BRUCE](https://www.westwoodrobotics.io/bruce/) (Bipedal Robot Unit with Compliance Enhanced) is a kid-size humanoid robot open-platform for robotics research and education, originally developed at RoMeLa in joint effort with Westwood Robotics.
 
+### Dingo Quadruped | [web](https://github.com/Yerbert/DingoQuadruped)
+
+<img src="img/dingo.jpg" width=61.5%><a> </a><img src="img/dingo_flow.png" width=33.5%>
+
 ### Underwater / Marine Robotics 
 
 #### [BlueROV2](https://bluerobotics.com/store/rov/bluerov2/) | [Naticus Robotics](https://nauticusrobotics.com/) : [Aquanaut](https://nauticusrobotics.com/aquanaut/) and [Hydronaut](https://nauticusrobotics.com/hydronaut/)
