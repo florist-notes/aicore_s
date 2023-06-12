@@ -1,4 +1,4 @@
-# Robot Operating System (ROS) | [wiki](https://en.wikipedia.org/wiki/Robot_Operating_System)
+# Robot Operating System ([ROS](https://www.ros.org/)) | [wiki](https://en.wikipedia.org/wiki/Robot_Operating_System)
 
 <img src="../img/ros.png" width=49%><a> </a><img src="../img/rosindustrial.png" width=49%>
 
@@ -6,9 +6,9 @@ The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software li
 
 <img src="../img/rosdf.png" width=40%><a> </a><img src="../img/rrdd.png" width=57%>
 
-#####  [ROS Framework Overview](https://youtu.be/7TVWlADXwRw)
+#####  [ROS Framework Overview](https://youtu.be/7TVWlADXwRw) | [ROS 2 : Rolling Ridley](https://docs.ros.org/en/rolling/index.html) | [github/ros2](https://github.com/ros2) | [ETH Z : Programming for Robotics - ROS](https://rsl.ethz.ch/education-students/lectures/ros.html) | [ubuntu/what is ros?](https://ubuntu.com/robotics/what-is-ros) | [ROSCON](https://roscon.ros.org/)
 
-
+ROS processes are represented as nodes in a graph structure, connected by edges called topics. ROS nodes can pass messages to one another through topics, make service calls to other nodes, provide a service for other nodes, or set or retrieve shared data from a communal database called the parameter server. A process called the ROS Master makes all of this possible by registering nodes to itself, setting up node-to-node communication for topics, and controlling parameter server updates. Messages and service calls do not pass through the master, rather the master sets up peer-to-peer communication between all node processes after they register themselves with the master. This decentralized architecture lends itself well to robots, which often consist of a subset of networked computer hardware, and may communicate with off-board computers for heavy computing or commands. List of ROS [tools](https://en.wikipedia.org/wiki/Robot_Operating_System#Tools), [Versions and releases](https://en.wikipedia.org/wiki/Robot_Operating_System#Versions_and_releases).
 
 
 ##  [ROS Industrial](https://rosindustrial.org/)
