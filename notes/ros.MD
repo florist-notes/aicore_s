@@ -4,7 +4,7 @@
 
 The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software libraries and tools that help us build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what we need for our next robotics project. And it's all open source.
 
-<img src="../img/rosdf.PNG" width=40%><a> </a><img src="../img/rrdd.PNG" width=57%>
+<img src="../img/rosdf.png" width=40%><a> </a><img src="../img/rrdd.png" width=57%>
 
 
 
