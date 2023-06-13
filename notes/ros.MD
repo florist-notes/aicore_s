@@ -46,11 +46,12 @@ ros2 application (create packages in src):
 
 ```bash
 
- $ 
+ $ ros2 pkg create my_robot_controller  --build-type ament_
+ $ ros2 pkg create my_robot_controller  --build-type ament_python --dependencies rclpy
+ $ ls (rclpy in the py package for ros2)
 
 ```
-
-
+'colcon' is the build tool and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. 
 ##  [ROS Industrial](https://rosindustrial.org/)
 
 ROS-Industrial is an open-source project that extends the advanced capabilities of ROS software to industrial relevant hardware and applications.
