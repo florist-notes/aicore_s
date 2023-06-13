@@ -51,7 +51,15 @@ ros2 application (create packages in src):
  $ ls (rclpy in the py package for ros2)
 
 ```
-'colcon' is the build tool and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. 
+'colcon' is the build tool and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
+
+go to 'ros2_ws' and build the package:
+
+```bash
+ $ colcon build
+
+```
+
 ##  [ROS Industrial](https://rosindustrial.org/)
 
 ROS-Industrial is an open-source project that extends the advanced capabilities of ROS software to industrial relevant hardware and applications.
