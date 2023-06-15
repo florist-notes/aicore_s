@@ -3,7 +3,7 @@
 I use an Apple Macbook Pro : M2 for official work at DigiLab, LSBG:
 
 
-<img src="../img/a1.png" width=35%><a> </a><img src="../img/aa.png" width=27%><a> </a><img src="../img/a3.jpg" width=35%>
+<img src="../img/aa.png" width=27%><a> </a><img src="../img/a1.png" width=34.5%><a> </a><img src="../img/a3.jpg" width=34.5%>
 
 Let's list down five good laptops for AI/ML/DL:
 

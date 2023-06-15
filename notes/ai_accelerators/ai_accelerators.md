@@ -1,5 +1,8 @@
 # AI Accelerators
+
 <img src="img/acc.png" width="40%"><a> </a><img src="img/acc2.png" width="49%">
+
+<img src="img/ai.png" width="100%">
 
 
 Accelerate AI computations with : CPU = scalar, GPU = vector, IPU = graph >>>
