@@ -15,7 +15,7 @@ The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software li
 
 <img src="../img/rosdf.png" width=40%><a> </a><img src="../img/rrdd.png" width=57%>
 
-#####  [ROS Framework Overview](https://youtu.be/7TVWlADXwRw) | [ROS 2 : Rolling Ridley](https://docs.ros.org/en/rolling/index.html) | [github/ros2](https://github.com/ros2) | [ETH Z : Programming for Robotics - ROS](https://rsl.ethz.ch/education-students/lectures/ros.html) | [ubuntu/what is ros?](https://ubuntu.com/robotics/what-is-ros) | [ROSCON](https://roscon.ros.org/) | [ROS2 Humble Crash course](https://youtu.be/Gg25GfA456o)
+#####  [ROS Framework Overview](https://youtu.be/7TVWlADXwRw) | [ROS 2 : Rolling Ridley](https://docs.ros.org/en/rolling/index.html) | [github/ros2](https://github.com/ros2) | [ETH Z : Programming for Robotics - ROS](https://rsl.ethz.ch/education-students/lectures/ros.html) | [ubuntu/what is ros?](https://ubuntu.com/robotics/what-is-ros) | [ROSCON](https://roscon.ros.org/) | [ROS2 Humble Crash course](https://youtu.be/Gg25GfA456o) | [turtlebot-4](https://youtu.be/T3if0aPj0Eo) | [Building a Legged Robot with ROS (Péter Fankhauser)](https://youtu.be/5BkoGug8HhE) | [@jamesbruton](https://www.youtube.com/@jamesbruton/playlists)
 
 ROS processes are represented as nodes in a graph structure, connected by edges called topics. ROS nodes can pass messages to one another through topics, make service calls to other nodes, provide a service for other nodes, or set or retrieve shared data from a communal database called the parameter server. A process called the ROS Master makes all of this possible by registering nodes to itself, setting up node-to-node communication for topics, and controlling parameter server updates. Messages and service calls do not pass through the master, rather the master sets up peer-to-peer communication between all node processes after they register themselves with the master. This decentralized architecture lends itself well to robots, which often consist of a subset of networked computer hardware, and may communicate with off-board computers for heavy computing or commands. List of ROS [tools](https://en.wikipedia.org/wiki/Robot_Operating_System#Tools), [versions and releases](https://en.wikipedia.org/wiki/Robot_Operating_System#Versions_and_releases) and [configuring your ros2 environment](https://docs.ros.org/en/crystal/Tutorials/Configuring-ROS2-Environment.html).
 
@@ -51,7 +51,7 @@ ros2 application (create packages in src):
  $ ls (rclpy in the py package for ros2)
 
 ```
-'colcon' is the build tool and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
+'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
 
 go to 'ros2_ws' and build the package:
 
@@ -59,6 +59,57 @@ go to 'ros2_ws' and build the package:
  $ colcon build
 
 ```
+
+python features and packages: 
+
+```bash
+ $ cd packagename
+ $ touch feature.py > $ chmod +x feature.py 
+
+```
+feature.py:
+
+```python
+# /usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+
+class MyNode(Node):
+    def __init__(self):
+        super().__init__('first_node') #name of node
+        self.get_logger().info('Hello from ROS 2')
+
+def main(args=None):
+    rclpy.init(args=args) #initialize ros2 communication
+    node = MyNode() #create node
+    rclpy.spin(node) #run node indef until killed
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
+```
+
+Add in `setup.py` of the package to run ros function from terminal. After adding do `$ colcon build ` > `$ source ~/.bashrc` > `$ ros2 run packagename`:
+
+```python
+.
+.
+.
+    entry_points=[
+        'console_scripts': [
+            "test_node = packagename.nodename:functionname"
+        ],
+    ]
+```
+
+`$ ros2 run packagename` will give us option to run `test_node` :  `$ ros2 run packagename test_node`.
+
+
+
+## ROBOTIC ARM:
+
+
 
 ##  [ROS Industrial](https://rosindustrial.org/)
 
