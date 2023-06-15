@@ -1,5 +1,7 @@
 # Essence of Computation & Networking
 
+Here is a series of blogs on hardware and electronics.
+
 ### Essence of Computation:
 <br />
 

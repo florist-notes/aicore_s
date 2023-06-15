@@ -94,7 +94,7 @@ Add in `setup.py` of the package to run ros function from terminal. After adding
     ]
 ```
 
-`$ ros2 run packagename` will give us option to run `test_node` :  `$ ros2 run packagename test_node`. For CI/CD of py scripts do :  `$ colcon build --symlink-install` > ` $ source */.bashrc `.
+`$ ros2 run packagename` will give us option to run `test_node` :  `$ ros2 run packagename test_node`. For CI/CD of py scripts do :  `$ colcon build --symlink-install` > ` $ source ~/.bashrc `.
 
 ```python
 class MyNode(Node):
