@@ -103,9 +103,22 @@ Add in `setup.py` of the package to run ros function from terminal. After adding
     ]
 ```
 
-`$ ros2 run packagename` will give us option to run `test_node` :  `$ ros2 run packagename test_node`.
+`$ ros2 run packagename` will give us option to run `test_node` :  `$ ros2 run packagename test_node`. For CI/CD of py scripts do :  `$ colcon build --symlink-install` > ` $ source */.bashrc `.
 
+```python
+class MyNode(Node):
 
+    def __init__(self):
+        super().__init__("first_node")
+        self.counter_ = 0
+        self.create_timer(1.0, self.timer_callback) # every 1 sec prints "Hello"
+
+    def timer_callback(self):
+        self.get_logger().info("Hello" + str(self.counter_))
+        self.counter_ += 1
+
+```
+`$ ros2 node list` > `$ ros2 node info /first_node`  to list all nodes and introspect.
 
 ## ROBOTIC ARM:
 
