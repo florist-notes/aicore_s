@@ -27,7 +27,7 @@ buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [P
 
 ## 3D printing with [TINKERCAD](https://www.tinkercad.com/) ; [thingiverse](https://www.thingiverse.com/) for shopping 3D models ~ STL file.
 
-<img src="img/fe.png" width=100%>
+<img src="img/fe.png" width=58%><a> </a><img src="img/tink.png" width=32%><a> </a><img src="img/hellm.png" width=30%><a> </a><img src="img/hellm2.png" width=30%><a> </a><img src="img/rrr.png" width=32%>
 
 
 ### PCB Design
