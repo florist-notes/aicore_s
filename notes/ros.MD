@@ -173,10 +173,16 @@ ROS 2 Subscriber: ` $ ros2 topic info /turtle1/pose ` > ` $ ros2 interface show 
         rclpy.shutdown()
 ```
 
+ros2 service : ` $ ros2 service list` > ` $ ros2 run demo_nodes_cpp add_two_ints_server ` > ` $ ros2 service` > ` $ ros2 service type /add_two_ints`.
+
+example service call : ` $ ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{'a' : 2,'b' : 5}" `.
+
 # ROS 2 Projects:
 ## ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
 
 ## ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/nav/README.MD)
+
+## ROS 2 Point Cloud: [@rospcloud](./rosproj/pclab/README.MD)
 
 
 
