@@ -25,6 +25,11 @@ Watch [3D printing basics](https://www.youtube.com/watch?v=nb-Bzf4nQdE&list=PLDJ
 buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/) and design with [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/) | 3D model - [makebot thingverse](https://www.thingiverse.com/), [youmagine](https://www.youmagine.com/), [printables](https://www.printables.com/), [Cults3D](https://cults3d.com/en); Tools - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription), [meshroom](https://alicevision.org/#meshroom).
 
 
+## 3D printing with [TINKERCAD](https://www.tinkercad.com/) ; [thingiverse](https://www.thingiverse.com/) for shopping 3D models ~ STL file.
+
+<img src="img/fe.png" width=100%>
+
+
 ### PCB Design
 
 Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for notes and tips on PCB design and also check [PCB design](https://www.youtube.com/watch?v=MdcnkaAoDTE&list=PLiYbY8lzAN-2xni5V_Rtp0IKyNugQuVO8).
