@@ -108,7 +108,7 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 </table>
 <br />
 
-This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4dU)] and learned a bit about drone repair as well : Mavic Mini Pro 3, along with some AR/ Digital Twin experiments.
+This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4dU)] and learned a bit about drone repair as well : Mavic Mini Pro 3, along with some AR/ Digital Twin experiments. More intermediate handware list @[github](https://github.com/mjyc/awesome-robotics-projects).
 
 <img src="img/repair.jpg" width=36%><a> </a><img src="img/vlyr.jpeg" width=31%><a> </a><img src="img/pro3.jpg" width=31%><br />
 
