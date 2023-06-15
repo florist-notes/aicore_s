@@ -21,16 +21,12 @@ The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software li
 
 ROS processes are represented as nodes in a graph structure, connected by edges called topics. ROS nodes can pass messages to one another through topics, make service calls to other nodes, provide a service for other nodes, or set or retrieve shared data from a communal database called the parameter server. A process called the ROS Master makes all of this possible by registering nodes to itself, setting up node-to-node communication for topics, and controlling parameter server updates. Messages and service calls do not pass through the master, rather the master sets up peer-to-peer communication between all node processes after they register themselves with the master. This decentralized architecture lends itself well to robots, which often consist of a subset of networked computer hardware, and may communicate with off-board computers for heavy computing or commands. List of ROS [tools](https://en.wikipedia.org/wiki/Robot_Operating_System#Tools), [versions and releases](https://en.wikipedia.org/wiki/Robot_Operating_System#Versions_and_releases) and [configuring your ros2 environment](https://docs.ros.org/en/crystal/Tutorials/Configuring-ROS2-Environment.html).
 
-## ROS 2 Projects:
-
-
 ```bash
  $ ros2 run demo_nodes_cpp talker  ( $ ros2 run package_module nodename )
  $ ros2 run demo_nodes_cpp listener
  $ rqt_graph
  $ ros2 run turtlesim turtlesim_node
  $ ros2 run turtlesim turtle_teleop_key (listen to keystrokes)
-
 ```
 
 ros2 workspace:
@@ -42,16 +38,13 @@ ros2 workspace:
  $ mkdir src 
  (ros2_ws) $ colcon build > $ ls
  $ gedit ~/.bashrc ( source ~/ros2_ws/install/setup.bash )
-
 ```
 ros2 application (create packages in src):
 
 ```bash
-
  $ ros2 pkg create my_robot_controller  --build-type ament_
  $ ros2 pkg create my_robot_controller  --build-type ament_python --dependencies rclpy
  $ ls (rclpy in the py package for ros2)
-
 ```
 'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
 
@@ -59,7 +52,6 @@ go to 'ros2_ws' and build the package:
 
 ```bash
  $ colcon build
-
 ```
 
 python features and packages: 
@@ -67,7 +59,6 @@ python features and packages:
 ```bash
  $ cd packagename
  $ touch feature.py > $ chmod +x feature.py 
-
 ```
 feature.py:
 
@@ -89,13 +80,11 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-
 ```
 
 Add in `setup.py` of the package to run ros function from terminal. After adding do `$ colcon build ` > `$ source ~/.bashrc` > `$ ros2 run packagename`:
 
 ```python
-.
 .
 .
     entry_points=[
@@ -109,7 +98,6 @@ Add in `setup.py` of the package to run ros function from terminal. After adding
 
 ```python
 class MyNode(Node):
-
     def __init__(self):
         super().__init__("first_node")
         self.counter_ = 0
@@ -118,11 +106,15 @@ class MyNode(Node):
     def timer_callback(self):
         self.get_logger().info("Hello" + str(self.counter_))
         self.counter_ += 1
-
 ```
 `$ ros2 node list` > `$ ros2 node info /first_node`  to list all nodes and introspect.
 
-## ROBOTIC ARM:
+
+
+# ROS 2 Projects:
+## ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
+
+## ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/nav/README.MD)
 
 
 
