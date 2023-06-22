@@ -153,3 +153,5 @@ Extra Tips: <br />
 + How they work (video) : [SSD](https://youtu.be/5Mh3o886qpg), [M.2 NVMe SSD](https://youtu.be/HvfIeTieXOI), [Computer Memory](https://youtu.be/7J7X7aZvMXQ), [GPU](https://youtu.be/bZdxcHEM-uc).<br />
 
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
+
+<img src="img/cc.jpg" width=80%>
