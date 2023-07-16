@@ -180,7 +180,7 @@ example service call : ` $ ros2 service call /add_two_ints example_interfaces/sr
 # ROS 2 Projects: [An Updated Guide to Docker and ROS 2](https://roboticseabass.com/2023/07/09/updated-guide-docker-and-ros2/)
 ## ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
 
-## ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/nav/README.MD)
+## ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/6dof/README.MD)
 
 ## ROS 2 Point Cloud: [@rospcloud](./rosproj/pclab/README.MD)
 
