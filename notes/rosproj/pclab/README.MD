@@ -1,6 +1,6 @@
 # Point Cloud ros 2 | [PCL](https://pointclouds.org/)
 
-LiDAR and depth camera produces point clouds:
+LiDAR and depth camera produces point clouds (.e57) : 
 
 ```bash
 
