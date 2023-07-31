@@ -100,10 +100,10 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 <tr>
 <th>DJI Matrice 300 RTK<br /> <img src="img/dji.png" height=140px> <a href="https://www.dji.com/de/matrice-300">drone</a></th>
 <th>Parrot Anafi<br /> <img src="img/anafi.png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
-<td><b>Air:bit 2</b><br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> </td>
+<th>Air:bit 2<br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> </th>
 <th>Tello Quadcopter<br /> <img src="img/tello.jpg" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
 
-<th>Bitcraze Crazyflie 2.1<br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a>(open source)</th>
+<td><b>Bitcraze Crazyflie 2.1</b><br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a>(open source)</td>
 </tr>
 </table>
 <br />
@@ -112,7 +112,7 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 
 <img src="img/repair.jpg" width=36%><a> </a><img src="img/vlyr.jpeg" width=31%><a> </a><img src="img/pro3.jpg" width=31%><br />
 
-<img src="img/digicave.jpg" width=42%>><a> </a><img src="img/digicave.gif" width=56%><br />
+<img src="img/digicave.jpg" width=42%><a> </a><img src="img/digicave.gif" width=56%><br />
 
 ### Robotic kits with API
 
