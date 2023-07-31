@@ -100,10 +100,10 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 <tr>
 <th>DJI Matrice 300 RTK<br /> <img src="img/dji.png" height=140px> <a href="https://www.dji.com/de/matrice-300">drone</a></th>
 <th>Parrot Anafi<br /> <img src="img/anafi.png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
-<td><b>Air:bit 2</b><br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> (open source)</td>
+<td><b>Air:bit 2</b><br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> </td>
 <th>Tello Quadcopter<br /> <img src="img/tello.jpg" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
 
-<th>Bitcraze Crazyflie 2.1<br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a></th>
+<th>Bitcraze Crazyflie 2.1<br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a>(open source)</th>
 </tr>
 </table>
 <br />
