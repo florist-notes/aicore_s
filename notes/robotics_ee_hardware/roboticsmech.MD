@@ -2,11 +2,19 @@
 
 ## Aerial Robotics
 
+<img src="img/aer.png" width=100%>
+
 ## Perception and Manipulation
+
+<img src="img/arm2.gif" width=100%>
 
 ## SLAM, Motion Planning and Navigation 
 
+<img src="img/slam.gif" width=100%>
+
 ## Swarm Intelligence (Multi Agent Systems)
+
+<img src="img/swarm.gif" width=100%>
 
 ## Human Robot Interaction
 
