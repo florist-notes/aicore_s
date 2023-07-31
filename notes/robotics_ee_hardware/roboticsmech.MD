@@ -16,6 +16,21 @@
 
 <img src="img/swarm.gif" width=100%>
 
+- ["Learning to Communicate in Multi-Agent Systems" - Amanda Prorok](https://youtu.be/J9Olp6YqQhw)
+- [Understanding Equilibria in Multi-Agent Systems - Michael Wooldridge, University of Oxford](https://youtu.be/Iqm8UTXUG24)
+- [Scalable and Robust Multi-Agent Reinforcement Learning - Microsoft Research](https://youtu.be/Yd6HNZnqjis)
+- [The Role of Multi-Agent Learning in Artificial Intelligence Research at DeepMind](https://youtu.be/CvL-KV3IBcM)
+- [Can AI Learn to Cooperate? Multi Agent Deep Deterministic Policy Gradients (MADDPG) in PyTorch](https://youtu.be/tZTQ6S9PfkE)
+- [MIT Robotics - Dimitra Panagou - Safety and Resilience in Multi-Agent Systems](https://youtu.be/HgUKVBBaXW8)
+- [DLRLSS 2019 - Multi-Agent Systems - James Wright](https://youtu.be/MEUdtwQev9A)
++ [CMU - Multi Agent Systems](https://www.cs.cmu.edu/~softagents/multi.html), [An Introduction to Multi-Agent Systems](https://link.springer.com/chapter/10.1007/978-3-642-14435-6_1), [IEEE - Multi-Agent Systems: A Survey](https://ieeexplore.ieee.org/document/8352646)
+
+Institutes : [Deepmind](https://www.deepmind.com/), [TUD - Intelligent Multi-Agent Systems](https://www.ias.informatik.tu-darmstadt.de/Teaching/IntelligentMultiAgentSystemsLecture), [ Automatic Coordination of Teams (ACT) Lab at Brown University](http://act.usc.edu/), [Autonomous Multi-Robots Lab. Delft University of Technology](https://www.autonomousrobots.nl/), [huntlab](https://www.huntlab.uk/), [Harvard University : Designing Emergence Laboratory](https://projects.iq.harvard.edu/del), Inria - [Lagadic](http://www.irisa.fr/lagadic/welcome-eng.html), [Chroma](https://team.inria.fr/chroma/en/), [LABUST](https://labust.fer.hr/), Stanford - [Multi-robot Systems Lab (MSL)](https://msl.stanford.edu/), [MPI - Robotic Perception Group](https://ps.is.mpg.de/research_fields/robot-perception-group).
+
+resources : ScienceDirect - [Swarm Intelligence](https://www.sciencedirect.com/topics/engineering/swarm-intelligence), [Multi Agent Systems](https://www.sciencedirect.com/topics/chemical-engineering/multi-agent-systems), Springer - [Swarm Intelligence](https://www.springer.com/journal/11721), [Swarm Intelligence Principles, Advances, and Applications](https://www.routledge.com/Swarm-Intelligence-Principles-Advances-and-Applications/Hassanien-Emary/p/book/9780367737542), [YT](https://www.youtube.com/watch?v=EnmQbw8EeI8&list=PLEXCtjCCJih50Wjxu8GgOukaLK_iklqgS).
+
+github : [multi_agent_path_planning](https://github.com/atb033/multi_agent_path_planning), [camel](https://github.com/camel-ai/camel), [MARL-papers](https://github.com/LantaoYu/MARL-Papers), [Petting Zoo](https://github.com/Farama-Foundation/PettingZoo), [awesome-deep-rl](https://github.com/tigerneil/awesome-deep-rl), [mava](https://github.com/instadeepai/Mava), [MARL-papers-with-code](https://github.com/TimeBreaker/MARL-papers-with-code)
+
 ## Human Robot Interaction
 
 [ [Science Direct : HRI ](https://www.sciencedirect.com/topics/computer-science/human-robot-interaction) ]. To know more about LLMs, check my repo on AI @[aicore_n](https://github.com/florist-notes/aicore_n).
@@ -26,14 +41,13 @@ Human Robot Interaction with Large Language Models (LLMs) :
 - [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429)
 - [MOO : Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905)
 - [Large Language Models as Zero-Shot Human Models for Human-Robot Interaction](https://arxiv.org/pdf/2303.03548.pdf)
-- [Large Language Models as Zero-Shot Human Models for Human-Robot Interaction](https://arxiv.org/abs/2303.03548)
 - [Language Models for Human-Robot Interaction](http://www.diva-portal.org/smash/get/diva2:1744270/FULLTEXT01.pdf)
   
 
 
 + [ [ROS GPT](https://www.preprints.org/manuscript/202304.0827/v3/download) ], [ @github/[Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics), @github/[Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) ], [Special Issue: Large Language Models in Robotics](https://www.springer.com/journal/10514/updates/23925216), [Large Language Models-powered Human-Robotic Interactions](https://falcond.ai/blog/llm-robot-interaction/), [OpenAI](https://platform.openai.com/)
 
-+ demo video : [ChatGPT for Robotics](https://youtu.be/NYd0QcZcS6Q)
++ demo video : [ChatGPT for Robotics](https://youtu.be/NYd0QcZcS6Q); article : [Google Research, 2022 & beyond: Robotics](https://ai.googleblog.com/2023/02/google-research-2022-beyond-robotics.html).
 
 ## Space Robotics
 
