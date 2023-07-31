@@ -90,4 +90,4 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 </table>
 
-articles - [Design and driving model for the quadruped robot: An elucidating draft](https://journals.sagepub.com/doi/10.1177/16878140211009035)
+resources - [grablab opensource hardware](https://www.eng.yale.edu/grablab/openrobothardware.html), @github/[awesome-robotics](https://github.com/mjyc/awesome-robotics-projects); articles - [Design and driving model for the quadruped robot: An elucidating draft](https://journals.sagepub.com/doi/10.1177/16878140211009035)

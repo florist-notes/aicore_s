@@ -100,7 +100,7 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 <tr>
 <th>DJI Matrice 300 RTK<br /> <img src="img/dji.png" height=140px> <a href="https://www.dji.com/de/matrice-300">drone</a></th>
 <th>Parrot Anafi<br /> <img src="img/anafi.png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
-<th>Air:bit 2<br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone</a></th>
+<td><b>Air:bit 2</b><br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> (open source)</td>
 <th>Tello Quadcopter<br /> <img src="img/tello.jpg" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
 
 <th>Bitcraze Crazyflie 2.1<br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a></th>
@@ -135,6 +135,10 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 <br />
 
 ## [UniTree Robotics](https://shop.unitree.com/en-de/collections/education-industry)
+
+Unitree Go 2 [[video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.com/en/go2/)] [[buy-de](https://www.quadruped.de/QUADRUPED-Go2)] [quadruped.de](https://www.quadruped.de/QUADRUPEDs)
+
+<img src="img/go2.jpg" width=39%> <img src="img/go22.jpg" width=60%> 
 
 <img src="img/unitree.gif" width=100%> 
 
