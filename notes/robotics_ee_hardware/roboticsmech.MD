@@ -18,6 +18,23 @@
 
 ## Human Robot Interaction
 
+[ [Science Direct : HRI ](https://www.sciencedirect.com/topics/computer-science/human-robot-interaction) ]. To know more about LLMs, check my repo on AI @[aicore_n](https://github.com/florist-notes/aicore_n).
+
+Human Robot Interaction with Large Language Models (LLMs) : 
+
+- [LLM-GROP : Task and Motion Planning with Large Language Models for Object Rearrangement](https://arxiv.org/abs/2303.06247)
+- [LM-Nav: Robotic Navigation with Large Pre-Trained Models of Language, Vision, and Action](https://arxiv.org/abs/2207.04429)
+- [MOO : Open-World Object Manipulation using Pre-trained Vision-Language Models](https://arxiv.org/abs/2303.00905)
+- [Large Language Models as Zero-Shot Human Models for Human-Robot Interaction](https://arxiv.org/pdf/2303.03548.pdf)
+- [Large Language Models as Zero-Shot Human Models for Human-Robot Interaction](https://arxiv.org/abs/2303.03548)
+- [Language Models for Human-Robot Interaction](http://www.diva-portal.org/smash/get/diva2:1744270/FULLTEXT01.pdf)
+  
+
+
++ [ [ROS GPT](https://www.preprints.org/manuscript/202304.0827/v3/download) ], [ @github/[Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics), @github/[Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) ], [Special Issue: Large Language Models in Robotics](https://www.springer.com/journal/10514/updates/23925216), [Large Language Models-powered Human-Robotic Interactions](https://falcond.ai/blog/llm-robot-interaction/), [OpenAI](https://platform.openai.com/)
+
++ demo video : [ChatGPT for Robotics](https://youtu.be/NYd0QcZcS6Q)
+
 ## Space Robotics
 
 <img src="img/rv.png" width=100%>
@@ -34,7 +51,7 @@ Continuum Robotics : Jessica Burgner-Kahrs - [Continuum Robotics Laboratory in U
 
 News : [How Space Robots Shape The Future](https://youtu.be/m6x7SVwapUw)
 
-Companies : [Boston Dynamics](https://bostondynamics.com/), [Festo](https://www.festo.com/de/en/e/journal/robotics-id_9229-1153/), [AnyBotics](https://www.anybotics.com/), [Clear Path Robotics](https://clearpathrobotics.com/), [Rethink Robotics](https://www.rethinkrobotics.com/).
+Companies : [Boston Dynamics](https://bostondynamics.com/), [Festo](https://www.festo.com/de/en/e/journal/robotics-id_9229-1153/), [AnyBotics](https://www.anybotics.com/), [Clear Path Robotics](https://clearpathrobotics.com/), [Rethink Robotics](https://www.rethinkrobotics.com/), [Google Robotics](https://research.google/teams/robotics/).
 
 Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-v1:ETHx+AMRx+2T2020/home), [University of Pennsylvania : GRASP Lab](https://www.coursera.org/specializations/robotics), [Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics), [Technische Universität München: Autonomous Navigation for Flying Robots](https://www.edx.org/course/autonomous-navigation-for-flying-robots) )([AUTONAVx](https://jsturm.de/wp/teaching/autonavx-slides/)) ; list of all robotics classes @ [[MIT](https://www.robolab.mit.edu/course-listing)], @Stanford : [[Robotics and Autonomous Systems Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)], [CMU - Robotics Institute](https://www.ri.cmu.edu/research/).
 
