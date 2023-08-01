@@ -26,7 +26,7 @@ Robotics Books:
 </table>
 <br />
 
-Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md)
+Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
 
 ## Aerial Robotics
 
@@ -65,6 +65,42 @@ resources : [Active Manipulation for Perception](https://link.springer.com/chapt
 ## SLAM, Motion Planning and Navigation 
 
 <img src="img/slam.gif" width=100%>
+
+SLAM:
++ [CSIRO's Wildcat SLAM: A Robust SLAM System for Robot Teams in the Wild](https://www.youtube.com/live/YCE1Aj0k1UA?feature=share)
++ [Swarm-SLAM : Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems](https://arxiv.org/abs/2301.06230)
++ [An Introduction to Robot SLAM (Simultaneous Localization And Mapping)](https://lucidar.me/en/kalman-filters/files/introduction-to-slam.pdf)
++ [FastSLAM: A Factored Solution to the Simultaneous Localization and Mapping Problem](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf)
++ [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age](https://arxiv.org/pdf/1606.05830.pdf)
++ [Introduction to Visual SLAM](https://link.springer.com/book/10.1007/978-981-16-4939-4) - [repo](https://github.com/gaoxiang12/slambook-en)
++ [Online LiDAR-SLAM for Legged Robots with Robust Registration and Deep-Learned Loop Closure](https://ori.ox.ac.uk/media/5601/2020icra_ramezani.pdf)
+
+resources: [Easy SLAM with ROS using slam_toolbox](https://youtu.be/ZaiA3hWaRzE), [Understanding SLAM Using Pose Graph Optimization](https://youtu.be/saVZtgPyyJQ), [SLAM Robot Mapping](https://youtu.be/-XU54IsG8Vo), [SLAM Course - Cyrill Stachniss](https://www.youtube.com/watch?v=U6vr3iNrwRA&list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_), [VSLAM for Robotic Applications](https://www.youtube.com/watch?v=mNTi1osPSIA), [How to get your robot to see in 3D! (Depth Cameras in ROS](https://youtu.be/T9xZ22i9-Ys), [SLAM - Matlab](https://de.mathworks.com/discovery/slam.html), [SLAM for Dummies](https://dspace.mit.edu/bitstream/handle/1721.1/119149/16-412j-spring-2005/contents/projects/1aslam_blas_repo.pdf), [Indoor Robot Localization with SLAM](https://towardsdatascience.com/indoor-robot-localization-with-slam-f8b447bcb865), [Multi Agent SLAM - DLR](https://www.dlr.de/kn/desktopdefault.aspx/tabid-15373/24954_read-62490/), [SLAM variants](https://avirmani.com/robotics/slam-overview-applications-and-challenges-in-robotics/), [Springer - SLAM](https://link.springer.com/chapter/10.1007/978-3-540-75388-9_3), ICRA SLAM paper [list](https://github.com/wanghuayou1028/ICRA2021-SLAM-paper-list), paperswithcode - [SLAM / kimera](https://paperswithcode.com/task/simultaneous-localization-and-mapping), @github/[awesome-visual-slam](https://github.com/tzutalin/awesome-visual-slam), [awesome-slam](https://github.com/kanster/awesome-slam), [semantic-slam](https://github.com/topics/semantic-slam), [lidar-slam](https://github.com/topics/lidar-slam), [slam-algorithms](https://github.com/topics/slam-algorithms).
+
+Motion Planning:
+
++ [Robot Motion Planning using A* (Cyrill Stachniss)](https://youtu.be/HR1TNa8Lp7w)
++ [Introduction to Motion Planning for Flying Robots: Dr. Sebastian Scherer](https://youtu.be/8uLsT-fAlMc)
++ [Advanced Motion Planning: FMT*, Informed RRT*, BIT*, and RABIT* | An OMPL Tutorial with Examples](https://youtu.be/yggi7QjfOUM)
++ [RI Seminar: Russ Tedrake: Robust motion planning for walking robots and robotic birds](https://youtu.be/QV0gydSTqdY)
++ [Russ Tedrake: Motion Planning Around Obstacles with Convex Optimization](https://youtu.be/5E2OaizkJEs)
++ [Siddharth Srivastava on "Task and Motion Planning for Robots..."](https://youtu.be/wRZ2yqRrPiY)
++ [Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning](https://youtu.be/XHoXkWLhwYQ)
++ [Robot Motion Planning: Challenges and Opportunities for Increasing Robot Autonomy](https://youtu.be/N7M4-XP7igk)
+
+resources: [Motion Planning for Robots](https://www.youtube.com/watch?v=nbaSzCnmyec&list=PL0sla3wvhSnYNAyp0-OQmTMyO2POZRSe-), [UMich - Motion Planning](https://robotics.umich.edu/research/focus-areas/motion-planning/), [A review of motion planningalgorithmsforintelligent robotics](https://arxiv.org/ftp/arxiv/papers/2102/2102.02376.pdf), [Springer - Robot Motion Planning](https://link.springer.com/book/10.1007/978-1-4615-4022-9), [MIT - CSAIL : Task and Motion Planning for Autonomous Robots](https://www.csail.mit.edu/research/task-and-motion-planning-autonomous-robots), [ACM - Robot Motion Planning](https://dl.acm.org/doi/10.5555/532147).
+
+Navigation:
++ [A comprehensive study for robot navigation techniques](https://www.tandfonline.com/doi/full/10.1080/23311916.2019.1632046)
++ [Visual language maps for robot navigation](https://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html)
++ [Improving Autonomous Robotic Navigation Using Imitation Learning](https://www.frontiersin.org/articles/10.3389/frobt.2021.627730/full)
++ [Mobile Robot Navigation and Obstacles Avoidance based on Planning and Re-Planning Algorithm](https://www.sciencedirect.com/science/article/pii/S1474667016336795)
++ [Autonomous Robot Navigation in Highly Populated Pedestrian Zones](https://europa2.informatik.uni-freiburg.de/files/kuemmerle14jfr.pdf)
++ [Robot Mapping and Navigation in Real-World Environments](https://bonndoc.ulb.uni-bonn.de/xmlui/handle/20.500.11811/7381)
++ [Mobile Robot Navigation Using Deep Reinforcement Learning](https://www.mdpi.com/2227-9717/10/12/2748)
++ [Navigation System of the Autonomous Agricultural Robot “BoniRob”*](https://www.cs.cmu.edu/~mbergerm/agrobotics2012/01Biber.pdf)
+
+resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8JQ5Q-ZwU&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg), [Making robot navigation easy with Nav2 and ROS!](https://youtu.be/jkoGkAd0GYk), [Springer - Mobile Robot Navigation](https://link.springer.com/chapter/10.1007/978-3-642-33965-3_1), paperswithcode - [robotnavigation](https://paperswithcode.com/task/robot-navigation), [Safe Robot Navigation in Dense Crowds](https://cordis.europa.eu/project/id/779942).
 
 ## Swarm Intelligence (Multi Agent Systems)
 
@@ -121,7 +157,7 @@ News : [How Space Robots Shape The Future](https://youtu.be/m6x7SVwapUw)
 
 Companies : [Boston Dynamics](https://bostondynamics.com/), [Festo](https://www.festo.com/de/en/e/journal/robotics-id_9229-1153/), [AnyBotics](https://www.anybotics.com/), [Clear Path Robotics](https://clearpathrobotics.com/), [Rethink Robotics](https://www.rethinkrobotics.com/), [Google Robotics](https://research.google/teams/robotics/).
 
-Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-v1:ETHx+AMRx+2T2020/home), [University of Pennsylvania : GRASP Lab](https://www.coursera.org/specializations/robotics), [Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics), [Technische Universität München: Autonomous Navigation for Flying Robots](https://www.edx.org/course/autonomous-navigation-for-flying-robots) )([AUTONAVx](https://jsturm.de/wp/teaching/autonavx-slides/)) ; list of all robotics classes @ [[MIT](https://www.robolab.mit.edu/course-listing)], @Stanford : [[Robotics and Autonomous Systems Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)], [CMU - Robotics Institute](https://www.ri.cmu.edu/research/).
+Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-v1:ETHx+AMRx+2T2020/home), [University of Pennsylvania : GRASP Lab](https://www.coursera.org/specializations/robotics), [Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics), [Technische Universität München: Autonomous Navigation for Flying Robots](https://www.edx.org/course/autonomous-navigation-for-flying-robots) )([AUTONAVx](https://jsturm.de/wp/teaching/autonavx-slides/)) ; list of all robotics classes @ [[MIT](https://www.robolab.mit.edu/course-listing)], @Stanford : [[Robotics and Autonomous Systems Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)], [CMU - Robotics Institute](https://www.ri.cmu.edu/research/), [UMich - Mobile Robotics](https://www.youtube.com/watch?v=pH4Pkmey2_E&list=PLdMorpQLjeXmbFaVku4JdjmQByHHqTd1F).
 
 | Robotics classes :   | [ICRA](https://ieeexplore.ieee.org/xpl/conhome/1000639/all-proceedings), [RSS](https://roboticsconference.org/) | 
 | -------- | ------- |
