@@ -2,8 +2,7 @@
 
 A self-driving car (sometimes called an autonomous car or driverless car) is a vehicle that uses a combination of sensors, cameras, radar and artificial intelligence (AI) to travel between destinations without a human operator.
 
-<img src="robotics_ee_hardware/img/slam2.png" width=46%>
-<img src="robotics_ee_hardware/img/slam3.png" width=48%>
+<img src="robotics_ee_hardware/img/slam2.png" width=45%> <img src="robotics_ee_hardware/img/slam3.png" width=47%>
 
 The following outlines how self driving vehicles work:
 
