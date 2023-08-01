@@ -1,7 +1,7 @@
 # Autonomous Systems
 
-<img src="robotics_ee_hardware/img/slam2.png" width=48%>
-<img src="robotics_ee_hardware/img/slam3.webp" width=50%>
+<img src="robotics_ee_hardware/img/slam2.png" width=47%>
+<img src="robotics_ee_hardware/img/slam3.webp" width=49%>
 
 
 
