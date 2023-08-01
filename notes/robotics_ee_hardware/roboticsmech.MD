@@ -26,7 +26,7 @@ Robotics Books:
 </table>
 <br />
 
-Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
+Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics), [webots](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
 
 ## Aerial Robotics
 
