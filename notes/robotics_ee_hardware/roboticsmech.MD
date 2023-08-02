@@ -166,4 +166,4 @@ Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-
 | [MIT 6.832: Underactuated Robotics](https://underactuated.mit.edu/Spring2022/)    | [CMU - Robot Dynamics](https://www.youtube.com/watch?v=LiNgr1tz49I&list=PLZnJoM76RM6ItAfZIxJYNKdaR_BobleLY)    |
 | [CMU - Optimal Control](https://www.youtube.com/watch?v=6rUdAOCNXAU&list=PLZnJoM76RM6KugDT9sw5zhAmqKnGeoLRa)    | [MIT - Machine Vision](https://www.youtube.com/watch?v=tY2gczObpfU&list=PLUl4u3cNGP63pfpS1gV5P9tDxxL_e4W8O)    |
 
-MIT [16.485 : Visual Navigation For Autonomous Vehicles (VNAV)](https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/pages/syllabus/) | [6.141/16.405j - Robotics: Science and Systems](https://lucacarlone.mit.edu/teaching/)
+MIT [16.485 : Visual Navigation For Autonomous Vehicles (VNAV)](https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/pages/syllabus/) | [6.141/16.405j - Robotics: Science and Systems](https://lucacarlone.mit.edu/teaching/) | [TUM : Lecture: Visual Navigation for Flying Robots](https://www.youtube.com/playlist?list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha)
