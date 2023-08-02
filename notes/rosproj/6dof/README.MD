@@ -42,13 +42,46 @@ my_package/
       my_package/
 
 ```
-we write Robot Design with URDF : `Unified Robotics Description Format` : ` $ mkdir urdf ` > ` $ touch  r6dof.urdf` : [ [6dof_robot.urdf](./6dof_robot.urdf) ]
+we write Robot Design with URDF : `Unified Robotics Description Format` : ` $ mkdir urdf ` > ` $ touch  r6dof.
+urdf` : [ [6dof_robot.urdf](./6dof_robot.urdf) ]. Here is how our arm looks:
+
+
+<img src="./6dof1.png" width=44%>
+<img src="./6dof2.gif" width=47%>
 
 Rviz simulation of robot described by URDF : 
 
-Create a new folder `launch` and ` $ touch rvizlaunch.py`: [ [rvizlaunch.py](./rvizlaunch.py)) ] 
+Create a new folder `launch` and ` $ touch rvizlaunch.py`: [ [rvizlaunch.py](./rvizlaunch.py) ] . The setup.py file links the share folder of package and we must import as :
 
-<img src="./6dof.gif" width=98%>
+```python
 
-<img src="./dof1.png" width=98%>
-<img src="./dof2.png" width=98%>
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+        
+        (os.path.join('share', package_name,'launch'), glob('launch/*')),
+        
+        (os.path.join('share', package_name,'urdf'), glob('urdf/*')),
+
+        (os.path.join('share', package_name,'config'), glob('config/*')),
+
+
+    ],
+
+```
+
+Do a ` $ colcon build ` and ` $ ros 2 launcg 6dof_robot rvirlaunch.py `
+
+### Gazebo is a near world simulator:  `$ touch gazebolaunch.py`
+
+ROS2 Control: `Joint Trajectory Controller`
+
+We create ` $ mkdir config` > ` $ touch jtc.yaml`  : [[jtc.yaml](./jtc.yaml) and define the controller path in ` $ 6dof_robot.urdf`. Node communication with Joint Trajectory Controller : ` $ touch controllerlaunch.py ` : [ [controllerlaunch.py](./controllerlaunch.py) ].
+
+
+<img src="./6dof.gif" width=96%>
+
+### Kuka Robot Motion Planning: @[kuka-experimental](https://github.com/ros-industrial/kuka_experimental)
+
+<img src="./dof1.png" width=48%> <img src="./dof2.png" width=48%>
