@@ -46,8 +46,7 @@ we write Robot Design with URDF : `Unified Robotics Description Format` : ` $ mk
 urdf` : [ [6dof_robot.urdf](./6dof_robot.urdf) ]. Here is how our arm looks:
 
 
-<img src="./6dof1.png" width=44%>
-<img src="./6dof2.gif" width=47%>
+<img src="./6dof1.png" width=44%> <img src="./6dof2.gif" width=47%>
 
 Rviz simulation of robot described by URDF : 
 
