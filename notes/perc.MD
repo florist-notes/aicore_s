@@ -2,6 +2,14 @@
 
 <img src="./robotics_ee_hardware//img/self.jpg" width=44%> <img src="./robotics_ee_hardware//img/self2.png" width=51%>
 
+<table width=100%>
+<tr>
+<th>Object Detection</th>
+<th>Segmentation</th>
+</tr>
+<tr>
+<td>
+
 2D Object Detection:
 - Object Detection [[models](https://paperswithcode.com/task/object-detection)]
 - Real time object detection [[models](https://paperswithcode.com/task/real-time-object-detection)]
@@ -13,6 +21,9 @@ Object Tracking [[models](https://paperswithcode.com/area/computer-vision/object
 3D Object Detection:
 - 3D Object Detction [[models](https://paperswithcode.com/task/3d-object-detection)]
 
+</td>
+<td>
+
 Segmentation: [models](https://paperswithcode.com/area/computer-vision/semantic-segmentation)
 - Semantic Sedmentation [[models](https://paperswithcode.com/task/semantic-segmentation)]
 - Panoptic Segmentation [[models](https://paperswithcode.com/task/panoptic-segmentation)]
@@ -23,6 +34,11 @@ Segmentation: [models](https://paperswithcode.com/area/computer-vision/semantic-
 Depth Estimation: [[models](https://paperswithcode.com/task/depth-estimation)]
 - Monocular Depth Estimation [[models](https://paperswithcode.com/task/monocular-depth-estimation)]
 - Stereo Depth Estimation [[models](https://paperswithcode.com/task/stereo-depth-estimation)]
+</td>
+</tr>
+</table>
+
+## SLAM (Simultaneous Localization and Mapping)
 
 Vision SLAM: @github/[SLAM](https://github.com/SilenceOverflow/Awesome-SLAM)
 - Monocular vision SLAM ([example](https://de.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html))
@@ -54,7 +70,7 @@ Deep Learning Based SLAM
 Deep learning based SLAM attempts to solve the SLAM problem using neural networks and deep learning. Examples:
 - [ [RatSLAM](https://www.researchgate.net/publication/4076855_RatSLAM_A_hippocampal_model_for_simultaneous_localization_and_mapping), [LIST-SLAM](https://arxiv.org/abs/2104.00099), [EnvSLAM](https://www.mdpi.com/2220-9964/10/11/772) ]
 
-[[A Comprehensive survey of visual SLAM algorithms](https://hal.science/hal-04132827/document)]]
+[[A Comprehensive survey of visual SLAM algorithms](https://hal.science/hal-04132827/document)] [ [Lidar SLAM: The Ultimate Guide to Simultaneous Localization and Mapping](https://www.wevolver.com/article/lidar-slam-the-ultimate-guide-to-simultaneous-localization-and-mapping) ]
 
 Autonomous Vehicles : [[models and features](https://paperswithcode.com/area/computer-vision/autonomous-vehicles)]
 
