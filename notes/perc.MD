@@ -4,7 +4,7 @@
 
 2D Object Detection:
 - Object Detection [[models](https://paperswithcode.com/task/object-detection)]
-- Real time objectdetection [[models](https://paperswithcode.com/task/real-time-object-detection)]
+- Real time object detection [[models](https://paperswithcode.com/task/real-time-object-detection)]
 - Few shot object detection [[models](https://paperswithcode.com/task/few-shot-object-detection)]
 - Object Detection In Aerial Images [[models](https://paperswithcode.com/task/object-detection-in-aerial-images)]
   
