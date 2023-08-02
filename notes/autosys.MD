@@ -21,7 +21,7 @@ Self-driving features that are available in many production cars as of now inclu
 + <b>Adaptive Cruise Control (ACC)</b> automatically maintains a selectable distance between the driver's car and the car in front.
 + <b>Lane-centering steering</b> intervenes when the driver crosses lane markings by automatically nudging the vehicle toward the opposite lane marking.
 
-More on [Adaptive Cruise Control (ACC)](./acc.MD) :)
+More on [Adaptive Cruise Control (ACC)](./acc.MD), [Self Driving Car Estimation and Navigation](./navself.MD), [Self Driving Car Perception]() :)
 ### Sensors in an Autonomous Vehicle:
 
 <img src="robotics_ee_hardware/img/ss1.png" width=96%>
