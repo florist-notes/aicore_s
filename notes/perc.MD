@@ -1,6 +1,6 @@
 # Self Driving Car Perception :
 
-<img src="./robotics_ee_hardware//img/self.jpg" width=44%> <img src="./robotics_ee_hardware//img/self2.png" width=51%>
+<img src="./robotics_ee_hardware/img/self.jpg" width=44%> <img src="./robotics_ee_hardware/img/self2.png" width=51%>
 
 <table width=100%>
 <tr>
