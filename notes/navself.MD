@@ -8,3 +8,4 @@
 + [Vehicle Dynamics State Estimation and Localization for High Performance Race Cars](https://www.sciencedirect.com/science/article/pii/S2405896319303957)
 + [Autonomous vehicle localization using
 state estimation techniques](https://upcommons.upc.edu/bitstream/handle/2117/333272/master-thesis-dunia-prieto.pdf?sequence=1&isAllowed=y)
++ [Estimating Probabilities with Bayesian Modeling in Python](https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815)
