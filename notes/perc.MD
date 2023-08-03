@@ -6,6 +6,7 @@
 <tr>
 <th>Object Detection</th>
 <th>Segmentation</th>
+<th>SLAM</th>
 </tr>
 <tr>
 <td>
@@ -25,7 +26,7 @@ Object Tracking [[models](https://paperswithcode.com/area/computer-vision/object
 <td>
 
 Segmentation: [models](https://paperswithcode.com/area/computer-vision/semantic-segmentation)
-- Semantic Sedmentation [[models](https://paperswithcode.com/task/semantic-segmentation)]
+- Semantic Segmentation [[models](https://paperswithcode.com/task/semantic-segmentation)]
 - Panoptic Segmentation [[models](https://paperswithcode.com/task/panoptic-segmentation)]
 - 3D Semantic Segmentation [[models](https://paperswithcode.com/task/3d-semantic-segmentation)]
 - Real-Time Semantic Segmentation [[models](https://paperswithcode.com/task/real-time-semantic-segmentation)]
@@ -35,15 +36,20 @@ Depth Estimation: [[models](https://paperswithcode.com/task/depth-estimation)]
 - Monocular Depth Estimation [[models](https://paperswithcode.com/task/monocular-depth-estimation)]
 - Stereo Depth Estimation [[models](https://paperswithcode.com/task/stereo-depth-estimation)]
 </td>
-</tr>
-</table>
-
-## SLAM (Simultaneous Localization and Mapping)
+<td>
 
 Vision SLAM: @github/[SLAM](https://github.com/SilenceOverflow/Awesome-SLAM)
 - Monocular vision SLAM ([example](https://de.mathworks.com/help/vision/ug/monocular-visual-simultaneous-localization-and-mapping.html))
 - Stereo vision SLAM ([example](https://de.mathworks.com/help/vision/ug/stereo-visual-simultaneous-localization-mapping.html))
 - RGB-D vision SLAM ([example](https://de.mathworks.com/help/vision/ug/visual-slam-with-an-rgbd-camera.html))
+
+Autonomous Vehicles : [[models and features](https://paperswithcode.com/area/computer-vision/autonomous-vehicles)]
+
+</td>
+</tr>
+</table>
+
+## SLAM (Simultaneous Localization and Mapping)
 
 Filter Based SLAM : Filter based SLAM treats the SLAM problem as a state-estimation problem, where the state encompasses information about the current position and map. The state is recursively updated by a filter, which estimates the current position and map based on actions and measurements. As more data is collected, the estimate is augmented and refined.
 
@@ -71,8 +77,6 @@ Deep learning based SLAM attempts to solve the SLAM problem using neural network
 - [ [RatSLAM](https://www.researchgate.net/publication/4076855_RatSLAM_A_hippocampal_model_for_simultaneous_localization_and_mapping), [LIST-SLAM](https://arxiv.org/abs/2104.00099), [EnvSLAM](https://www.mdpi.com/2220-9964/10/11/772) ]
 
 [[A Comprehensive survey of visual SLAM algorithms](https://hal.science/hal-04132827/document)] [ [Lidar SLAM: The Ultimate Guide to Simultaneous Localization and Mapping](https://www.wevolver.com/article/lidar-slam-the-ultimate-guide-to-simultaneous-localization-and-mapping) ]
-
-Autonomous Vehicles : [[models and features](https://paperswithcode.com/area/computer-vision/autonomous-vehicles)]
 
 
 
