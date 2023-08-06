@@ -39,6 +39,10 @@ Check my pages on robotics hardware : @[robotic-components-i](https://github.com
 
 projects : [Design, Modeling and Control of Aerial Robot DRAGON](https://youtu.be/zMi5v2KznU4), [Versatile Articulated Aerial Robot DRAGON: Aerial Manipulation and Grasping by Vectorable Thrust](https://youtu.be/fJA4Rch0biE), [Learning High-Speed Flight in the Wild (Science Robotics, 2021)](https://youtu.be/m89bNn6RFoQ), [Swarm of Micro Flying Robots in the Wild [All]](https://youtu.be/L0fJ0EHHfOA), [Controlling Robotic Swarms](https://youtu.be/stzQNjtDg0g), [Crazyflie in research, 2020-2022](https://youtu.be/iTe6-lLp5iM), [EPFL - Aerial Robotics](https://www.youtube.com/watch?v=3-O85lB_DJQ&list=PLx1eeEN6ALvVP2CCpfGI_pbvDUH10O8RW), [This drone has legs: Watch a flying robot perch on branches, catch a tennis ball in mid-air](https://youtu.be/TF-OthkH844), [GAAS](https://github.com/generalized-intelligence/GAAS).
 
+
+[ [Spark Lab](./spark.MD) ]
+
+
 resources : [Bitcraze Aerial Robotics Meeting](https://www.youtube.com/watch?v=nf_shDkCOGA&list=PLj9XMmQVSr-Bwqia2Do_xdD8aq6DfY3E0), [UZH Robotics and Perception Group](https://www.youtube.com/@ailabRPG/videos), [BitCraze Videos](https://www.youtube.com/@BitcrazeVideos/playlists), [International Conference on Unmanned Aircraft Systems (ICUAS)](https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/icuas), [Springer - Aerial Robotics](https://link.springer.com/referenceworkentry/10.1007/978-3-540-30301-5_45),  [Springer - Aerial Robotics](https://link.springer.com/book/10.1007/978-3-030-12945-3), [MDPI - Aerial Robotics for Inspection and Maintenance](https://www.mdpi.com/journal/applsci/special_issues/Aerial_Robotics_for_Inspection_and_Maintenance), [list](https://www.bitcraze.io/2023/07/online-courses-in-aerial-robotics/) of aeriial robotics classes. Here are some books - [A First Course in Aerial Robots and Drones](https://www.routledge.com/A-First-Course-in-Aerial-Robots-and-Drones/Sebbane/p/book/9780367631383) : [pdf](./doc/(Chapman%20&%20Hall_CRC%20Artificial%20Intelligence%20and%20Robotics%20Series)%20Yasmina%20Bestaoui%20Sebbane%20-%20A%20First%20Course%20in%20Aerial%20Robots%20and%20Drones-CRC%20Press%20(2022).pdf), [Control of Ground and Aerial Robots](https://link.springer.com/book/10.1007/978-3-031-23088-2), [online textbook](https://www.autonomousrobotslab.com/online-textbook.html), [Udacity - Flying Car and Autonomous Flight Engineer](https://www.udacity.com/course/flying-car-nanodegree--nd787).
 
 ## Perception and Manipulation
@@ -100,7 +104,7 @@ Navigation:
 + [Mobile Robot Navigation Using Deep Reinforcement Learning](https://www.mdpi.com/2227-9717/10/12/2748)
 + [Navigation System of the Autonomous Agricultural Robot “BoniRob”*](https://www.cs.cmu.edu/~mbergerm/agrobotics2012/01Biber.pdf)
 
-resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8JQ5Q-ZwU&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg), [Making robot navigation easy with Nav2 and ROS!](https://youtu.be/jkoGkAd0GYk), [Springer - Mobile Robot Navigation](https://link.springer.com/chapter/10.1007/978-3-642-33965-3_1), paperswithcode - [robotnavigation](https://paperswithcode.com/task/robot-navigation), [Safe Robot Navigation in Dense Crowds](https://cordis.europa.eu/project/id/779942).
+resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8JQ5Q-ZwU&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg), [Making robot navigation easy with Nav2 and ROS!](https://youtu.be/jkoGkAd0GYk), [Where Can Machine Learning Help Robotic State Estimation?](https://www.youtube.com/live/z9IeZ_U0uqY?feature=share), [Springer - Mobile Robot Navigation](https://link.springer.com/chapter/10.1007/978-3-642-33965-3_1), paperswithcode - [robotnavigation](https://paperswithcode.com/task/robot-navigation), [Safe Robot Navigation in Dense Crowds](https://cordis.europa.eu/project/id/779942).
 
 ## Swarm Intelligence (Multi Agent Systems)
 
