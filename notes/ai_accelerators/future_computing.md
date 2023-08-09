@@ -2,7 +2,7 @@
 
 <img src="img/tnn.png" width="49%"><a> </a><img src="img/op.png" width="49%">
 
-[PyTorch ONN](https://github.com/JeremieMelo/pytorch-onn)
+
 
 ## Optical Computing
 resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6nYA)], [[3](https://youtu.be/UqeH7ozVOpQ)], [[4](https://youtu.be/t0yj4hBDUsc)], [[5](https://youtu.be/29aTqLvRia8)]
@@ -15,7 +15,7 @@ resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6n
 + Heat loss in PCB due to ions smashing against each other, minimized by AI hardware accelerators by arranging them parallel but consumes a lot of energy. Thus we need Photonic Computing which is based on light, controlled ion flow and energy efficient. <br />
 
 Available chip: [lighton.ai](https://lighton.ai/photonic-computing-for-ai/), [lightmatter](https://lightmatter.co/), [lightintelligence.ai](https://www.lightelligence.ai/) <br />
-News: [Photonic Chip Performs Image Recognition at the Speed of Light](https://spectrum.ieee.org/photonic-neural-network), [Mobileye Puts Lidar on a Chip—and Helps Map Intel's Future](https://www.wired.com/story/mobileye-lidar-on-a-chip-intel/), [OPTICAL COMPUTING FOR POST-QUANTUM CRYPTOGRAPHY](https://optalysys.com/optical-computing-for-post-quantum-cryptography/) <br /><br />
+News: [Photonic Chip Performs Image Recognition at the Speed of Light](https://spectrum.ieee.org/photonic-neural-network), [Mobileye Puts Lidar on a Chip—and Helps Map Intel's Future](https://www.wired.com/story/mobileye-lidar-on-a-chip-intel/), [OPTICAL COMPUTING FOR POST-QUANTUM CRYPTOGRAPHY](https://optalysys.com/optical-computing-for-post-quantum-cryptography/), [PyTorch ONN](https://github.com/JeremieMelo/pytorch-onn) <br /><br />
 
 ## Neuromorphic Computing
 resources : [[1](https://youtu.be/TetLY4gPDpo)], [[2](https://youtu.be/u9pulFlavIM)]
@@ -72,11 +72,6 @@ resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5f
             binary_state = '{0:0{1}b}'.format(index, bit_length)
             result.append(r'{0:+2g}\left\lvert {1}\right\rangle '.format(value_round, binary_state))
         return ''.join(result)
-
-
-        .
-        .
-        .
 
 ```
 

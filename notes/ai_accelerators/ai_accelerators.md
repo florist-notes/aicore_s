@@ -2,6 +2,8 @@
 
 <img src="img/acc.png" width="40%"><a> </a><img src="img/acc2.png" width="49%">
 
+Here is a comprehensive list of AI accelerators I came across while exploring about them :)  🌸
+
 <img src="img/ai.png" width="100%">
 
 
