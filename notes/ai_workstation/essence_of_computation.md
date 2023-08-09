@@ -3,13 +3,10 @@
 Here is a series of blogs on hardware and electronics.
 
 ### Essence of Computation:
-<br />
 
+Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video  --- [(history) --- (of) ---- (hardware)](https://youtu.be/M4d3FXu9-3I) --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
 
---- [() --- () ---- ()](https://youtu.be/M4d3FXu9-3I) --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
-
-
------- 01100100 01100001 01110100 01100001 (data) ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
+Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ------ 01100100 01100001 01110100 01100001 (data/packets) ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
 
 
 

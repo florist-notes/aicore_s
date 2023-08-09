@@ -101,7 +101,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">NVIDIA DGX H100</a></td>
 <td>GPU [<a href="https://youtu.be/bHW9eCzeEfE">1</a>], [<a href="https://www.tomshardware.com/news/nvidia-hopper-h100-80gb-price-revealed">2</a>]</td>
-<td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper architecture over ampere - €36,345.48 )</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-h100/">technical_details.pdf</a> ( hopper arch over ampere - €36,345.48 )</td>
 </tr>
 
 <tr>
@@ -113,7 +113,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">	NVIDIA DGX SuperPOD</a></td>
 <td>Super Computer [<a href="https://youtu.be/NoCdoBl9vPw">1</a>], [<a href="https://www.computerbase.de/2021-06/nvidia-dgx-superpod-20-petaflops-fuer-90.000-us-dollar-im-neuen-monatsabo/">2</a>], [<a href="https://youtu.be/vY61ExKhnfA">3</a>]</td>
-<td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a> ($7 million - $60 million or $90,000 / month.)</td>
+<td><a href="https://www.nvidia.com/en-us/data-center/dgx-superpod/">technical_details.pdf</a> ($7- $60 million or $90,000 / month.)</td>
 </tr>
 </table>
 
@@ -154,4 +154,4 @@ Extra Tips: <br />
 
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
 
-<img src="img/cc.jpg" width=80%>
+<img src="img/cc.jpg" width=50%><img src="img/acc.gif" width=40%>
