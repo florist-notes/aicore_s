@@ -2,11 +2,12 @@
 
 ```bash
 
-    $ # # # # #👾 # # 👾 👾 # # # # # 👾 👾 # 👾 👾 👾 👾 # # 👾 # #
+    $ echo " # # # # # 🤖 🤖 # # "
 
 ```
+I prepared some notes on Robotics and Mechatronics. I took [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics and organized few areas of interest. The usual flow: 
 
-[ ROBOT KINEMATICS ] → [ ROBOT DYNAMICS ] → [ ROBOT MOTION PLANNING AND CONTROL ] → [ ROBOT MANIPULATION ] → [ ROBOT ESTIMATION and LEARNING] → [ ROBOT PERCEPTION ] → [ ROBOT NAVIGATION ]
+[ [ROBOT KINEMATICS](https://en.wikipedia.org/wiki/Robot_kinematics) ] → [ [ROBOT DYNAMICS](http://www.scholarpedia.org/article/Robot_dynamics) ] → [ ROBOT MOTION PLANNING AND CONTROL ] → [ ROBOT MANIPULATION ] → [ ROBOT ESTIMATION and LEARNING] → [ ROBOT PERCEPTION ] → [ ROBOT NAVIGATION ]
 
 Robotics Books:
 
@@ -26,13 +27,13 @@ Robotics Books:
 </table>
 <br />
 
-Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics), [webots](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
+I am interested in Perception and Navigation of Robotic Systems. Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics), [webots](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
 
 ## Aerial Robotics
 
 <img src="img/aer.png" width=100%>
 
-[ [EPFL - Aerial Robotics](https://www.epfl.ch/labs/lis/research/aerial-robotics/) ] [ [UZH - Robotics and Perception Group](https://rpg.ifi.uzh.ch/) ] [ [Imperial - Aerial Robotics](https://www.imperial.ac.uk/aerial-robotics/) ] [ [ETH - Z : ASL - Flying Robots](https://asl.ethz.ch/research/flying-robots.html) ] [ [GRASP Lab : Aerial Robotics](https://www.grasp.upenn.edu/virtual-grasp-tour-videos/a-glimpse-into-grasp-research-aerial-robotics/) ] [ [MIT Spark Lab](https://web.mit.edu/sparklab/) ] [ [Oxford - Dynamic Robot Systems Group](https://ori.ox.ac.uk/labs/drs/aerial-robotics/) ] [ [Stanford - Aerospace Robotics Lab](https://web.stanford.edu/group/arl/) ] [ [CMU - AirLab](https://www.ri.cmu.edu/robotics-groups/air-lab/) ] [ [Smart Robotics Lab - TUM](https://srl.cit.tum.de/research/drones) ] [ [Microsoft - Aerial Informatics and Robotics Group](https://www.microsoft.com/en-us/research/group/air/) ] [ [Caltech - Autonomous Robotics and Control Lab](http://aerospacerobotics.caltech.edu/videos) ] [ [MIT - Robust Robotics Group](https://www.csail.mit.edu/research/robust-robotics-group) ] [ [Autonomous Robots Lab, NTNU](https://www.autonomousrobotslab.com/) ] [ [Biomorphic Intelligence Lab - TU Delft](https://www.tudelft.nl/ai/biomorphic-intelligence-lab) ] [ [Bio-inspired Soft Aerial Robotics](https://www.soft-aerial-robotics.com/) ]
+Institutes : [ [EPFL - Aerial Robotics](https://www.epfl.ch/labs/lis/research/aerial-robotics/) ] [ [UZH - Robotics and Perception Group](https://rpg.ifi.uzh.ch/) ] [ [Imperial - Aerial Robotics](https://www.imperial.ac.uk/aerial-robotics/) ] [ [ETH - Z : ASL - Flying Robots](https://asl.ethz.ch/research/flying-robots.html) ] [ [GRASP Lab : Aerial Robotics](https://www.grasp.upenn.edu/virtual-grasp-tour-videos/a-glimpse-into-grasp-research-aerial-robotics/) ] [ [MIT Spark Lab](https://web.mit.edu/sparklab/) ] [ [Oxford - Dynamic Robot Systems Group](https://ori.ox.ac.uk/labs/drs/aerial-robotics/) ] [ [Stanford - Aerospace Robotics Lab](https://web.stanford.edu/group/arl/) ] [ [CMU - AirLab](https://www.ri.cmu.edu/robotics-groups/air-lab/) ] [ [Smart Robotics Lab - TUM](https://srl.cit.tum.de/research/drones) ] [ [Microsoft - Aerial Informatics and Robotics Group](https://www.microsoft.com/en-us/research/group/air/) ] [ [Caltech - Autonomous Robotics and Control Lab](http://aerospacerobotics.caltech.edu/videos) ] [ [MIT - Robust Robotics Group](https://www.csail.mit.edu/research/robust-robotics-group) ] [ [Autonomous Robots Lab, NTNU](https://www.autonomousrobotslab.com/) ] [ [Biomorphic Intelligence Lab - TU Delft](https://www.tudelft.nl/ai/biomorphic-intelligence-lab) ] [ [Bio-inspired Soft Aerial Robotics](https://www.soft-aerial-robotics.com/) ] [ [Spark Lab](./spark.MD) ]
 
 + [MIT Robotics - Kevin Chen - Agile, robust, and multifunctional micro-aerial-robots](https://youtu.be/xmrDK_w0Yog)
 + [RI Seminar: Kostas Alexis : Autonomous Exploration and Inspection using Aerial Robots](https://www.youtube.com/live/4ko2K6jFwaU?feature=share)
@@ -40,7 +41,7 @@ Check my pages on robotics hardware : @[robotic-components-i](https://github.com
 projects : [Design, Modeling and Control of Aerial Robot DRAGON](https://youtu.be/zMi5v2KznU4), [Versatile Articulated Aerial Robot DRAGON: Aerial Manipulation and Grasping by Vectorable Thrust](https://youtu.be/fJA4Rch0biE), [Learning High-Speed Flight in the Wild (Science Robotics, 2021)](https://youtu.be/m89bNn6RFoQ), [Swarm of Micro Flying Robots in the Wild [All]](https://youtu.be/L0fJ0EHHfOA), [Controlling Robotic Swarms](https://youtu.be/stzQNjtDg0g), [Crazyflie in research, 2020-2022](https://youtu.be/iTe6-lLp5iM), [EPFL - Aerial Robotics](https://www.youtube.com/watch?v=3-O85lB_DJQ&list=PLx1eeEN6ALvVP2CCpfGI_pbvDUH10O8RW), [This drone has legs: Watch a flying robot perch on branches, catch a tennis ball in mid-air](https://youtu.be/TF-OthkH844), [GAAS](https://github.com/generalized-intelligence/GAAS).
 
 
-[ [Spark Lab](./spark.MD) ]
+
 
 
 resources : [Bitcraze Aerial Robotics Meeting](https://www.youtube.com/watch?v=nf_shDkCOGA&list=PLj9XMmQVSr-Bwqia2Do_xdD8aq6DfY3E0), [UZH Robotics and Perception Group](https://www.youtube.com/@ailabRPG/videos), [BitCraze Videos](https://www.youtube.com/@BitcrazeVideos/playlists), [International Conference on Unmanned Aircraft Systems (ICUAS)](https://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/icuas), [Springer - Aerial Robotics](https://link.springer.com/referenceworkentry/10.1007/978-3-540-30301-5_45),  [Springer - Aerial Robotics](https://link.springer.com/book/10.1007/978-3-030-12945-3), [MDPI - Aerial Robotics for Inspection and Maintenance](https://www.mdpi.com/journal/applsci/special_issues/Aerial_Robotics_for_Inspection_and_Maintenance), [list](https://www.bitcraze.io/2023/07/online-courses-in-aerial-robotics/) of aeriial robotics classes. Here are some books - [A First Course in Aerial Robots and Drones](https://www.routledge.com/A-First-Course-in-Aerial-Robots-and-Drones/Sebbane/p/book/9780367631383) : [pdf](./doc/(Chapman%20&%20Hall_CRC%20Artificial%20Intelligence%20and%20Robotics%20Series)%20Yasmina%20Bestaoui%20Sebbane%20-%20A%20First%20Course%20in%20Aerial%20Robots%20and%20Drones-CRC%20Press%20(2022).pdf), [Control of Ground and Aerial Robots](https://link.springer.com/book/10.1007/978-3-031-23088-2), [online textbook](https://www.autonomousrobotslab.com/online-textbook.html), [Udacity - Flying Car and Autonomous Flight Engineer](https://www.udacity.com/course/flying-car-nanodegree--nd787).
@@ -68,7 +69,7 @@ resources : [Active Manipulation for Perception](https://link.springer.com/chapt
 
 ## SLAM, Motion Planning and Navigation 
 
-<img src="img/slam.gif" width=100%>
+<img src="img/slam2.gif" width=49%><a> </a> <img src="img/slam3.gif" width=49%>
 
 SLAM:
 + [CSIRO's Wildcat SLAM: A Robust SLAM System for Robot Teams in the Wild](https://www.youtube.com/live/YCE1Aj0k1UA?feature=share)
@@ -108,7 +109,7 @@ resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8J
 
 ## Swarm Intelligence (Multi Agent Systems)
 
-<img src="img/swarm.gif" width=100%>
+<img src="img/swarm-unscreen.gif" width=100%>
 
 - ["Learning to Communicate in Multi-Agent Systems" - Amanda Prorok](https://youtu.be/J9Olp6YqQhw)
 - [Understanding Equilibria in Multi-Agent Systems - Michael Wooldridge, University of Oxford](https://youtu.be/Iqm8UTXUG24)
