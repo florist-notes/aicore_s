@@ -33,7 +33,7 @@ At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
 
 We will go for the Threadripper Pro 5000 series instead of 3000 series. Check for yourself:
 
-<img src="img/ryz3.jpg" width=65%><img src="img/amdt2.jpg" width=35%>
+<img src="img/ryz3.jpg" width=65%><img src="img/amdt2.png" width=35%>
 
 </td>
 </tr>
