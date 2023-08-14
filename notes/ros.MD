@@ -177,12 +177,15 @@ ros2 service : ` $ ros2 service list` > ` $ ros2 run demo_nodes_cpp add_two_ints
 
 example service call : ` $ ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{'a' : 2,'b' : 5}" `.
 
-# ROS 2 Projects: [An Updated Guide to Docker and ROS 2](https://roboticseabass.com/2023/07/09/updated-guide-docker-and-ros2/)
-## ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
+## ROS 2 Projects: 
+## + ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
 
-## ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/6dof/README.MD)
+## + ROS 2 Robotic Arm 6 DoF: [@rosarm](./rosproj/6dof/README.MD)
 
-## ROS 2 Point Cloud: [@rospcloud](./rosproj/pclab/README.MD)
+## + ROS 2 Point Cloud: [@rospcloud](./rosproj/pclab/README.MD)
+
+
+#### ROS 2 RESOURCES: [An Updated Guide to Docker and ROS 2](https://roboticseabass.com/2023/07/09/updated-guide-docker-and-ros2/), @[webviz](https://github.com/cruise-automation/webviz), @[rosbag.js](https://github.com/cruise-automation/rosbag.js), [Web-Based Visualization using ROS JavaScript Library : ROS Bridge](https://roboticsknowledgebase.com/wiki/tools/roslibjs/)
 
 <img src="./rosproj/docker_ros2_banner.webp" width=100%>
 
