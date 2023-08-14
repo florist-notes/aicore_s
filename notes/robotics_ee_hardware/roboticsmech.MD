@@ -109,7 +109,7 @@ resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8J
 
 ## Swarm Intelligence (Multi Agent Systems)
 
-<img src="img/swarm-unscreen.gif" width=100%>
+<img src="img/swarm5.gif" width=100%>
 
 - ["Learning to Communicate in Multi-Agent Systems" - Amanda Prorok](https://youtu.be/J9Olp6YqQhw)
 - [Understanding Equilibria in Multi-Agent Systems - Michael Wooldridge, University of Oxford](https://youtu.be/Iqm8UTXUG24)
