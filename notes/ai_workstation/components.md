@@ -24,7 +24,7 @@ Important aspects while choosing a CPU for Deep Learning are: <br />
 </p>
 Here is an example of 4 core CPU:
 
-<img src="img/cache.png" width=70%><a> </a><img src="img/tpro.png" width=25%>
+<img src="img/cache.png" width=70%><a> </a><img src="img/tpro2.png" width=25%>
 
 
 At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
@@ -131,7 +131,7 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <tr>
 <td>Storage</td>
 <td>We need SSD! Choice : M.2 SSD via NVMe. SSD comes in 2 size : 2.5 " SSD uses SATA interface and M.2 SSD are plugged into an M.2 SLOT. M.2 NVMe SSD are good storage devices.<br /><br />
-<img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c.png" width=49%>
+<img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c2.png" width=49%>
 
 External Storage : NAS RAID 5 [calculation](https://www.synology.com/en-global/support/RAID_calculator?hdds=16%20TB|16%20TB|16%20TB|16%20TB): 
 Total: 64 TB;  Available: 48 TB; for protection: 16 TB.
