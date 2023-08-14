@@ -24,7 +24,7 @@ Important aspects while choosing a CPU for Deep Learning are: <br />
 </p>
 Here is an example of 4 core CPU:
 
-<img src="img/cache.png" width=50%><a> </a><img src="img/tpro.png" height=150px>
+<img src="img/cache.png" width=70%><a> </a><img src="img/tpro.png" width=25%>
 
 
 At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
@@ -33,7 +33,7 @@ At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
 
 We will go for the Threadripper Pro 5000 series instead of 3000 series. Check for yourself:
 
-<img src="img/ryz3.jpg" width=95%>
+<img src="img/ryz3.jpg" width=65%><img src="img/amdt.jpg" width=35%>
 
 </td>
 </tr>
@@ -154,4 +154,4 @@ Extra Tips: <br />
 
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
 
-<img src="img/cc.jpg" width=50%><img src="img/acc.gif" width=40%>
+<img src="img/cc.jpg" width=55.5%><img src="img/acc.gif" width=43%>
