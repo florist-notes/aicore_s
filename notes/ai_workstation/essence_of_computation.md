@@ -1,10 +1,12 @@
 # Essence of Computation & Networking
 
-Here is a series of blogs on hardware and electronics.
+We are problem solvers and we often come across computational needs in order to reach our solutions for the problems at hand.  We need good hardware for good computation. Networking hardware acts as data pipeline and investing in good hardware aids in good research and problem solving.  
+
+Here is a series of blogs I prepared on hardware and electronics. These blogs are for educational purposes only.
 
 ### Essence of Computation:
 
-Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video  --- [(history) --- (of) ---- (hardware)](https://youtu.be/M4d3FXu9-3I) --- everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ).
+Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video of how everything started [(history) --- (of) ---- (hardware)](https://youtu.be/M4d3FXu9-3I),  everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ). BINARY! We speak binary.
 
 Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ------ 01100100 01100001 01110100 01100001 (data/packets) ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
 
@@ -58,7 +60,7 @@ Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ----
 </table>
 <br />
 
-<img src="img/net/1.jpg" height=310px><a> </a><img src="img/net/2.jpg" height=310px><a> </a><img src="img/net/3.jpg" height=310px>
+<img src="img/net/1.jpg" width=25%x><a> </a><img src="img/net/2.jpg" width=25%x><a> </a><img src="img/net/3.jpg" width=45%x>
 <br />
 
 You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable going to different rooms. The rightmost picture is of Unifi Deam Machine Pro in my lab.
@@ -72,7 +74,7 @@ You can visualize every aspect of your networking hardware from unifi mobile app
 <img src="img/net/viz.png">
 <br />
 
-highlighting some of the features I use :
+highlighting some of the features I used in lab :
 
 <img src="img/net/4-min.jpg" height=500px><a> </a><img src="img/net/5-min.jpg" height=500px><a> </a><img src="img/net/6-min.jpg" height=500px><a> </a> <img src="img/net/7-min.jpg" height=500px>
 <br />
