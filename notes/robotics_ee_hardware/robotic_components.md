@@ -138,14 +138,12 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 
 Unitree Go 2 [[video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.com/en/go2/)] [[buy-de](https://www.quadruped.de/QUADRUPED-Go2)] [quadruped.de](https://www.quadruped.de/QUADRUPEDs)
 
-<img src="img/go2.jpg" width=39%> <img src="img/go22.jpg" width=60%> 
-
-<img src="img/unitree.gif" width=100%> 
+<img src="img/go2.jpg" width=17%> <img src="img/go22.jpg" width=30%> <img src="img/unitree.gif" width=48%> 
 
 ## [Boston Dynamics Spot®](https://www.bostondynamics.com/products/spot)
 A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT.
 
-<img src="img/SPOT.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
+<img src="img/spot2.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
 
 
 Check out this cute [emo](https://living.ai/product/emo/) robot, [MorpHex](https://youtu.be/yn3FWb-vQQ4) and we can buy robots from [robotshop](https://www.robotshop.com/), [myrobotshop](https://www.mybotshop.de/), [Festo](https://www.festo.com/de/en/c/products-id_pim1/) etc. Research on Boston Dynamics [Atlas](https://www.bostondynamics.com/atlas) and Anybotic's [ANYmal](https://www.anybotics.com/anymal-autonomous-legged-robot/) seems promising.
