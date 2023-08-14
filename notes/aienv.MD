@@ -1,4 +1,6 @@
-# AI Environment with CUDA, cudnn and python on linux
+# AI Environment with CUDA, cudnn and python on linux 🌸
+
+Let's setup the AI environemnt that we all want to work and feel comfortable in:
 
 ```
             ******** PLAN  ******** :
@@ -22,10 +24,11 @@
         > OpenCV version: 4.5
 
 ```
-My grpahics card (2x RTX A5500) supports until CUDA 11.6 ([.pdf](https://www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/rtx-a5500/nvidia-rtx-a5500-datasheet.pdf)). Check what CUDA toolkit is supported by your graphics card, my selection: cuDNN : [8.2.4](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.2.4/11.4_20210831/cudnn-11.4-linux-x64-v8.2.4.15.tgz) from [cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive) and [CUDA 11.4](https://developer.nvidia.com/cuda-11-4-0-download-archive), To download CUDA for RHEL 8:
+My grapahics card at hand (2x RTX A5500) supports until CUDA 11.6 ([.pdf](https://www.nvidia.com/content/dam/en-zz/Solutions/gtcs22/rtx-a5500/nvidia-rtx-a5500-datasheet.pdf)). Check what CUDA toolkit is supported by your graphics card, my selection: cuDNN : [8.2.4](https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.2.4/11.4_20210831/cudnn-11.4-linux-x64-v8.2.4.15.tgz) from [cudnn-archive](https://developer.nvidia.com/rdp/cudnn-archive) and [CUDA 11.4](https://developer.nvidia.com/cuda-11-4-0-download-archive), To download CUDA for RHEL 8:
 
 ```bash
-        $ wget https://developer.download.nvidia.com/compute/cuda/11.6.0/local_installers/cuda-repo-rhel8-11-6-local-11.6.0_510.39.01-1.x86_64.rpm
+        $ wget https://developer.download.nvidia.com/compute/cuda/            
+                    11.6.0/local_installers/cuda-repo-rhel8-11-6-local-11.6.0_510.39.01-1.x86_64.rpm
         $ sudo rpm -i cuda-repo-rhel8-11-6-local-11.6.0_510.39.01-1.x86_64.rpm
         $ sudo dnf clean all
         $ sudo dnf -y module install nvidia-driver:latest-dkms
@@ -42,6 +45,10 @@ Next, update the paths for CUDA library and executables:
 
 ```bash
         $ echo 'export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"' >> ~/.bashrc
+```
+Then,
+
+```bash
         $ echo 'export CUDA_HOME=/usr/local/cuda' >> ~/.bashrc 
         $ echo 'export PATH="/usr/local/cuda/bin:$PATH"' >> ~/.bashrc 
         $ source ~/.bashrc
@@ -117,7 +124,8 @@ The apt-get suite is also an APT command-line tool for handling packages in Linu
 ```bash
     $ sudo apt-get update
     $ sudo apt-get --assume-yes upgrade
-    $ sudo apt-get --assume-yes install tmux build-essential curl vim  gcc-9 g++-9 python-is-python3 python3-virtualenv make binutils
+    $ sudo apt-get --assume-yes install tmux build-essential 
+                  curl vim  gcc-9 g++-9 python-is-python3 python3-virtualenv make binutils
     $ sudo apt-get --assume-yes install software-properties-common
     $ sudo apt-get install -y cmake gfortran git pkg-config
     $ sudo apt-get install -y python-dev software-properties-common wget 
@@ -162,7 +170,9 @@ fi
 
 $ exec $SHELL (restart bash)
 $ sudo apt-get update --yes
-$ sudo apt-get install --yes libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libgdbm-dev lzma lzma-dev tcl-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev wget curl make build-essential python-openssl #py-env dependencies
+$ sudo apt-get install --yes libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm
+           libncurses5-dev libncursesw5-dev xz-utils tk-dev libgdbm-dev lzma lzma-dev tcl-dev libxml2-dev
+           libxmlsec1-dev libffi-dev liblzma-dev wget curl make build-essential python-openssl 
 $ pyenv install --list #python version available in pyenv
 
 ```
@@ -239,7 +249,8 @@ $ python3 -c "import torch; print(torch.device('cuda' if torch.cuda.is_available
 
 ```bash
         $ sudo apt-get update
-        $ sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libhdf5-serial-dev protobuf-compiler libopencv-dev
+        $ sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev 
+                                      libhdf5-serial-dev protobuf-compiler libopencv-dev
 
 NOTE : If you get a warning saying the following:
 /usr/lib/nvidia-375/libEGL.so.1 not a symbolic link
@@ -314,7 +325,8 @@ TensorRT is a software development kit that’s used to optimize pre-trained mod
 
 ```bash
 
-$ sudo apt-get install --yes --no-install-recommends libnvinfer7=7.1.3-1+cuda11.0 libnvinfer-dev=7.1.3-1+cuda11.0 libnvinfer-plugin7=7.1.3-1+cuda11.0
+$ sudo apt-get install --yes --no-install-recommends libnvinfer7=7.1.3-1+cuda11.0
+                     libnvinfer-dev=7.1.3-1+cuda11.0 libnvinfer-plugin7=7.1.3-1+cuda11.0
 
 ```
 Open the BlackScholes Directory: ` $ cd /usr/local/cuda-11.0/samples/4_Finance/BlackScholes`
