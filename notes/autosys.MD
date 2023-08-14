@@ -40,6 +40,12 @@ Levels of autonomy in self-driving cars :
 
 #### Level 5: The vehicle's ADS acts as a virtual chauffeur and does all the driving in all circumstances. The human occupants are passengers and are never expected to drive the vehicle.
 
+## Adaptive Flight Control of a Flying Car Model (VTOL with Wings) using Airflow Vector Sensing :
+
+<img src="./img/vtolmed.png" width=100%> 
+
+[ [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [project](http://aerospacerobotics.caltech.edu/urban-air-mobility-and-autonomous-flying-cars), [video](https://youtu.be/2d2Gy-PjgpA), [The Vertical Flight Society](https://vtol.org/) ]
+
 @github : [carla](https://github.com/carla-simulator/carla), [apollo](https://github.com/ApolloAuto/apollo), [AirSim](https://github.com/microsoft/AirSim), [autoware](https://github.com/autowarefoundation/autoware), [webot](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/)
 
 resources : [CARLA](https://carla.org/), [Udacity - Self-Driving Car Engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013), [University of Toronto : Self Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars), [uni-bonn.de](https://www.ipb.uni-bonn.de/sdc-2021/), [Perception for Self-Driving Cars](https://www.freecodecamp.org/news/perception-for-self-driving-cars-deep-learning-course/), [MIT Deep Learning and Artificial Intelligence Lectures](https://deeplearning.mit.edu/), [CMU 18-744: Autonomous Driving](https://courses.ece.cmu.edu/18744), [sensor types](https://www.linkedin.com/pulse/autonomous-driving-types-sensors-brandon-goh/), [Autonomous vehicles: theoretical and practical challenges](https://www.sciencedirect.com/science/article/pii/S2352146518302606), [awesome radar perception](https://github.com/ZHOUYI1023/awesome-radar-perception), [Ultra Fast Lane Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection), [Motion Planning](https://github.com/zhm-real/MotionPlanning).

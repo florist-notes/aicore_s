@@ -51,6 +51,8 @@ Autonomous Vehicles : [[models and features](https://paperswithcode.com/area/com
 
 ## SLAM (Simultaneous Localization and Mapping)
 
+More on Simultaneous Localization and Mapping (SLAM) in my visual slam notes @[visual-slam](https://github.com/florist-notes/aicore_n/blob/main/notes/code/slam/README.MD).
+
 Filter Based SLAM : Filter based SLAM treats the SLAM problem as a state-estimation problem, where the state encompasses information about the current position and map. The state is recursively updated by a filter, which estimates the current position and map based on actions and measurements. As more data is collected, the estimate is augmented and refined.
 
 Some filter based SLAM algorithms are:
@@ -74,7 +76,7 @@ In general, graph based SLAM performs better than filtering based SLAM when ther
 
 Deep Learning Based SLAM
 Deep learning based SLAM attempts to solve the SLAM problem using neural networks and deep learning. Examples:
-- [ [RatSLAM](https://www.researchgate.net/publication/4076855_RatSLAM_A_hippocampal_model_for_simultaneous_localization_and_mapping), [LIST-SLAM](https://arxiv.org/abs/2104.00099), [EnvSLAM](https://www.mdpi.com/2220-9964/10/11/772) ]
+- [ [RatSLAM](https://www.researchgate.net/publication/4076855_RatSLAM_A_hippocampal_model_for_simultaneous_localization_and_mapping), [LIST-SLAM](https://arxiv.org/abs/2104.00099), [EnvSLAM](https://www.mdpi.com/2220-9964/10/11/772) ] [ [FastSLAM](http://robots.stanford.edu/papers/montemerlo.fastslam-tr.pdf) ]
 
 [[A Comprehensive survey of visual SLAM algorithms](https://hal.science/hal-04132827/document)] [ [Lidar SLAM: The Ultimate Guide to Simultaneous Localization and Mapping](https://www.wevolver.com/article/lidar-slam-the-ultimate-guide-to-simultaneous-localization-and-mapping) ]
 
