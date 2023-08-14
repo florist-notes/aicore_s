@@ -1,6 +1,6 @@
 # AI Environment with CUDA, cudnn and python on linux 🌸
 
-Let's setup the AI environemnt that we all want to work and feel comfortable in:
+Let's setup the AI environment that we all want to work and feel comfortable in:
 
 ```
             ******** PLAN  ******** :
