@@ -2,7 +2,7 @@
 
 <img src="./robotics_ee_hardware/img/se1.png" width=47%> <img src="./robotics_ee_hardware/img/se3.webp" width=47%> 
 
-Please check the Nonlinear Optimization section from my notes on Visual SLAM [here](https://github.com/florist-notes/aicore_n/blob/main/notes/code/slam/README.MD).
+This [guide](./self.pdf) is a wonderful resource on State Estimation for Robotics. Please check the Nonlinear Optimization section from my notes on Visual SLAM [here](https://github.com/florist-notes/aicore_n/blob/main/notes/code/slam/README.MD).
 
 + [Estimation and navigation methods with limited information for autonomous urban driving](https://onlinelibrary.wiley.com/doi/full/10.1002/eng2.12054)
 + [Autonomous Vehicle State Estimation and Mapping Using Takagi–Sugeno Modeling Approach](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9099810/)
