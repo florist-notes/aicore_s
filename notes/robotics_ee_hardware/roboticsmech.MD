@@ -12,23 +12,23 @@
 
 Robotics and Mechatronics in short is the science and art of making physically intelligent yet artificial beings. AI is about mimicking the human senses ~ (Computer Vision == eyesight; NLP == language) and Robotics ~ physical touch. I prepared some notes on Robotics & Mechatronics and took a [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics. I prepared some notes on few areas of interest in this blog. The usual flow: 
 
-<b>ROBOT KINEMATICS:</b> Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
+<b>Ronot Kinematics:</b> Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
 
-<b>ROBOT DYNAMICS:</b> The dynamics in robotics, in English defined as robot dynamics, studies the forces acting on a robotic mechanism and the accelerations that these forces produce. The robotic mechanism is generally considered as a rigid system, in order to apply the dynamic laws of rigid bodies. The two main problems in robot dynamics are:
+<b>Robot Dynamics:</b> The dynamics in robotics, in English defined as robot dynamics, studies the forces acting on a robotic mechanism and the accelerations that these forces produce. The robotic mechanism is generally considered as a rigid system, in order to apply the dynamic laws of rigid bodies. The two main problems in robot dynamics are:
 
 + Forward dynamics: given the forces, work out the accelerations.
 + Inverse dynamics: given the accelerations, work out the forces.
 + Hybrid dynamics: given the forces at some joints and the accelerations at others, work out the unknown forces and accelerations.
 
-<b>ROBOT MOTION PLANNING AND CONTROL: </b> Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination.
+<b>Robot Motion Planning and Control: </b> Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination.
 
-<b>ROBOT MANIPULATION :</b> The manipulation task usually requires moving an object to a specified location in space, without particular regard as to how the manipulator can accomplish the task. The model considered here greatly simplifies the problems of grasping, stability, friction, mechanics, and uncertainties and instead focuses on the geometric aspects.
+<b>Robot Manipulation :</b> The manipulation task usually requires moving an object to a specified location in space, without particular regard as to how the manipulator can accomplish the task. The model considered here greatly simplifies the problems of grasping, stability, friction, mechanics, and uncertainties and instead focuses on the geometric aspects.
 
-<b>ROBOT ESTIMATION and LEARNING :</b> How can robots determine their state and properties of the surrounding environment from noisy sensor measurements in time?  how to get robots to incorporate uncertainty into estimating and learning from a dynamic and changing world.
+<b>Robot State Estimation and Learning :</b> How can robots determine their state and properties of the surrounding environment from noisy sensor measurements in time?  how to get robots to incorporate uncertainty into estimating and learning from a dynamic and changing world.
 
-<b>ROBOT PERCEPTION :</b> Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
+<b>Robot Perception:</b> Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
 
-Robotics Books:
+### Robotics Books:
 
 <table style="width:100%" >
 <tr>
@@ -50,9 +50,11 @@ I am interested in Perception and Navigation of Robotic Systems. Feel free to ch
 
 ## Aerial Robotics
 
+I was working on hand gesture recognition on aerial systems at my lab. We had dji tello in lab and plans to research with crazyflie 2.1. I developed a control station for drone autonomy in lab and presented my hand gesture recognition work to Senator, Dr. Anjes Tjarks ( Beh ̈orde f ̈ur Verkehr und Mobilit ̈atswende ), Hamburg and LSBG CEO, Dr Clotz at DigiLab, LSBG. [ [post](https://twitter.com/florist_notes/status/1633093993146753027) ]
+
 <img src="img/aer.png" width=100%>
 
-Institutes : [ [EPFL - Aerial Robotics](https://www.epfl.ch/labs/lis/research/aerial-robotics/) ] [ [UZH - Robotics and Perception Group](https://rpg.ifi.uzh.ch/) ] [ [Imperial - Aerial Robotics](https://www.imperial.ac.uk/aerial-robotics/) ] [ [ETH - Z : ASL - Flying Robots](https://asl.ethz.ch/research/flying-robots.html) ] [ [GRASP Lab : Aerial Robotics](https://www.grasp.upenn.edu/virtual-grasp-tour-videos/a-glimpse-into-grasp-research-aerial-robotics/) ] [ [MIT Spark Lab](https://web.mit.edu/sparklab/) ] [ [Oxford - Dynamic Robot Systems Group](https://ori.ox.ac.uk/labs/drs/aerial-robotics/) ] [ [Stanford - Aerospace Robotics Lab](https://web.stanford.edu/group/arl/) ] [ [CMU - AirLab](https://www.ri.cmu.edu/robotics-groups/air-lab/) ] [ [Smart Robotics Lab - TUM](https://srl.cit.tum.de/research/drones) ] [ [Microsoft - Aerial Informatics and Robotics Group](https://www.microsoft.com/en-us/research/group/air/) ] [ [Caltech - Autonomous Robotics and Control Lab](http://aerospacerobotics.caltech.edu/videos) ] [ [MIT - Robust Robotics Group](https://www.csail.mit.edu/research/robust-robotics-group) ] [ [Autonomous Robots Lab, NTNU](https://www.autonomousrobotslab.com/) ] [ [Biomorphic Intelligence Lab - TU Delft](https://www.tudelft.nl/ai/biomorphic-intelligence-lab) ] [ [Bio-inspired Soft Aerial Robotics](https://www.soft-aerial-robotics.com/) ] [ [Spark Lab](./spark.MD) ]
+The following Institutes have been doing amazing work on aerial robotics : [ [EPFL - Aerial Robotics](https://www.epfl.ch/labs/lis/research/aerial-robotics/) ] [ [UZH - Robotics and Perception Group](https://rpg.ifi.uzh.ch/) ] [ [Imperial - Aerial Robotics](https://www.imperial.ac.uk/aerial-robotics/) ] [ [ETH - Z : ASL - Flying Robots](https://asl.ethz.ch/research/flying-robots.html) ] [ [GRASP Lab : Aerial Robotics](https://www.grasp.upenn.edu/virtual-grasp-tour-videos/a-glimpse-into-grasp-research-aerial-robotics/) ] [ [MIT Spark Lab](https://web.mit.edu/sparklab/) ] [ [Oxford - Dynamic Robot Systems Group](https://ori.ox.ac.uk/labs/drs/aerial-robotics/) ] [ [Stanford - Aerospace Robotics Lab](https://web.stanford.edu/group/arl/) ] [ [CMU - AirLab](https://www.ri.cmu.edu/robotics-groups/air-lab/) ] [ [Smart Robotics Lab - TUM](https://srl.cit.tum.de/research/drones) ] [ [Microsoft - Aerial Informatics and Robotics Group](https://www.microsoft.com/en-us/research/group/air/) ] [ [Caltech - Autonomous Robotics and Control Lab](http://aerospacerobotics.caltech.edu/videos) ] [ [MIT - Robust Robotics Group](https://www.csail.mit.edu/research/robust-robotics-group) ] [ [Autonomous Robots Lab, NTNU](https://www.autonomousrobotslab.com/) ] [ [Biomorphic Intelligence Lab - TU Delft](https://www.tudelft.nl/ai/biomorphic-intelligence-lab) ] [ [Bio-inspired Soft Aerial Robotics](https://www.soft-aerial-robotics.com/) ] [ [Spark Lab](./spark.MD) ]
 
 + [MIT Robotics - Kevin Chen - Agile, robust, and multifunctional micro-aerial-robots](https://youtu.be/xmrDK_w0Yog)
 + [RI Seminar: Kostas Alexis : Autonomous Exploration and Inspection using Aerial Robots](https://www.youtube.com/live/4ko2K6jFwaU?feature=share)
@@ -69,8 +71,10 @@ resources : [Bitcraze Aerial Robotics Meeting](https://www.youtube.com/watch?v=n
 
 <img src="img/arm2.gif" width=100%>
 
-[MIT ROBOTIC MANIPULATION](https://manipulation.csail.mit.edu/index.html), [University of Leeds - Robotic Manipulation](https://robotics.leeds.ac.uk/research/ai-for-robotics/robotic-manipulation/), [CMU Robot Perception Lab](http://rpl.ri.cmu.edu/)
+The following Institutes have been doing amazing work on robot manipulation :   [MIT ROBOTIC MANIPULATION](https://manipulation.csail.mit.edu/index.html), [University of Leeds - Robotic Manipulation](https://robotics.leeds.ac.uk/research/ai-for-robotics/robotic-manipulation/), [CMU Robot Perception Lab](http://rpl.ri.cmu.edu/)
 
+
+Some recent work on Robot Manipulation:
 + [Perception and Manipulation in Robotics: Neural Network Approaches](https://link.springer.com/chapter/10.1007/978-1-4471-1021-7_32)
 + [Robot Perception and Learning for Navigation, Manipulation, and Locomotion](https://youtu.be/JWJWfLcqvHk)
 + [Robot learning and perception for contact-rich manipulation](https://youtu.be/YGMSznpKCq4)
@@ -90,7 +94,9 @@ resources : [Active Manipulation for Perception](https://link.springer.com/chapt
 
 <img src="img/slam2.gif" width=49%><a> </a> <img src="img/slam3.gif" width=49%>
 
-SLAM:
+Simultaneous localization and mapping is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it. I have good notes on SLAM here @[visual-slam](https://github.com/florist-notes/aicore_n/blob/main/notes/code/slam/README.MD).
+
+Some recent work on SLAM:
 + [CSIRO's Wildcat SLAM: A Robust SLAM System for Robot Teams in the Wild](https://www.youtube.com/live/YCE1Aj0k1UA?feature=share)
 + [Swarm-SLAM : Sparse Decentralized Collaborative Simultaneous Localization and Mapping Framework for Multi-Robot Systems](https://arxiv.org/abs/2301.06230)
 + [An Introduction to Robot SLAM (Simultaneous Localization And Mapping)](https://lucidar.me/en/kalman-filters/files/introduction-to-slam.pdf)
@@ -101,7 +107,8 @@ SLAM:
 
 resources: [Easy SLAM with ROS using slam_toolbox](https://youtu.be/ZaiA3hWaRzE), [Understanding SLAM Using Pose Graph Optimization](https://youtu.be/saVZtgPyyJQ), [SLAM Robot Mapping](https://youtu.be/-XU54IsG8Vo), [SLAM Course - Cyrill Stachniss](https://www.youtube.com/watch?v=U6vr3iNrwRA&list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_), [VSLAM for Robotic Applications](https://www.youtube.com/watch?v=mNTi1osPSIA), [How to get your robot to see in 3D! (Depth Cameras in ROS](https://youtu.be/T9xZ22i9-Ys), [Dr. Franz Andert](https://ieeexplore.ieee.org/author/37681903100), [SLAM - Matlab](https://de.mathworks.com/discovery/slam.html), [SLAM for Dummies](https://dspace.mit.edu/bitstream/handle/1721.1/119149/16-412j-spring-2005/contents/projects/1aslam_blas_repo.pdf), [Indoor Robot Localization with SLAM](https://towardsdatascience.com/indoor-robot-localization-with-slam-f8b447bcb865), [Multi Agent SLAM - DLR](https://www.dlr.de/kn/desktopdefault.aspx/tabid-15373/24954_read-62490/), [SLAM variants](https://avirmani.com/robotics/slam-overview-applications-and-challenges-in-robotics/), [Springer - SLAM](https://link.springer.com/chapter/10.1007/978-3-540-75388-9_3), ICRA SLAM paper [list](https://github.com/wanghuayou1028/ICRA2021-SLAM-paper-list), paperswithcode - [SLAM / kimera](https://paperswithcode.com/task/simultaneous-localization-and-mapping), @github/[awesome-visual-slam](https://github.com/tzutalin/awesome-visual-slam), [awesome-slam](https://github.com/kanster/awesome-slam), [semantic-slam](https://github.com/topics/semantic-slam), [lidar-slam](https://github.com/topics/lidar-slam), [slam-algorithms](https://github.com/topics/slam-algorithms).
 
-Motion Planning:
+
+Some recent work on Motion Planning:
 
 + [Robot Motion Planning using A* (Cyrill Stachniss)](https://youtu.be/HR1TNa8Lp7w)
 + [Introduction to Motion Planning for Flying Robots: Dr. Sebastian Scherer](https://youtu.be/8uLsT-fAlMc)
@@ -114,7 +121,8 @@ Motion Planning:
 
 resources: [Motion Planning for Robots](https://www.youtube.com/watch?v=nbaSzCnmyec&list=PL0sla3wvhSnYNAyp0-OQmTMyO2POZRSe-), [UMich - Motion Planning](https://robotics.umich.edu/research/focus-areas/motion-planning/), [A review of motion planningalgorithmsforintelligent robotics](https://arxiv.org/ftp/arxiv/papers/2102/2102.02376.pdf), [Springer - Robot Motion Planning](https://link.springer.com/book/10.1007/978-1-4615-4022-9), [MIT - CSAIL : Task and Motion Planning for Autonomous Robots](https://www.csail.mit.edu/research/task-and-motion-planning-autonomous-robots), [ACM - Robot Motion Planning](https://dl.acm.org/doi/10.5555/532147).
 
-Navigation:
+
+Some recent work on Navigation:
 + [A comprehensive study for robot navigation techniques](https://www.tandfonline.com/doi/full/10.1080/23311916.2019.1632046)
 + [Visual language maps for robot navigation](https://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html)
 + [Improving Autonomous Robotic Navigation Using Imitation Learning](https://www.frontiersin.org/articles/10.3389/frobt.2021.627730/full)
@@ -129,6 +137,10 @@ resources: [Autonomous Navigation - Matlab](https://www.youtube.com/watch?v=Fw8J
 ## Swarm Intelligence (Multi Agent Systems)
 
 <img src="img/swarm5.gif" width=100%>
+
+A multi-agent system is a computerized system composed of multiple interacting intelligent agents. Multi-agent systems can solve problems that are difficult or impossible for an individual agent or a monolithic system to solve. Reinforcement Learning is widely used in Multi Agent System problems and my deep reinforcement learning notes are here @/[drl](https://github.com/florist-notes/aicore_n/blob/main/notes/drl.MD).
+
+Some recent works on Multi Agent Systems:
 
 - ["Learning to Communicate in Multi-Agent Systems" - Amanda Prorok](https://youtu.be/J9Olp6YqQhw)
 - [Understanding Equilibria in Multi-Agent Systems - Michael Wooldridge, University of Oxford](https://youtu.be/Iqm8UTXUG24)
@@ -147,7 +159,7 @@ github : [multi_agent_path_planning](https://github.com/atb033/multi_agent_path_
 
 ## Human Robot Interaction
 
-[ [Science Direct : HRI ](https://www.sciencedirect.com/topics/computer-science/human-robot-interaction) ]. To know more about LLMs, check my repo on AI @[aicore_n](https://github.com/florist-notes/aicore_n).
+The decade of talking to robots in our native natural language is here with LLMs:
 
 Human Robot Interaction with Large Language Models (LLMs) : 
 
@@ -159,6 +171,9 @@ Human Robot Interaction with Large Language Models (LLMs) :
   
 
 
+[ [Science Direct : HRI ](https://www.sciencedirect.com/topics/computer-science/human-robot-interaction) ]. To know more about LLMs, check my repo on AI @[aicore_n](https://github.com/florist-notes/aicore_n).
+
+
 + [ [ROS GPT](https://www.preprints.org/manuscript/202304.0827/v3/download) ], [ @github/[Awesome-LLM-Robotics](https://github.com/GT-RIPL/Awesome-LLM-Robotics), @github/[Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) ], [Special Issue: Large Language Models in Robotics](https://www.springer.com/journal/10514/updates/23925216), [Large Language Models-powered Human-Robotic Interactions](https://falcond.ai/blog/llm-robot-interaction/), [OpenAI](https://platform.openai.com/)
 
 + demo video : [ChatGPT for Robotics](https://youtu.be/NYd0QcZcS6Q); article : [Google Research, 2022 & beyond: Robotics](https://ai.googleblog.com/2023/02/google-research-2022-beyond-robotics.html).
@@ -166,6 +181,8 @@ Human Robot Interaction with Large Language Models (LLMs) :
 ## Space Robotics
 
 <img src="img/rv.png" width=100%>
+
+Important resources on space robotcis:
 
 [ [Mars  Rover](https://mars.nasa.gov/mer/) ] [ [Robotic Servicing Arm](https://nexis.gsfc.nasa.gov/robotic_servicing_arm.html) ] [ [European Robotic Arm](https://en.wikipedia.org/wiki/European_Robotic_Arm) ] : [ERA](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/European_Robotic_Arm)
 
@@ -177,11 +194,9 @@ Institutes: [DLR - Institute of Robotics and Mechatronics](https://www.dlr.de/rm
 
 Continuum Robotics : Jessica Burgner-Kahrs - [Continuum Robotics Laboratory in UofT](https://crl.utm.utoronto.ca/); Nanorobotics - [NanoRobotics Lab - CMU](https://medrobotics.ri.cmu.edu/node/128479), [Nanorobotics- GRASP Lab](https://www.grasp.upenn.edu/research-groups/nanorobotics-lab/), [Multi Scale Robotics Lab](https://msrl.ethz.ch/); [CLOVER](https://github.com/Space-Robotics-Laboratory/rlstar).
 
-News : [How Space Robots Shape The Future](https://youtu.be/m6x7SVwapUw)
-
 Companies : [Boston Dynamics](https://bostondynamics.com/), [Festo](https://www.festo.com/de/en/e/journal/robotics-id_9229-1153/), [AnyBotics](https://www.anybotics.com/), [Clear Path Robotics](https://clearpathrobotics.com/), [Rethink Robotics](https://www.rethinkrobotics.com/), [Google Robotics](https://research.google/teams/robotics/).
 
-Youtube: @[BostonDynamics](https://www.youtube.com/@BostonDynamics), @[ANYbotics](https://www.youtube.com/c/ANYbotics), @[Festo](https://www.youtube.com/user/FestoHQ/featured) @[BPSspace](https://www.youtube.com/@BPSspace), @[RSS](https://www.youtube.com/@roboticsscienceandsystems2817/playlists), @[integza](https://www.youtube.com/@integza), @[Skyentific](https://www.youtube.com/@Skyentific),  [Understanding Sensor Fusion and Tracking](https://www.youtube.com/watch?v=6qV3YjFppuc&list=PLn8PRpmsu08ryYoBpEKzoMOveSTyS-h4a&index=2), [Kalman Filter](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr), [Robust Control](https://www.youtube.com/watch?v=A7wHSr6GRnc&list=PLn8PRpmsu08qFLMfgTEzR8DxOPE7fBiin&index=2), [Autonomous Navigation](https://www.youtube.com/watch?v=Fw8JQ5Q-ZwU&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg), [PID Control](https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y), [AMECA](https://youtu.be/LzBUm31Vn3k), @[Robotics Today](https://www.youtube.com/c/RoboticsTodaySeminar), @[UofTRoboticsInstitute](https://www.youtube.com/@UofTRoboticsInstitute/playlists) @[MITRobotics](https://www.youtube.com/@MITRoboticsSeminar/videos).
+Youtube: @[BostonDynamics](https://www.youtube.com/@BostonDynamics), @[ANYbotics](https://www.youtube.com/c/ANYbotics), @[Festo](https://www.youtube.com/user/FestoHQ/featured) @[BPSspace](https://www.youtube.com/@BPSspace), @[RSS](https://www.youtube.com/@roboticsscienceandsystems2817/playlists), @[integza](https://www.youtube.com/@integza), @[Skyentific](https://www.youtube.com/@Skyentific),  [Understanding Sensor Fusion and Tracking](https://www.youtube.com/watch?v=6qV3YjFppuc&list=PLn8PRpmsu08ryYoBpEKzoMOveSTyS-h4a&index=2), [Kalman Filter](https://www.youtube.com/watch?v=mwn8xhgNpFY&list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr), [Robust Control](https://www.youtube.com/watch?v=A7wHSr6GRnc&list=PLn8PRpmsu08qFLMfgTEzR8DxOPE7fBiin&index=2), [Autonomous Navigation](https://www.youtube.com/watch?v=Fw8JQ5Q-ZwU&list=PLn8PRpmsu08rLRGrnF-S6TyGrmcA2X7kg), [PID Control](https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y), [AMECA](https://youtu.be/LzBUm31Vn3k), @[Robotics Today](https://www.youtube.com/c/RoboticsTodaySeminar), @[UofTRoboticsInstitute](https://www.youtube.com/@UofTRoboticsInstitute/playlists) @[MITRobotics](https://www.youtube.com/@MITRoboticsSeminar/videos), [How Space Robots Shape The Future](https://youtu.be/m6x7SVwapUw).
 
 Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-v1:ETHx+AMRx+2T2020/home), [University of Pennsylvania : GRASP Lab](https://www.coursera.org/specializations/robotics), [Modern Robotics: Mechanics, Planning, and Control](https://www.coursera.org/specializations/modernrobotics), [Technische Universität München: Autonomous Navigation for Flying Robots](https://www.edx.org/course/autonomous-navigation-for-flying-robots) )([AUTONAVx](https://jsturm.de/wp/teaching/autonavx-slides/)) ; list of all robotics classes @ [[MIT](https://www.robolab.mit.edu/course-listing)], @Stanford : [[Robotics and Autonomous Systems Graduate Certificate](https://online.stanford.edu/programs/robotics-and-autonomous-systems-graduate-certificate)], [CMU - Robotics Institute](https://www.ri.cmu.edu/research/), [UMich - Mobile Robotics](https://www.youtube.com/watch?v=pH4Pkmey2_E&list=PLdMorpQLjeXmbFaVku4JdjmQByHHqTd1F).
 
