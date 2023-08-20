@@ -12,21 +12,21 @@
 
 Robotics and Mechatronics in short is the science and art of making physically intelligent yet artificial beings. AI is about mimicking the human senses ~ (Computer Vision == eyesight; NLP == language) and Robotics ~ physical touch. I prepared some notes on Robotics & Mechatronics and took a [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics. I prepared some notes on few areas of interest in this blog. The usual flow: 
 
-[ ROBOT KINEMATICS ] : Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
+<b>ROBOT KINEMATICS:</b> Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
 
-[ ROBOT DYNAMICS ] : The dynamics in robotics, in English defined as robot dynamics, studies the forces acting on a robotic mechanism and the accelerations that these forces produce. The robotic mechanism is generally considered as a rigid system, in order to apply the dynamic laws of rigid bodies. The two main problems in robot dynamics are:
+<b>ROBOT DYNAMICS:</b> The dynamics in robotics, in English defined as robot dynamics, studies the forces acting on a robotic mechanism and the accelerations that these forces produce. The robotic mechanism is generally considered as a rigid system, in order to apply the dynamic laws of rigid bodies. The two main problems in robot dynamics are:
 
-Forward dynamics: given the forces, work out the accelerations.
-Inverse dynamics: given the accelerations, work out the forces.
-Hybrid dynamics: given the forces at some joints and the accelerations at others, work out the unknown forces and accelerations.
++ Forward dynamics: given the forces, work out the accelerations.
++ Inverse dynamics: given the accelerations, work out the forces.
++ Hybrid dynamics: given the forces at some joints and the accelerations at others, work out the unknown forces and accelerations.
 
-[ ROBOT MOTION PLANNING AND CONTROL ] : Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination.
+<b>ROBOT MOTION PLANNING AND CONTROL: </b> Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination.
 
-[ ROBOT MANIPULATION ] : The manipulation task usually requires moving an object to a specified location in space, without particular regard as to how the manipulator can accomplish the task. The model considered here greatly simplifies the problems of grasping, stability, friction, mechanics, and uncertainties and instead focuses on the geometric aspects.
+<b>ROBOT MANIPULATION :</b> The manipulation task usually requires moving an object to a specified location in space, without particular regard as to how the manipulator can accomplish the task. The model considered here greatly simplifies the problems of grasping, stability, friction, mechanics, and uncertainties and instead focuses on the geometric aspects.
 
-[ ROBOT ESTIMATION and LEARNING] : How can robots determine their state and properties of the surrounding environment from noisy sensor measurements in time?  how to get robots to incorporate uncertainty into estimating and learning from a dynamic and changing world.
+<b>ROBOT ESTIMATION and LEARNING :</b> How can robots determine their state and properties of the surrounding environment from noisy sensor measurements in time?  how to get robots to incorporate uncertainty into estimating and learning from a dynamic and changing world.
 
-[ ROBOT PERCEPTION ] : Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
+<b>ROBOT PERCEPTION :</b> Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
 
 Robotics Books:
 
