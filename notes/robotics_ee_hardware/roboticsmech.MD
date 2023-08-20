@@ -2,12 +2,31 @@
 
 ```bash
 
-    $ echo " # # # # # 🤖 🤖 # # "
+
+    $ echo " 🌸 # # 🌸 🌸 # "
+    $ echo " 🌸 # # # # 🌸 # # 🤖 🌸 # "
+    $ echo " 🌸 # # # 🌸 # # # # 🌸 # 🌸 # # # 🌸 # "
+    $ echo " 🌸 # # # # # 🌸 # 🌸 # # # 🌸"
 
 ```
-I prepared some notes on Robotics and Mechatronics. I took [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics and organized few areas of interest. The usual flow: 
 
-[ [ROBOT KINEMATICS](https://en.wikipedia.org/wiki/Robot_kinematics) ] → [ [ROBOT DYNAMICS](http://www.scholarpedia.org/article/Robot_dynamics) ] → [ ROBOT MOTION PLANNING AND CONTROL ] → [ ROBOT MANIPULATION ] → [ ROBOT ESTIMATION and LEARNING] → [ ROBOT PERCEPTION ] → [ ROBOT NAVIGATION ]
+Robotics and Mechatronics in short is the science and art of making physically intelligent yet artificial beings. AI is about mimicking the human senses ~ (Computer Vision == eyesight; NLP == language) and Robotics ~ physical touch. I prepared some notes on Robotics & Mechatronics and took a [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics. I prepared some notes on few areas of interest in this blog. The usual flow: 
+
+[ ROBOT KINEMATICS ] : Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
+
+[ ROBOT DYNAMICS ] : The dynamics in robotics, in English defined as robot dynamics, studies the forces acting on a robotic mechanism and the accelerations that these forces produce. The robotic mechanism is generally considered as a rigid system, in order to apply the dynamic laws of rigid bodies. The two main problems in robot dynamics are:
+
+Forward dynamics: given the forces, work out the accelerations.
+Inverse dynamics: given the accelerations, work out the forces.
+Hybrid dynamics: given the forces at some joints and the accelerations at others, work out the unknown forces and accelerations.
+
+[ ROBOT MOTION PLANNING AND CONTROL ] : Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination.
+
+[ ROBOT MANIPULATION ] : The manipulation task usually requires moving an object to a specified location in space, without particular regard as to how the manipulator can accomplish the task. The model considered here greatly simplifies the problems of grasping, stability, friction, mechanics, and uncertainties and instead focuses on the geometric aspects.
+
+[ ROBOT ESTIMATION and LEARNING] : How can robots determine their state and properties of the surrounding environment from noisy sensor measurements in time?  how to get robots to incorporate uncertainty into estimating and learning from a dynamic and changing world.
+
+[ ROBOT PERCEPTION ] : Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
 
 Robotics Books:
 
@@ -27,7 +46,7 @@ Robotics Books:
 </table>
 <br />
 
-I am interested in Perception and Navigation of Robotic Systems. Check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). also @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics), [webots](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
+I am interested in Perception and Navigation of Robotic Systems. Feel free to check my pages on robotics hardware : @[robotic-components-i](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/robotic_components.md), [robotic-components-ii](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/diyarh.md). I also found these helpful resources : @github/[awesome-robotics](https://github.com/kiloreux/awesome-robotics), [awesome-robotics-libraries](https://github.com/jslee02/awesome-robotics-libraries), [awesome-robotics](https://github.com/ahundt/awesome-robotics), [awesome-ros2](https://github.com/fkromer/awesome-ros2), [python-robotics](https://github.com/AtsushiSakai/PythonRobotics), [webots](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/); [dih-hero.eu](https://dih-hero.eu/repository-of-libraries/).
 
 ## Aerial Robotics
 
@@ -151,7 +170,7 @@ Human Robot Interaction with Large Language Models (LLMs) :
 [ [Mars  Rover](https://mars.nasa.gov/mer/) ] [ [Robotic Servicing Arm](https://nexis.gsfc.nasa.gov/robotic_servicing_arm.html) ] [ [European Robotic Arm](https://en.wikipedia.org/wiki/European_Robotic_Arm) ] : [ERA](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/European_Robotic_Arm)
 
 
-[ [IEEE Space Robotics](https://www.ieee-ras.org/space-robotics) ] [ [NASA Space Robotics Challenge](https://www.nasa.gov/directorates/spacetech/centennial_challenges/space_robotics/index.html) ] [ [Space Robotics: A Comprehensive Study of Major Challenges and Proposed Solutions](https://link.springer.com/chapter/10.1007/978-981-19-4606-6_87) ] [[Science Direct - Space Robotics](https://www.sciencedirect.com/topics/engineering/space-robotics)] [ [Robotic Manipulation and Capture in Space: A Survey](https://www.frontiersin.org/articles/10.3389/frobt.2021.686723/full) ] [ [Space Robotics](https://link.springer.com/book/10.1007/978-981-15-4902-1) ] : [ [pdf](./doc/10.1007@978-981-15-4902-1.pdf) ] [ [Robots in space | Meet the experts](https://youtu.be/ycLOu8Gi4Sc) ]
+[ [IEEE Space Robotics](https://www.ieee-ras.org/space-robotics) ] [ [NASA Space Robotics Challenge](https://www.nasa.gov/directorates/spacetech/centennial_challenges/space_robotics/index.html) ] [ [Space Robotics: A Comprehensive Study of Major Challenges and Proposed Solutions](https://link.springer.com/chapter/10.1007/978-981-19-4606-6_87) ] [[Science Direct - Space Robotics](https://www.sciencedirect.com/topics/engineering/space-robotics)] [ [Robotic Manipulation and Capture in Space: A Survey](https://www.frontiersin.org/articles/10.3389/frobt.2021.686723/full) ] [ [Space Robotics](https://link.springer.com/book/10.1007/978-981-15-4902-1) ] : [ [pdf](./doc/10.1007@978-981-15-4902-1.pdf) ] [ [Robots in space | Meet the experts](https://youtu.be/ycLOu8Gi4Sc) ] [ [PLANETARY ROVERS - Robotic Exploration of the Solar System](https://www.youtube.com/playlist?list=PLw-wjl2fXY-s-7NOIgFQDsjIEArezpsVG) ]
 
 Institutes: [DLR - Institute of Robotics and Mechatronics](https://www.dlr.de/rm/en/desktopdefault.aspx/tabid-3794/), [DFKI - Robotics Innovation Center (Space Robotics)](https://robotik.dfki-bremen.de/en/research/teams/space), [Tohoku University - The Space Robotics Lab (Space Exploration Lab)](http://www.astro.mech.tohoku.ac.jp/e/), [MIT Astrodynamics, Space Robotics, and Controls Lab (ARCLab)](https://aeroastro.mit.edu/arclab/), [Autonomous Space Robotics Lab (ASRL) at the University of Toronto](http://asrl.utias.utoronto.ca/), [LASR Lab](https://lasr.tamu.edu/), [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [Planetary Robotics Laboratory (PRL) - JPL, NASA](https://www-robotics.jpl.nasa.gov/how-we-do-it/facilities/the-planetary-robotics-laboratory/)
 
@@ -173,4 +192,4 @@ Class : [ETH-Z Autonomous Mobile Robots](https://learning.edx.org/course/course-
 | [MIT 6.832: Underactuated Robotics](https://underactuated.mit.edu/Spring2022/)    | [CMU - Robot Dynamics](https://www.youtube.com/watch?v=LiNgr1tz49I&list=PLZnJoM76RM6ItAfZIxJYNKdaR_BobleLY)    |
 | [CMU - Optimal Control](https://www.youtube.com/watch?v=6rUdAOCNXAU&list=PLZnJoM76RM6KugDT9sw5zhAmqKnGeoLRa)    | [MIT - Machine Vision](https://www.youtube.com/watch?v=tY2gczObpfU&list=PLUl4u3cNGP63pfpS1gV5P9tDxxL_e4W8O)    |
 
-MIT [16.485 : Visual Navigation For Autonomous Vehicles (VNAV)](https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/pages/syllabus/) | [6.141/16.405j - Robotics: Science and Systems](https://lucacarlone.mit.edu/teaching/) | [TUM : Lecture: Visual Navigation for Flying Robots](https://www.youtube.com/playlist?list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha)
+MIT [16.485 : Visual Navigation For Autonomous Vehicles (VNAV)](https://ocw.mit.edu/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/pages/syllabus/) | [6.141/16.405j - Robotics: Science and Systems](https://lucacarlone.mit.edu/teaching/) | [TUM : Lecture: Visual Navigation for Flying Robots](https://www.youtube.com/playlist?list=PLTBdjV_4f-EKeki5ps2WHqJqyQvxls4ha) | [Introduction to Robotics @ Princeton](https://www.youtube.com/playlist?list=PLF8B1bJgOQK67xkgYz_Xtx0ShjcqfdXwE)

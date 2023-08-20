@@ -10,4 +10,4 @@ This [guide](./self.pdf) is a wonderful resource on State Estimation for Robotic
 + [Vehicle Dynamics State Estimation and Localization for High Performance Race Cars](https://www.sciencedirect.com/science/article/pii/S2405896319303957)
 + [Autonomous vehicle localization using
 state estimation techniques](https://upcommons.upc.edu/bitstream/handle/2117/333272/master-thesis-dunia-prieto.pdf?sequence=1&isAllowed=y)
-+ [Estimating Probabilities with Bayesian Modeling in Python](https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815)
++ [Estimating Probabilities with Bayesian Modeling in Python](https://towardsdatascience.com/estimating-probabilities-with-bayesian-modeling-in-python-7144be007815)https://link.springer.com/chapter/10.1007/978-3-642-33965-3_7
