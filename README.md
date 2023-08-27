@@ -16,6 +16,7 @@ Here is a small guide I wrote while building my lab's AI workstation and relevan
 # #1 AI/ ML / DL Workstation Build 
 - Essence of Computation & Networking [NOTES](notes/ai_workstation/essence_of_computation.md) 
 - AI / ML / DL hardware core components [NOTES](notes/ai_workstation/components.md) 
+- Parallel Programming with CUDA [NOTES](./notes/CUDA.MD)
 - Final AI Work Station build [NOTES](notes/ai_workstation/final_aistation.md) 
 
 # #2 Robotics, Electronics and Hardware
