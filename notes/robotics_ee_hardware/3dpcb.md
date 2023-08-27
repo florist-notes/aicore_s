@@ -30,7 +30,11 @@ Class : [[MIT : Principles of Manufacturing](https://www.edx.org/micromasters/mi
 <img src="img/fe.png" width=58%><a> </a><img src="img/tink.png" width=32%><a> </a><img src="img/hellm.png" width=30%><a> </a><img src="img/hellm2.png" width=30%><a> </a><img src="img/rrr.png" width=32%>
 
 
-### PCB Design
+## PCB Design :
+
+Printed Circuit Boards (PCBs) are the backbone of modern electronics. They serve as the physical foundation for electronic components, connecting them in a precise and organized manner. Effective PCB design is crucial for achieving functionality, reliability, and manufacturability in electronic devices.
+
+The schematic is the blueprint of the PCB, showing the interconnections between components. It's created using Electronic Design Automation (EDA) tools like Altium Designer, Eagle, or KiCad.
 
 Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for notes and tips on PCB design and also check [PCB design](https://www.youtube.com/watch?v=MdcnkaAoDTE&list=PLiYbY8lzAN-2xni5V_Rtp0IKyNugQuVO8).
 
