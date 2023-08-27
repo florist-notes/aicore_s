@@ -49,6 +49,11 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 
 GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem. GPUs follow a programming model called single-instruction-multiple-threads (SIMT), where the same instruction executes concurrently on different cores/threads, each on its own portion of data as dictated by its assigned thread ID. All cores run the threads synchronously in lock-step, which greatly simplifies the control flow, and works great for domains like dense linear algebra, which neural network applications heavily rely on.
 
++ CUDA Cores: More CUDA cores generally mean higher processing power for deep learning workloads.
++ VRAM (Video RAM): Deep learning models with larger neural networks and datasets require GPUs with ample VRAM.
++ Double Precision vs. Single Precision: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred.
++ Tensor Cores (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
+
 GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Graphics Double Data Rate.<br /><br />
 
 <b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
@@ -125,12 +130,24 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <table style="width:100%">
 <tr>
 <td>Memory (RAM)</td>
-<td>Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors. We will go for DDR4 due to DDR4 slots in motherboard.</td>
+<td>Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors. We will go for DDR4 due to DDR4 slots in motherboard.
+
++ Capacity: Deep learning models, especially in natural language processing, can be memory-intensive. A larger RAM capacity prevents out-of-memory errors.
++ Memory Bandwidth: High memory bandwidth facilitates faster data access and model training.
++ ECC (Error-Correcting Code) Memory (optional): ECC memory can help prevent data corruption, ensuring the integrity of training data and models.
+
+</td>
 </tr>
 
 <tr>
 <td>Storage</td>
-<td>We need SSD! Choice : M.2 SSD via NVMe. SSD comes in 2 size : 2.5 " SSD uses SATA interface and M.2 SSD are plugged into an M.2 SLOT. M.2 NVMe SSD are good storage devices.<br /><br />
+<td>We need SSD! Choice : M.2 SSD via NVMe. SSD comes in 2 size : 2.5 " SSD uses SATA interface and M.2 SSD are plugged into an M.2 SLOT. M.2 NVMe SSD are good storage devices.<br />
+
++ Solid-State Drives (SSD): SSDs offer faster data access compared to traditional hard disk drives (HDD), reducing data loading times.
++ NVMe SSDs: NVMe SSDs provide even faster read/write speeds, particularly useful for loading large datasets.
++ Storage Capacity: Deep learning often requires large storage capacities for datasets. Consider multi-terabyte storage options.
++ Backup and Redundancy: Implement robust backup and redundancy solutions to protect against data loss.
+
 <img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c2.png" width=49%>
 
 External Storage : NAS RAID 5 [calculation](https://www.synology.com/en-global/support/RAID_calculator?hdds=16%20TB|16%20TB|16%20TB|16%20TB): 

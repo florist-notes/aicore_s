@@ -1,5 +1,17 @@
 # Manipulation Planning : 6 D-o-F ros 2 with URDF
 
+### 6-DoF Manipulation:
+6-DoF manipulation refers to the control of a robotic arm with six degrees of freedom. These six degrees of freedom are typically associated with the ability to move in three translational directions (X, Y, Z) and three rotational directions (roll, pitch, yaw).
+
+### Manipulation Planning:
+Manipulation planning involves determining a sequence of robot configurations (joint angles and positions) to achieve a desired task or goal. It encompasses path planning, collision detection, and motion control.
+
+### Motion Planning:
+Motion planning is the process of finding a collision-free path for the robot's end-effector (gripper) to move from an initial pose to a goal pose while avoiding obstacles in the environment.
+
+### Inverse Kinematics (IK):
+Inverse kinematics is the mathematical problem of determining the joint angles of a robot to achieve a desired end-effector pose. It is a crucial component of manipulation planning for 6-DoF arms.
+
 Serial / Chain Manipulators: [CREATING A WORKSPACE AND PUBLISHER](https://www.clearpathrobotics.com/assets/guides/kinetic/ros/Creating%20publisher.html) : ` $ mkdir -p robotic_arm_ws/src` , where `src` will contain all the packages. Then ` $ cd robotic_arm_ws/` > ` $ colcon build `. It will create `build`, `install` and `log` directories.
 
 A trivial workspace might look like:
@@ -81,6 +93,6 @@ We create ` $ mkdir config` > ` $ touch jtc.yaml`  : [[jtc.yaml](./jtc.yaml) and
 
 <img src="./6dof.gif" width=96%>
 
-### Kuka Robot Motion Planning: @[kuka-experimental](https://github.com/ros-industrial/kuka_experimental)
+### Kuka Robot Motion Planning: @[kuka-experimental](https://github.com/ros-industrial/kuka_experimental) | [ros moveit](https://moveit.ros.org/)
 
 <img src="./dof1.png" width=48%> <img src="./dof2.png" width=48%>
