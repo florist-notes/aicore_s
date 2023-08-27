@@ -36,13 +36,11 @@ CUDA (Compute Unified Device Architecture) is a parallel computing platform and 
 
 + <b>CUDA Ecosystem:</b> The CUDA ecosystem includes a large community of developers, researchers, and third-party libraries. Frameworks like TensorFlow, PyTorch, and CUDA-based language extensions like CUDA C++ and CUDA Python simplify GPU-accelerated development in machine learning and scientific computing.
 
-## Device and Host Code:
-
-CUDA programming involves writing two types of code:
+### Device and Host Code: CUDA programming involves writing two types of code:
 + <b>Device Code:</b> Code that runs on the GPU. This code is defined as kernels and is executed in parallel by multiple threads.
 + <b>Host Code:</b> Code that runs on the CPU (host). It manages the GPU, transfers data between the CPU and GPU, and launches kernels.
 
-### Kernel Functions:
+#### Kernel Functions:
 
 Kernels are the core of CUDA programming. A kernel is a C/C++ function that executes in parallel on the GPU. It's defined with the `__global__` qualifier in CUDA C/C++. Here's a simple CUDA kernel that adds two arrays element-wise:
 
@@ -57,9 +55,7 @@ __global__ void add(int* a, int* b, int* c, int size) {
 ```
 In this kernel, `blockIdx.x` and `threadIdx.x` are special variables that identify the thread's block and thread index within the block, respectively.
 
-### Launching Kernels:
-
-Kernels are launched from host code. To launch the add kernel from the previous example:
+#### Launching Kernels: Kernels are launched from host code. To launch the add kernel from the previous example:
 
 ```cpp
 int main() {
@@ -95,26 +91,18 @@ int main() {
 
 ```
 
-### Thread Hierarchy:
-
-CUDA threads are organized into a hierarchy:
+#### Thread Hierarchy: CUDA threads are organized into a hierarchy:
 - `Grid`: A grid is the highest-level organization of threads. It consists of multiple blocks.
 - `Block`: Each grid is divided into blocks. Blocks are executed independently on SMs (Streaming Multiprocessors) on the GPU.
 - `Thread`: Each block is divided into threads, and threads within a block can cooperate and share data using shared memory.
 
-### Synchronization: 
+#### Synchronization:  Developers can use synchronization barriers (`__syncthreads()`) within a block to coordinate thread execution. Synchronization is important for avoiding race conditions.
 
-Developers can use synchronization barriers (`__syncthreads()`) within a block to coordinate thread execution. Synchronization is important for avoiding race conditions.
+####  Memory Management: CUDA provides functions for allocating and transferring data between the CPU and GPU memory (`cudaMalloc`, `cudaMemcpy`, etc.). It's crucial to manage memory efficiently to avoid memory leaks.
 
-###  Memory Management:
+#### Libraries and Ecosystem: CUDA offers libraries like [cuBLAS](https://docs.nvidia.com/cuda/cublas/index.html), [cuFFT](https://docs.nvidia.com/cuda/cufft/index.html), and [cuDNN](https://developer.nvidia.com/cudnn) for optimized numerical computations. Additionally, popular machine learning frameworks like TensorFlow and PyTorch provide GPU support through CUDA.
 
-CUDA provides functions for allocating and transferring data between the CPU and GPU memory (`cudaMalloc`, `cudaMemcpy`, etc.). It's crucial to manage memory efficiently to avoid memory leaks.
-
-### Libraries and Ecosystem:
-
-CUDA offers libraries like cuBLAS, cuFFT, and cuDNN for optimized numerical computations. Additionally, popular machine learning frameworks like TensorFlow and PyTorch provide GPU support through CUDA.
-
-## Efficient scheduling and memory access:
+## Efficient scheduling and memory access in CUDA:
 
 Efficient scheduling and memory access are crucial aspects of CUDA programming. 
 
@@ -130,18 +118,14 @@ Thread divergence occurs when threads within a warp take different execution pat
 
 Efficient memory access is vital in CUDA programming. Global memory access is most efficient when threads within a warp access consecutive memory locations. This ensures memory coalescing, reducing memory access latency.
 
-#### Memory Access Coalescing in CUDA:
-
 Memory access coalescing is a fundamental optimization technique in CUDA (Compute Unified Device Architecture) programming, especially for achieving high memory bandwidth and efficient memory access patterns. 
 
 Why Memory Access Matters: Efficient memory access is crucial for achieving high GPU performance because memory latency is a significant bottleneck. Coalesced memory access minimizes the number of memory transactions and reduces memory latency.
 
-#### Memory Access Coalescing:
-
 Coalescing refers to the combining of multiple memory accesses into a single transaction, reducing the number of memory requests to global memory.
 In CUDA, memory transactions are performed in chunks of 32, 64, or 128 bytes, depending on the GPU architecture. Coalesced memory access tries to ensure that threads in a warp access memory locations within these chunks.
 
-Coalescing Rules: CUDA GPUs have specific rules for achieving coalesced memory access:
+<b>Coalescing Rules:</b> CUDA GPUs have specific rules for achieving coalesced memory access:
 
 + <b>Rule 1</b> - Contiguous Memory Access: Threads in a warp should access contiguous memory locations. For example, if thread 0 accesses `A[0]`, thread 1 should access `A[1]`, thread 2 should access `A[2]`, and so on.
 
@@ -246,7 +230,7 @@ In this code example:
 
 Optimizing memory access patterns and minimizing thread divergence are essential for achieving high performance in CUDA programs. Properly tuned CUDA kernels can significantly accelerate parallel computing tasks, especially those involving large datasets like matrix multiplication.
 
-### cuBLAS :
+## cuBLAS :
 
 cuBLAS (CUDA Basic Linear Algebra Subroutines) is a GPU-accelerated library developed by NVIDIA that provides a collection of high-performance linear algebra routines for use in CUDA applications. cuBLAS allows developers to harness the computational power of NVIDIA GPUs to perform essential linear algebra operations efficiently. 
 
