@@ -1,6 +1,10 @@
 # AI Accelerators
 
+
+
 <img src="img/acc.png" width="40%"><a> </a><img src="img/acc2.png" width="49%">
+
+The rapid growth of AI and machine learning has led to increasingly complex and computationally intensive AI models. To meet the demand for faster training and inference, specialized hardware accelerators, known as AI accelerators, have emerged. These accelerators are designed to perform AI-related computations more efficiently than general-purpose CPUs or GPUs.
 
 Here is a comprehensive list of AI accelerators I came across while exploring about them :)  🌸
 

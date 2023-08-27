@@ -1,5 +1,7 @@
 # Adaptive Cruise Control
 
+Adaptive Cruise Control (ACC) is an advanced driver assistance system that enhances traditional cruise control by automatically adjusting a vehicle's speed to maintain a safe following distance from the vehicle in front.
+
 ADAS features: { Traction Control System (TCS), Cross Wind Stabilization, Electronics Stability Control, Parking Assist, Driver Emergency Stop Assist, Hill Descent Control, Lane Assist, Collision Avoidance System, Automotive Head Up Display, Automotive Navigation System, Traffic Sign Recognition (TSR), Vehicular Communication System, Automotive Night Vision, Rear View Camera,  Omniview Technology, Blind Spot Monitor, Driver Drowsiness Detection, Intelligent Speed Adaptation (ISA), Adaptive Light Control System, Automatic Emergency Braking (AEB) }
 
 
