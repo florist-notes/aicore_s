@@ -261,6 +261,24 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 <th>PuppyPi Hiwonder Quadruped Robot <br /> <img src="img/puppypi.png" height=140px> <a href="https://hiwonder.hk/products/puppypi-hiwonder-ros-quadruped-puppy-robot-with-ai-vision-powered-by-raspberry-pi-4b-support-python-programming?variant=39919263678551">kit</a></th>
 </tr>
 </table>
+
+<table style="width:100%" >
+<tr>
+<th>Universal Robots : UR30
+
+<img src="img/ur30.webp" width=27%> 
+</th>
+<th>MYCOBOT PRO 600
+
+<img src="img/p600c.png" width=77%> 
+</th>
+</tr>
+</table>
+
+
+
+
+
 <br />
 
 ## [UniTree Robotics](https://shop.unitree.com/en-de/collections/education-industry)
@@ -269,8 +287,24 @@ Unitree Go 2 [[video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.co
 
 <img src="img/go2.jpg" width=17%> <img src="img/go22.jpg" width=30%> <img src="img/unitree.gif" width=48%> 
 
-## [Boston Dynamics Spot®](https://www.bostondynamics.com/products/spot)
-A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT.
+Unitree Education / Industry : [Unitree 4D LiDAR L1](https://shop.unitree.com/products/unitree-4d-lidar-l1), [Unitree Z1](https://shop.unitree.com/products/unitree-z1), [Aliengo](https://shop.unitree.com/products/aliengo), [Unitree B2](https://shop.unitree.com/products/unitree-b2) [[vid](https://youtu.be/-0n_MFLKD3M?si=-W2LVTuXXYABu2pF)], [Unitree H1](https://www.unitree.com/h1/) [[vid](https://youtu.be/q8JMX6PGRoI?si=X41w-btUZEaz6soX)]
+
+<img src="img/aliengo.webp" width=24%> <img src="img/b2.webp" width=24%> <img src="img/l1.webp" width=24%> <img src="img/h1.jpg" width=24%> 
+
+## [Boston Dynamics](https://www.bostondynamics.com/products/spot)
+
+ Boston Dynamics [Atlas](https://bostondynamics.com/atlas/), [Stretch](https://bostondynamics.com/products/stretch/) | [Atlas | Partners in Parkour](https://youtu.be/tF4DML7FIWk?si=V-jJOZbSO0ZeCpvl), [Atlas Gets a Grip | Boston Dynamics](https://youtu.be/-e1_QhJ1EhQ?si=JzbZQbKakHc48p33), [Do You Love Me?](https://youtu.be/fn3KWM1kuAw?si=FCU2zyHN8mEe2vkq), [More Parkour Atlas](https://youtu.be/_sBBaNYex3E?si=WWY5RzSeT4URuJH6), [The Evolution of Stretch | Boston Dynamics](https://youtu.be/8WZoVJIV9V0?si=IMZDlK6Tgyb8ehWW)
+
+
+  <img src="img/atlas2.webp" width=30%> <img src="img/atlas3.jpg" width=30%> <img src="img/atlas4.jpg" width=38%>
+
+ ## [Boston Dynamics Spot®](https://www.bostondynamics.com/products/spot)
+
+  <img src="img/spot2.webp" width=100%>
+
+  [ 2023 [update](https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available): Boston Dynamics' Spot Robot Dog Now Available for $74,500 ] . (Old: A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT).
+
+  [What's New in Spot Release 3.3](https://youtu.be/nASTVKX0gpo?si=UAyXYZqCg57fPo_6), [Spot at Ontario Power Generation: Automating Circuit Breaker Tripping and Racking](https://youtu.be/CyjYIgnsIeY?si=ylONU0egrMIcATCN), [The Next Level of Industrial Inspection](https://youtu.be/W5ugoiHDaOA?si=89y_KYNKNQyAHjGI), [Paris Underground: Spot Inspects Transportation Infrastructure with RATP Group](https://youtu.be/bKDhmENcKto?si=7_hGGmkTZrN8u4dD)
 
 <img src="img/spot2.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
 
