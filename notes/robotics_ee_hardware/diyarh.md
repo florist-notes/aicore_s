@@ -21,6 +21,7 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 ### 5. MorpHex MKII | project - [guide](http://zentasrobots.com/robot-projects/morphex-mkii/) | [video](https://youtu.be/yn3FWb-vQQ4)
 <img src="img/m1.jpg" width=48%><a> </a><img src="img/m2.jpg" width=48%>
 
+### [Hexapod v2.1](https://youtu.be/To2Y6Mhu-CE?si=I9zZMNKVTwplLBWx), [Rocket guidance and flight trajectory control](https://youtu.be/4xEx2EQIPD4?si=GUrs2l8139btoGnk), [로봇 복싱](https://youtu.be/wthjhzUzqRo?si=_FdlQXvVRYrXG48T), [Testing Out JPL’s New Snake Robot](https://youtu.be/ifCIDT4X9AM?si=lzaokjMIIt9V4sf6), [MX-Phoenix fast walking among people](https://youtu.be/mcw_0cIyr9Y?si=WYGC7degO_f0HiJQ), [Festo BionicSwift 2021](https://youtu.be/hUE8o056Cpc?si=_N_fhnteQ06q4BP-), [Orwell the Hexapod Robot](https://youtu.be/IAX3vwjZ4m4?si=2yLEiSOVdAsnoPI6)
 
 ## Advaned Robotics hardware :
 

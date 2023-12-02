@@ -25,9 +25,14 @@ Watch [3D printing basics](https://www.youtube.com/watch?v=nb-Bzf4nQdE&list=PLDJ
 Class : [[MIT : Principles of Manufacturing](https://www.edx.org/micromasters/mitx-principles-manufacturing)], buy from  [slice engineering](https://www.sliceengineering.com/?p=SyCtzG4s8), [Prusa Research](https://www.prusa3d.com/) and design with [Prusa Slicer](https://www.prusa3d.com/page/prusaslicer_424/) | 3D model - [makebot thingverse](https://www.thingiverse.com/), [youmagine](https://www.youmagine.com/), [printables](https://www.printables.com/), [Cults3D](https://cults3d.com/en); Tools - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription), [meshroom](https://alicevision.org/#meshroom).
 
 
+[ [3D Printing Meets Robotics](https://youtu.be/mft36w5Hl1I?si=QQ1hK7DyI-Vy48gG), [New 3D printer makes multi-material robots](https://youtu.be/2WL4b03Tfjg?si=PrzhoYvejFshL_EP), [This 3D printer can watch itself fabricate objects](https://youtu.be/mw9hYHoD46o?si=-NU-Q1_Z1Hg_NSDf), [The 3D printer that crafts complex robotic organs in a single run](https://youtu.be/GDFuBoeVd_8?si=En1Cl7soRhOtRNhS), [Breakthrough 3D Printer Uses Strange Goo](https://youtu.be/MXOJeKFZsSk?si=KS8SOKp0gzqS0REb), [This 3D printer can watch itself fabricate objects](https://news.mit.edu/2023/3d-printer-can-watch-itself-fabricate-objects-1115), [Engineers create 3D-printed objects that sense how a user is interacting with them](https://news.mit.edu/2021/3d-printed-objects-sense-interaction-0914), [Autonomous 3D Printed QuadSpider Robot](https://youtu.be/04VkpGuIz30?si=R5E2BV65WVCcDdlU), [Resin VS FDM 3D printers: Which one is the best for miniatures?](https://youtu.be/PtwvAbm679Q?si=1HjbYa3-Yw8hTu3_), [10 Amazing ARTICULATED 3D Prints](https://youtu.be/GOCiaXNAFec?si=udUixaAWSUwHg9St) ]
+
+
 ## 3D printing with [TINKERCAD](https://www.tinkercad.com/) ; [thingiverse](https://www.thingiverse.com/) for shopping 3D models ~ [STL file](./Mighty_Stantia_skk.stl).
 
 <img src="img/fe.png" width=58%><a> </a><img src="img/tink.png" width=32%><a> </a><img src="img/hellm.png" width=30%><a> </a><img src="img/hellm2.png" width=30%><a> </a><img src="img/rrr.png" width=32%>
+
+[ [3D printed crystal dragon](https://www.youtube.com/shorts/vzx_iWcTyTw), [3D printed dragon flight test](https://www.youtube.com/shorts/uRxKrj5EqDk) xD, [DIY 3D Printed SMARS Robot](https://youtu.be/tJqI_Hq0oDw?si=44wxxAUIXWrnaZrL), [How Does 3D Printing Works - 3D Animation](https://youtu.be/fiMoXrTM0SQ?si=tIOhAFXovv0GacRi), [The Working Principle and Outputs Of 3D Printers](https://www.youtube.com/shorts/H-4fuAT-aU8) ]
 
 
 ## PCB Design :
