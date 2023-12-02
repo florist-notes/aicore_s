@@ -306,6 +306,8 @@ Unitree Education / Industry : [Unitree 4D LiDAR L1](https://shop.unitree.com/pr
 
  ## [Boston Dynamics Spot®](https://www.bostondynamics.com/products/spot)
 
+I got up-close with 'spot' this year [[event](https://twitter.com/florist_notes/status/1671840017163976707)] and it was an amazing experience to witness efforts put into this wonderful technology.
+
   <img src="img/spot2.webp" width=100%>
 
   [ 2023 [update](https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available): Boston Dynamics' Spot Robot Dog Now Available for $74,500 ] . (Old: A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT).
