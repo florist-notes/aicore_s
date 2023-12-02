@@ -53,13 +53,17 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 
 ## Cutting Edge Robotics :
 
-[ [Ameca facial motion capture](https://youtu.be/3OHILYjsW7c), [Boston Dynamics](https://youtu.be/fn3KWM1kuAw), [Robo Threads](https://youtu.be/INSyV4dgqu8), [Festo - Bionic Robotics](https://youtu.be/_qRGIRvr06w), [Deep Sea Soft Robotics](https://youtu.be/shr6sJy_29E), [OceanOneK](https://youtu.be/h2CLLBUpPZg), [Snake Robots](https://youtu.be/FWr-MvOOOYU), [Soft Robotic Fish](https://youtu.be/JPabeUxSfAw), [Xenobot 2.0](https://youtu.be/JPFRUZGqUFA), [MIT slime robot](https://youtu.be/VmV3m0QqNOY), [Search for Life: NASA JPL Explores Martian-Like Caves](https://youtu.be/qTW-dbZr4U8), [Drone reaches TRANSONIC prop tip SPEED](https://youtu.be/LbYEzEWvjr8), [ANYbotics](https://www.youtube.com/@ANYbotics), [Robot Animals](https://youtu.be/pd6HNSh0TJw), [Spot Levels Up | Boston Dynamics](https://youtu.be/qgHeCfMa39E)]
+[ [Ameca facial motion capture](https://youtu.be/3OHILYjsW7c), [Boston Dynamics](https://youtu.be/fn3KWM1kuAw), [Robo Threads](https://youtu.be/INSyV4dgqu8), [Festo - Bionic Robotics](https://youtu.be/_qRGIRvr06w), [Deep Sea Soft Robotics](https://youtu.be/shr6sJy_29E), [OceanOneK](https://youtu.be/h2CLLBUpPZg), [Snake Robots](https://youtu.be/FWr-MvOOOYU), [Soft Robotic Fish](https://youtu.be/JPabeUxSfAw), [Xenobot 2.0](https://youtu.be/JPFRUZGqUFA), [MIT slime robot](https://youtu.be/VmV3m0QqNOY), [Search for Life: NASA JPL Explores Martian-Like Caves](https://youtu.be/qTW-dbZr4U8), [Drone reaches TRANSONIC prop tip SPEED](https://youtu.be/LbYEzEWvjr8), [ANYbotics](https://www.youtube.com/@ANYbotics), [Robot Animals](https://youtu.be/pd6HNSh0TJw), [Spot Levels Up | Boston Dynamics](https://youtu.be/qgHeCfMa39E), [Meet Alter 3, the singing and conducting humanoid robot!](https://youtu.be/LzDcIPipsT4?si=AylyoxQd6OLzgRS3), [MIT CSAIL Office Hours Episode 1: Robotics](https://youtu.be/l5o_edsg_nU?si=_u8_5sXS_p5wCCXb), [Assembler robots could eventually build almost anything](https://youtu.be/G94FDMGLwCc?si=sBCQ_KCqog87Z_Sm), [Robo-gripper grasps by reflex](https://youtu.be/XxDi-HEpXn4?si=_w4TGnfRkn-2PpzL), [The bio-inspired 'transformer' that crawls, rolls and flies](https://youtu.be/S4eQXXxUnNE?si=qAvabiZG2n-X6L1Y), [New 3D printer makes multi-material robots](https://youtu.be/2WL4b03Tfjg?si=4H4BCpz12QWQxylo), [Foundations of Spatial Perception for Robotics](https://youtu.be/AEaBq2-FeY0?si=pLZxHy3PY9aEFMGn), [A Look Into the Future of Robotics at MIT CSAIL | Strictly Robots](https://youtu.be/HmNxzg2_cso?si=vOPYQfA1bP4rtRPI) ]
 
+## Sophia and Ameca
 
+Sophia the robot @/[SophiatheRobot](https://www.youtube.com/@SophiatheRobot) | [Ameca](https://youtu.be/CDBWud9Uc7w?si=qOXoFX2QiJSzRlIw), [Ameca Facial Expressions](https://youtu.be/lHk7gspkj0I?si=T-fLyahmuHVcGmqE)
+
+<img src="img/sophia.jpg" width=32%> <img src="img/ameca.jpg" width=29%> <img src="img/sophia.png" width=33%>
 
 <table style="width:100%" >
 <tr>
-<th>Spot Enterprise Package<br /> <img src="img/spot.jpg" height=140px><a href="https://www.generationrobots.com/en/403823-spot-enterprise-package.html#/202-charging_dock-without_charging_dock">buy</a></th>
+<th>Spot Enterprise Package<br /> <img src="img/spot2.jpg" height=140px><a href="https://www.generationrobots.com/en/403823-spot-enterprise-package.html#/202-charging_dock-without_charging_dock">buy</a></th>
 <th>Payload: Boston Dynamics Spot Arm<br /> <img src="img/spot_ar.jpg" height=140px>
  <a href="https://www.generationrobots.com/en/403824-payload-boston-dynamics-spot-arm.html">buy</a></th>
 <th>Boston Dynamics Spot Dock<br /> <img src="img/spot_dock.jpg" height=140px> <a href="https://www.generationrobots.com/en/403767-boston-dynamics-spot-dock.html">buy</a></th>
