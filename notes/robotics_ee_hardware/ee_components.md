@@ -39,7 +39,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Diode</td>
-<td><img src="img/electronics/diode.jpg" width=100px></td>
+<td><img src="img/electronics/diode2.png" width=100px></td>
 <td>A diode is a component that only conducts electricity in one direction. It is commonly used if you want to convert from alternating current (AC) to direct current (DC). Other types of diodes include Light Emitting Diode (LED) and Zener diode.
 
 + Function: Diodes allow current to flow in one direction while blocking it in the opposite direction. They are used for rectification, voltage regulation, and signal clipping.
@@ -59,13 +59,13 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Potentiometer</td>
-<td><img src="img/electronics/pot.jpg" width=100px></td>
+<td><img src="img/electronics/pot2.png" width=100px></td>
 <td>A potentiometer is a variable resistor in which a wiper sweeps from one end of the resistive element to the other, resulting in resistance that is proportional to the wiper's position.</td>
 </tr>
 
 <tr>
 <td>Integrated Circuit (IC)</td>
-<td><img src="img/electronics/ic.jpeg" width=100px></td>
+<td><img src="img/electronics/ic2.png" width=100px></td>
 <td>An integrated circuit is a circuit made up of several tiny components and placed in a small package. It could be anything from a microcontroller to a radar system.
 
 + Function: ICs are miniature electronic circuits etched onto a silicon chip. They can perform complex functions like microcontrollers, amplifiers, and memory storage.
@@ -75,7 +75,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Relay</td>
-<td><img src="img/electronics/rel.jpg" width=100px></td>
+<td><img src="img/electronics/rel2.png" width=100px></td>
 <td>A relay is a switch that can be controlled electrically. If you connect power to the relay, the switch opens. If you disconnect the power, the switch closes. (Or vice versa).</td>
 </tr>
 
@@ -91,7 +91,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Piezoelectric devices, crystals, resonators</td>
-<td><img src="img/electronics/ti.png" width=100px></td>
+<td><img src="img/electronics/ti2.png" width=100px></td>
 <td>A crystal oscillator is a component used to create a precise frequency for example as a clock for a microcontroller.</td>
 </tr>
 
@@ -106,7 +106,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Breadboard & Perfboard</td>
-<td><img src="img/electronics/bb.jpg" width=100px></td>
+<td><img src="img/electronics/bb2.png" width=100px></td>
 <td>A breadboard, solderless breadboard, or protoboard is a construction base used to build semi-permanent prototypes of electronic circuits.<br />
 
 Perfboard is a material for prototyping electronic circuits (also called DOT PCB). It is a thin, rigid sheet with holes pre-drilled at standard intervals across a grid, usually a square grid of 0.1 inches (2.54 mm) spacing.
@@ -154,7 +154,7 @@ Extended :  [Buttons and Switches](https://www.sparkfun.com/categories/145) - [j
 
 <tr>
 <td>Multimeter</td>
-<td><img src="img/electronics/mt.jpg" width=100px></td>
+<td><img src="img/electronics/mt2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Mini-Digital-Tweezers-DT71-p-4696.html">
 DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-in Micro Signal Generator</a></td>
 </tr>
@@ -179,7 +179,7 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 
 <tr>
 <td>Diagonal Pliers</td>
-<td><img src="img/electronics/dp.jpg" width=100px></td>
+<td><img src="img/electronics/dp2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Diagonal-Pliers-p-1432.html">Diagonal Pliers</a></td>
 </tr>
 
@@ -191,7 +191,7 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 
 <tr>
 <td>Wire Strippers</td>
-<td><img src="img/electronics/ws.jpg" width=100px></td>
+<td><img src="img/electronics/ws2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Wire-Strippers-p-1430.html">Wire Strippers</a></td>
 </tr>
 
@@ -204,7 +204,7 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 <tr>
 <td>
 Tweezers-straight (anti-magnetic)</td>
-<td><img src="img/electronics/tw.jpg" width=100px></td>
+<td><img src="img/electronics/tw2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Tweezers-straight-anti-magneti-p-537.html">Tweezers-straight (anti-magnetic)</a></td>
 </tr>
 
@@ -217,7 +217,7 @@ Tweezers-straight (anti-magnetic)</td>
 
 <tr>
 <td>Logic Analyzer</td>
-<td><img src="img/electronics/la.jpg" width=100px></td>
+<td><img src="img/electronics/la2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/MiniDSO-LA104-Logic-Analyzer-p-3217.html">MiniDSO LA104 Logic Analyzer</a></td>
 </tr>
 
