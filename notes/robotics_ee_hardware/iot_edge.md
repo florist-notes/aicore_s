@@ -19,7 +19,7 @@ Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson
 <th>Jetson Nano Developer Kit <br /> <img src="img/nano.png" height=100px> <a href="https://www.arrow.com/en/products/945-13450-0000-100/nvidia">board</a></th>
 </tr>
 <tr>
-<th>Raspberry Pi 4 Model B <br /> <img src="img/rasp.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">board</a></th>
+<th>Raspberry Pi 5 / 4 Model B  <br /> <img src="img/rasp.png" height=140px>  <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">rp-5 board</a> | <a href="https://www.raspberrypi.com/products/raspberry-pi-4-model-b/">board</a> </th>
 <th>Raspberry Pi Zero 2 W <br /> <img src="img/zero2w.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/">board</a></th>
 <th>Raspberry Pi Pico <br /> <img src="img/pico.png" height=140px> <a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">board</a></th>
 <th>RP 2040 <br /> <img src="img/rp2040.png" height=140px> <a href="https://www.raspberrypi.com/products/rp2040/">board</a></th>
