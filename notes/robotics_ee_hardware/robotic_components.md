@@ -88,6 +88,8 @@ Sensors are essential components in robotics that enable machines to perceive an
 
 + Applications: Gyroscopes are crucial for orientation and stabilization in robots and drones.
 
+#### 1 Inertial measurement unit (IMU) : The IMU is a sensor that measures triaxial acceleration and triaxial angular velocity. The IMU consists of an accelerometer, which can output linear acceleration signals on three axes in space, and a gyroscope, which can output angular velocity signals on three axes in space.
+
 </td>
 </tr>
 
@@ -264,11 +266,15 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 
 <table style="width:100%" >
 <tr>
-<th>Universal Robots : UR30
+<th>
+
+Universal Robots : [UR30](https://www.universal-robots.com/products/ur30-robot/)
 
 <img src="img/ur30.webp" width=27%> 
 </th>
-<th>MYCOBOT PRO 600
+<th>
+
+MYCOBOT [PRO 600](https://shop.elephantrobotics.com/collections/mycobot-pro-600)
 
 <img src="img/p600c.png" width=77%> 
 </th>
