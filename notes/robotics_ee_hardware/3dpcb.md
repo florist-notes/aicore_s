@@ -52,3 +52,5 @@ Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for n
 Steps : [From Idea to Schematic to PCB](https://youtu.be/35YuILUlfGs);
 Schematic Design : [Easy EDA](https://easyeda.com/), [KiCAD EDA](https://www.kicad.org/), [Altium Designer](https://www.altium.com/altium-designer);
 Order PCB : [jlpcb](https://jlcpcb.com/), [pcbway](https://www.pcbway.com/) 
+
+Resources: [No glasses required - 360 degree view of Voxon Photonics 3D Volumetric Display](https://youtu.be/CCuybyAO8fs?si=p34Ddwusd0nBEWpW), [Tiny volumetric display](https://youtu.be/HKpBhE7QVAI?si=MfNMuQ2GZkN9cwS0), [apple-vision-pro](https://www.apple.com/apple-vision-pro/), [quest-3](https://www.meta.com/quest/quest-3/).
