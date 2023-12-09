@@ -3,13 +3,13 @@
 ```bash
 
 
-    $ echo "# # # # # #  🌸 🌸 🌸 # # # # # # 🌸🌸 # # # # #🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # 🤖"
-    $ echo "# # # # # #  🌸 # # # 🌸 # # 🤖 🌸 # # 🌸 # # # 🌸 # # # 🌸 #  🌸 # # 🌸 # # # # # # 🌸 # # # # # # #"
-    $ echo "# # # # # #  🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # # "
-    $ echo "# # # # # #  🌸 🌸 # # # # # # 🌸 # # # 🌸 # # # 🌸 🌸 🌸 # # 🌸 # # # #🌸 # # # # # # 🌸 # # # # # #"
-    $ echo "# # # # # #  🌸 # # 🌸 # # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # #"
-    $ echo "# # # # # #  🌸 # # # #🌸 # # # 🌸 # # 🌸 # # # #🌸 # # # 🌸 #  🌸 # # 🌸🤖 # # # # #🌸 # # # # # # #"
-    $ echo "# # # # # #  🌸 # # # # #🌸 # # # 🌸🌸 # # # # # 🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # #"
+    $ echo "# # # # # # 🌸 🌸 🌸 # # # # # # 🌸🌸 # # # # #🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # 🤖"
+    $ echo "# # # # # # 🌸 # # # 🌸 # # 🤖 🌸 # # 🌸 # # # 🌸 # # # 🌸 #  🌸 # # 🌸 # # # # # # 🌸 # # # # # # #"
+    $ echo "# # # # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # # "
+    $ echo "# # # # # # 🌸 🌸 # # # # # # 🌸 # # # 🌸 # # # 🌸 🌸 🌸 # # 🌸 # # # #🌸 # # # # # # 🌸 # # # # # #"
+    $ echo "# # # # # # 🌸 # # 🌸 # # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # #"
+    $ echo "# # # # # # 🌸 # # # #🌸 # # # 🌸 # # 🌸 # # # #🌸 # # # 🌸 #  🌸 # # 🌸🤖 # # # # #🌸 # # # # # # #"
+    $ echo "# # # # # # 🌸 # # # # #🌸 # # # 🌸🌸 # # # # # 🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # #"
 
 ```
 
@@ -62,7 +62,7 @@ The following Institutes have been doing amazing work on aerial robotics : [ [EP
 + [MIT Robotics - Kevin Chen - Agile, robust, and multifunctional micro-aerial-robots](https://youtu.be/xmrDK_w0Yog)
 + [RI Seminar: Kostas Alexis : Autonomous Exploration and Inspection using Aerial Robots](https://www.youtube.com/live/4ko2K6jFwaU?feature=share)
 
-projects : [Design, Modeling and Control of Aerial Robot DRAGON](https://youtu.be/zMi5v2KznU4), [Versatile Articulated Aerial Robot DRAGON: Aerial Manipulation and Grasping by Vectorable Thrust](https://youtu.be/fJA4Rch0biE), [Learning High-Speed Flight in the Wild (Science Robotics, 2021)](https://youtu.be/m89bNn6RFoQ), [Swarm of Micro Flying Robots in the Wild [All]](https://youtu.be/L0fJ0EHHfOA), [Controlling Robotic Swarms](https://youtu.be/stzQNjtDg0g), [Crazyflie in research, 2020-2022](https://youtu.be/iTe6-lLp5iM), [EPFL - Aerial Robotics](https://www.youtube.com/watch?v=3-O85lB_DJQ&list=PLx1eeEN6ALvVP2CCpfGI_pbvDUH10O8RW), [This drone has legs: Watch a flying robot perch on branches, catch a tennis ball in mid-air](https://youtu.be/TF-OthkH844), [GAAS](https://github.com/generalized-intelligence/GAAS), [This Transformative Drone Can Change its Shape Mid-Flight](https://youtu.be/G8bmtLvIR30?si=ucgx754p8wyS_aWi), [PteroDynamics X-P4 Transwing® sizzle video](https://youtu.be/kA1ENhxLqTo?si=5U67vBJQInb-iogQ), ['Energy-efficient flapping-wing robots' workshop puts bio-inspired aerial robots to the test](https://youtu.be/-t7p-Lgtm2g?si=MyvJ22GwnVxCSOy-), [MonoNav: MAV Navigation via Monocular Depth Estimation and Reconstruction](https://youtu.be/msWLSfOmTpI?si=Gq-Snk63X8UTgE2h), [Semester project in Autonomous Aerial Robotics at UMD](https://youtu.be/DGx-8SBLRV8?si=r6Ku6GrBm3GQN6hQ), [The bio-inspired 'transformer' that crawls, rolls and flies](https://youtu.be/S4eQXXxUnNE?si=A9rE2XQJjihpeVPP).
+projects : [Design, Modeling and Control of Aerial Robot DRAGON](https://youtu.be/zMi5v2KznU4), [Versatile Articulated Aerial Robot DRAGON: Aerial Manipulation and Grasping by Vectorable Thrust](https://youtu.be/fJA4Rch0biE), [Learning High-Speed Flight in the Wild (Science Robotics, 2021)](https://youtu.be/m89bNn6RFoQ), [Swarm of Micro Flying Robots in the Wild [All]](https://youtu.be/L0fJ0EHHfOA), [Controlling Robotic Swarms](https://youtu.be/stzQNjtDg0g), [Crazyflie in research, 2020-2022](https://youtu.be/iTe6-lLp5iM), [EPFL - Aerial Robotics](https://www.youtube.com/watch?v=3-O85lB_DJQ&list=PLx1eeEN6ALvVP2CCpfGI_pbvDUH10O8RW), [This drone has legs: Watch a flying robot perch on branches, catch a tennis ball in mid-air](https://youtu.be/TF-OthkH844), [GAAS](https://github.com/generalized-intelligence/GAAS), [This Transformative Drone Can Change its Shape Mid-Flight](https://youtu.be/G8bmtLvIR30?si=ucgx754p8wyS_aWi), [PteroDynamics X-P4 Transwing® sizzle video](https://youtu.be/kA1ENhxLqTo?si=5U67vBJQInb-iogQ), ['Energy-efficient flapping-wing robots' workshop puts bio-inspired aerial robots to the test](https://youtu.be/-t7p-Lgtm2g?si=MyvJ22GwnVxCSOy-), [MonoNav: MAV Navigation via Monocular Depth Estimation and Reconstruction](https://youtu.be/msWLSfOmTpI?si=Gq-Snk63X8UTgE2h), [Semester project in Autonomous Aerial Robotics at UMD](https://youtu.be/DGx-8SBLRV8?si=r6Ku6GrBm3GQN6hQ), [The bio-inspired 'transformer' that crawls, rolls and flies](https://youtu.be/S4eQXXxUnNE?si=A9rE2XQJjihpeVPP), [Reliable Robotics remotely operates a large cargo aircraft with no one on board](https://youtu.be/w2O4hgNCMd4?si=iklaoPUpKtdCzXts), [A Robot That Walks, Flies, Skateboards, Slacklines](https://youtu.be/H1_OpWiyijU?si=s9DjRTFoQjBgLkng), [Optimal elastic wing for flapping-wing robots through passive morphing](https://youtu.be/kwuW8cfy-MI?si=h4MkZRQ1DuLS558F).
 
 
 
@@ -185,7 +185,7 @@ Human Robot Interaction with Large Language Models (LLMs) :
 
 <img src="img/rv.png" width=100%>
 
-Important resources on space robotcis:
+Important resources on space robotics:
 
 [ [Mars  Rover](https://mars.nasa.gov/mer/) ] [ [Robotic Servicing Arm](https://nexis.gsfc.nasa.gov/robotic_servicing_arm.html) ] [ [European Robotic Arm](https://en.wikipedia.org/wiki/European_Robotic_Arm) ] : [ERA](https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/European_Robotic_Arm)
 
