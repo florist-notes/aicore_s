@@ -31,6 +31,8 @@ Robotics and Mechatronics in short is the science and art of making physically i
 
 <b>+ Robot Perception:</b> Robots' ability to interact with their surroundings is an essential capability, especially in unstructured human-inhabited environments. The knowledge of such an environment is usually obtained through sensors. The study of acquiring knowledge from sensor data is called robotic perception.
 
+projects : [ [Adaptive Walking of Bio-inspired Musculoskeletal Soft Quadruped Robot in Slow Motion](https://youtu.be/89L8tqP6_MU?si=sRyuvk7OzLBwMIPH), [으뜸병원로봇동영상](https://youtu.be/r-Qh0Ox9ZmE?si=qKrB6EiuJ243ChuR), [Arduino Quadruped Robot Dancing to 'Small Steps'](https://youtu.be/95QFbXK_3GQ?si=QFnQm23BV_PCUtDf), [ウマの走行能力のヒミツに迫る　解剖学的な歩行ロボット](https://youtu.be/fA8YVgKO72U?si=wbkDikT_JVe0k8Uk), [CRL Legged Robotics Team in Swiss Robotics Day 2023](https://youtu.be/V6F5AtdAL4w?si=hbBYurj7e2CAUEV5) ]
+
 ### Robotics Books:
 
 <table style="width:100%" >
