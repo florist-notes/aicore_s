@@ -62,7 +62,11 @@ Sophia the robot @/[SophiatheRobot](https://www.youtube.com/@SophiatheRobot) | [
 
 <img src="img/sophia.jpg" width=32%> <img src="img/ameca.jpg" width=29%> <img src="img/sophia.png" width=33%>
 
-<table style="width:100%" >
+TESLA : [ [Optimus - Gen 2](https://youtu.be/cpraXaw7dyc?si=JjF_l5kGeI-npgzQ), [Tesla Bot Update](https://youtu.be/XiQkeWOFwmk?si=L9JDYPl41jj8-wFN) ]
+
+<img src="img/tesla.jpg" width=53%> <img src="img/tesla2.webp" width=45%>
+
+<table style="width:100%" > 
 <tr>
 <th>Spot Enterprise Package<br /> <img src="img/spot2.jpg" height=140px><a href="https://www.generationrobots.com/en/403823-spot-enterprise-package.html#/202-charging_dock-without_charging_dock">buy</a></th>
 <th>Payload: Boston Dynamics Spot Arm<br /> <img src="img/spot_ar.jpg" height=140px>
