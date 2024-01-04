@@ -132,3 +132,9 @@ ISA for AI - Domain specific ISAs (extended RISCs), Very-Long Instruction Word (
 To be able to run an entire 40-billion parameter model in memory, said Lisa Su, actually reduces the number of GPUs you need. [[source](https://www.zdnet.com/article/amd-unveils-mi300x-ai-chip-as-generative-ai-accelerator/)]
 
 <img src="img/mx.webp" width="100%">
+
+# Microsoft Azure Maia AI Accelerator
+
+[With a systems approach to chips, Microsoft aims to tailor everything ‘from silicon to service’ to meet AI demand](https://news.microsoft.com/source/features/ai/in-house-chips-silicon-to-service-to-meet-ai-demand/), [Microsoft announces custom AI chip](https://youtu.be/gGGBVp_w9fI?si=C_WuJrtAShEzBOFs)
+
+<img src="img/maia.jpg" width="100%">

@@ -64,7 +64,7 @@ Sophia the robot @/[SophiatheRobot](https://www.youtube.com/@SophiatheRobot) | [
 
 TESLA : [ [Optimus - Gen 2](https://youtu.be/cpraXaw7dyc?si=JjF_l5kGeI-npgzQ), [Tesla Bot Update](https://youtu.be/XiQkeWOFwmk?si=L9JDYPl41jj8-wFN) ]
 
-<img src="img/tesla.jpg" width=53%> <img src="img/tesla2.webp" width=45%>
+<img src="img/tesla.jpg" width=51%> <img src="img/tesla2.webp" width=45%>
 
 <table style="width:100%" > 
 <tr>
