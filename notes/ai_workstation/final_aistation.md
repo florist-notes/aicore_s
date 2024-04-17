@@ -3,7 +3,7 @@
 <img src="img/p620.png" height=260px><a> </a><img src="img/2xa5500.png" height=260px><a> </a><img src="img/qnap.png" height=250px>
 <br />
 
-We have this<b> final build : : </b>
+We have this<b> final build : : [neofetch](https://twitter.com/florist_notes/status/1628860764306960384)</b>
 
 
 
