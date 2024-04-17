@@ -74,6 +74,16 @@ A quantum processing unit (QPU), also referred to as a quantum chip, is a physic
 <img src="img/syc.jpg" width=49.5%><a> </a><img src="img/syc2.jpg" width=49.5%>
 </td>
 </tr>
+
+<tr>
+<td>Neural Processing Unit (NPU)</td>
+<td>
+Neural Processing Units (NPUs) are specialized hardware accelerators designed to efficiently execute neural network algorithms, enabling high-performance artificial intelligence (AI) applications. NPUs are optimized for a data-driven parallel computing, making them highly efficient at processing massive multimedia data like videos and images and processing data for neural networks.
+
+Example : [ARM Ethos-U65](https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u65), [Intel Mobileye EyeQ Ultra](https://www.intel.com/content/www/us/en/newsroom/news/mobileye-ces-2022-tech-news.html).
+</td>
+</tr>
+
 <tr>
 <td>Field-programmable gate array (FPGA)</td>
 <td>FPGAs support a wide computational spectrum by enabling bit-level configurability: the arithmetic units can be configured to implement functions that operate on numbers of arbitrary widths, and the on-chip memory blocks can be fused to construct memory spaces of varied sizes. FPGA == reconfigurability.</td>
@@ -126,15 +136,33 @@ References: AI Accelerators — Part I: [Intro](https://medium.com/@adi.fu7/ai-a
 
 ISA for AI - Domain specific ISAs (extended RISCs), Very-Long Instruction Word (VLIW) architectures, Systolic Arrays ( used by TPUs and NVIDIA Tensor cores), Reconfigurable Processors (FPGAs), Dataflow Processing Systems and Processing in Memory ( for near data processing / Neuromorphic Computing - [IBM True North](https://youtu.be/X2TYAcr36r0), [Intel Loihi 2](https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html), [brainchip](https://brainchip.com/) ). Startups working on Systolic Arrays + VLIW: TPUv1, Groq, and Habana (2 chips: Goya for inference and Gaudi for training, [Greco](https://habana.ai/inference/greco/)). RISC-Based AI Accelerators: Esperanto and TensTorrent, [NeuReality](https://www.neureality.ai/): TCO-Driven Approach to Eliminate System Overheads.
 
-# AMD unveils MI300x AI chip as 'generative AI accelerator'
+####  [NVIDIA DGX™ B200](https://www.nvidia.com/en-in/data-center/dgx-b200/) - Equipped with eight NVIDIA Blackwell GPUs interconnected with fifth-generation NVIDIA® NVLink®, DGX B200 delivers leading-edge performance, offering 3X the training performance and 15X the inference performance of previous generations.
+
+#### [Cerebras CS-3](https://www.cerebras.net/blog/cerebras-cs3) - the world’s fastest and most scalable AI accelerator. More details on CS-3 [here](https://www.cerebras.net/product-system/).
+
+#### [Tenstorrent](https://tenstorrent.com/) - [Unboxing the Tenstorrent Grayskull AI Accelerator!](https://youtu.be/WJpJkvNw9Ts?si=em4rBlJ-DUL_R7PT).
+
+#### [AMD Alveo U50 Data Center Accelerator Card](https://www.xilinx.com/products/boards-and-kits/alveo/u50.html) - The AMD Alveo™ U50 Data Center accelerator cards provide optimized acceleration for workloads in financial computing, machine learning, computational storage, and data search and analytics.
+
+[AMD Acceleration Cards](https://www.xilinx.com/products/boards-and-kits/accelerator-cards.html), [MemryX](https://memryx.com/) - AI Acceleration, [AMD FZ5](https://www.xilinx.com/products/boards-and-kits/1-1e4y1or.html).
+
+# Generative AI Accelerators :
+
+## AMD unveils MI300x AI chip as 'generative AI accelerator'
 
 
 To be able to run an entire 40-billion parameter model in memory, said Lisa Su, actually reduces the number of GPUs you need. [[source](https://www.zdnet.com/article/amd-unveils-mi300x-ai-chip-as-generative-ai-accelerator/)]
 
 <img src="img/mx.webp" width="100%">
 
-# Microsoft Azure Maia AI Accelerator
+## Microsoft Azure Maia AI Accelerator
 
 [With a systems approach to chips, Microsoft aims to tailor everything ‘from silicon to service’ to meet AI demand](https://news.microsoft.com/source/features/ai/in-house-chips-silicon-to-service-to-meet-ai-demand/), [Microsoft announces custom AI chip](https://youtu.be/gGGBVp_w9fI?si=C_WuJrtAShEzBOFs)
 
 <img src="img/maia.jpg" width="100%">
+
+## Intel® Gaudi 3 AI Accelerator
+
+Big for Gen AI, Even Bigger for ROI : [Intel® Gaudi 3 AI Accelerator](https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi3.html).
+
+<img src="img/gaudi3.jpg" width="100%">
