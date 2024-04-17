@@ -76,7 +76,7 @@ You can visualize every aspect of your networking hardware from unifi mobile app
 
 highlighting some of the features I used in lab :
 
-<img src="img/net/4-min.jpg" height=500px><a> </a><img src="img/net/5-min.jpg" height=500px><a> </a><img src="img/net/6-min.jpg" height=500px><a> </a> <img src="img/net/7-min.jpg" height=500px>
+<img src="img/net/4-min.jpg" height=552px><a> </a><img src="img/net/5-min.jpg" height=552px><a> </a><img src="img/net/6-min.jpg" height=552px><a> </a> <img src="img/net/7-min.jpg" height=552px>
 <br />
 
 [Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://youtu.be/bpTNcbnZjvY)

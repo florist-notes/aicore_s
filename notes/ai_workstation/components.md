@@ -35,8 +35,11 @@ We will go for the Threadripper Pro 5000 series instead of 3000 series. Check fo
 
 <img src="img/ryz3.jpg" width=65%><img src="img/amdt2.png" width=35%>
 
+
+New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processors/workstations/ryzen-threadripper.html) | [AMD Ryzen 7 7800X3D](https://www.amd.com/en/products/processors/desktops/ryzen/amd-ryzen-7-7800x3d.html) | [Intel® Core™ i9 processor 14900K](https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html).
 </td>
 </tr>
+
 
 </table>
 
@@ -74,6 +77,8 @@ NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualizat
 <br /><br />
 
 <img src="img/nvidia.png" width=49%><a> </a><img src="img/gpu_performance.png" width=50%>
+
+New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-series/rtx-4090/), [NVIDIA Blackwell](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing).
 </td></tr>
 </table>
 
