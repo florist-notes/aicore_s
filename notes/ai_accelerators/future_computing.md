@@ -2,9 +2,23 @@
 
 <img src="img/tnn.png" width="49%"><a> </a><img src="img/op.png" width="49%">
 
+### Graphene-based transistors : 
+
+Graphene, a material just one atom thick made of carbon and known for its exceptional conductivity, can be fashioned into minuscule tubes and combined with other two-dimensional materials to enhance the speed of electron movement. This advancement allows for more efficient use of space and energy compared to even the smallest silicon transistors. However, until recently, the production of these nanotubes was hindered by messiness and high error rates, making commercial viability challenging.
+
+resource: [This New Semiconductor Could Revolutionize Computing](https://youtu.be/oXBtPmVrES4?si=4bZ46FLdFt7n92vn), [Georgia Tech Researchers Create First Functional Graphene Semiconductor](https://youtu.be/gWUX2OTqkEo?si=aYLXf6ZryhhgS6yQ), [Researchers herald functional graphene semiconductor](https://youtu.be/W2MlkVdSfz4?si=1dCxO_9eQ-vQuQaa), [Graphene Processors and Quantum Gates](https://youtu.be/VLPpDoMBVK0?si=yV4dCoxFwsI0xqhe), [MIT : Powering the Next Generation of Electronics - Graphene Conductivity & Neuromorphic Computing](https://youtu.be/2lN0mhbR5SI?si=UmfO02DufeZs1_ZC), [How Graphene Could Help Us Build Bigger and Better Quantum Computers](https://youtu.be/87diaTDipNU?si=kBxRTk7jrBVGReXx), [New Microchip Breakthrough: New Era in Electronics?](https://youtu.be/wGzBuspS9JI?si=mHazGtQIR8gZCHCT).
+
++ Charge carriers in graphene, such as electrons, exhibit high mobility (atleast 10x), meaning they can move through the material with less resistance.
++ Graphene is only one atom thick, making graphene-based transistors extremely thin compared to silicon transistors, which are typically thicker.
++ Graphene possesses excellent thermal conductivity, which can help in dissipating heat generated during transistor operation. 
++ One of the key differences is the presence of a bandgap in silicon but not in graphene. Silicon transistors can be turned on and off effectively due to this bandgap, while graphene-based transistors lack this property, requiring additional engineering to control current flow. 
+
 
 
 ## Optical Computing
+
+The ability to compute using photons, that is, by mapping data onto light-intensity levels and then varying the light intensity to perform calculations. Optical computing leverages the properties of light, such as speed, wavelength, and coherence, to process and manipulate data. Unlike electronic computers that use binary digits (bits), optical computers can utilize photons as information carriers, enabling parallel processing and high-speed operations.
+
 resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6nYA)], [[3](https://youtu.be/UqeH7ozVOpQ)], [[4](https://youtu.be/t0yj4hBDUsc)], [[5](https://youtu.be/29aTqLvRia8)]
 
 <img src="img/optical.jpg" width="100%">
