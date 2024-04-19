@@ -202,6 +202,6 @@ ROS-Industrial is an open-source project that extends the advanced capabilities 
 [How do we add LIDAR to a ROS robot?](https://youtu.be/eJZXRncGaGM)
 [How to get your robot to see in 3D! (Depth Cameras in ROS)](https://youtu.be/T9xZ22i9-Ys)
 [Making Your First ROS Package](https://youtu.be/Y_SyQXTL2XU)
-[How do we describe a robot? With URDF! ](https://youtu.be/CwdbsvcpOHM)
+[How do we describe a robot? With URDF! ](https://youtu.be/CwdbsvcpOHM), [ROS Aerial Robotics WG meeting](https://youtu.be/qMt5bOKZw-M?si=bLPPLQojXESnKxBE), [6 degrees of Freedom Robot Manipulator Modeling in ROS2 and Visualization in RViz2 - URDF and Python](https://youtu.be/t67JaKiZY_U?si=GTZicORtiXSA82iq), [Robot Operating System (ROS) Course](https://youtu.be/dDODrSy6cYU?si=_Ix4HeBUdGavZUNk)
 
 resources: [Articulated Robotics](https://www.youtube.com/@ArticulatedRobotics), [Robotics Back End](https://www.youtube.com/@RoboticsBackEnd), [Learn robotics with ROS](https://www.youtube.com/@learn-robotics-with-ros/videos), [ROS Developers OPEN Class](https://www.youtube.com/watch?v=RQ5sAz23pLM&list=PLK0b4e05LnzbuxWCdip-2Tf-SIiZle5NA)
