@@ -6,7 +6,7 @@ I was designing an IoT command center architecture using [draw.io](https://draw.
 Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories), [seedstudio](https://www.seeedstudio.com/) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
  <img src="img/rp5.webp" width=48%>
-  <img src="img/rp52.webp" width=48%>
+  <img src="img/rp52.webp" width=44%>
 
 Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">rp-5 board</a> | [rp-products](https://www.raspberrypi.com/products/)
 
@@ -60,20 +60,31 @@ Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">
 
 [ [Bringing Generative AI to Life with NVIDIA Jetson](https://youtu.be/6mCFzDatGGc?si=kGkHHQj-JBypRmR2) ] | [ [Jetson AI Fundamentals](https://www.youtube.com/watch?v=VWdJ4BCtam8&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8) ] | [ []() ]
 
-Arduino boards : [ [nano-family](https://store.arduino.cc/pages/nano-family) ]
+Arduino boards : [ [nano-family](https://store.arduino.cc/pages/nano-family), [mkr-family](https://store.arduino.cc/collections/mkr-family) ]
 
 <img src="img/ardses.webp" width=100%> 
 
 [ [Arduino Sensor Kit - Base](https://store.arduino.cc/products/arduino-sensor-kit-base) ]
 
 <table style="width:100%" >
+
 <tr>
-<th>Arduino Uno - R3 <br /> <img src="img/uno.jpg" height=140px> <a href="https://www.sparkfun.com/products/11021">board</a></th>
-<th>Arduino Nano 33 BLE <br /> <img src="img/rnano.jpg" height=140px> <a href="https://www.sparkfun.com/products/15588">board</a></th>
-<th>Arduino Pro Mini 328 - 5V/16MHz<br /> <img src="img/pro_mini.jpg" height=140px> <a href="https://www.sparkfun.com/products/11113">board</a></th>
-<th>Arduino Mega 2560 R3<br /> <img src="img/mega.jpg" height=140px> <a href="https://www.sparkfun.com/products/11061">board</a></th>
-<th>Arduino Due<br /> <img src="img/due.jpg" height=140px> <a href="https://www.sparkfun.com/products/11589">board</a></th>
-<th>Arduino Fio<br /> <img src="img/fio.jpg" height=140px> <a href="https://www.sparkfun.com/products/10116">board</a></th>
+<th>Arduino® UNO R4 Minima <br /> <img src="img/ard/ard1.jpg" height=90px> <a href="https://store.arduino.cc/products/uno-r4-minima">board</a></th>
+<th>Arduino UNO R4 WiFi <br /> <img src="img/ard/ard2.jpg" height=90px> <a href="https://store.arduino.cc/products/uno-r4-wifi">board</a></th><th>Arduino UNO R3 <br /> <img src="img/ard/ard3.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-uno-rev3">board</a></th><th>Arduino Leonardo <br /> <img src="img/ard/ard4.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-leonardo-with-headers">board</a></th><th>Arduino UNO Mini Limited Edition <br /> <img src="img/ard/ard5.jpg" height=90px> <a href="https://store.arduino.cc/products/uno-mini-le">board</a></th><th>Arduino Micro <br /> <img src="img/ard/ard6.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-micro">board</a></th><th>Arduino Zero <br /> <img src="img/ard/ard7.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-zero">board</a></th><th>Arduino UNO WiFi Rev2 <br /> <img src="img/ard/ard8.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-uno-wifi-rev2">board</a></th>
+</tr>
+
+
+<tr>
+<th>Arduino Uno - R3 <br /> <img src="img/uno.jpg" height=90px> <a href="https://www.sparkfun.com/products/11021">board</a></th>
+<th>Arduino Nano 33 BLE <br /> <img src="img/rnano.jpg" height=90px> <a href="https://www.sparkfun.com/products/15588">board</a></th>
+<th>Arduino Pro Mini 328 - 5V/16MHz<br /> <img src="img/pro_mini.jpg" height=90px> <a href="https://www.sparkfun.com/products/11113">board</a></th>
+<th>Arduino Mega 2560 R3<br /> <img src="img/mega.jpg" height=90px> <a href="https://www.sparkfun.com/products/11061">board</a></th>
+<th>Arduino Due<br /> <img src="img/due.jpg" height=90px> <a href="https://www.sparkfun.com/products/11589">board</a></th>
+<th>Arduino Fio<br /> <img src="img/fio.jpg" height=90px> <a href="https://www.sparkfun.com/products/10116">board</a></th>
+
+<th>Arduino 4 Relays Shield<br /> <img src="img/ard/ards1.jpg" height=90px> <a href="https://store.arduino.cc/products/arduino-4-relays-shield">board</a></th>
+
+<th>Arduino GIGA Display Shield<br /> <img src="img/ard/ards2.jpg" height=90px> <a href="https://store.arduino.cc/products/giga-display-shield">board</a></th>
 </tr>
 </table>
 <br />
