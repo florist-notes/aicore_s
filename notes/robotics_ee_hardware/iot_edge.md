@@ -5,11 +5,18 @@ I was designing an IoT command center architecture using [draw.io](https://draw.
 
 Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories), [seedstudio](https://www.seeedstudio.com/) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
- <img src="img/rp5.webp" height=100%>
+ <img src="img/rp5.webp" width=48%>
+  <img src="img/rp52.webp" width=48%>
 
-Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">rp-5 board</a> 
+Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">rp-5 board</a> | [rp-products](https://www.raspberrypi.com/products/)
 
 <table style="width:100%" >
+<tr>
+<th>Jetson Orin Nano Developer Kit <br /> <img src="img/jts0.jpg" height=140px> <a href="https://www.sparkfun.com/products/22098">board</a></th>
+<th>Jetson Orin Nano 8GB <br /> <img src="img/jts1.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0030-000/nvidia">board</a></th>
+<th>Jetson Orin Nano 4GB <br /> <img src="img/jts2.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0040-000/nvidia"> board</a></th>
+<th>Jetson AGX Orin Industrial <br /> <img src="img/jts3.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0080-000/nvidia">board</a></th>
+</tr>
 <tr>
 <th>Jetson AGX Orin 32GB <br /> <img src="img/agx_orin.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0040-000/nvidia">board</a></th>
 <th>Jetson AGX Orin Developer Kit <br /> <img src="img/agx_kit.jpg" height=140px> <a href="https://www.arrow.com/en/products/945-13730-0000-000/nvidia">board</a></th>
@@ -51,7 +58,13 @@ Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">
 
 </table>
 
-Arduino boards : 
+[ [Bringing Generative AI to Life with NVIDIA Jetson](https://youtu.be/6mCFzDatGGc?si=kGkHHQj-JBypRmR2) ] | [ [Jetson AI Fundamentals](https://www.youtube.com/watch?v=VWdJ4BCtam8&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8) ] | [ []() ]
+
+Arduino boards : [ [nano-family](https://store.arduino.cc/pages/nano-family) ]
+
+<img src="img/ardses.webp" width=100%> 
+
+[ [Arduino Sensor Kit - Base](https://store.arduino.cc/products/arduino-sensor-kit-base) ]
 
 <table style="width:100%" >
 <tr>
