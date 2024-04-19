@@ -57,11 +57,11 @@ Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">
 
 </table>
 
-[ [Bringing Generative AI to Life with NVIDIA Jetson](https://youtu.be/6mCFzDatGGc?si=kGkHHQj-JBypRmR2) ] | [ [Jetson AI Fundamentals](https://www.youtube.com/watch?v=VWdJ4BCtam8&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8) ] | [ []() ]
+[ [Bringing Generative AI to Life with NVIDIA Jetson](https://youtu.be/6mCFzDatGGc?si=kGkHHQj-JBypRmR2) ] | [ [Jetson AI Fundamentals](https://www.youtube.com/watch?v=VWdJ4BCtam8&list=PL5B692fm6--uQRRDTPsJDp4o0xbzkoyf8) ] 
 
 Arduino boards : [ [nano-family](https://store.arduino.cc/pages/nano-family), [mkr-family](https://store.arduino.cc/collections/mkr-family) ]
 
-<img src="img/ardses.webp" width=100%> 
+<img src="img/ardses.webp" width=48%> <img src="img/ard/ards0.jpg" width=48%> 
 
 [ [Arduino Sensor Kit - Base](https://store.arduino.cc/products/arduino-sensor-kit-base) ]
 
