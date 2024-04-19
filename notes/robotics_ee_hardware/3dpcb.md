@@ -56,7 +56,7 @@ Checkout my project @github/[cube_ss](https://github.com/s-ai-kia/cube_ss) for n
 
 <img src="img/pcb1.jpg" width=36.5%><a> </a><img src="img/pcb2.jpg" width=61.5%>
 
-Steps : [From Idea to Schematic to PCB](https://youtu.be/35YuILUlfGs);
+Steps : [From Idea to Schematic to PCB](https://youtu.be/35YuILUlfGs), [PCB prototyping and robot making at home](https://youtu.be/KIlq8erelFM?si=4CCCy1OYF3qSNZYk);
 Schematic Design : [Easy EDA](https://easyeda.com/), [KiCAD EDA](https://www.kicad.org/), [Altium Designer](https://www.altium.com/altium-designer);
 Order PCB : [jlpcb](https://jlcpcb.com/), [pcbway](https://www.pcbway.com/) 
 
