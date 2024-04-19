@@ -5,8 +5,7 @@ I was designing an IoT command center architecture using [draw.io](https://draw.
 
 Edge electronics boards: [Jetson boards](https://developer.nvidia.com/buy-jetson) ; [Raspberry Pi](https://www.raspberrypi.com/); [Arduino](https://www.arduino.cc/); [Sparkfun](https://www.sparkfun.com/); [AdaFruit](https://www.adafruit.com/categories), [seedstudio](https://www.seeedstudio.com/) and [Hailo](https://hailo.ai/) AI acceleration on edge devices.
 
- <img src="img/rp5.webp" width=48%>
-  <img src="img/rp52.webp" width=44%>
+ <img src="img/rp5.webp" width=48%> <img src="img/rp52.webp" width=44%>
 
 Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">rp-5 board</a> | [rp-products](https://www.raspberrypi.com/products/)
 
