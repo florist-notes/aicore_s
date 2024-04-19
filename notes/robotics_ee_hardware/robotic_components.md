@@ -301,8 +301,7 @@ Unitree Education / Industry : [Unitree 4D LiDAR L1](https://shop.unitree.com/pr
 
  Boston Dynamics [ [Electric Atlas](https://bostondynamics.com/blog/electric-new-era-for-atlas/): [[2024](https://bostondynamics.com/atlas/)] ], [Atlas](https://bostondynamics.com/atlas/), [Stretch](https://bostondynamics.com/products/stretch/) | [Atlas | Partners in Parkour](https://youtu.be/tF4DML7FIWk?si=V-jJOZbSO0ZeCpvl), [Atlas Gets a Grip | Boston Dynamics](https://youtu.be/-e1_QhJ1EhQ?si=JzbZQbKakHc48p33), [Do You Love Me?](https://youtu.be/fn3KWM1kuAw?si=FCU2zyHN8mEe2vkq), [More Parkour Atlas](https://youtu.be/_sBBaNYex3E?si=WWY5RzSeT4URuJH6), [The Evolution of Stretch | Boston Dynamics](https://youtu.be/8WZoVJIV9V0?si=IMZDlK6Tgyb8ehWW).
 
-  <img src="img/atlas24.webp" width=46.5%>
-  <img src="img/atlas24.jpg" width=51%>
+  <img src="img/atlas24.webp" width=45.5%> <img src="img/atlas24.jpg" width=50%>
 
   <img src="img/atlas2.webp" width=30%> <img src="img/atlas3.jpg" width=30%> <img src="img/atlas4.jpg" width=38%>
 
