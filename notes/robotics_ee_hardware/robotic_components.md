@@ -299,8 +299,10 @@ Unitree Education / Industry : [Unitree 4D LiDAR L1](https://shop.unitree.com/pr
 
 ## [Boston Dynamics](https://www.bostondynamics.com/products/spot)
 
- Boston Dynamics [Atlas](https://bostondynamics.com/atlas/), [Stretch](https://bostondynamics.com/products/stretch/) | [Atlas | Partners in Parkour](https://youtu.be/tF4DML7FIWk?si=V-jJOZbSO0ZeCpvl), [Atlas Gets a Grip | Boston Dynamics](https://youtu.be/-e1_QhJ1EhQ?si=JzbZQbKakHc48p33), [Do You Love Me?](https://youtu.be/fn3KWM1kuAw?si=FCU2zyHN8mEe2vkq), [More Parkour Atlas](https://youtu.be/_sBBaNYex3E?si=WWY5RzSeT4URuJH6), [The Evolution of Stretch | Boston Dynamics](https://youtu.be/8WZoVJIV9V0?si=IMZDlK6Tgyb8ehWW)
+ Boston Dynamics [ [Electric Atlas](https://bostondynamics.com/blog/electric-new-era-for-atlas/): [[2024](https://bostondynamics.com/atlas/)] ], [Atlas](https://bostondynamics.com/atlas/), [Stretch](https://bostondynamics.com/products/stretch/) | [Atlas | Partners in Parkour](https://youtu.be/tF4DML7FIWk?si=V-jJOZbSO0ZeCpvl), [Atlas Gets a Grip | Boston Dynamics](https://youtu.be/-e1_QhJ1EhQ?si=JzbZQbKakHc48p33), [Do You Love Me?](https://youtu.be/fn3KWM1kuAw?si=FCU2zyHN8mEe2vkq), [More Parkour Atlas](https://youtu.be/_sBBaNYex3E?si=WWY5RzSeT4URuJH6), [The Evolution of Stretch | Boston Dynamics](https://youtu.be/8WZoVJIV9V0?si=IMZDlK6Tgyb8ehWW).
 
+  <img src="img/atlas24.webp" width=46.5%>
+  <img src="img/atlas24.jpg" width=51%>
 
   <img src="img/atlas2.webp" width=30%> <img src="img/atlas3.jpg" width=30%> <img src="img/atlas4.jpg" width=38%>
 
@@ -312,7 +314,7 @@ I got up-close with 'spot' this year [[event](https://twitter.com/florist_notes/
 
   [ 2023 [update](https://spectrum.ieee.org/boston-dynamics-spot-robot-dog-now-available): Boston Dynamics' Spot Robot Dog Now Available for $74,500 ] . (Old: A new contract notice from the UK's Atomic Energy Authority (UKAEA) for the premium Spot Enterprise robot dog, “SPOT Arm and all ancillary equipment” puts the number at £181,492 ($204,840) excluding VAT).
 
-  [What's New in Spot Release 3.3](https://youtu.be/nASTVKX0gpo?si=UAyXYZqCg57fPo_6), [Spot at Ontario Power Generation: Automating Circuit Breaker Tripping and Racking](https://youtu.be/CyjYIgnsIeY?si=ylONU0egrMIcATCN), [The Next Level of Industrial Inspection](https://youtu.be/W5ugoiHDaOA?si=89y_KYNKNQyAHjGI), [Paris Underground: Spot Inspects Transportation Infrastructure with RATP Group](https://youtu.be/bKDhmENcKto?si=7_hGGmkTZrN8u4dD)
+  [What's New in Spot Release 3.3](https://youtu.be/nASTVKX0gpo?si=UAyXYZqCg57fPo_6), [Spot at Ontario Power Generation: Automating Circuit Breaker Tripping and Racking](https://youtu.be/CyjYIgnsIeY?si=ylONU0egrMIcATCN), [The Next Level of Industrial Inspection](https://youtu.be/W5ugoiHDaOA?si=89y_KYNKNQyAHjGI), [Paris Underground: Spot Inspects Transportation Infrastructure with RATP Group](https://youtu.be/bKDhmENcKto?si=7_hGGmkTZrN8u4dD), [Spot for Safety and Incident Response | Boston Dynamics](https://youtu.be/zFUHi3_oiXk?si=ZGE3QytQvEHbiRr5)
 
 <img src="img/spot2.jpg" width=44%><a> </a><img src="img/bd.jpg" width=55%> 
 
