@@ -319,3 +319,9 @@ I got up-close with 'spot' this year [[event](https://twitter.com/florist_notes/
 
 
 Check out this cute [emo](https://living.ai/product/emo/) robot, [MorpHex](https://youtu.be/yn3FWb-vQQ4) and we can buy robots from [robotshop](https://www.robotshop.com/), [myrobotshop](https://www.mybotshop.de/), [Festo](https://www.festo.com/de/en/c/products-id_pim1/) etc. Research on Boston Dynamics [Atlas](https://www.bostondynamics.com/atlas) and Anybotic's [ANYmal](https://www.anybotics.com/anymal-autonomous-legged-robot/) seems promising.
+
+## Northrop Grumman's Uncrewed Underwater Vehicle (UUV) : Manta Ray 
+
+[news](https://www.darpa.mil/news-events/2024-05-01) | [news 2](https://www.defensehere.com/en/manta-ray-undersea-drone-prototype-completes-in-water-testing)
+
+<img src="img/manta1.jpg" width=49%><a> </a><img src="img/manta2.jpg" width=49%> 
