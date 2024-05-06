@@ -219,6 +219,31 @@ Quality of Service (QoS) : QoS helps to set standard configurations in ros2.
     $ ros2 topic echo /test  --qos-reliability "best_effort"
 ```
 
+### The ROS Transform System (TF): Coordinate Transforms
+
+Broadcasting Static Transforms: 
+```bash
+    $ ros2 run tf2_ros static_transform_publisher x y z yaw pitch roll parent_frame child_frame 
+    $ ros2 run tf2_ros static_transform_publisher 1 0 0 0 0 0 robot_1 robot_2
+    $ ros2 run tf2_ros static_transform_publisher 2 1 0 0.785 0 0 world robot_1
+    $ ros2 run rviz2 rviz2
+```
+
+Broadcasting Dynamic Transforms: 
+```bash
+    $ sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
+```
+
+URDF file (parameters, robot decription) → robot_state_publisher → [ /tf_static ] (fixed joint transforms), [ /tf ] (Non-fixed joint transforms), [/robot_description] (Copy of URDF).
+
+Instead of having to broadcast whole transforms, all we need to do is publish [/joint_states] → [/robot_state_publisher]. [/simulated_actuator_feedback] → [/joint_states]. Guide: Install ros2 in [vm](https://youtu.be/kjFoWj0GC5E?si=r5hRTpQCdAOjL39b) with linux.
+
+```bash
+$ ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro -/example_robot.urdf.xacro )"
+$ ros2 run joint_state_publisher_gui joint_state_publisher_gui
+$ ros2 run tf2_tools view_frames.py
+```
+
 ## ROS 2 Projects: 
 ## + ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
 
