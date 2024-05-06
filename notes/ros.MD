@@ -239,7 +239,7 @@ URDF file (parameters, robot decription) → robot_state_publisher → [ /tf_sta
 Instead of having to broadcast whole transforms, all we need to do is publish [/joint_states] → [/robot_state_publisher]. [/simulated_actuator_feedback] → [/joint_states]. Guide: Install ros2 in [vm](https://youtu.be/kjFoWj0GC5E?si=r5hRTpQCdAOjL39b) with linux.
 
 ```bash
-$ ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro -/example_robot.urdf.xacro )"
+$ ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro -/ex_robot.urdf.xacro )"
 $ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 $ ros2 run tf2_tools view_frames.py
 ```
