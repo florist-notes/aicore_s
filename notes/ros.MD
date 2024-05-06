@@ -58,20 +58,36 @@ ros2 parameters and remapping:
 
 ros2 launch files make everything simple in one go ` $ ros2 launch testlaunch.py`.
 
+go to 'ros2_ws' and build the package (forming the workspace):
+
+```bash
+ $ mkdir -p dev_ws/src 
+ $ cd dev_ws/
+ $ colcon build --symlink-install
+ $ ls
+```
+We will see that colcon has built `build`, `install`, `log`,  `src` in teh current directory. Packages live inside the `src` directory.
+
 ros2 application (create packages in src):
 
 ```bash
  $ ros2 pkg create my_robot_controller  --build-type ament_
+ $ ros2 pkg create my_robot_controller  --build-type ament_cmake my_package 
  $ ros2 pkg create my_robot_controller  --build-type ament_python --dependencies rclpy
  $ ls (rclpy in the py package for ros2)
 ```
-'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can have multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
+'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can have multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information. The flag `ament_cmake` is for cpp projects and ros2 will create directories and files: `inlcude`, `src`, `CMakelists.txt`, `package.xml`. Inlcude a new directory `launch` inside the packagename and create the `talker.py`  & `lister.py`.
 
-go to 'ros2_ws' and build the package (forming the workspace):
+Reflect the changes in `CMakelists.txt`;
 
-```bash
- $ colcon build
+```cpp
+    install (DIRECTORY launch
+        DESTINATION /share${PROJECT_NAME}
+    ) 
 ```
+
+This will tell colcon on how to install the `launch` directory. The `package.xml` file tells us about dependencies on other packages. Inside the package directory do ` $ git init` to start syncing code with git version control. To run package ` $ ros2 launch my_package talker.py`.
+
 
 python features and packages: 
 
