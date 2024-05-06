@@ -2,7 +2,7 @@
 
 <img src="../img/ros.png" width=49%><a> </a><img src="../img/rosindustrial.png" width=49%>
 
-full installation @ [docs.ros.org](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html)
+full installation @ [docs.ros.org](https://docs.ros.org/en/rolling/Installation/Ubuntu-Install-Debians.html) | netplan, ssh
 
 ```bash
     $ sudo apt update && sudo apt install ros-dev-tools
@@ -22,23 +22,42 @@ The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software li
 ROS processes are represented as nodes in a graph structure, connected by edges called topics. ROS nodes can pass messages to one another through topics, make service calls to other nodes, provide a service for other nodes, or set or retrieve shared data from a communal database called the parameter server. A process called the ROS Master makes all of this possible by registering nodes to itself, setting up node-to-node communication for topics, and controlling parameter server updates. Messages and service calls do not pass through the master, rather the master sets up peer-to-peer communication between all node processes after they register themselves with the master. This decentralized architecture lends itself well to robots, which often consist of a subset of networked computer hardware, and may communicate with off-board computers for heavy computing or commands. List of ROS [tools](https://en.wikipedia.org/wiki/Robot_Operating_System#Tools), [versions and releases](https://en.wikipedia.org/wiki/Robot_Operating_System#Versions_and_releases) and [configuring your ros2 environment](https://docs.ros.org/en/crystal/Tutorials/Configuring-ROS2-Environment.html).
 
 ```bash
- $ ros2 run demo_nodes_cpp talker  ( $ ros2 run package_module nodename )
- $ ros2 run demo_nodes_cpp listener
- $ rqt_graph
- $ ros2 run turtlesim turtlesim_node
- $ ros2 run turtlesim turtle_teleop_key (listen to keystrokes)
+    $ ros2 run demo_nodes_cpp talker  ( $ ros2 run package_module nodename )
+    $ ros2 run demo_nodes_cpp listener
+    $ rqt_graph
+    $ ros2 run turtlesim turtlesim_node
+    $ ros2 run turtlesim turtle_teleop_key (listen to keystrokes)
+```
+
+```bash
+    $ ros2 topic list
+    $ ros2 node list
+    $ ros2 run rplidar_ros rplidar_node
+    $ ros2 service list
+    $ ros2 service call /stop_motor
+    $ ros2 service call /stop_motor std_srvs/srv/Empty
 ```
 
 ros2 workspace:
 ```bash
- $ sudo apt install python3-colcon-common-extensions
- $ cd /usr/share/colcon_argcomplete/hook/
- $ gedit ~/.bashrc ( source /usr/share/colcon_argcomplete/hook/)
- $ mkdir ros2_ws > $ cd ros2_ws
- $ mkdir src 
- (ros2_ws) $ colcon build > $ ls
- $ gedit ~/.bashrc ( source ~/ros2_ws/install/setup.bash )
+          $ sudo apt install python3-colcon-common-extensions
+          $ cd /usr/share/colcon_argcomplete/hook/
+          $ gedit ~/.bashrc ( source /usr/share/colcon_argcomplete/hook/)
+          $ mkdir ros2_ws > $ cd ros2_ws
+          $ mkdir src 
+(ros2_ws) $ colcon build > $ ls
+          $ gedit ~/.bashrc ( source ~/ros2_ws/install/setup.bash )
 ```
+
+ros2 parameters and remapping:
+```bash
+    $ ros2 run rplidar_ros rplidar_node --ros-args -p serial_ports:=/dev/ttyUSB0 -r scan:=scan_1
+    $ ros2 run rplidar_ros rplidar_node --ros-args -p serial_ports:=/dev/ttyUSB1 -r __ns:=/scanner2
+```
+`parameters` (-p) are a way to change the behaviour of ros nodes and `remapping` (-r) is similar to reconfiguring of nodes to publish and subscribe to correct nodes. Use `--ros-args` for ros2 parameters and remapping and `__ns` to change namespace.
+
+ros2 launch files make everything simple in one go ` $ ros2 launch testlaunch.py`.
+
 ros2 application (create packages in src):
 
 ```bash
@@ -46,9 +65,9 @@ ros2 application (create packages in src):
  $ ros2 pkg create my_robot_controller  --build-type ament_python --dependencies rclpy
  $ ls (rclpy in the py package for ros2)
 ```
-'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can havr multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
+'colcon' is the [build tool](https://design.ros2.org/articles/build_tool.html) and 'ament' is the build system. We can have multiple nodes in a package and packages can be dependent on each other. In the package folder > 'package.xml' for meta information.
 
-go to 'ros2_ws' and build the package:
+go to 'ros2_ws' and build the package (forming the workspace):
 
 ```bash
  $ colcon build
@@ -176,6 +195,13 @@ ROS 2 Subscriber: ` $ ros2 topic info /turtle1/pose ` > ` $ ros2 interface show 
 ros2 service : ` $ ros2 service list` > ` $ ros2 run demo_nodes_cpp add_two_ints_server ` > ` $ ros2 service` > ` $ ros2 service type /add_two_ints`.
 
 example service call : ` $ ros2 service call /add_two_ints example_interfaces/srv/AddTwoInts "{'a' : 2,'b' : 5}" `.
+
+Quality of Service (QoS) : QoS helps to set standard configurations in ros2.
+
+```bash
+    $ ros2 topic pub /test std_msgs/msg/Int32 "data: 42" --qos-reliability "best_effort"
+    $ ros2 topic echo /test  --qos-reliability "best_effort"
+```
 
 ## ROS 2 Projects: 
 ## + ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
