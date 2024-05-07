@@ -261,8 +261,14 @@ Power (P) = Voltage (V) * Current (I) | Watt = Volts * Ampere . Most micro contr
 
 ## Robot Motors :
 
+<img src="img/vib3.png" width=100%>
 
+Motors generally need high input voltage so we don't plug it in a Raspberry Pi directly. These input signals are Pulse Width Modulation (PWM)s. We use Motor Controllers to provide commands and input PWMs. The simplest motor controller is an Open-Loop-Controller. The feedback control (Measure speed) to autonomously drive is known as closed-loop control ~ PID control.
 
+<img src="img/mc2.png" width=50%><img src="img/comms.png" width=50%>
+ 
+ The final schematic diagram:
+<img src="img/final.png" width=100%>
 
 ### LED Accessories :
 
