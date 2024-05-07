@@ -8,7 +8,6 @@ full installation @ [docs.ros.org](https://docs.ros.org/en/rolling/Installation/
     $ sudo apt update && sudo apt install ros-dev-tools
     $ sudo apt install ros-rolling-desktop
     $ source /opt/ros/rolling/setup.bash (put this in .bashrc / $ gedit ~/.bashrc)
-
 ```
 
 The [Robot Operating System (ROS)](https://www.ros.org/) is a set of software libraries and tools that help us build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what we need for our next robotics project. And it's all open source. { [awesome/ros2](https://fkromer.github.io/awesome-ros2/) } & [programming multiple robots with ros2](https://osrf.github.io/ros2multirobotbook/intro.html).
@@ -236,7 +235,7 @@ Broadcasting Dynamic Transforms:
 
 URDF file (parameters, robot decription) → robot_state_publisher → [ /tf_static ] (fixed joint transforms), [ /tf ] (Non-fixed joint transforms), [/robot_description] (Copy of URDF).
 
-Instead of having to broadcast whole transforms, all we need to do is publish [/joint_states] → [/robot_state_publisher]. [/simulated_actuator_feedback] → [/joint_states]. Guide: Install ros2 in [vm](https://youtu.be/kjFoWj0GC5E?si=r5hRTpQCdAOjL39b) with linux.
+Instead of having to broadcast whole transforms, all we need to do is publish [/joint_states] → [/robot_state_publisher]. [/simulated_actuator_feedback] → [/joint_states]. Guide: Install ros2 in [vm](https://youtu.be/kjFoWj0GC5E?si=r5hRTpQCdAOjL39b) with linux. 
 
 ```bash
 $ ros2 run robot_state_publisher robot_state_publisher --ros-args -p robot_description:="$( xacro -/ex_robot.urdf.xacro )"
@@ -244,7 +243,7 @@ $ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 $ ros2 run tf2_tools view_frames.py
 ```
 
-## ROS 2 Notes : [URDF](./ros2_urdf.MD), [Gazebo](./ros2_gazebo.MD), [RGB:RGB-D:LiDAR]()
+## ROS 2 Notes : [URDF](./ros2_urdf.MD), [Gazebo](./ros2_gazebo.MD), [RGB:RGB-D:LiDAR](./ros2_lidar.MD), [ros2_control](./ros2_control.MD), [SLAM | Nav2](./ros2_nav2.MD), [ROS2 with Docker](./ros2_docker.MD)
 
 ## ROS 2 Projects: 
 ### + ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
