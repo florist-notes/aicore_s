@@ -243,7 +243,7 @@ $ ros2 run joint_state_publisher_gui joint_state_publisher_gui
 $ ros2 run tf2_tools view_frames.py
 ```
 
-## ROS 2 Notes : [URDF](./ros2_urdf.MD), [Gazebo](./ros2_gazebo.MD), [RGB:RGB-D:LiDAR](./ros2_lidar.MD), [ros2_control](./ros2_control.MD), [SLAM | Nav2](./ros2_nav2.MD), [ROS2 with Docker](./ros2_docker.MD)
+## ROS 2 Notes : [URDF](./ros2_urdf.MD), [Gazebo](./ros2_gazebo.MD), [RGB:RGB-D:LiDAR](./ros2_lidar.MD), [ros2_control](./ros2_control.MD), [SLAM | Nav2](./ros2_nav2.MD), [Deep Learing with ROS2](./ros2_dl.MD), [ROS2 with Docker](./ros2_docker.MD)
 
 ## ROS 2 Projects: 
 ### + ROS 2 Navigation: [@rosnav](./rosproj/nav/README.MD)
