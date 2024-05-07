@@ -251,6 +251,18 @@ Tweezers-straight (anti-magnetic)</td>
 
 references : [buildelectroniccircuits](https://www.build-electronic-circuits.com/), instructables - [workbench guide](https://www.instructables.com/Electronics-Workbench-Equipment-List/), [adafruit](https://www.adafruit.com/categories) - [tools](https://www.adafruit.com/category/8).
 
+## Robotics Power 🔋: Voltage in a Battery:
+
+<img src="img/vib.png" width=100%>
+
+Power (P) = Voltage (V) * Current (I) | Watt = Volts * Ampere . Most micro controllers are operated at 5 V. We use a regulator to precisely output 5 V to our micontroller as direct 5 V is hard to feed from supply voltage. Current drawn ~ 5 A. Therefore, 5 V * 5 A = 25 W , Our regulator needs to be able to supply 25 Watts of Power. Make the power connections : [Robot Power 2: Electric Boogaloo](https://youtu.be/_FGYVgAti9M?si=HnfHwMJ-LDHXFCeP).
+
+<img src="img/vib2.png" width=100%>
+
+## Robot Motors :
+
+
+
 
 ### LED Accessories :
 
