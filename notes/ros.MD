@@ -232,6 +232,7 @@ Broadcasting Dynamic Transforms:
 ```bash
     $ sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
 ```
+[Coordinate Transformations - How robots move through space](https://youtu.be/NGPn9nvLPmg?si=3D_Sic5L27AXIXE_)
 
 URDF file (parameters, robot decription) → robot_state_publisher → [ /tf_static ] (fixed joint transforms), [ /tf ] (Non-fixed joint transforms), [/robot_description] (Copy of URDF).
 
