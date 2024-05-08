@@ -41,3 +41,13 @@ The `<joint>` tag :
 ```
 
 ## Using xacro to make things easier:
+
+To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
+
+<img src="./img/xacro.png" width=100%>
+
+<img src="./img/xacro2.png" width=100%>
+
+<img src="./img/xacro3.png" width=100%>
+
+We can visualize with Rviz. | [How do we describe a robot? With URDF!](https://youtu.be/CwdbsvcpOHM?si=VQqJcrBY-EZPAJDh), [Creating a rough 3D model of our robot with URDF](https://youtu.be/BcjHyhV0kIs?si=0jZzdozibFmpXwMJ)
