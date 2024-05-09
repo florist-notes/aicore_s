@@ -74,7 +74,8 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
 
-    # Include the robot_state_publisher launch file, provided by our own package. Force sim time to be enabled
+    # Include the robot_state_publisher launch file, provided by our own package. 
+    # Force sim time to be enabled
     # !!! MAKE SURE YOU SET THE PACKAGE NAME CORRECTLY !!!
 
     package_name='articubot_one' #<--- CHANGE ME
@@ -91,7 +92,8 @@ def generate_launch_description():
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
              )
 
-    # Run the spawner node from the gazebo_ros package. The entity name doesn't really matter if you only have a single robot.
+    # Run the spawner node from the gazebo_ros package. 
+    # The entity name doesn't really matter if you only have a single robot.
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
@@ -109,4 +111,48 @@ def generate_launch_description():
 ```
 
 Combining everything into one ros file : `    $ ros2 launch articubot_one launch_sim.launch.py`.
+
+<img src="./img/ros2_drive.png" width=100%>
+
+We need to add the control plugin to xacro file:
+
+```xml
+    <xacro:include filename:="gazebo_control.xacro" />
+```
+ To describe the differential_drive plugin :
+
+ ```xml
+    <gazebo>
+        <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+            <!-- wheel information  -->
+            <left_joint>left_wheel_joint</left_joint>
+            <right_joint>right_wheel_joint</right_joint>
+            <wheel_separation>0.35</wheel_separation>
+            <wheel_diameter>0.1</wheel_diameter>
+
+            <!-- limits -->
+            <max_wheel_torque>200</max_wheel_torque>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
+
+            <!-- output -->
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+        </plugin>
+    <gazebo/>
+ ```
+
+To send commands to the robot:
+
+```bash
+    $ ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
+
+To run with Joystick:
+```bash
+    $ ros2 run teleop_twist_joy -- teleop_node joy -- joy_node
+```
 
