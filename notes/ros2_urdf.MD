@@ -42,6 +42,10 @@ The `<joint>` tag :
 
 ## Using xacro to make things easier:
 
+```bash
+    $ sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
+```
+
 To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
 
 <img src="./img/xacro.png" width=100%>
@@ -51,3 +55,5 @@ To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
 <img src="./img/xacro3.png" width=100%>
 
 We can visualize with Rviz. | [How do we describe a robot? With URDF!](https://youtu.be/CwdbsvcpOHM?si=VQqJcrBY-EZPAJDh), [Creating a rough 3D model of our robot with URDF](https://youtu.be/BcjHyhV0kIs?si=0jZzdozibFmpXwMJ)
+
+
