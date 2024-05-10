@@ -174,3 +174,9 @@ In `camera.xacro` file:
 ```
 
 To test : `$ colcon build --symlink-install` → ` $ source install/setup.bash` →  ` $ ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world `.
+
+Plugins for image compression: ` $ sudo apt install ros-foxy-image-transport-plugins` → ` $ sudo apt install ros-foxy-rqt-image-view`  → ` $ ros2 run rqt_image_view rqt_image_view`.
+
+Next : ` $ ros2 run image_transport list_transports`.
+
+To get image of one type and republish it to another type : ` $ ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed`.
