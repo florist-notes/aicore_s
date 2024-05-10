@@ -180,3 +180,38 @@ Plugins for image compression: ` $ sudo apt install ros-foxy-image-transport-plu
 Next : ` $ ros2 run image_transport list_transports`.
 
 To get image of one type and republish it to another type : ` $ ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed`.
+
+# Connecting to a real camera: 
+
+`$ sudo apt install libraspberrypi-bin v4l-utils ros-foxy-v4l2-camera ros-foxy-image-transport-plugins ros-foxy-rqt-image-view` → ` $ sudo usermod -aG video username`.
+
+To check camera : ` $ vcgencmd get_camera `  →  ` $ raspistill -k` (to stream data from camera).
+If video for linux subsystem can see it : ` $ v4l2-ctl --list-devices`.
+
+To run video for linux driver : ` $ ros2 run v4l2_camera v4l2_camera_node --ros-args -p image_size:="[640, 480]" -p camera_frame_id:=camera_link_optical`  →  ` $ ros2 run rqt_image_view`.
+
+```python
+import os
+
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+
+
+
+    return LaunchDescription([
+
+        Node(
+            package='v4l2_camera',
+            executable='v4l2_camera_node',
+            output='screen',
+            parameters=[{
+                'image_size': [640,480],
+                'camera_frame_id': 'camera_link_optical'
+                }]
+    )
+    ])
+```
+
+To run with the launch file : ` $ pluma camera.launch.py ` → ` $ ros2 launch camera.launch.py `.
