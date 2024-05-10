@@ -103,3 +103,74 @@ To add a real LiDAR hardware: ` $ sudo apt install ros-foxy-rplidar-ros`
 ```
 
 Then check the lidar points in `$ rviz2`. To check the serial ports : `$ ls /dev/serial/by-`. To stop the motor : ` $ ros2 service call ` or directly `$ ros2 service call /stop_motor std_srvs/srv/Empty {}`. To stop absolute : ` $ killall rplidar_composition`.
+
+# RGB Camera:
+
+8 bits : 0 - 255, 3 channels (R, G, B) | Camera → [ Driver Node ] → [ sensor_msgs/Image ] / [ sensor_msgs/CompressedImage ]→ [ Algorithms & stuff ].
+
+The [`image_transport library/nodes`] does all the conversions between Image and CompressedImage. The unprocessed image is at [`/image_raw`] and for compressed images [`/image_raw/compressed`].
+
+[ sensor_msgs/Image ] ; [ sensor_msgs/CameraInfo ]
+
+<img src="./img/camera.png" width=100%>
+
+In the main robot xacro file : `<xacro:include filename="camera.xacro">` 
+
+<img src="./img/robo.png" width=100%>
+
+In `camera.xacro` file:
+
+```xml
+    <joint name="camera_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="camera_link"/>
+        <origin xyz="0.305 0 0.08" rpy="0 0 0"/>
+    </joint>
+
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.010 0.03 0.03">
+            </geometry>
+            <material name="red">
+        </visual>
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical"></link>
+
+    <gazebo reference="camera_link">
+            <material>Gazebo/Red</material>
+            <sensor name="camera" type="camera">
+                <pose>0 0 0 0 0 0</pose>
+                <visualize>true<visualize>
+                <update_rate>10</update_rate>
+                <camera>
+                    <horizontal_fov>1.089</horizontal_fov>
+                    <image>
+                        <format>R8G8B8</format>
+                        <width>640</width>
+                        <height>480</height>
+                    </image>
+                    <clip>
+                        <near>0.05</near>
+                        <far>8.0</far>
+                    </clip>
+                </camera>
+                <plugin>
+                    <ros>
+                        <argument>~/out:=scan</argument>
+                    </ros>
+                    <output_type>sensor_msgs/LaserScan</output_type>
+                    <frame_name>camera_link_optical</frame_name>
+                </plugin>
+            </sensor>
+    </gazebo>
+```
+
+To test : `$ colcon build --symlink-install` → ` $ source install/setup.bash` →  ` $ ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world `.
