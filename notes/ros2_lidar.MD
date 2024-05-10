@@ -181,7 +181,7 @@ Next : ` $ ros2 run image_transport list_transports`.
 
 To get image of one type and republish it to another type : ` $ ros2 run image_transport republish compressed raw --ros-args -r in/compressed:=/camera/image_raw/compressed -r out:=/camera/image_raw/uncompressed`.
 
-# Connecting to a real camera: 
+## Connecting to a real RGB camera: 
 
 `$ sudo apt install libraspberrypi-bin v4l-utils ros-foxy-v4l2-camera ros-foxy-image-transport-plugins ros-foxy-rqt-image-view` → ` $ sudo usermod -aG video username`.
 
@@ -215,3 +215,71 @@ def generate_launch_description():
 ```
 
 To run with the launch file : ` $ pluma camera.launch.py ` → ` $ ros2 launch camera.launch.py `.
+
+# Depth Cameras (RGB-D):
+
+<img src="./img/rgbd.png" width=100%>
+
+Depth image →  3D projection →  Point cloud. Data is stored as 32 bit float. ROS 2 also provides the `depth_image_proc` package which is in image_pipelline repository/metapackage/stack.
+
+To simulate a depth camera in gazebo: In the main robot xacro file : `<xacro:include filename="depth_camera.xacro">` 
+
+
+In `depth_camera.xacro` file:
+
+```xml
+    <joint name="camera_joint" type="fixed">
+        <parent link="chassis"/>
+        <child link="camera_link"/>
+        <origin xyz="0.305 0 0.08" rpy="0 0 0"/>
+    </joint>
+
+    <link name="camera_link">
+        <visual>
+            <geometry>
+                <box size="0.010 0.03 0.03">
+            </geometry>
+            <material name="red">
+        </visual>
+    </link>
+
+    <joint name="camera_optical_joint" type="fixed">
+        <parent link="camera_link"/>
+        <child link="camera_link_optical"/>
+        <origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+    </joint>
+
+    <link name="camera_link_optical"></link>
+
+    <gazebo reference="camera_link">
+            <material>Gazebo/Red</material>
+            <sensor name="camera" type="depth">
+                <pose>0 0 0 0 0 0</pose>
+                <visualize>true<visualize>
+                <update_rate>10</update_rate>
+                <camera>
+                    <horizontal_fov>1.089</horizontal_fov>
+                    <image>
+                        <format>B8G8R8</format>
+                        <width>640</width>
+                        <height>480</height>
+                    </image>
+                    <clip>
+                        <near>0.05</near>
+                        <far>8.0</far>
+                    </clip>
+                </camera>
+                <plugin name="camera_controller" filename="lib_gazebo_ros"> 
+                    <frame_name>camera_link_optical</frame_name>
+                    <min_depth>0.1</min_depth>
+                    <max_depth>0.1</max_depth>
+                </plugin>
+            </sensor>
+    </gazebo>
+```
+
+to run : ` $ colcon build --symlink-install` → ` $ source install/setup.bash`.
+
+## Connect a real depth camera (DepthAI OAK-D):
+
+OAK = OpenCV AI Kit → ` $ lsusb` | [github.com/luxonis/depthai-ros](https://github.com/luxonis/depthai-ros), [(Depth Cameras in ROS)](https://youtu.be/T9xZ22i9-Ys?si=oMiUPiosIMR4AeDp).
