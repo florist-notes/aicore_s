@@ -1,5 +1,5 @@
 # IoT and AI on Edge Electronics
-I was designing an IoT command center architecture using [draw.io](https://draw.io/) with Raspberry Pi (right image) and documenting here about existing edge devices I came across:
+I was designing an IoT command center architecture with Raspberry Pi using [draw.io](https://draw.io/) (right image) at DigiLab and documented few information about existing edge devices:
 
 <img src="img/edge.png" width=40%><a> </a><img src="img/iot.png" width=53%>
 
@@ -120,3 +120,39 @@ Machine Learning libraries for edge devices : [TinyML](https://tinyml.mit.edu/),
 IoT Platforms : [AWS IoT Greengrass](https://aws.amazon.com/greengrass/), [The NVIDIA EGX Enterprise Platform](https://www.nvidia.com/en-us/data-center/products/egx/), [HPE Edgeline EL8000 Converged Edge System](https://buy.hpe.com/us/en/servers/edgeline-systems/edgeline-systems/edgeline-converged-edge-systems/hpe-edgeline-el8000-converged-edge-system/p/1011622898), [Particle](https://www.particle.io/), [openremote](https://openremote.io/), [Google IoT Core](https://cloud.google.com/iot-core), [IBM Watson IoT](https://www.ibm.com/cloud/internet-of-things), [Cisco IoT Cloud Connect](https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html), [IRI Voracity](https://www.iri.com/products/voracity), [Amazon AWS IoT Core](https://aws.amazon.com/iot-core/), [Microsoft Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub/), [sensorthings API](https://www.ogc.org/standard/sensorthings/), [10 years of embedded coding in 10 minutes](https://youtu.be/i2ypCsB93gM?si=ddLvuIlum-8ah_2O).
 
 Resources: More exciting upcomings with [CircuitPython](https://circuitpython.org/) and google's open source hardware pdk :  [google+ skywater pdk](https://github.com/google/skywater-pdk), [pdk](https://gf.com/blog/pdks-powerful-enablers-first-pass-silicon-success/), [foss-180nm-pdk](https://github.com/google/gf180mcu-pdk).
+
+## Systems Optimizations for Deep Learning on Accelerated Edge Devices :
+
+As the demand for intelligent edge devices continues to rise, optimizing deep learning systems for these constrained environments becomes crucial. 
+
+Challenges in Deep Learning on Edge Devices:
+
+- Limited Computational Resources (CPU, Memory, Power)
+- Bandwidth and Latency Constraints
+- Energy Efficiency Requirements
+- Real-time Inference Demands
+- Security and Privacy Concerns
+
+Techniques for System Optimization:
+
++ Model Compression:
+    - Pruning: Identifying and removing redundant parameters.
+    - Quantization: Reducing precision of model weights and activations.
+    - Knowledge Distillation: Transferring knowledge from a larger model to a smaller one.
++ Hardware-aware Optimization:
+    - Architecture-specific optimizations (e.g., ARM, Intel, NVIDIA Jetson)
+    - Utilizing hardware accelerators (GPU, FPGA, ASIC)
+    - Memory and bandwidth optimizations tailored to edge hardware.
++ Neural Architecture Search (NAS):
+    - Automated search for efficient network architectures.
+    - Targeting edge-specific constraints during NAS.
++ Federated Learning:
+    - Decentralized model training across edge devices.
+    - Privacy-preserving and bandwidth-efficient learning.
+
+Implementation Examples:
+
++ EfficientNet: A scalable model architecture optimized for edge devices.
++ TensorFlow Lite: Tools and techniques for deploying TensorFlow models on mobile and edge devices.
++ EdgeTPU: Google's purpose-built ASIC for accelerating TensorFlow Lite models.
++ OpenVINO: Intel's toolkit for optimizing and deploying deep learning models on edge devices.
