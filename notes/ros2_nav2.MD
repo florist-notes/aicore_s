@@ -84,6 +84,14 @@ def generate_launch_description():
 
 To list the services available : ` $ ros2 service list`. Save Map (for external use) and Serialize map (for reuse within ros2) from ros2 plugin. [Save Map] saves two files `my_map_save.pgm` and `my_map_save.yaml`. [Serialize Map] saves two files `my_map_serial.data` and `my_map_serial.posegraph`.
 
-To save the map: ` $ `.
+In [github.com/mapper_params_online_async.yaml](https://github.com/joshnewans/articubot_one/blob/main/config/mapper_params_online_async.yaml), if we change # ROS Parameters (mode: mapping) to (mode: localization). 
+
+We can use our generated maps in other systems, such as the AMCL : Adaptive Monte Carlo Localisation (part of teh Nav2 stack). To install Nav2 : ` $ sudo apt install ros-foxy-navigation2 ros-foxy-nav2-bringup ros-foxy-turtlebot3*`. 
+
+<img src="./img/mapserver.png" width=100%>
+
+To run that : ` $ ros2 run nav2_map_server map_server --ros-args -p yaml_filename:=my_map_save.yaml -p use_sim_time:=true`. To activate, run the following in a different terminal : ` $ ros2 run nav2_util lifecycle_bringup map_server`.
+
+Then : ` $ ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true` → ` $ ros2 run nav2_util lifecycle_bringup amcl`.
 
 resources : [Easy SLAM with ROS using slam_toolbox](https://youtu.be/ZaiA3hWaRzE?si=rN1tTIZ1yEmvJGL1)
