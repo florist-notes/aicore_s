@@ -123,36 +123,50 @@ Resources: More exciting upcomings with [CircuitPython](https://circuitpython.or
 
 ## Systems Optimizations for Deep Learning on Accelerated Edge Devices :
 
-As the demand for intelligent edge devices continues to rise, optimizing deep learning systems for these constrained environments becomes crucial. 
+Deep learning has revolutionized various fields, ranging from image recognition to natural language processing. However, deploying deep learning models on edge devices presents unique challenges due to their limited computational resources and power constraints. As the demand for intelligent edge devices continues to rise, optimizing deep learning systems for these constrained environments becomes crucial. 
 
-Challenges in Deep Learning on Edge Devices:
+With the proliferation of IoT devices and the increasing demand for intelligent edge computing, there is a growing need to deploy deep learning models on resource-constrained edge devices. These devices typically have limited computational power, memory, and energy resources compared to traditional server architectures. Thus, optimizing deep learning systems for such devices is crucial to enable efficient and real-time inference while meeting the constraints imposed by the edge environment.
 
-- Limited Computational Resources (CPU, Memory, Power)
-- Bandwidth and Latency Constraints
-- Energy Efficiency Requirements
-- Real-time Inference Demands
-- Security and Privacy Concerns
+Challenges of Deep Learning on Edge Devices:
 
-Techniques for System Optimization:
++ Limited computational resources: Edge devices such as smartphones, IoT sensors, and drones often have lower computational power compared to servers.
++ Power constraints: Battery-powered devices require energy-efficient inference to prolong battery life and enable continuous operation.
++ Memory limitations: Edge devices have restricted memory capacities, limiting the size of models that can be deployed.
++ Real-time requirements: Many edge applications require real-time inference to respond quickly to input data.
+
+Systems Optimizations Techniques:
+
++ Model Quantization:
+    - Quantization reduces the precision of weights and activations in neural networks, thereby reducing memory footprint and computational complexity.
+    - Techniques such as weight quantization, activation quantization, and mixed precision training can be employed to quantize deep learning models.
+    - Quantization-aware training ensures that the quantized models maintain high accuracy by considering quantization effects during training.
+
++ Hardware Acceleration:
+    - Hardware accelerators such as GPUs, TPUs, and FPGAs can significantly speed up inference on edge devices.
+    - Optimizing deep learning frameworks to leverage these accelerators efficiently is crucial for achieving high performance.
+    - Techniques such as kernel fusion, memory coalescing, and parallel execution can maximize the utilization of hardware accelerators.
 
 + Model Compression:
-    - Pruning: Identifying and removing redundant parameters.
-    - Quantization: Reducing precision of model weights and activations.
-    - Knowledge Distillation: Transferring knowledge from a larger model to a smaller one.
-+ Hardware-aware Optimization:
-    - Architecture-specific optimizations (e.g., ARM, Intel, NVIDIA Jetson)
-    - Utilizing hardware accelerators (GPU, FPGA, ASIC)
-    - Memory and bandwidth optimizations tailored to edge hardware.
+    - Model compression techniques such as pruning, knowledge distillation, and compact architecture design reduce the size of deep learning models.
+    - Pruning removes redundant weights and connections from the network, leading to sparse models with fewer parameters.
+    - Knowledge distillation transfers knowledge from a large, complex model (teacher) to a smaller, more compact model (student) while maintaining performance.
+
++ Runtime Optimization:
+    - Runtime optimization techniques focus on reducing inference latency and improving energy efficiency during inference.
+    - Techniques such as model caching, dynamic batching, and quantized inference optimize the execution of deep learning models at runtime.
+    - Profiling tools help identify performance bottlenecks and guide optimization efforts to achieve better efficiency.
+
 + Neural Architecture Search (NAS):
     - Automated search for efficient network architectures.
     - Targeting edge-specific constraints during NAS.
+
 + Federated Learning:
     - Decentralized model training across edge devices.
     - Privacy-preserving and bandwidth-efficient learning.
 
 Implementation Examples:
 
-+ EfficientNet: A scalable model architecture optimized for edge devices.
-+ TensorFlow Lite: Tools and techniques for deploying TensorFlow models on mobile and edge devices.
++ EfficientNet [[paper](https://arxiv.org/abs/1905.11946)]: A scalable model architecture optimized for edge devices.
++ TensorFlow Lite [[paper](https://www.tensorflow.org/lite)]: Tools and techniques for deploying TensorFlow models on mobile and edge devices.
 + EdgeTPU: Google's purpose-built ASIC for accelerating TensorFlow Lite models.
-+ OpenVINO: Intel's toolkit for optimizing and deploying deep learning models on edge devices.
++ OpenVINO [[intel openvino](https://github.com/openvinotoolkit/openvino)]: Intel's toolkit for optimizing and deploying deep learning models on edge devices.
