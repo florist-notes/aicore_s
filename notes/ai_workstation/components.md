@@ -57,7 +57,7 @@ GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast
 + Double Precision vs. Single Precision: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred.
 + Tensor Cores (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
 
-GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Graphics Double Data Rate.<br /><br />
+GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.<br /><br />
 
 <b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
 In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA built their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/).

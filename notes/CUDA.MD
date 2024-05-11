@@ -95,6 +95,8 @@ int main() {
 - `Grid`: A grid is the highest-level organization of threads. It consists of multiple blocks.
 - `Block`: Each grid is divided into blocks. Blocks are executed independently on SMs (Streaming Multiprocessors) on the GPU.
 - `Thread`: Each block is divided into threads, and threads within a block can cooperate and share data using shared memory.
+  
+<img src="./ai_workstation/img/cuda.gif" width=100%>
 
 #### Synchronization:  Developers can use synchronization barriers (`__syncthreads()`) within a block to coordinate thread execution. Synchronization is important for avoiding race conditions.
 
@@ -109,6 +111,8 @@ Efficient scheduling and memory access are crucial aspects of CUDA programming.
 ### Warp Scheduling:
 
 CUDA executes threads in groups called warps. A warp typically contains 32 threads. The GPU scheduler selects warps to run on the SM (Streaming Multiprocessor), and all threads in a warp execute the same instruction simultaneously.
+
+<img src="./ai_workstation/img/warp.png" width=100%>
 
 ### Thread Divergence:
 

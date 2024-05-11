@@ -8,7 +8,7 @@ Here is a series of blogs I prepared on hardware and electronics. These blogs ar
 
 Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video of how everything started [(history) --- (of) ---- (hardware)](https://youtu.be/M4d3FXu9-3I),  everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ). BINARY! We speak binary.
 
-Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ------ 01100100 01100001 01110100 01100001 (data/packets) ------ ( Internet ) ------ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
+Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ------ 01100100 01100001 01110100 01100001 (data/packets) ------→ ( Internet ) ------→ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
 
 
 
@@ -60,7 +60,7 @@ Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ----
 </table>
 <br />
 
-<img src="img/net/1.jpg" width=25%x><a> </a><img src="img/net/2.jpg" width=25%x><a> </a><img src="img/net/3.jpg" width=45%x>
+<img src="img/net/1.jpg" width=26%x><a> </a><img src="img/net/2.jpg" width=26%x><a> </a><img src="img/net/3.jpg" width=46%x>
 <br />
 
 You see the blue wire in the first picture is of optical fiber cable incoming into the lab switch. The yellow/ white ones are 10-G RJ45 Ethernet cable going to different rooms. The rightmost picture is of Unifi Deam Machine Pro in my lab.
