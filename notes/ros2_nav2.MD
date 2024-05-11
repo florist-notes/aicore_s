@@ -94,4 +94,29 @@ To run that : ` $ ros2 run nav2_map_server map_server --ros-args -p yaml_filenam
 
 Then : ` $ ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true` → ` $ ros2 run nav2_util lifecycle_bringup amcl`.
 
-resources : [Easy SLAM with ROS using slam_toolbox](https://youtu.be/ZaiA3hWaRzE?si=rN1tTIZ1yEmvJGL1)
+# Navigation:
+
+Plan and execute a safe trajectory from an initial pose to a target pose. We need `Robot Position Estimate`!
+<img src="./img/navc.png" width=100%>
+
+In the Costmap, high costs are to be avoided and low cost regions are preferred.
+
+Install : ` $ sudo apt install ros-foxy-twist-mux`.
+
+Our controller is expecting the command velocities on `/diff_cont/cmd_vel_unstamped` vs `/cmd_vel`.
+
+<img src="./img/twistm.png" width=100%>
+
+file: [twist_mux.yaml](https://github.com/joshnewans/articubot_one/blob/main/config/twist_mux.yaml). Then,
+
+``` 
+$ ros2 run twist_mux twist_mux --ros-args --params-file ./src/articubot_one/config/twist_mux.yaml -r cmd_vel_out:=diff_cont/cmd_vel_unstamped 
+$ source install/setup.bash
+$ ros2 launch articubot_one launch_sim.launch.py world:=./src/articubot_one/worlds/obstacles.world
+$ ros2 launch slam_toolbox online_async_launch.py params_file:=./src/articubot_one/config/mapper_params_online_async.yaml use_sim_time:=true
+$ ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
+```
+We can view the costmap in Rviz2.
+
+
+resources : [Easy SLAM with ROS using slam_toolbox](https://youtu.be/ZaiA3hWaRzE?si=rN1tTIZ1yEmvJGL1), [Making robot navigation easy with Nav2 and ROS!](https://youtu.be/jkoGkAd0GYk?si=DK22UF4dDbrAx1GJ)
