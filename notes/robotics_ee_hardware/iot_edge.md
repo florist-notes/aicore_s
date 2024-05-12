@@ -211,6 +211,14 @@ int main() {
 }
 ```
 
+This code performs basic matrix multiplication. It defines a function matrixMultiply that takes two matrices A and B as input and returns their product C. The main function initializes two matrices A and B, calls the matrixMultiply function to compute their product, and then prints the result.
+
+To execute this code:
++ Copy the code into a text editor and save it with a .cpp extension, for example, `matrix_multiplication.cpp`.
++ Compile the code using a C++ compiler. If you're using g++, you can do this by running `g++ -o matrix_multiplication matrix_multiplication.cpp`.
++ Run the compiled executable by executing `./matrix_multiplication`.
+
+
 ### Quantization:
 Quantization reduces the precision of weights and activations to use less memory and compute resources. Here's a simple example of how you might quantize a matrix in C++:
 ```cpp
@@ -245,6 +253,7 @@ int main() {
     return 0;
 }
 ```
+This code quantizes the elements of a matrix to integers based on a scaling factor. It defines a function quantizeMatrix that takes a matrix and a scale factor as input and returns the quantized matrix. The main function initializes a matrix, calls the quantizeMatrix function to quantize it, and then prints the quantized matrix.
 
 ### Memory Optimization:
 Managing memory efficiently is crucial for edge devices with limited resources. Here's a simple example of managing memory using C++:
@@ -270,6 +279,7 @@ int main() {
     return 0;
 }
 ```
+This code demonstrates a simple way to allocate memory for a matrix dynamically. It defines a function `allocateMatrix` that takes the number of rows and columns as input and returns a dynamically allocated matrix. The `main` function initializes variables for the number of rows and columns, calls the `allocateMatrix` function to allocate memory for a large matrix, and then you can perform operations with the matrix.
 
 TOPIC : [ Distributed Machine Learning : Systems, Platforms and Algorithms ] ; GOAL : [ Understanding the interference between different concurrent workloads, performance and energy modelling, intelligently scheduling concurrent training/inference workloads to better utilize heterogenous hardware, virtualization/containerization of edge devices, etc.] ; DEVICE : [ Nvidia Jetson Orin edge device, with 12 ARM Cortex CPU cores, an Ampere GPU with 2048 CUDA cores and 64 tensor cores, and 64GB of RAM shared between CPU and GPU. It delivers 275 TOPS of performance, comparable to an RTX 3060 Ti GPU workstation. ] ; PAPERS : [ [P1](https://dl.acm.org/doi/10.1145/3570604), [P2](https://ieeexplore.ieee.org/document/9835369), [P3](https://ieeexplore.ieee.org/document/10181196) ]
 
