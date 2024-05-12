@@ -281,6 +281,57 @@ int main() {
 ```
 This code demonstrates a simple way to allocate memory for a matrix dynamically. It defines a function `allocateMatrix` that takes the number of rows and columns as input and returns a dynamically allocated matrix. The `main` function initializes variables for the number of rows and columns, calls the `allocateMatrix` function to allocate memory for a large matrix, and then you can perform operations with the matrix.
 
+### Convolutional Neural Network (CNN):
+Convolutional neural network (CNN) for image classification using C++ and optimizing it for execution on an accelerated edge device like the Nvidia Jetson Orin.
+
+```cpp
+#include <iostream>
+#include <opencv2/opencv.hpp> // OpenCV library for image processing
+#include <opencv2/dnn.hpp>    // OpenCV DNN module for deep neural networks
+
+int main() {
+    // Load the pre-trained neural network model
+    cv::dnn::Net net = cv::dnn::readNetFromTensorflow("model.pb");
+
+    // Load and preprocess the input image
+    cv::Mat image = cv::imread("image.jpg");
+    cv::Mat blob = cv::dnn::blobFromImage(image, 1.0, cv::Size(224, 224), cv::Scalar(), true, false);
+
+    // Set the input blob to the network
+    net.setInput(blob);
+
+    // Forward pass to perform inference
+    cv::Mat output = net.forward();
+
+    // Process the output to get predictions
+    cv::Mat predictions = output.reshape(1, 1); // Reshape to 1D array
+
+    // Print the predictions
+    std::cout << "Predictions:" << std::endl;
+    for (int i = 0; i < predictions.cols; ++i) {
+        std::cout << predictions.at<float>(i) << std::endl;
+    }
+
+    return 0;
+}
+```
+In this example:
++ We use OpenCV, a popular library for computer vision tasks, for loading images and working with neural networks.
++ We load a pre-trained CNN model stored in TensorFlow format using cv::dnn::readNetFromTensorflow.
++ We load an input image using OpenCV's imread function.
++ We preprocess the input image into a format suitable for the neural network using cv::dnn::blobFromImage.
++ We set the preprocessed image as input to the network using net.setInput.
++ We perform a forward pass through the network to obtain the output predictions using net.forward.
++ Finally, we process the output to get the predictions and print them.
+
+To execute this code:
++ Make sure you have OpenCV installed on your system. You can install it using your package manager or by following the instructions on the OpenCV website.
++ Save the code into a file, for example, `cnn_inference.cpp`.
++ Download a pre-trained CNN model in TensorFlow format (with a `.pb` extension) and an image you want to classify.
++ Replace `"model.pb"` with the path to your downloaded model and `"image.jpg"` with the path to your image.
++ Compile the code using a C++ compiler that supports OpenCV, such as g++. For example, `g++ -o cnn_inference cnn_inference.cpp $(pkg-config --cflags --libs opencv)`.
++ Run the compiled executable, for example, `./cnn_inference`.
+
 TOPIC : [ Distributed Machine Learning : Systems, Platforms and Algorithms ] ; GOAL : [ Understanding the interference between different concurrent workloads, performance and energy modelling, intelligently scheduling concurrent training/inference workloads to better utilize heterogenous hardware, virtualization/containerization of edge devices, etc.] ; DEVICE : [ Nvidia Jetson Orin edge device, with 12 ARM Cortex CPU cores, an Ampere GPU with 2048 CUDA cores and 64 tensor cores, and 64GB of RAM shared between CPU and GPU. It delivers 275 TOPS of performance, comparable to an RTX 3060 Ti GPU workstation. ] ; PAPERS : [ [P1](https://dl.acm.org/doi/10.1145/3570604), [P2](https://ieeexplore.ieee.org/document/9835369), [P3](https://ieeexplore.ieee.org/document/10181196) ]
 
 Resources : [Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge Devices: A Review](https://ieeexplore.ieee.org/document/9985008), [A Survey on Optimization Techniques for Edge Artificial Intelligence (AI)](https://www.mdpi.com/1424-8220/23/3/1279), [Hardware-Aware Optimizations for Deep Learning Inference on Edge Devices](https://www.doc.ic.ac.uk/~wl/papers/22/arc22mr.pdf), [Chapter Eight - Energy-efficient deep learning inference on edge devices](https://www.sciencedirect.com/science/article/abs/pii/S0065245820300553), [How To Optimize Computer Vision Models For Edge Devices](https://medium.com/picsellia/how-to-optimize-computer-vision-models-for-edge-devices-851b20f7cf03), [Reaching for the Sky: Maximizing Deep Learning Inference Throughput on Edge Devices with AI Multi-Tenancy](https://dl.acm.org/doi/10.1145/3546192), [Deep Learning With Edge Computing: A Review](https://www.cs.ucr.edu/~jiasi/pub/deep_edge_review.pdf), [Introduction to Deep Learning for Edge Devices Session 5: Hardware at the Edge](https://youtu.be/E3sbK1-oxh4?si=ZN4Ro-c7FK2wDehv), [Build Machine Learning Models on Edge Devices](https://youtu.be/iHz1no68r0c?si=KgjCrNSW1rORNsf9).
