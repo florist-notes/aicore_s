@@ -171,6 +171,106 @@ Implementation Examples:
 + EdgeTPU: Google's purpose-built ASIC for accelerating TensorFlow Lite models.
 + OpenVINO [[intel openvino](https://github.com/openvinotoolkit/openvino)]: Intel's toolkit for optimizing and deploying deep learning models on edge devices.
 
+### Optimized Matrix Multiplication:
+Deep learning often involves heavy matrix operations like matrix multiplication. Optimizing these operations can significantly speed up the overall computation. Here's a basic example of matrix multiplication in C++:
+```cpp
+#include <iostream>
+#include <vector>
+
+// Function to perform matrix multiplication
+std::vector<std::vector<float>> matrixMultiply(const std::vector<std::vector<float>>& A,
+                                                const std::vector<std::vector<float>>& B) {
+    int m = A.size();
+    int n = B[0].size();
+    int p = B.size();
+    std::vector<std::vector<float>> C(m, std::vector<float>(n, 0.0));
+    for (int i = 0; i < m; ++i) {
+        for (int j = 0; j < n; ++j) {
+            for (int k = 0; k < p; ++k) {
+                C[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+    return C;
+}
+
+int main() {
+    std::vector<std::vector<float>> A = {{1, 2, 3}, {4, 5, 6}};
+    std::vector<std::vector<float>> B = {{7, 8}, {9, 10}, {11, 12}};
+    std::vector<std::vector<float>> result = matrixMultiply(A, B);
+
+    // Output the result
+    for (const auto& row : result) {
+        for (float val : row) {
+            std::cout << val << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
+```
+
+### Quantization:
+Quantization reduces the precision of weights and activations to use less memory and compute resources. Here's a simple example of how you might quantize a matrix in C++:
+```cpp
+#include <iostream>
+#include <vector>
+#include <cmath>
+
+// Function to quantize a matrix
+std::vector<std::vector<int>> quantizeMatrix(const std::vector<std::vector<float>>& matrix, float scale) {
+    std::vector<std::vector<int>> quantized(matrix.size(), std::vector<int>(matrix[0].size()));
+    for (size_t i = 0; i < matrix.size(); ++i) {
+        for (size_t j = 0; j < matrix[0].size(); ++j) {
+            quantized[i][j] = static_cast<int>(std::round(matrix[i][j] / scale));
+        }
+    }
+    return quantized;
+}
+
+int main() {
+    std::vector<std::vector<float>> matrix = {{1.2, 3.5, 2.1}, {4.8, 6.2, 5.5}};
+    float scale = 0.1;
+    std::vector<std::vector<int>> quantizedMatrix = quantizeMatrix(matrix, scale);
+
+    // Output the quantized matrix
+    for (const auto& row : quantizedMatrix) {
+        for (int val : row) {
+            std::cout << val << " ";
+        }
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
+```
+
+### Memory Optimization:
+Managing memory efficiently is crucial for edge devices with limited resources. Here's a simple example of managing memory using C++:
+```cpp
+#include <iostream>
+#include <vector>
+
+// Function to allocate memory for a matrix
+std::vector<std::vector<float>> allocateMatrix(int rows, int cols) {
+    std::vector<std::vector<float>> matrix(rows, std::vector<float>(cols));
+    return matrix;
+}
+
+int main() {
+    int numRows = 1000;
+    int numCols = 1000;
+
+    // Allocate memory for a large matrix
+    std::vector<std::vector<float>> largeMatrix = allocateMatrix(numRows, numCols);
+
+    // Use the matrix...
+
+    return 0;
+}
+```
+
 TOPIC : [ Distributed Machine Learning : Systems, Platforms and Algorithms ] ; GOAL : [ Understanding the interference between different concurrent workloads, performance and energy modelling, intelligently scheduling concurrent training/inference workloads to better utilize heterogenous hardware, virtualization/containerization of edge devices, etc.] ; DEVICE : [ Nvidia Jetson Orin edge device, with 12 ARM Cortex CPU cores, an Ampere GPU with 2048 CUDA cores and 64 tensor cores, and 64GB of RAM shared between CPU and GPU. It delivers 275 TOPS of performance, comparable to an RTX 3060 Ti GPU workstation. ] ; PAPERS : [ [P1](https://dl.acm.org/doi/10.1145/3570604), [P2](https://ieeexplore.ieee.org/document/9835369), [P3](https://ieeexplore.ieee.org/document/10181196) ]
 
 Resources : [Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge Devices: A Review](https://ieeexplore.ieee.org/document/9985008), [A Survey on Optimization Techniques for Edge Artificial Intelligence (AI)](https://www.mdpi.com/1424-8220/23/3/1279), [Hardware-Aware Optimizations for Deep Learning Inference on Edge Devices](https://www.doc.ic.ac.uk/~wl/papers/22/arc22mr.pdf), [Chapter Eight - Energy-efficient deep learning inference on edge devices](https://www.sciencedirect.com/science/article/abs/pii/S0065245820300553), [How To Optimize Computer Vision Models For Edge Devices](https://medium.com/picsellia/how-to-optimize-computer-vision-models-for-edge-devices-851b20f7cf03), [Reaching for the Sky: Maximizing Deep Learning Inference Throughput on Edge Devices with AI Multi-Tenancy](https://dl.acm.org/doi/10.1145/3546192), [Deep Learning With Edge Computing: A Review](https://www.cs.ucr.edu/~jiasi/pub/deep_edge_review.pdf), [Introduction to Deep Learning for Edge Devices Session 5: Hardware at the Edge](https://youtu.be/E3sbK1-oxh4?si=ZN4Ro-c7FK2wDehv), [Build Machine Learning Models on Edge Devices](https://youtu.be/iHz1no68r0c?si=KgjCrNSW1rORNsf9).
