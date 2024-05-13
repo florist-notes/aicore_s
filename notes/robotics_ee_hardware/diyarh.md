@@ -15,7 +15,7 @@ I have been searching for clean DIY robotics projects and here is a list of top 
 ### 3. Robotic Arm | project - [guide](https://github.com/peng-zhihui/Dummy-Robot), [video](https://youtu.be/F29vrvUwqS4)
 <img src="img/dof.jpg" width=48%><a> </a><img src="img/dof2.png" width=48%>
 
-### 4. Modular Rocket | project - [guide](https://bps.space/), @[BPS Space](https://www.youtube.com/@BPSspace)
+### 4. Modular Rocket | project - [guide](https://bps.space/), @[BPS Space](https://www.youtube.com/@BPSspace), @[Lafayette Systems](https://www.youtube.com/@LafayetteSystems).
 <img src="img/ro.jpeg" width=64%><a> </a><img src="img/ro2.avif" width=32%>
 
 ### 5. MorpHex MKII | project - [guide](http://zentasrobots.com/robot-projects/morphex-mkii/) | [video](https://youtu.be/yn3FWb-vQQ4)

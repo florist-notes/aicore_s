@@ -1,6 +1,6 @@
 # Autonomous System
 
-A self-driving car (sometimes called an autonomous car or driverless car) is a vehicle that uses a combination of sensors, cameras, radar and artificial intelligence (AI) to travel between destinations without a human operator.
+Autonomous Systems refer to systems capable of performing tasks with a high degree of autonomy, often involving decision-making without human intervention. In the context of self-driving cars, these systems encompass various components such as sensors, actuators, control algorithms, and artificial intelligence (AI) modules. A self-driving car (sometimes called an autonomous car or driverless car) is a vehicle that uses a combination of sensors, cameras, radar and artificial intelligence (AI) to travel between destinations without a human operator.
 
 <img src="robotics_ee_hardware/img/selfd.png" width=100%>
 
@@ -40,12 +40,17 @@ Levels of autonomy in self-driving cars :
 
 #### Level 5: The vehicle's ADS acts as a virtual chauffeur and does all the driving in all circumstances. The human occupants are passengers and are never expected to drive the vehicle.
 
+
+### [ [Alphabet – Waymo](https://waymo.com/), [General Motors – Cruise](https://www.getcruise.com/), [Tesla](https://www.tesla.com/), [Aurora](https://aurora.tech/), [Zoox](https://zoox.com/) ]
+
+<img src="./img/waymo.jpg" width=22%> <img src="./img/cruise.jpg" width=41.8%> <img src="./img/zoox.jpg" width=33%> 
+
 ## Adaptive Flight Control of a Flying Car Model (VTOL with Wings) using Airflow Vector Sensing :
 
 <img src="./img/vtolmed.png" width=100%> 
 
-[ [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [project](http://aerospacerobotics.caltech.edu/urban-air-mobility-and-autonomous-flying-cars), [video](https://youtu.be/2d2Gy-PjgpA), [The Vertical Flight Society](https://vtol.org/), [Anduril unveils Roadrunner & Roadrunner-M](https://youtu.be/al9ITeP4fUA?si=v9B3fb9UXSzT7ZJ8), [What Defines the Next Generation?](https://youtu.be/k-x8V75rc14?si=LPoyAnCbe0txoqrp) ]
+[ [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [project](http://aerospacerobotics.caltech.edu/urban-air-mobility-and-autonomous-flying-cars), [video](https://youtu.be/2d2Gy-PjgpA), [The Vertical Flight Society](https://vtol.org/), [Anduril unveils Roadrunner & Roadrunner-M](https://youtu.be/al9ITeP4fUA?si=v9B3fb9UXSzT7ZJ8), [What Defines the Next Generation?](https://youtu.be/k-x8V75rc14?si=LPoyAnCbe0txoqrp), [Vertex - A fully automated helicopter with a tablet](https://youtu.be/d2qDSt3ACmM?si=tRlaboRvgBoljsYq), [Vista, the AI-controlled F-16](https://youtu.be/NaY5rF7n6VE?si=tFbVRTsBtwdP7esv) ]
 
-@github : [carla](https://github.com/carla-simulator/carla), [apollo](https://github.com/ApolloAuto/apollo), [AirSim](https://github.com/microsoft/AirSim), [autoware](https://github.com/autowarefoundation/autoware), [webot](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/)
+@github : [carla](https://github.com/carla-simulator/carla), [apollo](https://github.com/ApolloAuto/apollo), [AirSim](https://github.com/microsoft/AirSim), [autoware](https://github.com/autowarefoundation/autoware), [webot](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/) | [X-wing](https://www.xwing.com/)
 
 resources : [CARLA](https://carla.org/), [Udacity - Self-Driving Car Engineer](https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013), [University of Toronto : Self Driving Cars Specialization](https://www.coursera.org/specializations/self-driving-cars), [uni-bonn.de](https://www.ipb.uni-bonn.de/sdc-2021/), [Perception for Self-Driving Cars](https://www.freecodecamp.org/news/perception-for-self-driving-cars-deep-learning-course/), [MIT Deep Learning and Artificial Intelligence Lectures](https://deeplearning.mit.edu/), [CMU 18-744: Autonomous Driving](https://courses.ece.cmu.edu/18744), [sensor types](https://www.linkedin.com/pulse/autonomous-driving-types-sensors-brandon-goh/), [Autonomous vehicles: theoretical and practical challenges](https://www.sciencedirect.com/science/article/pii/S2352146518302606), [awesome radar perception](https://github.com/ZHOUYI1023/awesome-radar-perception), [Ultra Fast Lane Detection](https://github.com/cfzd/Ultra-Fast-Lane-Detection), [Motion Planning](https://github.com/zhm-real/MotionPlanning), [NASA - Autonomous Systems & Robotics](https://www.nasa.gov/intelligent-systems-division/autonomous-systems-and-robotics/), [Microsoft - Autonomous Systems and Robotics Group](https://www.microsoft.com/en-us/research/group/autonomous-systems-group-robotics/people/), [MIT Aero Astro](https://aeroastro.mit.edu/research-areas/autonomous-systems-decision-making/), [The Use of RADAR Technology in Autonomous Vehicles](https://resources.system-analysis.cadence.com/blog/msa2022-the-use-of-radar-technology-in-autonomous-vehicles).
