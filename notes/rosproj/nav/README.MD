@@ -80,7 +80,7 @@ nav2_node.configure(bt_engine, costmap, local_costmap, global_costmap)
 
 > Install Nav2 on ROS2 Humble > Generate a map with SLAM > Make a robot navigate using the map <br />
 
- nav2 : [web](https://navigation.ros.org/), [github](https://github.com/ros-planning/navigation2)
+ nav2 : [web](https://nav2.org/), [github](https://github.com/ros-planning/navigation2)
  
 <img src="./nav.png" width=48%><a> </a><img src="./nav2.png" width=12%><a> </a><img src="./gaz.png" width=22%>
 

@@ -1,4 +1,4 @@
-# Self Driving Car Estimation and Navigation
+# Self Driving Car State Estimation and Navigation
 
 In the realm of state estimation, robotics systems aim to determine their own positions, orientations, velocities, and the positions of surrounding objects in real-time. These estimates are crucial for tasks such as navigation, mapping, object manipulation, and interaction with the environment.
 
@@ -59,7 +59,7 @@ Linear Gaussian estimation is a fundamental concept in the field of statistics a
 
 #### Linear Relationship:
 
-In Linear Gaussian estimation, it is assumed that the relationship between the state vector x and the measurement vector <b>y</b>is linear. This relationship can be represented by a linear transformation matrix <b>H</b>:
+In Linear Gaussian estimation, it is assumed that the relationship between the state vector x and the measurement vector <b>y</b> is linear. This relationship can be represented by a linear transformation matrix <b>H</b>:
 
 $$  y = Hx + n $$
 
