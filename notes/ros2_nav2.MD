@@ -1,6 +1,44 @@
 # ROS2 Nav2 | SLAM :
+ROS 2 Navigation Stack (Nav2) serves as the cornerstone for autonomous navigation in robotics, providing a comprehensive suite of tools and algorithms for path planning, obstacle avoidance, and localization. The architecture of ROS 2 Navigation Stack (Nav2) is designed to provide a modular and flexible framework for autonomous navigation in robotic systems. Let's explore its key components and interactions:
 
-Grid SLAM : slam_toolbox is a grid_map based approach.
+### 🌸 Planner:
+
+`Definition`: The planner component is responsible for generating a global path from the robot's current position to its goal location.
+`Functionality`: It utilizes algorithms such as A* (A-star), Dijkstra, or potential fields to compute an optimal or near-optimal path while considering obstacles and constraints.
+`Interaction`: The planner communicates with the costmap to access the environment's occupancy information and with the controller to execute the planned path.
+
+### 🌸 Controller:
+
+`Definition`: The controller component is responsible for executing the planned path by generating low-level control commands for the robot's actuators.
+`Functionality`: It implements trajectory tracking algorithms to ensure the robot follows the planned path accurately while considering dynamics and constraints.
+`Interaction`: The controller receives input from the planner or local planner and generates control commands to drive the robot along the planned trajectory.
+
+### 🌸 Recovery Behaviors:
+
+`Definition`: Recovery behaviors are strategies employed by Nav2 to handle navigation failures, unexpected obstacles, or other unforeseen circumstances.
+`Functionality`: They provide a hierarchical framework for implementing various recovery strategies, such as obstacle clearing, replanning, or fallback maneuvers, to ensure navigation robustness.
+`Interaction`: Recovery behaviors interact with the planner, controller, and costmap to diagnose navigation failures, trigger appropriate recovery actions, and resume navigation.
+
+### 🌸 Costmap:
+
+`Definition`: The costmap component represents the robot's environment as a grid map with different cost values assigned to cells based on occupancy, traversability, and other factors.
+`Functionality`: It provides a spatial representation of obstacles, static and dynamic, enabling path planning and obstacle avoidance.
+`Interaction`: The costmap interacts with sensor data to update occupancy information, with the planner to compute collision-free paths, and with the controller to ensure obstacle avoidance during trajectory execution.
+
+### 🌸 Localization:
+
+`Definition`: The localization component estimates the robot's pose (position and orientation) within a known map.
+`Functionality`: It employs localization algorithms, such as Monte Carlo Localization (MCL) or Extended Kalman Filter (EKF), to estimate the robot's pose based on sensor measurements and motion models.
+`Interaction`: Localization interacts with the costmap to integrate sensor measurements with map information and provide accurate pose estimates for path planning and execution.
+
+### 🌸 Interactions:
+
+`Planner-Controller Interaction`: The planner generates a global path, which is then executed by the controller through trajectory tracking.
+`Planner-Costmap Interaction`: The planner accesses occupancy information from the costmap to compute collision-free paths and avoid obstacles.
+`Recovery-Costmap Interaction`: Recovery behaviors utilize costmap information to identify obstacles and plan appropriate recovery actions.
+`Localization-Costmap Interaction`: Localization updates the costmap with pose estimates to align sensor measurements with the map.
+
+Grid SLAM : slam_toolbox is a grid_map based approach. 
 
 For TF Frames - Odom (Odometry Origin) & map "World/global" origin* teh relevant Topics are : [/odom] (nav_msgs/msg/Odometry) [same position info as odom → base_link TF ; velocity, covariances] & [/map] (nav_msgs/msg/OccupancyGrid) [grid map occupancy data]
 
