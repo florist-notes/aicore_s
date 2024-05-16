@@ -49,7 +49,9 @@ Levels of autonomy in self-driving cars :
 
 <img src="./img/vtolmed.png" width=100%> 
 
-[ [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [project](http://aerospacerobotics.caltech.edu/urban-air-mobility-and-autonomous-flying-cars), [video](https://youtu.be/2d2Gy-PjgpA), [The Vertical Flight Society](https://vtol.org/), [Anduril unveils Roadrunner & Roadrunner-M](https://youtu.be/al9ITeP4fUA?si=v9B3fb9UXSzT7ZJ8), [What Defines the Next Generation?](https://youtu.be/k-x8V75rc14?si=LPoyAnCbe0txoqrp), [Vertex - A fully automated helicopter with a tablet](https://youtu.be/d2qDSt3ACmM?si=tRlaboRvgBoljsYq), [Vista, the AI-controlled F-16](https://youtu.be/NaY5rF7n6VE?si=tFbVRTsBtwdP7esv) ]
+<img src="./img/archer.jpg" width=100%> 
+
+[ [Autonomous Robotics and Control Lab at Caltech](http://aerospacerobotics.caltech.edu/), [project](http://aerospacerobotics.caltech.edu/urban-air-mobility-and-autonomous-flying-cars), [video](https://youtu.be/2d2Gy-PjgpA), [The Vertical Flight Society](https://vtol.org/), [Anduril unveils Roadrunner & Roadrunner-M](https://youtu.be/al9ITeP4fUA?si=v9B3fb9UXSzT7ZJ8), [What Defines the Next Generation?](https://youtu.be/k-x8V75rc14?si=LPoyAnCbe0txoqrp), [Vertex - A fully automated helicopter with a tablet](https://youtu.be/d2qDSt3ACmM?si=tRlaboRvgBoljsYq), [Vista, the AI-controlled F-16](https://youtu.be/NaY5rF7n6VE?si=tFbVRTsBtwdP7esv), [Archer](https://www.archer.com/usher/) ]
 
 @github : [carla](https://github.com/carla-simulator/carla), [apollo](https://github.com/ApolloAuto/apollo), [AirSim](https://github.com/microsoft/AirSim), [autoware](https://github.com/autowarefoundation/autoware), [webot](https://github.com/cyberbotics/webots) + [josm](https://josm.openstreetmap.de/) | [X-wing](https://www.xwing.com/)
 
