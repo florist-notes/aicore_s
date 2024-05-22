@@ -165,4 +165,4 @@ To be able to run an entire 40-billion parameter model in memory, said Lisa Su, 
 
 Big for Gen AI, Even Bigger for ROI : [Intel® Gaudi 3 AI Accelerator](https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi3.html).
 
-<img src="img/gaudi3.jpg" width="100%">
+<img src="img/gaudi3p.jpg" width="100%">

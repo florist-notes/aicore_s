@@ -27,7 +27,7 @@ A resistor will resist the current flow in an electric circuit.
 
 <tr>
 <td>Capacitor</td>
-<td><img src="img/electronics/cap.jpg" width=100px></td>
+<td><img src="img/electronics/cap.png" width=100px></td>
 <td>
 
 A capacitor is like a battery with very low capacity. It might for example be used to introduce a delay in a circuit.
@@ -49,7 +49,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Transistor</td>
-<td><img src="img/electronics/transistor.jpeg" width=100px></td>
+<td><img src="img/electronics/transistor.png" width=100px></td>
 <td>A transistor is similar to a relay in the sense that you can use it to turn on and off a current. The transistor is what makes amplifiers work.
 
 + Function: Transistors amplify or switch electronic signals. They are the building blocks of digital logic circuits and amplifiers.
@@ -81,7 +81,7 @@ A capacitor is like a battery with very low capacity. It might for example be us
 
 <tr>
 <td>Inductor</td>
-<td><img src="img/electronics/ind.jpeg" width=100px></td>
+<td><img src="img/electronics/ind.png" width=100px></td>
 <td>An inductor will resist changes in current.
 
 + Function: Inductors store energy in a magnetic field and resist changes in current. They are used in filters, oscillators, and energy storage applications.
@@ -121,7 +121,7 @@ Perfboard is a material for prototyping electronic circuits (also called DOT PCB
 
 <tr>
 <td>Power Supply</td>
-<td><img src="img/electronics/ps.jpg" width=100px></td>
+<td><img src="img/electronics/ps1.png" width=100px></td>
 <td>Power Supply
 
 + Function: Power supplies provide the necessary voltage and current to operate electronic circuits. They can be variable or fixed, linear or switching, depending on the application.
@@ -161,19 +161,19 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 
 <tr>
 <td>Digital Capacitance Meter</td>
-<td><img src="img/electronics/dcm.jpg" width=100px></td>
+<td><img src="img/electronics/dcm.png" width=100px></td>
 <td><a href="https://www.amazon.com/Honeytek-CECOMINOD047803-A6013L-Capacitor-Tester/dp/B0036FQ3FW/">Honeytek A6013L Capacitor Tester</a></td>
 </tr>
 
 <tr>
 <td>Oscilloscope</td>
-<td><img src="img/electronics/osc.jpg" width=100px></td>
+<td><img src="img/electronics/osc.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/DSO-Nano-v3.html">DSO Nano v3</a>, <a href="https://www.seeedstudio.com/MiniDSO-DS213-Nano-4-Channel-100MSa-s-p-2891.html">MiniDSO DS213 Nano 4 Channel 100MSa/s</a>, <a href="https://www.amazon.com/Rigol-DS1054Z-Digital-Oscilloscopes-Bandwidth/dp/B012938E76/">Rigol DS1054Z</a></td>
 </tr>
 
 <tr>
 <td>Function Generator</td>
-<td><img src="img/electronics/fg.jpg" width=100px></td>
+<td><img src="img/electronics/fg.png" width=100px></td>
 <td><a href="https://www.amazon.com/GW-Instek-SFG-1003-Generator-Frequency/dp/B0051W6LDW/">GW Instek SFG-1003 DDS Function Generator with 6 Digit LED Display, 0.1Hz to 3MHz Frequency</a></td>
 </tr>
 
@@ -185,7 +185,7 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 
 <tr>
 <td>Ratcheting Crimper Pliers</td>
-<td><img src="img/electronics/rcp.jpg" width=100px></td>
+<td><img src="img/electronics/rcp.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Ratcheting-Crimper-Pliers-p-1584.html">Ratcheting Crimper Pliers</a></td>
 </tr>
 
@@ -197,7 +197,7 @@ DT71 Mini Digital Tweezers - LCR/ ESR Meter, Multimeter, SMD Tester with Built-i
 
 <tr>
 <td>Dual-Purpose Cross-Shaped Multi-Function Screwdriver</td>
-<td><img src="img/electronics/sc.jpg" width=100px></td>
+<td><img src="img/electronics/sc.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/Dual-purpose-cross-shaped-multi-function-screwdriver-p-4114.html">Dual-Purpose Cross-Shaped Multi-Function Screwdriver</a></td>
 </tr>
 
@@ -211,7 +211,7 @@ Tweezers-straight (anti-magnetic)</td>
 <tr>
 <td>Antenna Analyzer
 </td>
-<td><img src="img/electronics/aa.webp" width=100px></td>
+<td><img src="img/electronics/aa.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/SARK-110-ULM-Antenna-Analyzer-p-4126.html">SARK-110-ULM Antenna Analyzer</a></td>
 </tr>
 
@@ -224,19 +224,19 @@ Tweezers-straight (anti-magnetic)</td>
 <tr>
 <td>Spectrum Analyzer
 </td>
-<td><img src="img/electronics/sa.webp" width=100px></td>
+<td><img src="img/electronics/sa.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/RF-Explorer-6G-Combo-PLUS-Slim-p-4616.html">RF Explorer 6G Combo PLUS – Slim</a></td>
 </tr>
 
 <tr>
 <td>Power Supply Tools</td>
-<td><img src="img/electronics/ps.webp" width=100px></td>
+<td><img src="img/electronics/ps2.png" width=100px></td>
 <td><a href="https://www.seeedstudio.com/ZKETECH-EBC-A10H-AC-Electronic-Load-Battery-Capacity-Tester-Powe-Supply-Tester-30V-10A-150W-p-4522.html">ZKETECH EBC-A10H AC Electronic Load/Battery Capacity Tester/Power Supply Tester 30V 10A 150W</a>, <a href="https://www.seeedstudio.com/MDP-XP-Smart-Digital-Power-Supply-Kit-p-4117.html">ZKETECH EBC-A10H AC Electronic Load/Battery Capacity Tester/Power Supply Tester 30V 10A 150W</a></td>
 </tr>
 
 <tr>
 <td>Soldering Tools/Kits</td>
-<td><img src="img/electronics/sk.jpg" width=100px></td>
+<td><img src="img/electronics/sk.png" width=100px></td>
 <td><a href="https://www.amazon.de/-/en/Electronics-Adjustable-Temperature-Multimeter-Desoldering/dp/B09CKTYTVJ/">Soldering kit</a>, <a href="https://www.amazon.com/Thermal-Grizzly-Kryonaut-Grease-Paste/dp/B011F7W3LU">Thermal Paste</a>, <a href="https://www.amazon.com/Amazon-Brand-Isopropyl-Antiseptic-Technical/dp/B07NFSFBXQ">99% Isopropyl Alcohal</a>, <a href="https://www.amazon.com/POWERGIANT-Electric-Screwdriver-Cordless-Precision/dp/B07R7TNR66">Electric Screwdriver set</a>, <a href="https://www.amazon.com/StarTech-com-24x27-5in-Desktop-Anti-Static-M3013/dp/B00009XT3H">Building Mat</a>, <a href="https://www.amazon.com/Hakko-Digital-FX888D-Soldering-Station/dp/B00AWUFVY8/">Soldering Station</a>, <a href="https://www.amazon.com/Vastar-Solder-Sucker-Desoldering-Removal/dp/B01C70X7V4/">De Soldering Pump</a>, <a href="https://www.amazon.com/SRA-Soldering-Flux-Low-Solids-No-Clean/dp/B008OC0E5M/">Flux pen</a>.</td>
 </tr>
 
@@ -260,6 +260,26 @@ Power (P) = Voltage (V) * Current (I) | Watt = Volts * Ampere . Most micro contr
 <img src="img/vib2.png" width=100%>
 
 ## Robot Motors :
+
+### Types of Robot Motors
+
+#### + DC Motors (Direct Current Motors):
+
++ `Brushed DC Motors`: These have brushes that contact the commutator to control the motor's rotation. They are simple, cost-effective, and provide good torque at low speeds.
++ `Brushless DC Motors (BLDC)`: These do not have brushes and use electronic commutation. They are more efficient, have a longer lifespan, and provide better performance compared to brushed DC motors.
+
+#### + AC Motors (Alternating Current Motors):
+
++ `Synchronous Motors`: These operate at a constant speed synchronized with the power supply frequency. They are used in applications requiring precise timing.
+Induction Motors: These are robust and simple, commonly used in industrial applications. They are less precise but very reliable and cost-effective.
+
+#### + Stepper Motors:
+
++ These motors move in discrete steps, allowing precise control of position without the need for feedback systems. They are ideal for applications requiring accurate positioning, such as 3D printers and CNC machines.
+
+#### + Servo Motors:
+
++ Servo motors include a feedback mechanism to provide precise control of angular position. They are commonly used in applications requiring high accuracy and control, such as robotic arms and UAVs.
 
 <img src="img/vib3.png" width=100%>
 
