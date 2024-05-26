@@ -102,11 +102,32 @@ The `<joint>` tag :
 
 ## Using xacro to make things easier:
 
+
+Xacro, which stands for XML Macro, is a powerful tool within the Robot Operating System (ROS) ecosystem. It is designed to simplify the process of creating and maintaining complex URDF (Unified Robot Description Format) files, which are XML files used to describe the physical configuration of a robot in terms of its kinematic and dynamic properties. Writing URDF files can become cumbersome and error-prone as the complexity of the robot increases. Xacro alleviates these issues by allowing for the use of macros, variables, and reusable components, making the process more manageable and less repetitive.
+
 ```bash
     $ sudo apt install ros-foxy-xacro ros-foxy-joint-state-publisher-gui
 ```
 
 To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
+
+`Macros`: You can define macros using the `<xacro:macro>` tag. A macro can include multiple URDF elements and can accept arguments, making it versatile for creating complex structures.
+
+```xml
+<xacro:macro name="link_with_inertial" params="name length radius mass">
+  <link name="${name}">
+    <visual>
+      <geometry>
+        <cylinder length="${length}" radius="${radius}" />
+      </geometry>
+    </visual>
+    <inertial>
+      <mass value="${mass}" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
+    </inertial>
+  </link>
+</xacro:macro>
+```
 
 <img src="./img/xacro.png" width=100%>
 
@@ -114,6 +135,8 @@ To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
 
 <img src="./img/xacro3.png" width=100%>
 
-We can visualize with Rviz. | [How do we describe a robot? With URDF!](https://youtu.be/CwdbsvcpOHM?si=VQqJcrBY-EZPAJDh), [Creating a rough 3D model of our robot with URDF](https://youtu.be/BcjHyhV0kIs?si=0jZzdozibFmpXwMJ)
+We can visualize with Rviz. | [How do we describe a robot? With URDF!](https://youtu.be/CwdbsvcpOHM?si=VQqJcrBY-EZPAJDh), [Creating a rough 3D model of our robot with URDF](https://youtu.be/BcjHyhV0kIs?si=0jZzdozibFmpXwMJ), [Use Xacro (XML Macro) and URDF to Parametrize and Model Robots in ROS and RViz](https://youtu.be/2gAYO_fFSlo?si=e6a8_mL-Mvuj5qMq).
+
+Resources : [[Build the Sentinel Robots from Matrix for Gazebo Simulator](https://www.youtube.com/watch?v=B8pipPGL7KE&list=PLK0b4e05LnzbsYJ5WH-S5td2aclJqpDYo)]
 
 

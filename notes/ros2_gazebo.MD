@@ -193,3 +193,5 @@ To run with Joystick:
     $ ros2 run teleop_twist_joy -- teleop_node joy -- joy_node
 ```
 
+Resources : [[Build the Sentinel Robots from Matrix for Gazebo Simulator](https://www.youtube.com/watch?v=B8pipPGL7KE&list=PLK0b4e05LnzbsYJ5WH-S5td2aclJqpDYo)]
+
