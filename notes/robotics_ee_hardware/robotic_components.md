@@ -322,6 +322,6 @@ Check out this cute [emo](https://living.ai/product/emo/) robot, [MorpHex](https
 
 ## Northrop Grumman's Uncrewed Underwater Vehicle (UUV) : Manta Ray 
 
-[news](https://www.darpa.mil/news-events/2024-05-01) | [news 2](https://www.defensehere.com/en/manta-ray-undersea-drone-prototype-completes-in-water-testing)
+[news](https://www.darpa.mil/news-events/2024-05-01) | [news 2](https://www.defensehere.com/en/manta-ray-undersea-drone-prototype-completes-in-water-testing), [[EvoLogics BOSS Manta Ray](https://youtu.be/qv5UmykFSJU?si=IgIfIn1aAp0blFNM)] [[Eelume underwater robot](https://youtu.be/oFNeQln1f2c?si=y1ZeTpGprMUVokUu)]
 
 <img src="img/manta1.jpg" width=49%><a> </a><img src="img/manta2.jpg" width=49%> 

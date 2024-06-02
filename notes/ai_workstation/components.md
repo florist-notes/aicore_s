@@ -68,7 +68,7 @@ Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GP
 <img src="img/gpu3090cooling.png" width=100%>
 <br /><br />
 
-Asus Strix Quiet 390W seems to a good and quiet commercial graphics card with 3090 GPU.
+Asus Strix Quiet 390W seems to be a good and quiet commercial graphics card with 3090 GPU.
 
 <b> Professional GPU (RTX) : </b> NVIDIA RTX A5500 <br />
 NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/) are very powerful yet costly.

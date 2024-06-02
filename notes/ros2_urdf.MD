@@ -137,6 +137,6 @@ To enable xacro, add `<robot xmlns:xacro="http://www.ros.org/wiki/xacro">`:
 
 We can visualize with Rviz. | [How do we describe a robot? With URDF!](https://youtu.be/CwdbsvcpOHM?si=VQqJcrBY-EZPAJDh), [Creating a rough 3D model of our robot with URDF](https://youtu.be/BcjHyhV0kIs?si=0jZzdozibFmpXwMJ), [Use Xacro (XML Macro) and URDF to Parametrize and Model Robots in ROS and RViz](https://youtu.be/2gAYO_fFSlo?si=e6a8_mL-Mvuj5qMq).
 
-Resources : [[Build the Sentinel Robots from Matrix for Gazebo Simulator](https://www.youtube.com/watch?v=B8pipPGL7KE&list=PLK0b4e05LnzbsYJ5WH-S5td2aclJqpDYo)]
+
 
 
