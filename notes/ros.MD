@@ -268,6 +268,11 @@ ROS-Industrial is an open-source project that extends the advanced capabilities 
 
 <img src="../img/esdf.gif" width=41%><a> </a><img src="../img/elbrus_live.gif" width=57%>
 
+ROS 2 packages: Navigation Framework and System : [nav2](https://github.com/ros-planning/navigation2),
+Robotic Manipulation Platform : [MoveIt 2](https://moveit.picknik.ai/main/index.html),
+n-D Point Cloud and Geometry processing : [pcl_ros](https://github.com/ros-perception/perception_pcl),
+3D Robot Visualizer : [rviz](https://github.com/ros2/rviz).
+
 [How do we add LIDAR to a ROS robot?](https://youtu.be/eJZXRncGaGM)
 [How to get your robot to see in 3D! (Depth Cameras in ROS)](https://youtu.be/T9xZ22i9-Ys)
 [Making Your First ROS Package](https://youtu.be/Y_SyQXTL2XU)
