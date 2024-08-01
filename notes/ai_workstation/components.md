@@ -20,23 +20,28 @@ Important aspects while choosing a CPU for Deep Learning are: <br />
 
 ✦   PCI Express: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
 
-✦  Cache: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better.
+✦  Cache: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. [ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)].
 </p>
 Here is an example of 4 core CPU:
 
 <img src="img/cache.png" width=70%><a> </a><img src="img/tpro2.png" width=25%>
 
 
-At this moment : AMD Ryzen Threadripper PRO > Intel Xeon.
+At this moment : AMD Ryzen Threadripper PRO > Intel Xeon. Update: Intel Core i9-14900K catching up!
 
 <img src="img/ryz1.jpg" width=45%><a> </a><img src="img/ryz2.jpg" width=50%>
 
 We will go for the Threadripper Pro 5000 series instead of 3000 series. Check for yourself:
 
-<img src="img/ryz3.jpg" width=65%><img src="img/amdt2.png" width=35%>
+<img src="img/ryz3.jpg" width=65%><img src="img/amdr7.png" width=35%>
+
+<img src="img/amd7.png" width=100%>
 
 
-New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processors/workstations/ryzen-threadripper.html) | [AMD Ryzen 7 7800X3D](https://www.amd.com/en/products/processors/desktops/ryzen/amd-ryzen-7-7800x3d.html) | [Intel® Core™ i9 processor 14900K](https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html).
+New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processors/workstations/ryzen-threadripper.html) | [AMD Ryzen™ 9 7950X3D](https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-9-7950x3d.html) | [Intel® Core™ i9 processor 14900K](https://www.intel.com/content/www/us/en/products/sku/236773/intel-core-i9-processor-14900k-36m-cache-up-to-6-00-ghz/specifications.html).
+
+<img src="img/inteli9.jpg" width=100%>
+
 </td>
 </tr>
 
@@ -60,7 +65,7 @@ GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast
 GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.<br /><br />
 
 <b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
-In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA built their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/).
+In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA built their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/). [ Update : [GeForce comparison chart](https://www.nvidia.com/en-in/geforce/graphics-cards/compare/) ]
 
 <img src="img/geforce.png" width=100%><br />
 Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GPU from different manufacturers. Here is a cooling efficiency chart of different graphics card with 3090 GPU:
@@ -68,15 +73,15 @@ Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GP
 <img src="img/gpu3090cooling.png" width=100%>
 <br /><br />
 
-Asus Strix Quiet 390W seems to be a good and quiet commercial graphics card with 3090 GPU.
+Asus Strix Quiet 390W seems to be a good and quiet commercial graphics card with 3090 GPU. [ Update : [NVIDIA GeForce - 40 series GPUs](./img/comp.jpg), lambdalabs/[gpu-benchmarks](https://lambdalabs.com/gpu-benchmarks) ].
 
 <b> Professional GPU (RTX) : </b> NVIDIA RTX A5500 <br />
-NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/) are very powerful yet costly.
+NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/) are very powerful yet costly. Update: [RTX cards](https://www.nvidia.com/en-in/geforce/buy/).
 
 <img src="img/ampere_gpu.jpg" width=49%><a> </a><img src="img/a5500.png" width=50%>
 <br /><br />
 
-<img src="img/nvidia.png" width=49%><a> </a><img src="img/gpu_performance.png" width=50%>
+<img src="img/nv.jpg" width=49%><a> </a><img src="img/gpu_performance.png" width=50%>
 
 New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-series/rtx-4090/), [NVIDIA Blackwell](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing).
 </td></tr>
@@ -84,6 +89,13 @@ New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-s
 
 <table style="width:100%">
 <tr><td>
+
+### [NVIDIA RTX 6000 Ada Generation Graphics Card](https://www.nvidia.com/en-in/design-visualization/rtx-6000/)
+
+ [ [graphics-cards](https://www.nvidia.com/en-in/design-visualization/desktop-graphics/) ]
+
+
+<img src="img/nvidia.jpeg" width=100%>
 
 <b> Professional AI NVIDIA Workstations: </b>
 
@@ -153,7 +165,7 @@ New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-s
 + Storage Capacity: Deep learning often requires large storage capacities for datasets. Consider multi-terabyte storage options.
 + Backup and Redundancy: Implement robust backup and redundancy solutions to protect against data loss.
 
-<img src="img/storage_c.jpg" width=49%><a> </a><img src="img/storage_c2.png" width=49%>
+<img src="img/storage_cd.png" width=49%><a> </a><img src="img/storage_c2.png" width=49%>
 
 External Storage : NAS RAID 5 [calculation](https://www.synology.com/en-global/support/RAID_calculator?hdds=16%20TB|16%20TB|16%20TB|16%20TB): 
 Total: 64 TB;  Available: 48 TB; for protection: 16 TB.
