@@ -289,11 +289,11 @@ MYCOBOT [PRO 600](https://shop.elephantrobotics.com/collections/mycobot-pro-600)
 
 ## [UniTree Robotics](https://shop.unitree.com/en-de/collections/education-industry)
 
-Unitree Go 2 [[video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.com/en/go2/)] [[buy-de](https://www.quadruped.de/QUADRUPED-Go2)] [quadruped.de](https://www.quadruped.de/QUADRUPEDs)
+Unitree Go 2 [ [Unitree Go2 New Upgrade](https://youtu.be/iaBDDpuJglY?si=X1Q51yKVnCI_skjg), [video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.com/en/go2/)] [[buy-de](https://www.quadruped.de/QUADRUPED-Go2)] [quadruped.de](https://www.quadruped.de/QUADRUPEDs)
 
 <img src="img/go2.jpg" width=17%> <img src="img/go22.jpg" width=30%> <img src="img/unitree.gif" width=48%> 
 
-Unitree Education / Industry : [Unitree 4D LiDAR L1](https://shop.unitree.com/products/unitree-4d-lidar-l1), [Unitree Z1](https://shop.unitree.com/products/unitree-z1), [Aliengo](https://shop.unitree.com/products/aliengo), [Unitree B2](https://shop.unitree.com/products/unitree-b2) [[vid](https://youtu.be/-0n_MFLKD3M?si=-W2LVTuXXYABu2pF)], [Unitree H1](https://www.unitree.com/h1/) [[vid](https://youtu.be/q8JMX6PGRoI?si=X41w-btUZEaz6soX)]
+Unitree Education / Industry : [Unitree G1](https://youtu.be/GzX1qOIO1bE?si=mpVysqEht1hnYcv_), [Unitree 4D LiDAR L1](https://shop.unitree.com/products/unitree-4d-lidar-l1), [Unitree Z1](https://shop.unitree.com/products/unitree-z1), [Aliengo](https://shop.unitree.com/products/aliengo), [Unitree B2](https://shop.unitree.com/products/unitree-b2) [[vid](https://youtu.be/-0n_MFLKD3M?si=-W2LVTuXXYABu2pF)], [Unitree H1](https://www.unitree.com/h1/) [[vid](https://youtu.be/q8JMX6PGRoI?si=X41w-btUZEaz6soX)]
 
 <img src="img/aliengo.webp" width=24%> <img src="img/b2.webp" width=24%> <img src="img/l1.webp" width=24%> <img src="img/h1.jpg" width=24%> 
 
@@ -322,6 +322,6 @@ Check out this cute [emo](https://living.ai/product/emo/) robot, [MorpHex](https
 
 ## Northrop Grumman's Uncrewed Underwater Vehicle (UUV) : Manta Ray 
 
-[news](https://www.darpa.mil/news-events/2024-05-01) | [news 2](https://www.defensehere.com/en/manta-ray-undersea-drone-prototype-completes-in-water-testing), [[EvoLogics BOSS Manta Ray](https://youtu.be/qv5UmykFSJU?si=IgIfIn1aAp0blFNM)] [[Eelume underwater robot](https://youtu.be/oFNeQln1f2c?si=y1ZeTpGprMUVokUu)]
+[Manta Ray, Making Waves in Autonomy](https://youtu.be/o6cDmXFkAdM?si=7FsCawykizr6qINr), [news](https://www.darpa.mil/news-events/2024-05-01) | [news 2](https://www.defensehere.com/en/manta-ray-undersea-drone-prototype-completes-in-water-testing), [[EvoLogics BOSS Manta Ray](https://youtu.be/qv5UmykFSJU?si=IgIfIn1aAp0blFNM)] [[Eelume underwater robot](https://youtu.be/oFNeQln1f2c?si=y1ZeTpGprMUVokUu)]
 
 <img src="img/manta1.jpg" width=49%><a> </a><img src="img/manta2.jpg" width=49%> 
