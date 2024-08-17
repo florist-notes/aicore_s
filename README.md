@@ -1,5 +1,5 @@
 # AI Core Station ^ AI Accelerators and a naive guide to AI hardware:
-Here is a small guide I wrote while building my lab's AI workstation and relevant information I learned while building the system are documented. I will cover 5 topics in this blog and here is an overview diagram of the workstation:
+Here is a small guide I wrote while building my lab's AI workstation @ DigiLab, LSBG and relevant information I learned while building the system are documented. I will cover 5 topics in this blog and here is an overview diagram of the workstation:
 <br /><br />
 
 <img src="./img/ai_core.png">
