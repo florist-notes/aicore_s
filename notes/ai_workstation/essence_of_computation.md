@@ -1,12 +1,14 @@
 # Essence of Computation & Networking
 
-We are problem solvers and we often come across computational needs in order to reach our solutions for the problems at hand.  We need good hardware for good computation. Networking hardware acts as data pipeline and investing in good hardware aids in good research and problem solving.  
+We are problem solvers and we often come across computational needs in order to reach our solutions for the problems at hand. It is a tradeoff!  We need good hardware for good computational needs. Networking hardware acts as data pipeline and investing in good hardware aids in good research and problem solving.  
 
 Here is a series of blogs I prepared on hardware and electronics. These blogs are for educational purposes only.
 
 ### Essence of Computation:
 
-Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video of how everything started [(history) --- (of) ---- (hardware)](https://youtu.be/M4d3FXu9-3I),  everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ). BINARY! We speak binary.
+Let's start from the very basics with 1 (on / high voltage) and 0 (off/low voltage). Here is a beautiful comprehensive video of how everything started  [ (history) --- (of) ---- (hardware) ](https://youtu.be/M4d3FXu9-3I),  everything in CS is either 0 or 1 ( except qbit's probabilistic state but eventually it will be either a 0 or 1 ). BINARY! We speak binary [ [ Why Do Computers Use 1s and 0s? ](https://youtu.be/Xpk67YzOn5w?si=8q64tARIvxdm19Ef), [ Exploring How Computers Work ](https://youtu.be/QZwneRb-zqA?si=zn9y0sI8oqr7rlWD) ].
+
+Networking hardware comprises the physical devices necessary for communication and data exchange across networks. These devices facilitate the interconnection of computers, servers, and other network-enabled devices, enabling efficient and reliable data transfer.
 
 Data (image/video/audio/text etc) travels around as sequences of 0s and 1s. ------ 01100100 01100001 01110100 01100001 (data/packets) ------→ ( Internet ) ------→ (AI work station) . ISP (WAN) provides internet connection via optical fiber and we need networking harware to accept the WAN connection, create a LAN, switch and route packets to appropriate addresses/ devices. We will quickly take a quick peek into good networking hardware we use.
 
@@ -79,5 +81,5 @@ highlighting some of the features I used in lab :
 <img src="img/net/4-min.jpg" height=552px><a> </a><img src="img/net/5-min.jpg" height=552px><a> </a><img src="img/net/6-min.jpg" height=552px><a> </a> <img src="img/net/7-min.jpg" height=552px>
 <br />
 
-[Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://youtu.be/bpTNcbnZjvY)
+[Exclusive Insight: Visiting one of the Most Advanced Datacenters in the World](https://youtu.be/bpTNcbnZjvY), [networking-devices](https://www.nwkings.com/network-devices).
 
