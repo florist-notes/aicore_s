@@ -26,7 +26,15 @@ resources : [[1](https://youtu.be/L6oXAfvmJQ8)], [[2](https://youtu.be/UWMEKex6n
 + Photonic CPUs are 5x faster than NVIDIA A100 GPUs and 7x energy efficient. <br />
 + Calculations are analog than digital. A bit of less precision but deep learning matrix operations aren't based on precision to the teeth. <br />
 + Future AI hardware accelerators will be based on Silicon Photonics. <br />
-+ Heat loss in PCB due to ions smashing against each other, minimized by AI hardware accelerators by arranging them parallel but consumes a lot of energy. Thus we need Photonic Computing which is based on light, controlled ion flow and energy efficient. <br />
++ Heat loss in PCB due to ions smashing against each other, minimized by AI hardware accelerators by arranging them parallel but consumes a lot of energy. Thus we need Photonic Computing which is based on light, controlled ion flow and energy efficient. <br /><br />
+
+
+
++ `Photonic Analog Computing`: Research has shown that optical configurations using phase masks can be leveraged to perform analog computations, such as matrix multiplications, at the speed of light. While intriguing, these systems are not yet easily miniaturizable for general-purpose computing but are promising for specialized tasks like industrial image recognition.
+
++ `Integrated Photonics`: Companies like Lightmatter and Lightelligence have made significant strides in integrated photonic circuits, which perform operations like matrix multiplications faster and more efficiently than traditional electronic processors. Lightmatter’s systems, for example, have demonstrated the capability to run neural network calculations three times faster than NVIDIA's DGX-A100 GPU chip.
+
++ `Intel’s Optical Compute Interconnect (OCI) Chiplet`: Intel introduced a new Optical Compute Interconnect (OCI) chiplet, which is integrated with a next-generation processor. This chiplet is designed to meet the growing demand for high-bandwidth AI infrastructure, offering scalability and energy efficiency. Intel also presented developments in quantum dot lasers integrated with silicon photonics, which show promise for reducing the complexity and cost of optical systems in data centers.
 
 Available chip: [lighton.ai](https://lighton.ai/photonic-computing-for-ai/), [lightmatter](https://lightmatter.co/), [lightintelligence.ai](https://www.lightelligence.ai/), [Enlightra](https://enlightra.com/), [Quintessent](https://www.quintessent.com/), [Ayar Labs](https://ayarlabs.com/), [Lidwave](https://www.lidwave.com/). <br />
 News: [Photonic Chip Performs Image Recognition at the Speed of Light](https://spectrum.ieee.org/photonic-neural-network), [Mobileye Puts Lidar on a Chip—and Helps Map Intel's Future](https://www.wired.com/story/mobileye-lidar-on-a-chip-intel/), [OPTICAL COMPUTING FOR POST-QUANTUM CRYPTOGRAPHY](https://optalysys.com/optical-computing-for-post-quantum-cryptography/), [PyTorch ONN](https://github.com/JeremieMelo/pytorch-onn), [New Photonic Chip: x1000 faster](https://youtu.be/8ohh0cdgm_Y?si=5QV38w_yjBAIgfeT) [Lithium niobate], [Lithium Niobate Photonics In The Era of AI](https://youtu.be/qdIJCQYKe14?si=-q94pVsEC_Ytz4r8), [High density lithium niobate photonic integrated circuits](https://www.nature.com/articles/s41467-023-40502-8), [UPenn develops optical chip to process complex math for AI](https://optics.org/news/15/2/28#:~:text=Engineers%20at%20the%20University%20of,also%20reducing%20their%20energy%20consumption%E2%80%9D.), [Quantum Computing with Light: The Breakthrough?](https://youtu.be/7UkXJsF8_so?si=xkTbkFhbZXPQzQkm). <br /><br />
@@ -37,6 +45,10 @@ The goal of this technology is to create a computer that mimics the architecture
 
 + Hardware Implementation: Research efforts focus on developing specialized hardware platforms, such as neuromorphic chips and neuromorphic processing units (NPUs), optimized for executing neural network algorithms efficiently.
 + Spiking Neural Networks (SNNs): There is growing interest in spiking neural networks, which utilize spiking neurons and synaptic plasticity for performing various tasks, including pattern recognition, classification, and control.
+
+BrainChip's Akida Technology: BrainChip has continued to evolve its neuromorphic AI processor, Akida, which is designed for ultra-low power and real-time processing. The latest iteration includes the Akida Edge Box, which is specifically designed for vision-based AI workloads like video analytics, facial recognition, and object detection. This platform is notable for its ability to process data independently of the cloud, making it a strong contender for applications requiring low latency and high privacy [brainchip](https://brainchip.com/brainchip-takes-vegas-to-the-edge-with-all-things-ai-at-ces-2024/).
+
+<img src="img/brainchip_edge.webp" width="100%">
 
 resources : [[1](https://youtu.be/TetLY4gPDpo)], [[2](https://youtu.be/u9pulFlavIM)], Intel Architecture All Access : [1](https://youtu.be/6Dcs6fQglRA?si=f8PDMSOSGC5Qy8AM), [2](https://youtu.be/XWds3FIVm0U?si=mODv0mGwlLRawTsV), [W8 V1 - Neuromorphic computing](https://youtu.be/Y1v3wi-djD0?si=gGAOWYiciKUoYwZ-), [New computer will mimic human brain](https://youtu.be/8-WZiLOxoC8?si=rlK9wY4aA1OED2Rq), [How neuromorphic computing will change our world in wonderful ways](https://youtu.be/N9C3kJE7G-Q?si=GGac3Gm1zjavkPAg).
 
@@ -51,6 +63,8 @@ Available chip: [IBM True North](https://youtu.be/X2TYAcr36r0), [Intel Loihi 2](
 ## Quantum Computing
 
 Quantum computers leverage the principles of superposition, entanglement, and quantum interference to perform computations.
+
++ IBM's Quantum Processors: IBM has introduced new quantum processors under its Heron class, including a 133-qubit processor codenamed Montecarlo. This processor is designed to offer improved qubit fidelity, with an expected average 2-qubit gate fidelity of 99.9%. IBM is also shifting its focus from traditional metrics like Quantum Volume to new benchmarks such as Error per Layer Gate (EPLG) and CLOPS_h, which provide a more accurate reflection of the performance of larger quantum processors​ [Quantum Computing Report](https://quantumcomputingreport.com/ibm-promises-a-disruptive-leap-for-quantum-in-2024/).
 
 resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5frE)], [[3](https://youtu.be/Fzzxozmuj4I)], [[4](https://youtu.be/-ZNEzzDcllU)], [[5](https://youtu.be/rlsUiOlBwoI)], [[6](https://youtu.be/j9eYQ_ggqJk)], [[7](https://youtu.be/vfJuvNuSPKw)]
 
