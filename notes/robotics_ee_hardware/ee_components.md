@@ -2,7 +2,9 @@
 
 <img src="img/electronics/wb2.png" width=49%> <img src="img/electronics/ee.jpg" width=49%>
 
+<p align="justify">
 An electronics lab is a space dedicated to the design, testing, and development of electronic circuits and devices. It is equipped with a wide range of electronic components, each serving a specific function. These components are the building blocks of electronics, and understanding their roles is essential for any electronics enthusiast or engineer. 
+</p>
 
 ### Electronic Components
 
@@ -253,13 +255,19 @@ references : [buildelectroniccircuits](https://www.build-electronic-circuits.com
 
 ## Robotics Power 🔋: Voltage in a Battery:
 
+<p align="justify">
+In robotics, power supply is a critical aspect that directly affects the performance, functionality, and autonomy of the robot. Batteries are the most common power source used in robots, providing the electrical energy required to operate motors, sensors, microcontrollers, and other components. Understanding the concept of voltage in a battery is essential for selecting the right battery for a specific robotic application.
+</p>
+
 <img src="img/vib.png" width=100%>
 
-Power (P) = Voltage (V) * Current (I) | Watt = Volts * Ampere . Most micro controllers are operated at 5 V. We use a regulator to precisely output 5 V to our microcontroller as direct 5 V is hard to feed from supply voltage. Current drawn ~ 5 A. Therefore, 5 V * 5 A = 25 W , Our regulator needs to be able to supply 25 Watts of Power. Make the power connections : [Robot Power 2: Electric Boogaloo](https://youtu.be/_FGYVgAti9M?si=HnfHwMJ-LDHXFCeP).
+<p align="justify">
+Power (P) = Voltage (V) * Current (I) | Watt = Volts * Ampere . Most micro controllers are operated at 5 V. We use a regulator to precisely output 5 V to our microcontroller as direct 5 V is hard to feed from supply voltage. Current drawn ~ 5 A. Therefore, 5 V * 5 A = 25 W , Our regulator needs to be able to supply 25 Watts of Power. 
+</p>
+
+Make the power connections : [Robot Power 2: Electric Boogaloo](https://youtu.be/_FGYVgAti9M?si=HnfHwMJ-LDHXFCeP).
 
 <img src="img/vib2.png" width=100%>
-
-## Robot Motors :
 
 ### Types of Robot Motors
 

@@ -1,9 +1,12 @@
 # Robotics Hardware 📡
 
+<p align="justify">
 Robotics hardware and sensors are the fundamental building blocks of autonomous and semi-autonomous robotic systems. These components allow robots to perceive and interact with their environment, making decisions and taking actions based on sensory input. 
+</p>
 
+<p align="justify">
 Sensors are essential components in robotics that enable machines to perceive and interact with the world around them. Different types of sensors are employed to gather information about the environment, allowing robots to make informed decisions and perform tasks autonomously. Below are various categories of robotics sensors, each serving specific purposes:
-
+</p>
 
 <table width=100%>
 <tr>
