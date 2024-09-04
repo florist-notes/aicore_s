@@ -1,6 +1,6 @@
-# AI/ML/DL System Core Components
+# AI/ML/DL System Core Components ⚙️
 
-Let's talk about what makes a powerful workstation for deep learning. Important components of a workstation are:
+When selecting hardware components such as CPU, GPU, memory (RAM), and storage for deep learning tasks, it's essential to balance performance and cost-effectiveness. Let's talk about what makes a powerful workstation for deep learning. Important components of a workstation are:
 
 
 
@@ -12,22 +12,30 @@ Let's talk about what makes a powerful workstation for deep learning. Important 
 
 <tr>
 <td>CPU (Processor)</td>
-<td><p align="justify">
-Important aspects while choosing a CPU for Deep Learning are: <br />
-✦  CPU cores: Higher number of cores allows more parallelization. Deep Learning processes like pre-processing, batch-processing, reading in data etc are dependent on the number of CPU cores. We are going for 64 cores.
+<td>
 
-✦  Clock Speed: How fast to crank the computations on these data are dependent on the clock speed of the CPU. Beyond 2.9 Ghz is a good speed. Priority for deep learning is number of cores over clock speed.
+<p align="justify">
+The CPU is crucial for handling tasks such as data preprocessing, managing I/O operations, and coordinating between different hardware components like the GPU and memory. Although the GPU handles most of the heavy lifting in deep learning, the CPU's role should not be underestimated. Important aspects while choosing a CPU for Deep Learning are: <br />
 
-✦   PCI Express: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
+✦  `CPU cores`: More cores allow for better multitasking and parallel processing. A higher core count (6 to 16 cores) is beneficial for tasks like data loading and preprocessing that run in parallel with the training process. Higher number of cores allows more parallelization and deep Learning processes like pre-processing, batch-processing, reading in data etc are dependent on the number of CPU cores. We are going for 64 cores.
 
-✦  Cache: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. [ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)].
+✦  `Clock Speed`: How fast to crank the computations on these data are dependent on the clock speed of the CPU. Beyond 2.9 Ghz is a good speed. Priority for deep learning is number of cores over clock speed. A higher clock speed (measured in GHz) results in faster processing of individual tasks. Aim for a CPU with a clock speed of 3.0 GHz or higher.
+
+✦   `PCI Express`: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
+
+✦  `Cache`: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. [ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)]. A larger cache allows faster access to frequently used data, which can improve performance during training. Look for CPUs with at least 12 MB of cache.
 </p>
 Here is an example of 4 core CPU:
 
 <img src="img/cache.png" width=70%><a> </a><img src="img/tpro2.png" width=25%>
 
 
-At this moment : AMD Ryzen Threadripper PRO > Intel Xeon. Update: Intel Core i9-14900K catching up!
++ `Architecture`: Modern architectures (e.g., Intel Core i7/i9, AMD Ryzen 7/9) offer better power efficiency and performance. Choosing the latest generation can provide better optimization for AI workloads.
+
+Recommendations:
++ High-End: AMD Ryzen 9 7950X or Intel Core i9-14900K.
++ Mid-Range: AMD Ryzen 7 7800X or Intel Core i7-13700K.
++ Budget: AMD Ryzen 5 7600X or Intel Core i5-13600K.
 
 <img src="img/ryz1.jpg" width=45%><a> </a><img src="img/ryz2.jpg" width=50%>
 
@@ -52,15 +60,16 @@ New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processor
 <tr>
 <td>GPU</td>
 <td>
-<br />
+The GPU is the most critical component for deep learning as it handles the parallel computations required for training neural networks. The choice of GPU significantly impacts the speed of training and inference.
+<br /><br />
 <img src="img/gpu.png" width=100%>
 
 GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem. GPUs follow a programming model called single-instruction-multiple-threads (SIMT), where the same instruction executes concurrently on different cores/threads, each on its own portion of data as dictated by its assigned thread ID. All cores run the threads synchronously in lock-step, which greatly simplifies the control flow, and works great for domains like dense linear algebra, which neural network applications heavily rely on.
 
-+ CUDA Cores: More CUDA cores generally mean higher processing power for deep learning workloads.
-+ VRAM (Video RAM): Deep learning models with larger neural networks and datasets require GPUs with ample VRAM.
-+ Double Precision vs. Single Precision: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred.
-+ Tensor Cores (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
++ `CUDA Cores`: More CUDA cores generally mean higher processing power for deep learning workloads. More CUDA cores allow for better parallel processing. Tensor Cores (available in NVIDIA's RTX and A100 series) are specialized for deep learning tasks, offering significant speedups.
++ `VRAM (Video RAM)`: Deep learning models with larger neural networks and datasets require GPUs with ample VRAM. The amount of VRAM determines the size of the models and datasets that can be loaded at once. For most deep learning tasks, 12 GB of VRAM is the minimum, but 24 GB or more is recommended for larger models.
++ `Double Precision vs. Single Precision`: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred. For deep learning, the ability to process half-precision (FP16) operations efficiently is important. GPUs that support mixed precision training can provide a significant performance boost.
++ `Tensor Cores` (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
 
 GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.<br /><br />
 
@@ -149,9 +158,9 @@ New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-s
 <td>Memory (RAM)</td>
 <td>Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors. We will go for DDR4 due to DDR4 slots in motherboard.
 
-+ Capacity: Deep learning models, especially in natural language processing, can be memory-intensive. A larger RAM capacity prevents out-of-memory errors.
-+ Memory Bandwidth: High memory bandwidth facilitates faster data access and model training.
-+ ECC (Error-Correcting Code) Memory (optional): ECC memory can help prevent data corruption, ensuring the integrity of training data and models.
++ Capacity: For deep learning tasks, a minimum of 32 GB is recommended, with 64 GB or more being ideal for handling larger datasets and more complex models. Deep learning models, especially in natural language processing, can be memory-intensive. A larger RAM capacity prevents out-of-memory errors. 
++ Memory Bandwidth: High memory bandwidth facilitates faster data access and model training. RAM speed (measured in MHz) impacts data transfer rates between the CPU and memory. DDR4 RAM with speeds of 3200 MHz or higher is generally sufficient.
++ ECC (Error-Correcting Code) Memory (optional): ECC memory can help prevent data corruption, ensuring the integrity of training data and models. ECC RAM can detect and correct memory errors, which is crucial for ensuring data integrity during long training sessions. However, ECC RAM is typically more expensive and is usually only found in workstation-grade hardware.
 
 </td>
 </tr>
