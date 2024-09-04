@@ -2,19 +2,24 @@
 
 ```bash
 
-    $ echo "🌸 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 🤖"
-    $ echo "# # # # # # 🌸 🌸 🌸 # # # # # # 🌸🌸 # # # # #🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # # #"
-    $ echo "# # # # # # 🌸 # # # 🌸 # # 🤖 🌸 # # 🌸 # # # 🌸 # # # 🌸 #  🌸 # # 🌸 # # # # # # 🌸 # # # # # # #"
-    $ echo "# # # # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # # "
-    $ echo "# # # # # # 🌸 🌸 # # # # # # 🌸 # # # 🌸 # # # 🌸 🌸 🌸 # # 🌸 # # # #🌸 # # # # # # 🌸 # # # # # #"
-    $ echo "# # # # # # 🌸 # # 🌸 # # # # 🌸 # # # 🌸 # # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # #"
-    $ echo "# # # # # # 🌸 # # # #🌸 # # # 🌸 # # 🌸 # # # #🌸 # # # 🌸 #  🌸 # # 🌸🤖 # # # # #🌸 # # # # # # #"
-    $ echo "# # # # # # 🌸 # # # # #🌸 # # # 🌸🌸 # # # # # 🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # # #"
-    $ echo "# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #"    
+    $ echo "🌸 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 🌸# # # # # # # # # # # # # 🤖"
+    $ echo "# # # # # # 🌸 🌸 🌸 # # # # # #🌸🌸 # # # # #🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # # # 🌸"
+    $ echo "# # # 🤖 #  🌸 # # # 🌸 # #  🌸 # #  🌸 # # # 🌸 # # # 🌸 #  🌸 # # 🌸 # # # # # # 🌸 # # # # # # #"
+    $ echo "# # # # # # 🌸 # # 🌸 # # # 🌸 # # # # 🌸 # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # # "
+    $ echo "# # # # # # 🌸 🌸 # # # # # 🌸 # # # # 🌸 # # 🌸 🌸 🌸 # # 🌸 # # # # 🌸 # # # # # # 🌸 # # # # # #"
+    $ echo "# # # # # # 🌸 # 🌸 # # # # 🌸 # # # # 🌸 # # 🌸 # # # 🌸 # 🌸 # # # 🌸 # # # # 🌸 #🌸 # # # # # 🌸 #"
+    $ echo "# # 🌸# # # 🌸 # # 🌸 # # # # 🌸 # #  🌸 # # #🌸 # # # 🌸 #  🌸 # # 🌸 🤖 # # # # #🌸 # # # # # # #"
+    $ echo "# # # # # # 🌸 # # # 🌸 # # # # 🌸 🌸 # # # # 🌸🌸🌸🌸 # # # # 🌸🌸 # # # # # # # # # # # # # # # # 🌸"
+    $ echo "# # # # # # # # # # # # # 🌸# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #"    
 
 ```
 
-Robotics and Mechatronics in short is the science and art of making physically intelligent yet artificial beings. AI is about mimicking the human senses ~ (Computer Vision == eyesight; NLP == language) and Robotics ~ physical touch. I prepared some notes on Robotics & Mechatronics and took a [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics. The usual flow: 
+<p align="justify">
+Robotics and Mechatronics in short is the science and art of making physically intelligent yet artificial beings. AI is about mimicking the human senses ~ (Computer Vision == eyesight; NLP == language) and Robotics ~ physical touch. 
+</p>
+
+I prepared some notes on Robotics & Mechatronics and took a [course](https://twitter.com/florist_notes/status/1668754257292726274) on Robot Kinematics. The usual flow: 
+
 
 <b>+ Robot Kinematics:</b> Kinematics is the study of the relationship between a robot's joint coordinates and its spatial layout, and is a fundamental and classical topic in robotics. Kinematics can yield very accurate calculations in many problems, such as positioning a gripper at a place in space, designing a mechanism that can move a tool from point A to point B, or predicting whether a robot's motion would collide with obstacles. Kinematics is concerned with only the instantaneous values of the robot's coordinates, and ignores their movement under forces and torques.
 
