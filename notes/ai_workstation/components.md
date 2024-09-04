@@ -32,8 +32,11 @@ The CPU is crucial for handling tasks such as data preprocessing, managing I/O o
 </p>
 
 <p align="justify">
-✦  `Cache`: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. [ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)]. A larger cache allows faster access to frequently used data, which can improve performance during training. Look for CPUs with at least 12 MB of cache.
+✦  `Cache`: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. A larger cache allows faster access to frequently used data, which can improve performance during training. Look for CPUs with at least 12 MB of cache.
 </p>
+
+[ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)]
+
 Here is an example of 4 core CPU:
 
 <img src="img/cache.png" width=70%><a> </a><img src="img/tpro2.png" width=25%>
