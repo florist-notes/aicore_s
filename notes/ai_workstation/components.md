@@ -1,6 +1,7 @@
 # AI/ML/DL System Core Components ⚙️
-
+<p align="justify">
 When selecting hardware components such as CPU, GPU, memory (RAM), and storage for deep learning tasks, it's essential to balance performance and cost-effectiveness. Let's talk about what makes a powerful workstation for deep learning. Important components of a workstation are:
+</p>
 
 
 
@@ -16,13 +17,21 @@ When selecting hardware components such as CPU, GPU, memory (RAM), and storage f
 
 <p align="justify">
 The CPU is crucial for handling tasks such as data preprocessing, managing I/O operations, and coordinating between different hardware components like the GPU and memory. Although the GPU handles most of the heavy lifting in deep learning, the CPU's role should not be underestimated. Important aspects while choosing a CPU for Deep Learning are: <br />
+</p>
 
+<p align="justify">
 ✦  `CPU cores`: More cores allow for better multitasking and parallel processing. A higher core count (6 to 16 cores) is beneficial for tasks like data loading and preprocessing that run in parallel with the training process. Higher number of cores allows more parallelization and deep Learning processes like pre-processing, batch-processing, reading in data etc are dependent on the number of CPU cores. We are going for 64 cores.
+</p>
 
+<p align="justify">
 ✦  `Clock Speed`: How fast to crank the computations on these data are dependent on the clock speed of the CPU. Beyond 2.9 Ghz is a good speed. Priority for deep learning is number of cores over clock speed. A higher clock speed (measured in GHz) results in faster processing of individual tasks. Aim for a CPU with a clock speed of 3.0 GHz or higher.
+</p>
 
+<p align="justify">
 ✦   `PCI Express`: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
+</p>
 
+<p align="justify">
 ✦  `Cache`: Cache memory is important because it improves the efficiency of data retrieval. It stores program instructions and data that are used repeatedly in the operation of programs or information that the CPU is likely to need next. Higher Cache the better. [ [Cache Memory Explained](https://youtu.be/Zr8WKIOIKsk?si=FQF3eGW52sRxO_X-)]. A larger cache allows faster access to frequently used data, which can improve performance during training. Look for CPUs with at least 12 MB of cache.
 </p>
 Here is an example of 4 core CPU:
@@ -60,15 +69,22 @@ New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processor
 <tr>
 <td>GPU</td>
 <td>
+<p align="justify">
 The GPU is the most critical component for deep learning as it handles the parallel computations required for training neural networks. The choice of GPU significantly impacts the speed of training and inference.
+</p>
 <br /><br />
 <img src="img/gpu.png" width=100%>
 
+<p align="justify">
 GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem. GPUs follow a programming model called single-instruction-multiple-threads (SIMT), where the same instruction executes concurrently on different cores/threads, each on its own portion of data as dictated by its assigned thread ID. All cores run the threads synchronously in lock-step, which greatly simplifies the control flow, and works great for domains like dense linear algebra, which neural network applications heavily rely on.
+</p>
 
 + `CUDA Cores`: More CUDA cores generally mean higher processing power for deep learning workloads. More CUDA cores allow for better parallel processing. Tensor Cores (available in NVIDIA's RTX and A100 series) are specialized for deep learning tasks, offering significant speedups.
+
 + `VRAM (Video RAM)`: Deep learning models with larger neural networks and datasets require GPUs with ample VRAM. The amount of VRAM determines the size of the models and datasets that can be loaded at once. For most deep learning tasks, 12 GB of VRAM is the minimum, but 24 GB or more is recommended for larger models.
+
 + `Double Precision vs. Single Precision`: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred. For deep learning, the ability to process half-precision (FP16) operations efficiently is important. GPUs that support mixed precision training can provide a significant performance boost.
+
 + `Tensor Cores` (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
 
 GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.<br /><br />
@@ -156,11 +172,16 @@ New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-s
 <table style="width:100%">
 <tr>
 <td>Memory (RAM)</td>
-<td>Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors. We will go for DDR4 due to DDR4 slots in motherboard.
+<td>
+<p align="justify">
+Considering 64 cores, it is wise to have 4 GB memory per core and that takes us to 64 x 4 = 256 GB RAM. If we go for 32 cores then 32 x 4 = 128 GB RAM. ECC memory will protect our system from a potential crash by correcting any errors in the data, while non-ECC memory doesn't correct such errors. We will go for DDR4 due to DDR4 slots in motherboard.
+</p>
 
-+ Capacity: For deep learning tasks, a minimum of 32 GB is recommended, with 64 GB or more being ideal for handling larger datasets and more complex models. Deep learning models, especially in natural language processing, can be memory-intensive. A larger RAM capacity prevents out-of-memory errors. 
-+ Memory Bandwidth: High memory bandwidth facilitates faster data access and model training. RAM speed (measured in MHz) impacts data transfer rates between the CPU and memory. DDR4 RAM with speeds of 3200 MHz or higher is generally sufficient.
-+ ECC (Error-Correcting Code) Memory (optional): ECC memory can help prevent data corruption, ensuring the integrity of training data and models. ECC RAM can detect and correct memory errors, which is crucial for ensuring data integrity during long training sessions. However, ECC RAM is typically more expensive and is usually only found in workstation-grade hardware.
++ `Capacity`: For deep learning tasks, a minimum of 32 GB is recommended, with 64 GB or more being ideal for handling larger datasets and more complex models. Deep learning models, especially in natural language processing, can be memory-intensive. A larger RAM capacity prevents out-of-memory errors. 
+
++ `Memory Bandwidth`: High memory bandwidth facilitates faster data access and model training. RAM speed (measured in MHz) impacts data transfer rates between the CPU and memory. DDR4 RAM with speeds of 3200 MHz or higher is generally sufficient.
+
++ `ECC (Error-Correcting Code) Memory` (optional): ECC memory can help prevent data corruption, ensuring the integrity of training data and models. ECC RAM can detect and correct memory errors, which is crucial for ensuring data integrity during long training sessions. However, ECC RAM is typically more expensive and is usually only found in workstation-grade hardware.
 
 </td>
 </tr>
@@ -169,10 +190,10 @@ New: [GeForce RTX 4090](https://www.nvidia.com/en-in/geforce/graphics-cards/40-s
 <td>Storage</td>
 <td>We need SSD! Choice : M.2 SSD via NVMe. SSD comes in 2 size : 2.5 " SSD uses SATA interface and M.2 SSD are plugged into an M.2 SLOT. M.2 NVMe SSD are good storage devices.<br />
 
-+ Solid-State Drives (SSD): SSDs offer faster data access compared to traditional hard disk drives (HDD), reducing data loading times.
-+ NVMe SSDs: NVMe SSDs provide even faster read/write speeds, particularly useful for loading large datasets.
-+ Storage Capacity: Deep learning often requires large storage capacities for datasets. Consider multi-terabyte storage options.
-+ Backup and Redundancy: Implement robust backup and redundancy solutions to protect against data loss.
++ `Solid-State Drives (SSD)`: SSDs offer faster data access compared to traditional hard disk drives (HDD), reducing data loading times.
++ `NVMe SSDs`: NVMe SSDs provide even faster read/write speeds, particularly useful for loading large datasets.
++ `Storage Capacity`: Deep learning often requires large storage capacities for datasets. Consider multi-terabyte storage options.
++ `Backup and Redundancy`: Implement robust backup and redundancy solutions to protect against data loss.
 
 <img src="img/storage_cd.png" width=49%><a> </a><img src="img/storage_c2.png" width=49%>
 
