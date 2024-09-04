@@ -10,7 +10,9 @@ libraries : [ [cuBLAS](./CUBLAS_Library.pdf), [cuFFT](./CUFFT_Library.pdf), [cuR
 
 @github/[cuda-smaples](https://github.com/nvidia/cuda-samples).
 
+<p align="justify">
 CUDA (Compute Unified Device Architecture) is a parallel computing platform and application programming interface (API) developed by NVIDIA. It allows developers to harness the power of NVIDIA GPUs (Graphics Processing Units) for high-performance computing tasks beyond graphics rendering. CUDA is widely used in scientific computing, machine learning, image processing, and other fields where massive parallelism can significantly accelerate computations.
+</p>
 
 + <b>Parallel Computing Architecture:</b> At the heart of CUDA is the concept of parallelism. Traditional CPUs are designed for serial processing, handling one instruction at a time, while GPUs are built for parallel processing, executing thousands of tasks simultaneously. CUDA enables developers to tap into this parallel computing power.
 

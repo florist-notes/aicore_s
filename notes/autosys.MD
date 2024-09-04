@@ -1,6 +1,8 @@
 # Autonomous System
 
+<p align="justify">
 Autonomous Systems refer to systems capable of performing tasks with a high degree of autonomy, often involving decision-making without human intervention. In the context of self-driving cars, these systems encompass various components such as sensors, actuators, control algorithms, and artificial intelligence (AI) modules. A self-driving car (sometimes called an autonomous car or driverless car) is a vehicle that uses a combination of sensors, cameras, radar and artificial intelligence (AI) to travel between destinations without a human operator.
+</p>
 
 <img src="robotics_ee_hardware/img/selfd.png" width=100%>
 
@@ -30,15 +32,15 @@ More on : [Adaptive Cruise Control (ACC)](./acc.MD), [Self Driving Car State Est
 
 Levels of autonomy in self-driving cars :
 
-#### Level 1: An advanced driver assistance system (ADAS) aids the human driver with steering, braking or accelerating, though not simultaneously. An ADAS includes rearview cameras and features like a vibrating seat warning to alert drivers when they drift out of the traveling lane.
+#### `Level 1`: An advanced driver assistance system (ADAS) aids the human driver with steering, braking or accelerating, though not simultaneously. An ADAS includes rearview cameras and features like a vibrating seat warning to alert drivers when they drift out of the traveling lane.
 
-#### Level 2: An ADAS that can steer and either brake or accelerate simultaneously while the driver remains fully aware behind the wheel and continues to act as the driver.
+#### `Level 2`: An ADAS that can steer and either brake or accelerate simultaneously while the driver remains fully aware behind the wheel and continues to act as the driver.
 
-#### Level 3: An automated driving system (ADS) can perform all driving tasks under certain circumstances, such as parking the car. In these circumstances, the human driver must be ready to retake control and is still required to be the main driver of the vehicle.
+#### `Level 3`: An automated driving system (ADS) can perform all driving tasks under certain circumstances, such as parking the car. In these circumstances, the human driver must be ready to retake control and is still required to be the main driver of the vehicle.
 
-#### Level 4: An ADS can perform all driving tasks and monitor the driving environment in certain circumstances. In those circumstances, the ADS is reliable enough that the human driver needn't pay attention.
+#### `Level 4`: An ADS can perform all driving tasks and monitor the driving environment in certain circumstances. In those circumstances, the ADS is reliable enough that the human driver needn't pay attention.
 
-#### Level 5: The vehicle's ADS acts as a virtual chauffeur and does all the driving in all circumstances. The human occupants are passengers and are never expected to drive the vehicle.
+#### `Level 5`: The vehicle's ADS acts as a virtual chauffeur and does all the driving in all circumstances. The human occupants are passengers and are never expected to drive the vehicle.
 
 
 ### [ [Alphabet – Waymo](https://waymo.com/), [General Motors – Cruise](https://www.getcruise.com/), [Tesla](https://www.tesla.com/), [Aurora](https://aurora.tech/), [Zoox](https://zoox.com/) ]
