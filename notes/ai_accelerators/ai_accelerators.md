@@ -144,6 +144,8 @@ ISA for AI - Domain specific ISAs (extended RISCs), Very-Long Instruction Word (
 
 #### [AMD Alveo U50 Data Center Accelerator Card](https://www.xilinx.com/products/boards-and-kits/alveo/u50.html) - The AMD Alveo™ U50 Data Center accelerator cards provide optimized acceleration for workloads in financial computing, machine learning, computational storage, and data search and analytics.
 
+#### [Introducing Google Axion Processors, our new Arm-based CPUs](https://cloud.google.com/blog/products/compute/introducing-googles-new-arm-based-cpu)
+
 [AMD Acceleration Cards](https://www.xilinx.com/products/boards-and-kits/accelerator-cards.html), [MemryX](https://memryx.com/) - AI Acceleration, [AMD FZ5](https://www.xilinx.com/products/boards-and-kits/1-1e4y1or.html).
 
 # Generative AI Accelerators :
@@ -161,7 +163,7 @@ To be able to run an entire 40-billion parameter model in memory, said Lisa Su, 
 
 <img src="img/maia.jpg" width="100%">
 
-## Intel® Gaudi 3 AI Accelerator
+## Intel® Gaudi 3 AI Accelerator [ [Intel AI Accelerators](./intel.MD) ]
 
 Big for Gen AI, Even Bigger for ROI : [Intel® Gaudi 3 AI Accelerator](https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi3.html).
 
