@@ -331,23 +331,23 @@ Motors generally need high input voltage so we don't plug it in a Raspberry Pi d
 </tr>
 
 <tr>
-<th>BomberCat – RFID/NFC/Wifi/MagStripe<br /> <img src="img/bombercat.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/bombercat-preorder/">hack</a></th>
-<th>Proxmark 3 RDv4 Kit – RFID Card Cloning & Research Device<br /> <img src="img/proxy.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/proxmark-3-rdv4-kit/">hack</a></th>
-<th>Cactus WHID: WiFi HID Injector USB (Rubberducky)<br /> <img src="img/cactus.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/cactus-whid-wifi-hid-injector-usb-rubberducky/">hack</a></th>
-<th>CatWAN USB Stick – Electronic Cats<br /> <img src="img/catwan.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/catwan-usb-stick/">hack</a></th>
-<th>ChameleonUltra Dev Kit – RFID Key Fob & NFC Emulator Development Kit<br /> <img src="img/chameleon.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/chameleonultra-dev-kit/">hack</a></th>
-<th>ESP Key RFID Wiegand Interception Tool<br /> <img src="img/punch.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/esp-key-rfid-wiegand-interception-tool-punch-down-version/">hack</a></th>
+<th>BomberCat – RFID/NFC/Wifi/MagStripe<br /> <img src="img/bombercat.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/bombercat-preorder/">hack</a></th>
+<th>Proxmark 3 RDv4 Kit – RFID Card Cloning & Research Device<br /> <img src="img/proxy.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/proxmark-3-rdv4-kit/">hack</a></th>
+<th>Cactus WHID: WiFi HID Injector USB (Rubberducky)<br /> <img src="img/cactus.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/cactus-whid-wifi-hid-injector-usb-rubberducky/">hack</a></th>
+<th>CatWAN USB Stick – Electronic Cats<br /> <img src="img/catwan.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/catwan-usb-stick/">hack</a></th>
+<th>ChameleonUltra Dev Kit – RFID Key Fob & NFC Emulator Development Kit<br /> <img src="img/chameleon.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/chameleonultra-dev-kit/">hack</a></th>
+<th>ESP Key RFID Wiegand Interception Tool<br /> <img src="img/punch.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/esp-key-rfid-wiegand-interception-tool-punch-down-version/">hack</a></th>
 </tr>
 
 
 
 <tr>
-<th>Throwing Star LAN Tap Board – Passive Ethernet Traffic Sniffing<br /> <img src="img/star.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/throwing-star-lan-tap-board/">hack</a></th>
-<th>Evil Crow RF V2 – Multi-Radiofrequency Security Testing Tool<br /> <img src="img/evilcrow.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/evil-crow-rf-v2/">hack</a></th>
-<th>KSEC Pro Pick Multi-Tool Breakout Card<br /> <img src="img/edc.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/ksec-pro-pick-all-in-one-edc-card/">hack</a></th>
-<th>ProxGrind Chameleon Ultra – Ultimate RFID Key Fob & NFC Emulator<br /> <img src="img/cham2.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/proxgrind-chameleon-ultra/">hack</a></th>
-<th>xEM Access Controller v2 (xAC v2)<br /> <img src="img/xem.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/xem-access-controller-v2-xac-v2/">hack</a></th>
-<th>USB Ninja Pro Bluetooth Remote<br /> <img src="img/ninja.webp" height=140px> <a href="https://cyborg.ksecsolutions.com/product/ksec-usbninja-remote/">hack</a></th>
+<th>Throwing Star LAN Tap Board – Passive Ethernet Traffic Sniffing<br /> <img src="img/star.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/throwing-star-lan-tap-board/">hack</a></th>
+<th>Evil Crow RF V2 – Multi-Radiofrequency Security Testing Tool<br /> <img src="img/evilcrow.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/evil-crow-rf-v2/">hack</a></th>
+<th>KSEC Pro Pick Multi-Tool Breakout Card<br /> <img src="img/edc.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/ksec-pro-pick-all-in-one-edc-card/">hack</a></th>
+<th>ProxGrind Chameleon Ultra – Ultimate RFID Key Fob & NFC Emulator<br /> <img src="img/cham2.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/proxgrind-chameleon-ultra/">hack</a></th>
+<th>xEM Access Controller v2 (xAC v2)<br /> <img src="img/xem.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/xem-access-controller-v2-xac-v2/">hack</a></th>
+<th>USB Ninja Pro Bluetooth Remote<br /> <img src="img/ninja.png" height=140px> <a href="https://cyborg.ksecsolutions.com/product/ksec-usbninja-remote/">hack</a></th>
 </tr>
 
 </table>
