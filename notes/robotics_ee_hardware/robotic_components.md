@@ -140,16 +140,16 @@ Let's take a look at what we can buy from the market to get started with Robotic
 
 <table style="width:100%" >
 <tr>
-<th>SparkFun Artemis Global Tracker (Satellite)<br /> <img src="img/artemis.jpg" height=140px> <a href="https://www.sparkfun.com/products/18712">sensor</a></th>
-<th>bladeRF x40 (Radio)<br /> <img src="img/radio.jpg" height=140px> <a href="https://www.adafruit.com/product/3333">sensor</a></th>
-<th>SparkFun RTK Express Plus (GNSS)<br /> <img src="img/gnss.jpg" height=140px> <a href="https://www.sparkfun.com/products/18590">sensor</a></th>
-<th>LoRa, 915MHz (SAMD21) (LoRa)<br /> <img src="img/lora.jpg" height=140px> <a href="https://www.sparkfun.com/products/15836">sensor</a></th>
+<th>SparkFun Artemis Global Tracker (Satellite)<br /> <img src="img/artemis.png" height=140px> <a href="https://www.sparkfun.com/products/18712">sensor</a></th>
+<th>bladeRF x40 (Radio)<br /> <img src="img/radio.png" height=140px> <a href="https://www.adafruit.com/product/3333">sensor</a></th>
+<th>SparkFun RTK Express Plus (GNSS)<br /> <img src="img/gnss.png" height=140px> <a href="https://www.sparkfun.com/products/18590">sensor</a></th>
+<th>LoRa, 915MHz (SAMD21) (LoRa)<br /> <img src="img/lora.png" height=140px> <a href="https://www.sparkfun.com/products/15836">sensor</a></th>
 </tr>
 
 <tr>
-<th>Fingerprint Scanner - TTL (GT-521F52) (Fingerprint)<br /> <img src="img/finger.jpg" height=140px> <a href="https://www.sparkfun.com/products/14585">sensor</a></th>
-<th>PureThermal Mini Pro JST-SR (with FLIR Lepton 3.5) (IR)<br /> <img src="img/ir.jpg" height=140px> <a href="https://www.adafruit.com/product/3333">sensor</a></th>
-<th>Qwiic Haptic Driver Kit - DA7280 (Haptic)<br /> <img src="img/haptic.jpg" height=140px> <a href="https://www.sparkfun.com/products/18247">sensor</a></th>
+<th>Fingerprint Scanner - TTL (GT-521F52) (Fingerprint)<br /> <img src="img/finger.png" height=140px> <a href="https://www.sparkfun.com/products/14585">sensor</a></th>
+<th>PureThermal Mini Pro JST-SR (with FLIR Lepton 3.5) (IR)<br /> <img src="img/ir.png" height=140px> <a href="https://www.adafruit.com/product/3333">sensor</a></th>
+<th>Qwiic Haptic Driver Kit - DA7280 (Haptic)<br /> <img src="img/haptic.png" height=140px> <a href="https://www.sparkfun.com/products/18247">sensor</a></th>
 <th>MyoWare Muscle Sensor (Muscle)<br /> <img src="img/muscle.jpg" height=140px> <a href="https://www.adafruit.com/product/2699">sensor</a></th>
 </tr>
 
@@ -157,20 +157,20 @@ Let's take a look at what we can buy from the market to get started with Robotic
 <th>Pulse Sensor Amped (Pulse)<br /> <img src="img/pulse.jpg" height=140px> <a href="https://www.adafruit.com/product/1093">sensor</a></th>
 <th>Fingerprint sensor (Fingerprint)<br /> <img src="img/finger2.jpg" height=140px> <a href="https://www.adafruit.com/product/751">sensor</a></th>
 <th>Muscle Sensor Surface EMG Electrodes - H124SG Covidien (EKG)<br /> <img src="img/emg.jpg" height=140px> <a href="https://www.adafruit.com/product/2773">sensor</a></th>
-<th>SparkFun micro:climate kit for micro:bit - v3.0 (weather)<br /> <img src="img/weather.jpg" height=140px> <a href="https://www.sparkfun.com/products/16274">sensor</a></th>
+<th>SparkFun micro:climate kit for micro:bit - v3.0 (weather)<br /> <img src="img/weather.png" height=140px> <a href="https://www.sparkfun.com/products/16274">sensor</a></th>
 </tr>
 
 <tr>
-<th>Nicla Sense ME (IMU)<br /> <img src="img/imu.jpg" height=140px> <a href="https://www.sparkfun.com/products/19727">sensor</a></th>
-<th>MIKROE Secure Click (Lock)<br /> <img src="img/lock.jpg" height=140px> <a href="https://www.sparkfun.com/products/18848">sensor</a></th>
-<th>LIDAR-Lite v3 (LIDAR)<br /> <img src="img/lidar.jpg" height=140px> <a href="https://www.sparkfun.com/products/14032">sensor</a></th>
-<th>Mini Photocell (Light)<br /> <img src="img/light.jpg" height=140px> <a href="https://www.sparkfun.com/products/9088">sensor</a></th>
+<th>Nicla Sense ME (IMU)<br /> <img src="img/imu.png" height=140px> <a href="https://www.sparkfun.com/products/19727">sensor</a></th>
+<th>MIKROE Secure Click (Lock)<br /> <img src="img/lock.png" height=140px> <a href="https://www.sparkfun.com/products/18848">sensor</a></th>
+<th>LIDAR-Lite v3 (LIDAR)<br /> <img src="img/lidar.png" height=140px> <a href="https://www.sparkfun.com/products/14032">sensor</a></th>
+<th>Mini Photocell (Light)<br /> <img src="img/light.png" height=140px> <a href="https://www.sparkfun.com/products/9088">sensor</a></th>
 </tr>
 
 <tr>
-<th>Pixhawk 6C with PM07 Power Module and M8N GPS (Flight Controller)<br /> <img src="img/flight.jpg" height=140px> <a href="#">sensor</a></th>
-<th>Raspberry Pi HQ Camera Module (RGB camera)<br /> <img src="img/rgb.jpg" height=140px> <a href="https://www.sparkfun.com/products/16760">sensor</a></th>
-<th>Luxonis Oak-D DepthAI Hardware (RGB-D camera)<br /> <img src="img/rgbd.jpg" height=140px> <a href="https://www.sparkfun.com/products/17770">sensor</a></th>
+<th>Pixhawk 6C with PM07 Power Module and M8N GPS (Flight Controller)<br /> <img src="img/flight.png" height=140px> <a href="#">sensor</a></th>
+<th>Raspberry Pi HQ Camera Module (RGB camera)<br /> <img src="img/rgb.png" height=140px> <a href="https://www.sparkfun.com/products/16760">sensor</a></th>
+<th>Luxonis Oak-D DepthAI Hardware (RGB-D camera)<br /> <img src="img/rgbd.png" height=140px> <a href="https://www.sparkfun.com/products/17770">sensor</a></th>
 <th>Piezoelectric Ribbon Sensor (Piezoelectric))<br /> <img src="img/piezzo.gif" height=140px> <a href="https://www.adafruit.com/product/4931">sensor</a></th>
 </tr>
 
@@ -189,9 +189,9 @@ Let's take a look at what we can buy from the market to get started with Robotic
 </tr>
 
 <tr>
-<th>Adafruit LTR390 UV Light Sensor - STEMMA QT / Qwiic<br /> <img src="img/uv.gif" height=140px> <a href="https://www.adafruit.com/product/4831">sensor</a></th>
-<th>Simple Water Detection Sensor with Digital Output<br /> <img src="img/water.gif" height=140px> <a href="#">sensor</a></th>
-<th>Adafruit MLX90640 24x32 IR Thermal Camera Breakout - 110 Degree FoV<br /> <img src="img/thermal.gif" height=140px> <a href="https://www.adafruit.com/product/4469">sensor</a></th>
+<th>Adafruit LTR390 UV Light Sensor - STEMMA QT / Qwiic<br /> <img src="img/uv-unscreen.gif" height=140px> <a href="https://www.adafruit.com/product/4831">sensor</a></th>
+<th>Simple Water Detection Sensor with Digital Output<br /> <img src="img/water-unscreen.gif" height=140px> <a href="#">sensor</a></th>
+<th>Adafruit MLX90640 24x32 IR Thermal Camera Breakout - 110 Degree FoV<br /> <img src="img/thermal-unscreen.gif" height=140px> <a href="https://www.adafruit.com/product/4469">sensor</a></th>
 <th>Adafruit ANO Rotary Navigation Encoder Breakout PCB<br /> <img src="img/rotary.gif" height=140px> <a href="https://www.adafruit.com/product/5221">sensor</a></th>
 </tr>
 
@@ -211,7 +211,7 @@ Let's take a look at what we can buy from the market to get started with Robotic
 
 <tr>
 <th>Thermal Camera Imager for Fever Screening - UTi165H<br /> <img src="img/th.jpg" height=140px> <a href="https://www.adafruit.com/product/4578">sensor</a></th>
-<th>Garmin LIDAR-Lite Optical Distance Sensor - V3<br /> <img src="img/lidar.jpg" height=140px> <a href="https://www.adafruit.com/product/4058">sensor</a></th>
+<th>Garmin LIDAR-Lite Optical Distance Sensor - V3<br /> <img src="img/lidar.png" height=140px> <a href="https://www.adafruit.com/product/4058">sensor</a></th>
 <th>Ultraleap 3Di Stereo Hand Tracking Camera<br /> <img src="img/stereo.jpg" height=140px> <a href="https://www.adafruit.com/product/5571">sensor</a></th>
 <th>Adafruit Proximity Trinkey - USB APDS9960 Sensor Dev Board<br /> <img src="img/prox.gif" height=140px> <a href="https://www.adafruit.com/product/5022">sensor</a></th>
 </tr>
@@ -233,11 +233,11 @@ also checkout Ada Fruit's [sensor page](https://www.adafruit.com/category/35) fo
 <table style="width:100%" >
 <tr>
 <th>DJI Matrice 300 RTK<br /> <img src="img/dji.png" height=140px> <a href="https://www.dji.com/de/matrice-300">drone</a></th>
-<th>Parrot Anafi<br /> <img src="img/anafi.png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
-<th>Air:bit 2<br /> <img src="img/airbit2.png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> </th>
-<th>Tello Quadcopter<br /> <img src="img/tello.jpg" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
+<th>Parrot Anafi<br /> <img src="img/anafi (1).png" height=140px> <a href="https://www.parrot.com/en/drones/anafi">drone</a></th>
+<th>Air:bit 2<br /> <img src="img/airbit2 (1).png" height=140px> <a href="https://www.robotshop.com/products/airbit-2-programmable-drone-kit-w-2x-microbit">drone </a> </th>
+<th>Tello Quadcopter<br /> <img src="img/tello.png" height=140px> <a href="https://www.ryzerobotics.com/de/tello-edu">drone</a></th>
 
-<td><b>Bitcraze Crazyflie 2.1</b><br /> <img src="img/crazyflie.jpg" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a>(open source)</td>
+<td><b>Bitcraze Crazyflie 2.1</b><br /> <img src="img/crazyflie.png" height=140px> <a href="https://www.bitcraze.io/products/crazyflie-2-1/">drone</a>(open source)</td>
 </tr>
 </table>
 <br />
@@ -253,17 +253,17 @@ This year I did some CV Tello experiments - [[video](https://youtu.be/GytbWIVu4d
 
 <table style="width:100%" >
 <tr>
-<th>4tronix M.A.R.S. Rover Robot Kit for Raspberry Pi Zero<br /> <img src="img/marsrover.png" height=140px> <a href="https://www.elektor.com/4tronix-mars-rover-robot-kit-for-raspberry-pi-zero">kit</a></th>
-<th>Hiwonder uHandPi Raspberry Pi Robotic Hand<br /> <img src="img/uhandpi.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-uhandpi-raspberry-pi-robotic-hand-ai-vision-recognition-and-tracking-python-programming?variant=39672207048791">kit</a></th>
-<th>TonyPi Pro Hiwonder Humanoid Robot <br /> <img src="img/tonypi.png" height=140px> <a href="https://hiwonder.hk/products/tonypi-pro-hiwonder-humanoid-robot-professional-development-kit-powered-by-raspberry-pi-4b-4gb">kit</a></th>
-<th>MyCobot 280 M5Stack 6 DOF<br /> <img src="img/cobot.jpg" height=140px> <a href="https://shop.elephantrobotics.com/en-de/products/mycobot-worlds-smallest-and-lightest-six-axis-collaborative-robot?variant=39585938833494">kit</a></th>
+<th>4tronix M.A.R.S. Rover Robot Kit for Raspberry Pi Zero<br /> <img src="img/marsrover (1).png" height=140px> <a href="https://www.elektor.com/4tronix-mars-rover-robot-kit-for-raspberry-pi-zero">kit</a></th>
+<th>Hiwonder uHandPi Raspberry Pi Robotic Hand<br /> <img src="img/uhandpi (1).png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-uhandpi-raspberry-pi-robotic-hand-ai-vision-recognition-and-tracking-python-programming?variant=39672207048791">kit</a></th>
+<th>TonyPi Pro Hiwonder Humanoid Robot <br /> <img src="img/tonypi (1).png" height=140px> <a href="https://hiwonder.hk/products/tonypi-pro-hiwonder-humanoid-robot-professional-development-kit-powered-by-raspberry-pi-4b-4gb">kit</a></th>
+<th>MyCobot 280 M5Stack 6 DOF<br /> <img src="img/cobot.png" height=140px> <a href="https://shop.elephantrobotics.com/en-de/products/mycobot-worlds-smallest-and-lightest-six-axis-collaborative-robot?variant=39585938833494">kit</a></th>
 </tr>
 
 <tr>
-<th>Hiwonder JetAuto ROS Robot Car<br /> <img src="img/roscar.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jetauto-ros-robot-car-powered-by-jetson-nano-with-lidar-depth-camera-touch-screen-microphone-array-support-slam-mapping-and-navigation?variant=39960852594775">kit</a></th>
-<th>SpiderPi Pro: Hiwonder Hexapod Robot<br /> <img src="img/spr.png" height=140px> <a href="https://hiwonder.hk/products/spiderpi-pro-hiwonder-hexapod-robot-with-ai-vision-robotic-arm-powered-by-raspberry-pi-4b-4gb">kit</a></th>
-<th>Hiwonder JetHexa ROS Hexapod Robot Kit<br /> <img src="img/spg.png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jethexa-ros-hexapod-robot-kit-powered-by-jetson-nano-with-lidar-depth-camera-support-slam-mapping-and-navigation?variant=39876752638039">kit</a></th>
-<th>PuppyPi Hiwonder Quadruped Robot <br /> <img src="img/puppypi.png" height=140px> <a href="https://hiwonder.hk/products/puppypi-hiwonder-ros-quadruped-puppy-robot-with-ai-vision-powered-by-raspberry-pi-4b-support-python-programming?variant=39919263678551">kit</a></th>
+<th>Hiwonder JetAuto ROS Robot Car<br /> <img src="img/roscar (1).png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jetauto-ros-robot-car-powered-by-jetson-nano-with-lidar-depth-camera-touch-screen-microphone-array-support-slam-mapping-and-navigation?variant=39960852594775">kit</a></th>
+<th>SpiderPi Pro: Hiwonder Hexapod Robot<br /> <img src="img/spr (1).png" height=140px> <a href="https://hiwonder.hk/products/spiderpi-pro-hiwonder-hexapod-robot-with-ai-vision-robotic-arm-powered-by-raspberry-pi-4b-4gb">kit</a></th>
+<th>Hiwonder JetHexa ROS Hexapod Robot Kit<br /> <img src="img/spg (1).png" height=140px> <a href="https://hiwonder.hk/products/hiwonder-jethexa-ros-hexapod-robot-kit-powered-by-jetson-nano-with-lidar-depth-camera-support-slam-mapping-and-navigation?variant=39876752638039">kit</a></th>
+<th>PuppyPi Hiwonder Quadruped Robot <br /> <img src="img/puppypi (1).png" height=140px> <a href="https://hiwonder.hk/products/puppypi-hiwonder-ros-quadruped-puppy-robot-with-ai-vision-powered-by-raspberry-pi-4b-support-python-programming?variant=39919263678551">kit</a></th>
 </tr>
 </table>
 
@@ -294,7 +294,7 @@ MYCOBOT [PRO 600](https://shop.elephantrobotics.com/collections/mycobot-pro-600)
 
 Unitree Go 2 [ [Unitree Go2 New Upgrade](https://youtu.be/iaBDDpuJglY?si=X1Q51yKVnCI_skjg), [video](https://youtu.be/6zPvT0ig1VM)] [[buy](https://m.unitree.com/en/go2/)] [[buy-de](https://www.quadruped.de/QUADRUPED-Go2)] [quadruped.de](https://www.quadruped.de/QUADRUPEDs)
 
-<img src="img/go2.jpg" width=17%> <img src="img/go22.jpg" width=30%> <img src="img/unitree.gif" width=48%> 
+<img src="img/go2.png" width=16%> <img src="img/go22.jpg" width=31.5%> <img src="img/unitree.gif" width=50%> 
 
 Unitree Education / Industry : [Unitree G1](https://youtu.be/GzX1qOIO1bE?si=mpVysqEht1hnYcv_), [Unitree 4D LiDAR L1](https://shop.unitree.com/products/unitree-4d-lidar-l1), [Unitree Z1](https://shop.unitree.com/products/unitree-z1), [Aliengo](https://shop.unitree.com/products/aliengo), [Unitree B2](https://shop.unitree.com/products/unitree-b2) [[vid](https://youtu.be/-0n_MFLKD3M?si=-W2LVTuXXYABu2pF)], [Unitree H1](https://www.unitree.com/h1/) [[vid](https://youtu.be/q8JMX6PGRoI?si=X41w-btUZEaz6soX)]
 
