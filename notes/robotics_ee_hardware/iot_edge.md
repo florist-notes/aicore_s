@@ -11,20 +11,20 @@ Raspberry Pi 5 : <a href="https://www.raspberrypi.com/products/raspberry-pi-5/">
 
 <table style="width:100%" >
 <tr>
-<th>Jetson Orin Nano Developer Kit <br /> <img src="img/jts0.jpg" height=140px> <a href="https://www.sparkfun.com/products/22098">board</a></th>
-<th>Jetson Orin Nano 8GB <br /> <img src="img/jts1.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0030-000/nvidia">board</a></th>
-<th>Jetson Orin Nano 4GB <br /> <img src="img/jts2.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0040-000/nvidia"> board</a></th>
-<th>Jetson AGX Orin Industrial <br /> <img src="img/jts3.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0080-000/nvidia">board</a></th>
+<th>Jetson Orin Nano Developer Kit <br /> <img src="img/jts0.png" height=140px> <a href="https://www.sparkfun.com/products/22098">board</a></th>
+<th>Jetson Orin Nano 8GB <br /> <img src="img/jts1.png" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0030-000/nvidia">board</a></th>
+<th>Jetson Orin Nano 4GB <br /> <img src="img/jts2.png" height=140px> <a href="https://www.arrow.com/en/products/900-13767-0040-000/nvidia"> board</a></th>
+<th>Jetson AGX Orin Industrial <br /> <img src="img/jts3.png" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0080-000/nvidia">board</a></th>
 </tr>
 <tr>
-<th>Jetson AGX Orin 32GB <br /> <img src="img/agx_orin.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0040-000/nvidia">board</a></th>
-<th>Jetson AGX Orin Developer Kit <br /> <img src="img/agx_kit.jpg" height=140px> <a href="https://www.arrow.com/en/products/945-13730-0000-000/nvidia">board</a></th>
-<th>Jetson AGX Xavier 64GB <br /> <img src="img/agx_xavier.jpeg" height=140px> <a href="https://www.arrow.com/en/products/900-82888-0050-000/nvidia"> board</a></th>
-<th>Jetson AGX Xavier Industrial <br /> <img src="img/xavier_ind.jpg" height=140px> <a href="https://www.arrow.com/en/products/900-82888-0080-000/nvidia">board</a></th>
+<th>Jetson AGX Orin 32GB <br /> <img src="img/agx_orin.png" height=140px> <a href="https://www.arrow.com/en/products/900-13701-0040-000/nvidia">board</a></th>
+<th>Jetson AGX Orin Developer Kit <br /> <img src="img/agx_kit.png" height=140px> <a href="https://www.arrow.com/en/products/945-13730-0000-000/nvidia">board</a></th>
+<th>Jetson AGX Xavier 64GB <br /> <img src="img/agx_xavier.png" height=140px> <a href="https://www.arrow.com/en/products/900-82888-0050-000/nvidia"> board</a></th>
+<th>Jetson AGX Xavier Industrial <br /> <img src="img/xavier_ind.png" height=140px> <a href="https://www.arrow.com/en/products/900-82888-0080-000/nvidia">board</a></th>
 </tr>
 <tr>
-<th>Jetson Xavier NX 16GB <br /> <img src="img/xavier_nx.jpg" height=100px> <a href="https://www.arrow.com/en/products/900-83668-0030-000/nvidia">board</a></th>
-<th>Jetson TX2 NX <br /> <img src="img/tx2_nx.jpg" height=100px> <a href="https://www.arrow.com/en/products/900-13636-0010-000/nvidia">board</a></th>
+<th>Jetson Xavier NX 16GB <br /> <img src="img/xavier_nx.png" height=100px> <a href="https://www.arrow.com/en/products/900-83668-0030-000/nvidia">board</a></th>
+<th>Jetson TX2 NX <br /> <img src="img/tx2_nx.png" height=100px> <a href="https://www.arrow.com/en/products/900-13636-0010-000/nvidia">board</a></th>
 <th>Jetson TX2i <br /> <img src="img/tx2i.png" height=100px> <a href="https://www.arrow.com/en/products/900-83489-0000-000/nvidia">board</a></th>
 <th>Jetson Nano Developer Kit <br /> <img src="img/nano.png" height=100px> <a href="https://www.arrow.com/en/products/945-13450-0000-100/nvidia">board</a></th>
 </tr>
@@ -120,6 +120,8 @@ Machine Learning libraries for edge devices : [TinyML](https://tinyml.mit.edu/),
 IoT Platforms : [AWS IoT Greengrass](https://aws.amazon.com/greengrass/), [The NVIDIA EGX Enterprise Platform](https://www.nvidia.com/en-us/data-center/products/egx/), [HPE Edgeline EL8000 Converged Edge System](https://buy.hpe.com/us/en/servers/edgeline-systems/edgeline-systems/edgeline-converged-edge-systems/hpe-edgeline-el8000-converged-edge-system/p/1011622898), [Particle](https://www.particle.io/), [openremote](https://openremote.io/), [Google IoT Core](https://cloud.google.com/iot-core), [IBM Watson IoT](https://www.ibm.com/cloud/internet-of-things), [Cisco IoT Cloud Connect](https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html), [IRI Voracity](https://www.iri.com/products/voracity), [Amazon AWS IoT Core](https://aws.amazon.com/iot-core/), [Microsoft Azure IoT Hub](https://azure.microsoft.com/en-us/products/iot-hub/), [sensorthings API](https://www.ogc.org/standard/sensorthings/), [10 years of embedded coding in 10 minutes](https://youtu.be/i2ypCsB93gM?si=ddLvuIlum-8ah_2O).
 
 Resources: More exciting upcomings with [CircuitPython](https://circuitpython.org/) and google's open source hardware pdk :  [google+ skywater pdk](https://github.com/google/skywater-pdk), [pdk](https://gf.com/blog/pdks-powerful-enablers-first-pass-silicon-success/), [foss-180nm-pdk](https://github.com/google/gf180mcu-pdk).
+
+Edge AI Acceleration Labs : [ [Edge Computing Lab @ Harvard](https://edge.seas.harvard.edu/), [HAN Lab @ MIT](https://hanlab.mit.edu/news), [Future Computing Lab @ ETH Zurich](https://efcl.ethz.ch/), [Edge AI Acceleration Lab @ SUT](https://sites.google.com/view/bowang/home) ]
 
 ## Systems Optimizations for Deep Learning on Accelerated Edge Devices :
 
