@@ -148,14 +148,21 @@ ISA for AI - Domain specific ISAs (extended RISCs), Very-Long Instruction Word (
 
 [AMD Acceleration Cards](https://www.xilinx.com/products/boards-and-kits/accelerator-cards.html), [MemryX](https://memryx.com/) - AI Acceleration, [AMD FZ5](https://www.xilinx.com/products/boards-and-kits/1-1e4y1or.html).
 
+## 🍋‍🟩 [NVIDIA Jetson OrinAGX](https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-orin/) [[Orin Nano](https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit)] | More @[[ aicore_s/iot_edge ](https://github.com/florist-notes/aicore_s/blob/main/notes/robotics_ee_hardware/iot_edge.md)]
+
+<img src="img/nvidia.jpg" width="100%">
+
 # Generative AI Accelerators :
 
-## AMD unveils MI300x AI chip as 'generative AI accelerator'
-
+## AMD unveils Instinct™ MI300X Accelerators [[MI300](https://www.amd.com/en/products/accelerators/instinct/mi300.html), [MI300X](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)]
 
 To be able to run an entire 40-billion parameter model in memory, said Lisa Su, actually reduces the number of GPUs you need. [[source](https://www.zdnet.com/article/amd-unveils-mi300x-ai-chip-as-generative-ai-accelerator/)]
 
 <img src="img/mx.webp" width="100%">
+
+The AMD Instinct™ MI300X is AMD's latest data center accelerator, specifically optimized for handling large language models (LLMs) and transformer-based AI workloads.
+
+<img src="img/mi300x.png" width="100%">
 
 ## Microsoft Azure Maia AI Accelerator
 
@@ -173,14 +180,6 @@ Big for Gen AI, Even Bigger for ROI : [Intel® Gaudi 3 AI Accelerator](https://w
 AMD's Alveo V70 AI accelerator offers a flexible solution for video analytics, robotics, and industrial automation, providing high TOPS per watt. It integrates into cloud and edge environments, making it suitable for handling complex AI tasks close to data sources.
 
 <img src="img/V70r.png" width="100%">
-
-## AMD Instinct™ MI300X Accelerators : [[MI300](https://www.amd.com/en/products/accelerators/instinct/mi300.html), [MI300X](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)]
-
-The AMD Instinct™ MI300X is AMD's latest data center accelerator, specifically optimized for handling large language models (LLMs) and transformer-based AI workloads.
-
-<img src="img/mi300x.png" width="100%">
-
-
 
 
 ## Etched’s Transformer-Centric ASIC [[web](https://www.etched.com/)] :
