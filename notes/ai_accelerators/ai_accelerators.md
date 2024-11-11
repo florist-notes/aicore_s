@@ -168,3 +168,23 @@ To be able to run an entire 40-billion parameter model in memory, said Lisa Su, 
 Big for Gen AI, Even Bigger for ROI : [Intel® Gaudi 3 AI Accelerator](https://www.intel.com/content/www/us/en/products/details/processors/ai-accelerators/gaudi3.html).
 
 <img src="img/gaudi3p.jpg" width="100%">
+
+## AMD [Alveo V70](https://www.amd.com/en/products/accelerators/alveo/v70.html) :
+AMD's Alveo V70 AI accelerator offers a flexible solution for video analytics, robotics, and industrial automation, providing high TOPS per watt. It integrates into cloud and edge environments, making it suitable for handling complex AI tasks close to data sources.
+
+<img src="img/V70r.png" width="100%">
+
+## AMD Instinct™ MI300X Accelerators : [[MI300](https://www.amd.com/en/products/accelerators/instinct/mi300.html), [MI300X](https://www.amd.com/en/products/accelerators/instinct/mi300/mi300x.html)]
+
+The AMD Instinct™ MI300X is AMD's latest data center accelerator, specifically optimized for handling large language models (LLMs) and transformer-based AI workloads.
+
+<img src="img/mi300x.png" width="100%">
+
+
+
+
+## Etched’s Transformer-Centric ASIC [[web](https://www.etched.com/)] :
+
+This startup's ASIC is built to handle transformer workloads at scale, making it especially suitable for large language models and high-batch, multi-query tasks, like those in chatbots. Its design allows for batch sizes in the thousands without performance degradation, which could improve throughput for models such as ChatGPT and Gemini. The chip includes high bandwidth memory (HBM3) with capacity up to 144GB, making it efficient for handling the key-value cache needed for large models.
+
+<img src="img/etched.webp" width="100%">
