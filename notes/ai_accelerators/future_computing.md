@@ -1,5 +1,7 @@
 # New modes of computing #AI
 
+<img src="img/quant.jpg" width="100%">
+
 <img src="img/tnn.png" width="49%"><a> </a><img src="img/op.png" width="49%">
 
 The future of computing is rapidly evolving, with transformative modes on the horizon that are set to redefine how we process, store, and analyze information. Here are some of the emerging paradigms that could shape the future of computing:
@@ -61,7 +63,13 @@ AGI aims to create machines with human-like cognitive abilities, capable of reas
 
 10. `Hyperdimensional Computing` : 
 Hyperdimensional computing, or vector-symbolic architectures, is inspired by the way the human brain represents information across distributed patterns. This paradigm encodes information in high-dimensional spaces, allowing for noise-robust and parallelized computation. It’s particularly well-suited for AI and machine learning tasks, especially in resource-constrained environments like mobile devices and embedded systems, where conventional models may struggle with efficiency.
+
+Resources : [vid](https://youtu.be/g7ih6rHdw3M?si=o3jVJJz1Ly2K6Wwu), [1](https://www.quantamagazine.org/a-new-approach-to-computation-reimagines-artificial-intelligence-20230413/), [2](https://michielstock.github.io/posts/2022/2022-10-04-HDVtutorial/), [3](https://redwood.berkeley.edu/wp-content/uploads/2018/01/kanerva2009hyperdimensional.pdf), [4](https://youtu.be/zUCoxhExe0o?si=diODRJDvD82w5QhA)
+
+
 </p>
+
+
 
 <p style="text-align:justify;">
 
