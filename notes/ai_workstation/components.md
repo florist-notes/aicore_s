@@ -1,4 +1,7 @@
 # AI/ML/DL System Core Components ⚙️
+
+<img src="img/l40.webp" width=100%>
+
 <p align="justify">
 When selecting hardware components such as CPU, GPU, memory (RAM), and storage for deep learning tasks, it's essential to balance performance and cost-effectiveness. Let's talk about what makes a powerful workstation for deep learning. Important components of a workstation are:
 </p>
@@ -24,11 +27,15 @@ The CPU is crucial for handling tasks such as data preprocessing, managing I/O o
 </p>
 
 <p align="justify">
+Simultaneous Multithreading (SMT): Technologies like Intel’s Hyper-Threading or AMD’s SMT allow each core to handle two threads, effectively doubling the number of threads that can run simultaneously. This is helpful in scenarios where many lightweight tasks need to be handled in parallel.
+</p>
+
+<p align="justify">
 ✦  `Clock Speed`: How fast to crank the computations on these data are dependent on the clock speed of the CPU. Beyond 2.9 Ghz is a good speed. Priority for deep learning is number of cores over clock speed. A higher clock speed (measured in GHz) results in faster processing of individual tasks. Aim for a CPU with a clock speed of 3.0 GHz or higher.
 </p>
 
 <p align="justify">
-✦   `PCI Express`: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 is what we need.
+✦   `PCI Express`: Are generally considered highway between CPU RAM and GPU RAM. PCIe 3.0 has speed of 1000 MB/s and PCIe 4.0 has speed of 2000 MB/s. PCIe 4.0 or PCIe 5.0 compatibility ensures faster data transfer rates between the CPU, GPU(s), and storage devices, reducing latency in data loading and model inference.
 </p>
 
 <p align="justify">
@@ -42,7 +49,17 @@ Here is an example of 4 core CPU:
 <img src="img/cache.png" width=70%><a> </a><img src="img/tpro2.png" width=25%>
 
 
-+ `Architecture`: Modern architectures (e.g., Intel Core i7/i9, AMD Ryzen 7/9) offer better power efficiency and performance. Choosing the latest generation can provide better optimization for AI workloads.
+<p align="justify">
++ Architecture: Modern architectures (e.g., Intel Core i7/i9, AMD Ryzen 7/9) offer better power efficiency and performance. Choosing the latest generation can provide better optimization for AI workloads. Modern architectures (e.g., AMD Zen 4, Intel Alder Lake) offer better performance per watt and more efficient processing per core, improving computation efficiency for deep learning.
+</p>
+
+<p align="justify">
+    Support for Vectorized Instructions: CPUs that support SIMD (Single Instruction, Multiple Data) instructions, such as AVX2, AVX-512 (for Intel), or AMD’s equivalent, are better for deep learning. These instructions accelerate matrix operations and other vectorized calculations commonly used in neural networks.
+    </p>
+
+<p align="justify">
+Thermal Design Power (TDP): CPUs with high TDP ratings often deliver better performance but require more robust cooling solutions. Efficient power management becomes crucial if the system is intended for continuous operation in a workstation environment.
+</p>
 
 Recommendations:
 + High-End: AMD Ryzen 9 7950X or Intel Core i9-14900K.
@@ -73,7 +90,8 @@ New: [Threadripper PRO 7000 WX-Series](https://www.amd.com/en/products/processor
 <td>GPU</td>
 <td>
 <p align="justify">
-The GPU is the most critical component for deep learning as it handles the parallel computations required for training neural networks. The choice of GPU significantly impacts the speed of training and inference.
+
+The `GPU` is the most critical component for deep learning as it handles the parallel computations required for training neural networks. The choice of GPU significantly impacts the speed of training and inference.
 </p>
 <br /><br />
 <img src="img/gpu.png" width=100%>
@@ -82,20 +100,38 @@ The GPU is the most critical component for deep learning as it handles the paral
 GPUs provides thousands of additional cores (CUDA cores / Tensor cores) for fast computation and parallelization. NVIDIA is currently leading the GPU market with their commercial GPU series (GeForce) and professional GPU series (RTX) along CUDA and cuDNN deep learning ecosystem. GPUs follow a programming model called single-instruction-multiple-threads (SIMT), where the same instruction executes concurrently on different cores/threads, each on its own portion of data as dictated by its assigned thread ID. All cores run the threads synchronously in lock-step, which greatly simplifies the control flow, and works great for domains like dense linear algebra, which neural network applications heavily rely on.
 </p>
 
-+ `CUDA Cores`: More CUDA cores generally mean higher processing power for deep learning workloads. More CUDA cores allow for better parallel processing. Tensor Cores (available in NVIDIA's RTX and A100 series) are specialized for deep learning tasks, offering significant speedups.
++ `CUDA Cores`: More CUDA cores generally mean higher processing power for deep learning workloads. More CUDA cores allow for better parallel processing. 
+
++ `Tensor Cores`: Found in NVIDIA’s RTX and Tesla GPUs, Tensor Cores specifically accelerate tensor operations, crucial for deep learning frameworks like TensorFlow and PyTorch. Tensor Cores dramatically improve matrix calculations, enabling faster training and inference times.
 
 + `VRAM (Video RAM)`: Deep learning models with larger neural networks and datasets require GPUs with ample VRAM. The amount of VRAM determines the size of the models and datasets that can be loaded at once. For most deep learning tasks, 12 GB of VRAM is the minimum, but 24 GB or more is recommended for larger models.
 
-+ `Double Precision vs. Single Precision`: Deep learning primarily uses single-precision floating-point operations, so GPUs optimized for single precision are preferred. For deep learning, the ability to process half-precision (FP16) operations efficiently is important. GPUs that support mixed precision training can provide a significant performance boost.
++ `Memory Bandwidth`:  Memory bandwidth (GB/s) is the rate at which data is transferred between the GPU’s memory and cores. Higher bandwidth facilitates faster data handling, essential for large neural networks and complex models. For instance, GPUs with GDDR6 or HBM2 memory offer superior bandwidth, leading to faster training times and more efficient data processing.
 
-+ `Tensor Cores` (if available): Tensor cores accelerate matrix operations used in deep learning, offering significant speedups.
++ `Double Precision vs. Single Precision`: Deep learning primarily uses single-precision floating-point (FP32) operations, so GPUs optimized for single precision are preferred. For deep learning, the ability to process half-precision (FP16) operations efficiently is important. GPUs that support mixed precision training can provide a significant performance boost.
 
-GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.<br /><br />
+GPU Memory : VRAM  + GDDR6 (DRAM). GPU has capacitors that regulate the voltage to various components and  PCIe bus connects to CPU. GDDR is GDDR SDRAM - Graphics Double Data Rate.
 
-<b> Comercial GPU (GeForce) : </b> NVIDIA GeForce 3090 <br />
+For those scaling up, multi-GPU setups are valuable. NVIDIA GPUs support NVLink, which enhances data transfer speeds between GPUs. This feature is particularly useful for large-scale models and distributed deep learning.
+<br /><br />
+
+<b> Comercial GPU (GeForce) : 
+
+<img src="img/gpug.jpg" width=100%><br />
+
+</b> NVIDIA GeForce [4090](https://www.nvidia.com/en-us/geforce/graphics-cards/40-series/rtx-4090/) :<br />
+
+<p align="justify">
+The RTX 4090 is NVIDIA's latest consumer-grade powerhouse based on the Ada Lovelace architecture. With 24 GB of GDDR6X memory, massive CUDA core counts, and high clock speeds, the RTX 4090 is well-suited for advanced deep learning, 3D rendering, and video processing.
+However, the RTX 4090 does not support NVLink. Unlike previous models, NVIDIA removed NVLink support from the Ada Lovelace architecture, including the RTX 4090, which means it cannot be linked with another GPU for direct memory sharing. This is a shift from previous generations like the RTX 3090, which did support NVLink. For users needing multi-GPU configurations with NVLink, the A100, H100, or certain Quadro models remain options
+</p>
+
+</b> NVIDIA GeForce 3090 :<br />
 In the commercial series only 3090 has NVLink support. Do you wonder what's better than having a 3090? 2x 3090 for deep learning computations. Transfer of data between GPUs via SLI is slow and NVIDIA built their GPU connector called [NVLink](https://www.nvidia.com/en-us/data-center/nvlink/). [ Update : [GeForce comparison chart](https://www.nvidia.com/en-in/geforce/graphics-cards/compare/) ]
 
 <img src="img/geforce.png" width=100%><br />
+
+
 Remember 3090 is the GPU and there comes a variety of graphics card with 3090 GPU from different manufacturers. Here is a cooling efficiency chart of different graphics card with 3090 GPU:
 
 <img src="img/gpu3090cooling.png" width=100%>
@@ -105,6 +141,10 @@ Asus Strix Quiet 390W seems to be a good and quiet commercial graphics card with
 
 <b> Professional GPU (RTX) : </b> NVIDIA RTX A5500 <br />
 NVIDIAs Professional [RTX series](https://www.nvidia.com/en-gb/design-visualization/desktop-graphics/) are very powerful yet costly. Update: [RTX cards](https://www.nvidia.com/en-in/geforce/buy/).
+
+ + The A100, based on NVIDIA’s Ampere architecture, is designed specifically for data centers and high-performance deep learning tasks. With up to 80 GB of HBM2e memory and multi-instance GPU (MIG) technology, the A100 is exceptionally powerful for massive workloads. It also supports NVLink, which enhances data transfer speed between multiple GPUs, making it ideal for large-scale AI model training.
+
++ The H100, NVIDIA’s next-generation GPU, is based on the Hopper architecture and further improves performance with faster memory and higher Tensor core efficiency, making it suitable for even more complex AI and machine learning applications.
 
 <img src="img/ampere_gpu.jpg" width=49%><a> </a><img src="img/a5500.png" width=50%>
 <br /><br />
@@ -222,3 +262,5 @@ Extra Tips: <br />
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
 
 <img src="img/cc.jpg" width=57%><img src="img/acc.gif" width=40%>
+
+<img src="img/a5500.jpg" width=97.5%>
