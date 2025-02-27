@@ -261,8 +261,7 @@ Extra Tips: <br />
 
 I am currently working in a 4090 D [2025 update]:
 
-<img src="img/gpu4090d.jpg" width=40.2%>
-<img src="img/4090d.jpg" width=58%>
+<img src="img/gpu4090d.jpg" width=40.2%> <img src="img/4090d.jpg" width=58%>
 
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
 
