@@ -125,6 +125,12 @@ Edge AI Acceleration Labs : [ [Edge Computing Lab @ Harvard](https://edge.seas.h
 
 ## Systems Optimizations for Deep Learning on Accelerated Edge Devices :
 
+
+Here are some `tegrastats` energy data of NVIDIA Jetson Orin AGX I profiled during my work at IISc:
+
+
+<img src="img/sleep_log.png" width=100%>
+
 Deep learning has revolutionized various fields, ranging from image recognition to natural language processing. However, deploying deep learning models on edge devices presents unique challenges due to their limited computational resources and power constraints. As the demand for intelligent edge devices continues to rise, optimizing deep learning systems for these constrained environments becomes crucial. 
 
 With the proliferation of IoT devices and the increasing demand for intelligent edge computing, there is a growing need to deploy deep learning models on resource-constrained edge devices. These devices typically have limited computational power, memory, and energy resources compared to traditional server architectures. Thus, optimizing deep learning systems for such devices is crucial to enable efficient and real-time inference while meeting the constraints imposed by the edge environment.
@@ -165,6 +171,11 @@ Systems Optimizations Techniques:
 + Federated Learning:
     - Decentralized model training across edge devices.
     - Privacy-preserving and bandwidth-efficient learning.
+
+
+Visualizing the `tegrastats` JETSON ORIN AGX profiled data for different GPU Frequency, Memory Frequency and TFLOPS :
+
+<img src="img/ss.png" width=100%>
 
 Implementation Examples:
 

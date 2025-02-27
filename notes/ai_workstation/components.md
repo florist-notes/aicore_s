@@ -259,6 +259,11 @@ Extra Tips: <br />
 + PSU cables: 24 pin ATX cable (power to the entire motherboard), EPS (power to CPU socket), PCIe (power to graphics card).  <br />
 + How they work (video) : [SSD](https://youtu.be/5Mh3o886qpg), [M.2 NVMe SSD](https://youtu.be/HvfIeTieXOI), [Computer Memory](https://youtu.be/7J7X7aZvMXQ), [GPU](https://youtu.be/bZdxcHEM-uc).<br />
 
+I am currently working in a 4090 D [2025 update]:
+
+<img src="img/gpu4090d.jpg" width=40.2%>
+<img src="img/4090d.jpg" width=58%>
+
 Extra Tools: [power supply calculator](https://outervision.com/power-supply-calculator), [windows 10 media tool](https://www.microsoft.com/en-us/software-download), [AMD drivers](https://www.amd.com/en/support), [NVIDIA drivers](https://www.nvidia.com/de-de/geforce/geforce-experience/)
 
 <img src="img/cc.jpg" width=57%><img src="img/acc.gif" width=40%>

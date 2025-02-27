@@ -187,3 +187,7 @@ AMD's Alveo V70 AI accelerator offers a flexible solution for video analytics, r
 This startup's ASIC is built to handle transformer workloads at scale, making it especially suitable for large language models and high-batch, multi-query tasks, like those in chatbots. Its design allows for batch sizes in the thousands without performance degradation, which could improve throughput for models such as ChatGPT and Gemini. The chip includes high bandwidth memory (HBM3) with capacity up to 144GB, making it efficient for handling the key-value cache needed for large models.
 
 <img src="img/etched.webp" width="100%">
+
+News : [ [NVIDIA DGX B200 (Blackwell): Infrastructure for AI Acceleration](https://www.nvidia.com/en-in/data-center/dgx-b200/), [Introducing the IBM Spyre AI accelerator chip](https://research.ibm.com/blog/spyre-for-z), [AWS Trainium](https://aws.amazon.com/ai/machine-learning/trainium/) ]
+
+<img src="img/bw.png" width="100%">

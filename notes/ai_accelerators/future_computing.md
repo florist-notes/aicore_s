@@ -141,9 +141,12 @@ Quantum computers leverage the principles of superposition, entanglement, and qu
 
 + IBM's Quantum Processors: IBM has introduced new quantum processors under its Heron class, including a 133-qubit processor codenamed Montecarlo. This processor is designed to offer improved qubit fidelity, with an expected average 2-qubit gate fidelity of 99.9%. IBM is also shifting its focus from traditional metrics like Quantum Volume to new benchmarks such as Error per Layer Gate (EPLG) and CLOPS_h, which provide a more accurate reflection of the performance of larger quantum processors​ [Quantum Computing Report](https://quantumcomputingreport.com/ibm-promises-a-disruptive-leap-for-quantum-in-2024/).
 
-resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5frE)], [[3](https://youtu.be/Fzzxozmuj4I)], [[4](https://youtu.be/-ZNEzzDcllU)], [[5](https://youtu.be/rlsUiOlBwoI)], [[6](https://youtu.be/j9eYQ_ggqJk)], [[7](https://youtu.be/vfJuvNuSPKw)]
+resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5frE)], [[3](https://youtu.be/Fzzxozmuj4I)], [[4](https://youtu.be/-ZNEzzDcllU)], [[5](https://youtu.be/rlsUiOlBwoI)], [[6](https://youtu.be/j9eYQ_ggqJk)], [[7](https://youtu.be/vfJuvNuSPKw)], [[8](https://youtu.be/di3-i6Z2EIc?si=HHvlJnxwgwZn3OZX)], [[9](https://youtu.be/wSHmygPQukQ?si=6MaRvcM_WWJD7DaC), [[10](https://youtu.be/W7ppd_RY-UE?si=S2aoXGphIf8AD1UF)], [[11](https://youtu.be/5poquswMLrA?si=q6_JI8TpO_Z74SEc)]
+
+]
 
 <img src="img/quantum.jpg" width="100%">
+<img src="img/maj.jpg" width="100%">
 
 ```python
     import numpy as np
@@ -197,6 +200,7 @@ resources : [[1](https://youtu.be/-UlxHPIEVqA)], [[2](https://youtu.be/u1XXjWr5f
 Available Resources : [Google Quantum AI](https://quantumai.google/), [IBM Quantum System II](https://youtu.be/AQjKUN8PORM), [PsiQuantum](https://www.psiquantum.com/), [Q-CTRL](https://q-ctrl.com/), [PASQAL](https://www.pasqal.com/), [Multiverse Computing](https://multiversecomputing.com/), [Quantum Machines](https://www.quantum-machines.co/), [Universal Quantum](https://universalquantum.com/), [Riverlane](https://www.riverlane.com/), [Atom Computing](https://atom-computing.com/), [1QBit](https://1qbit.com/).
 <br />
 
-News: [Quantum Computer Completed A 2.5-Billion-Year Task In 200 Seconds](https://www.intelligentliving.co/quantum-computer-2-5-billion-year-task-in-200-seconds/) ( earlier estimated 10,000+ years), [1 million qubit quantum computers: moving beyond the current “brute force” strategy](https://seeqc.com/blog/1-million-qubit-quantum-computers-moving-beyond-the-current-brute-force-strategy), [Hello quantum world! Google publishes landmark quantum supremacy claim](https://www.nature.com/articles/d41586-019-03213-z), [New quantum computers - Potential and pitfalls](https://youtu.be/0HFzTYlhT2E?si=NBxsuKE2xqx0Favn), [Companies, countries battle to develop quantum computers](https://youtu.be/K4ssT6Dzmnw?si=wFHt99uePJBL3fYl), [Record Quantum Computation at D-Wave: Millions of Years Down To Seconds](https://youtu.be/P2hn9kQHi_s?si=Jnqu6cYnvLdGBniT). <br />
+
+News: [google willow quantum chip](https://blog.google/technology/research/google-willow-quantum-chip/), [microsoft unveils majorana 1 the worlds first quantum processor powered by topological qubits](), [Quantum Computer Completed A 2.5-Billion-Year Task In 200 Seconds](https://www.intelligentliving.co/quantum-computer-2-5-billion-year-task-in-200-seconds/) ( earlier estimated 10,000+ years), [1 million qubit quantum computers: moving beyond the current “brute force” strategy](https://seeqc.com/blog/1-million-qubit-quantum-computers-moving-beyond-the-current-brute-force-strategy), [Hello quantum world! Google publishes landmark quantum supremacy claim](https://www.nature.com/articles/d41586-019-03213-z), [New quantum computers - Potential and pitfalls](https://youtu.be/0HFzTYlhT2E?si=NBxsuKE2xqx0Favn), [Companies, countries battle to develop quantum computers](https://youtu.be/K4ssT6Dzmnw?si=wFHt99uePJBL3fYl), [Record Quantum Computation at D-Wave: Millions of Years Down To Seconds](https://youtu.be/P2hn9kQHi_s?si=Jnqu6cYnvLdGBniT). <br />
 
 <br /><br />
